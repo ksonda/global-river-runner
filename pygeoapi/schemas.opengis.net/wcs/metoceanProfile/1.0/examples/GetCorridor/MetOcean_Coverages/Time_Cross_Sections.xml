@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Example general-grid coverage with 2 regular and 2 irregular axes
+     as defined in the OGC Coverage Implementation Schema 1.1.
+     Last updated 2020-10-27.
+-->
+
+<GeneralGridCoverage
+    xmlns='http://www.opengis.net/cis/1.1/gml'
+    xmlns:gml='http://www.opengis.net/gml/3.2'
+    xmlns:swe='http://www.opengis.net/swe/2.0'
+    xmlns:cis="http://www.opengis.net/cis/1.1/gml"
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:schemaLocation="http://www.opengis.net/cis/1.1/gml http://schemas.opengis.net/cis/1.1/gml/cisAll.xsd http://www.opengis.net/wcs/metoceanProfile/1.0 http://schemas.opengis.net/wcs/metoceanProfile/1.0/wcsMetOceanProfileALL.xsd"
+    gml:id="CIS_001">
+
+    <DomainSet>
+        <GeneralGrid srsName="http://www.opengis.net/def/crs-compound?
+            1=http://http://www.opengis.net/def/crs/OGC/0/AnsiDate&amp;
+            2=http://www.codes.wmo.int/GRIB2/table4.5/IsobaricSurface"
+            axisLabels="Lat Long h date">
+            <cis:RegularAxis lowerBound="2015-05-15T00:00:00Z" upperBound="2015-05-15T12:00:00Z" resolution="PT01H" uomLabel="ISO8601" axisLabel="TimeAxis"/>
+            <cis:DisplacementAxisNest axisLabels="Lat Lon" uomLabels="deg deg">
+                <cis:P><cis:C>51.3</cis:C><cis:C>0.0</cis:C></cis:P>
+                <cis:P><cis:C>52.0</cis:C><cis:C>1.0</cis:C></cis:P>
+                <cis:P><cis:C>53.0</cis:C><cis:C>2.0</cis:C></cis:P>
+
+                <cis:P><cis:C>53.0</cis:C><cis:C>2.0</cis:C></cis:P>
+                <cis:P><cis:C>52.5</cis:C><cis:C>3.0</cis:C></cis:P>
+                <cis:P><cis:C>52.0</cis:C><cis:C>3.0</cis:C></cis:P>
+
+                <cis:P><cis:C>52.0</cis:C><cis:C>3.5</cis:C></cis:P>
+                <cis:P><cis:C>52.0</cis:C><cis:C>4.0</cis:C></cis:P>
+                <cis:P><cis:C>51.5</cis:C><cis:C>4.5</cis:C></cis:P>
+            </cis:DisplacementAxisNest>
+            <cis:IrregularAxis  uomLabel="hPa" axisLabel="pressure">
+                <cis:C>1000.0</cis:C>
+                <cis:C>950.0</cis:C>
+                <cis:C>850.0</cis:C>
+                <cis:C>500.0</cis:C>
+                <cis:C>300.0</cis:C>
+                <cis:C>250.0</cis:C>
+                <cis:C>200.0</cis:C>
+            </cis:IrregularAxis>
+
+
+            <GridLimits srsName="http://www.opengis.net/def/crs/OGC/0/Index4D" axisLabels="i j k l">
+                <IndexAxis axisLabel="i" lowerBound="0" upperBound="2"/>
+                <IndexAxis axisLabel="j" lowerBound="0" upperBound="2"/>
+                <IndexAxis axisLabel="k" lowerBound="0" upperBound="1"/>
+                <IndexAxis axisLabel="l" lowerBound="0" upperBound="13"/>
+            </GridLimits>
+        </GeneralGrid>
+    </DomainSet>
+
+    <RangeSet>
+        <DataBlock>
+               <V>01</V> <V>02</V> <V>03</V> <V>04</V> <V>05</V> <V>06</V> <V>07</V> <V>08</V> <V>09</V>
+               <V>01</V> <V>02</V> <V>03</V> <V>04</V> <V>05</V> <V>06</V> <V>07</V> <V>08</V> <V>09</V>
+               <V>01</V> <V>02</V> <V>03</V> <V>04</V> <V>05</V> <V>06</V> <V>07</V> <V>08</V> <V>09</V>
+               <V>01</V> <V>02</V> <V>03</V> <V>04</V> <V>05</V> <V>06</V> <V>07</V> <V>08</V> <V>09</V>
+        </DataBlock>
+    </RangeSet>
+
+    <RangeType>
+        <swe:DataRecord>
+            <swe:field name="panchromatic">
+                <swe:Quantity definition="http://www.opengis.net/def/dataType/OGC/0/unsignedInt">
+                    <swe:uom code="10^0"/>
+                </swe:Quantity>
+            </swe:field>
+        </swe:DataRecord>
+    </RangeType>
+
+</GeneralGridCoverage>
+

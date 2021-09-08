@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Reducer Manufacturer
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to the manufacturers of reducer componentry.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Apr 18 2017  2:56PM
+	Last Modification Date: Jun 13 2018  1:57PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="reducerManufacturer">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">reducerManufacturer</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducermanufacturer">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7182">
+			<gml:description>Tube Forgings Of America, Inc.</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducermanufacturer">7182</gml:identifier>
+			<gml:name>Tube Forgings Of America, Inc.</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7183">
+			<gml:description>Sumitomo Steel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducermanufacturer">7183</gml:identifier>
+			<gml:name>Sumitomo Steel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7184">
+			<gml:description>Hackney</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducermanufacturer">7184</gml:identifier>
+			<gml:name>Hackney</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7185">
+			<gml:description>North Star Steel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducermanufacturer">7185</gml:identifier>
+			<gml:name>North Star Steel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7186">
+			<gml:description>Tubular Products</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducermanufacturer">7186</gml:identifier>
+			<gml:name>Tubular Products</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7187">
+			<gml:description>Ladish</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducermanufacturer">7187</gml:identifier>
+			<gml:name>Ladish</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

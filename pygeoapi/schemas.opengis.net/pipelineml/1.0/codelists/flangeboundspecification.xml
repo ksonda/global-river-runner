@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Flange Bound Specification
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a set of bound values that collectively define the specification for this flange component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Mar 28 2017  1:20PM
+	Last Modification Date: Jun 13 2018  1:57PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="flangeBoundSpecification">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">flangeBoundSpecification</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5738">
+			<gml:description>Welding Neck; ASME B16.5; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5738</gml:identifier>
+			<gml:name>Welding Neck; ASME B16.5; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5739">
+			<gml:description>Slip-On; ASME B16.5; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5739</gml:identifier>
+			<gml:name>Slip-On; ASME B16.5; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5740">
+			<gml:description>Lap Joint; ASME B16.5; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5740</gml:identifier>
+			<gml:name>Lap Joint; ASME B16.5; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5741">
+			<gml:description>Spectacle Blind; ASME B16.48; 2500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5741</gml:identifier>
+			<gml:name>Spectacle Blind; ASME B16.48; 2500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5742">
+			<gml:description>Blind; ASME B16.5; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5742</gml:identifier>
+			<gml:name>Blind; ASME B16.5; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5743">
+			<gml:description>Lap Joint; ASME B16.5; 150#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5743</gml:identifier>
+			<gml:name>Lap Joint; ASME B16.5; 150#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5744">
+			<gml:description>Welding Neck Orifice; ASME B16.36; 2500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5744</gml:identifier>
+			<gml:name>Welding Neck Orifice; ASME B16.36; 2500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5745">
+			<gml:description>Welding Neck; ASME B16.5; 150#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5745</gml:identifier>
+			<gml:name>Welding Neck; ASME B16.5; 150#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5746">
+			<gml:description>Slip-On; ASME B16.5; 1500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5746</gml:identifier>
+			<gml:name>Slip-On; ASME B16.5; 1500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5747">
+			<gml:description>Blind; ASME B16.5; 900#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5747</gml:identifier>
+			<gml:name>Blind; ASME B16.5; 900#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5748">
+			<gml:description>Slip-On; ASME B16.5; 400#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5748</gml:identifier>
+			<gml:name>Slip-On; ASME B16.5; 400#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5749">
+			<gml:description>Welding Neck; ASME B16.5; 600#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5749</gml:identifier>
+			<gml:name>Welding Neck; ASME B16.5; 600#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5750">
+			<gml:description>Slip-On; ASME B16.5; 150#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5750</gml:identifier>
+			<gml:name>Slip-On; ASME B16.5; 150#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5751">
+			<gml:description>Socket Weld; ASME B16.5; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5751</gml:identifier>
+			<gml:name>Socket Weld; ASME B16.5; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5752">
+			<gml:description>Slip-On Orifice; ASME B16.36; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5752</gml:identifier>
+			<gml:name>Slip-On Orifice; ASME B16.36; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5753">
+			<gml:description>Blind; ASME B16.5; 1500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5753</gml:identifier>
+			<gml:name>Blind; ASME B16.5; 1500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5754">
+			<gml:description>Socket Weld; ASME B16.5; 150#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5754</gml:identifier>
+			<gml:name>Socket Weld; ASME B16.5; 150#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5755">
+			<gml:description>Spectacle Blind; ASME B16.48; 1500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5755</gml:identifier>
+			<gml:name>Spectacle Blind; ASME B16.48; 1500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5756">
+			<gml:description>Welding Neck Orifice; ASME B16.36; 900#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5756</gml:identifier>
+			<gml:name>Welding Neck Orifice; ASME B16.36; 900#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5757">
+			<gml:description>Welding Neck; ASME B16.5; 400#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5757</gml:identifier>
+			<gml:name>Welding Neck; ASME B16.5; 400#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5758">
+			<gml:description>Threaded Orifice; ASME B16.36; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5758</gml:identifier>
+			<gml:name>Threaded Orifice; ASME B16.36; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5759">
+			<gml:description>Lap Joint; ASME B16.5; 400#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5759</gml:identifier>
+			<gml:name>Lap Joint; ASME B16.5; 400#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5760">
+			<gml:description>Welding Neck Orifice; ASME B16.36; 600#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5760</gml:identifier>
+			<gml:name>Welding Neck Orifice; ASME B16.36; 600#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5761">
+			<gml:description>Socket Weld; ASME B16.5; 600#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5761</gml:identifier>
+			<gml:name>Socket Weld; ASME B16.5; 600#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5762">
+			<gml:description>Lap Joint; ASME B16.5; 2500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5762</gml:identifier>
+			<gml:name>Lap Joint; ASME B16.5; 2500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5763">
+			<gml:description>Threaded; ASME B16.5; 1500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5763</gml:identifier>
+			<gml:name>Threaded; ASME B16.5; 1500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5764">
+			<gml:description>Welding Neck Orifice; ASME B16.36; 400#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5764</gml:identifier>
+			<gml:name>Welding Neck Orifice; ASME B16.36; 400#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5765">
+			<gml:description>Slip-On; ASME B16.5; 900#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5765</gml:identifier>
+			<gml:name>Slip-On; ASME B16.5; 900#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5766">
+			<gml:description>Welding Neck Orifice; ASME B16.36; 1500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5766</gml:identifier>
+			<gml:name>Welding Neck Orifice; ASME B16.36; 1500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5767">
+			<gml:description>Blind; ASME B16.5; 400#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5767</gml:identifier>
+			<gml:name>Blind; ASME B16.5; 400#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5768">
+			<gml:description>Blind; ASME B16.5; 2500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5768</gml:identifier>
+			<gml:name>Blind; ASME B16.5; 2500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5769">
+			<gml:description>Threaded; ASME B16.5; 400#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5769</gml:identifier>
+			<gml:name>Threaded; ASME B16.5; 400#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5770">
+			<gml:description>Lap Joint; ASME B16.5; 900#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5770</gml:identifier>
+			<gml:name>Lap Joint; ASME B16.5; 900#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5771">
+			<gml:description>Threaded; ASME B16.5; 600#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5771</gml:identifier>
+			<gml:name>Threaded; ASME B16.5; 600#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5772">
+			<gml:description>Spectacle Blind; ASME B16.48; 600#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5772</gml:identifier>
+			<gml:name>Spectacle Blind; ASME B16.48; 600#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5773">
+			<gml:description>Welding Neck Orifice; ASME B16.36; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5773</gml:identifier>
+			<gml:name>Welding Neck Orifice; ASME B16.36; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5774">
+			<gml:description>Threaded; ASME B16.5; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5774</gml:identifier>
+			<gml:name>Threaded; ASME B16.5; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5775">
+			<gml:description>Spectacle Blind; ASME B16.48; 300#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5775</gml:identifier>
+			<gml:name>Spectacle Blind; ASME B16.48; 300#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5776">
+			<gml:description>Welding Neck; ASME B16.5; 900#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5776</gml:identifier>
+			<gml:name>Welding Neck; ASME B16.5; 900#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5777">
+			<gml:description>Threaded; ASME B16.5; 900#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5777</gml:identifier>
+			<gml:name>Threaded; ASME B16.5; 900#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5778">
+			<gml:description>Threaded; ASME B16.5; 2500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5778</gml:identifier>
+			<gml:name>Threaded; ASME B16.5; 2500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5779">
+			<gml:description>Lap Joint; ASME B16.5; 600#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5779</gml:identifier>
+			<gml:name>Lap Joint; ASME B16.5; 600#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5780">
+			<gml:description>Welding Neck; ASME B16.5; 2500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5780</gml:identifier>
+			<gml:name>Welding Neck; ASME B16.5; 2500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5781">
+			<gml:description>Spectacle Blind; ASME B16.48; 150#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5781</gml:identifier>
+			<gml:name>Spectacle Blind; ASME B16.48; 150#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5782">
+			<gml:description>Spectacle Blind; ASME B16.48; 900#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5782</gml:identifier>
+			<gml:name>Spectacle Blind; ASME B16.48; 900#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5783">
+			<gml:description>Blind; ASME B16.5; 600#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5783</gml:identifier>
+			<gml:name>Blind; ASME B16.5; 600#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5784">
+			<gml:description>Threaded; ASME B16.5; 150#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5784</gml:identifier>
+			<gml:name>Threaded; ASME B16.5; 150#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5785">
+			<gml:description>Socket Weld; ASME B16.5; 1500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5785</gml:identifier>
+			<gml:name>Socket Weld; ASME B16.5; 1500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5786">
+			<gml:description>Lap Joint; ASME B16.5; 1500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5786</gml:identifier>
+			<gml:name>Lap Joint; ASME B16.5; 1500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5787">
+			<gml:description>Blind; ASME B16.5; 150#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5787</gml:identifier>
+			<gml:name>Blind; ASME B16.5; 150#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5788">
+			<gml:description>Welding Neck; ASME B16.5; 1500#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5788</gml:identifier>
+			<gml:name>Welding Neck; ASME B16.5; 1500#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5789">
+			<gml:description>Slip-On; ASME B16.5; 600#</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeboundspecification">5789</gml:identifier>
+			<gml:name>Slip-On; ASME B16.5; 600#</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

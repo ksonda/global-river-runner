@@ -1,0 +1,155 @@
+{% extends "_base.html" %}
+{% block title %}{{ super() }} {{ data['title'] }} {% endblock %}
+{% block crumbs %}{{ super() }}
+/ <a href="{{ data['collections_path'] }}">Collections</a>
+{% for link in data['links'] %}
+  {% if link.rel == 'collection' %} /
+    <a href="{{ data['dataset_path'] }}">{{ link['title'] | truncate( 25 ) }}</a>
+    {% set col_title = link['title'] %}
+  {% endif %}
+{% endfor %}
+/ <a href="{{ data['items_path']}}">Items</a>
+{% endblock %}
+{% block extrahead %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+{% endblock %}
+
+{% block body %}
+  <section id="items">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>
+          {% for l in data['links'] if l.rel == 'collection' %} {{ l['title'] }} {% endfor %}
+        </h1> 
+      </div>
+    </div>         
+
+    {% if data['features'] %}
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div class="card shadow mb-4">
+          <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">
+              Map
+            </h6>
+          </div>
+          <!-- Card Body -->
+          <div>
+            <div id="items-map"></div>
+          </div>
+        </div>
+ 
+        <div class="card border-left-info shadow py-2 mb-3">
+          <div class="card-body">
+            <div class="row">
+              <div id="limit" class="col-sm-12">
+                Limit:
+                <select id="limits">
+                  <option value="10">10 (default)</option>
+                  <option value="100">100</option>
+                  <option value="1000">1,000</option>
+                  <option value="2000">2,000</option>
+                </select>
+                <script>
+                  var select = document.getElementById('limits');
+                  let params = (new URL(document.location)).searchParams;
+                  select.value = params.get('limit') || 10;
+                  select.addEventListener('change', ev => {
+                    var limit = ev.target.value;
+                    document.location.search = `limit=${limit}`;
+                  });
+                </script>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div id="pagination" class="col-sm-12">
+                {% for link in data['links'] %}
+                {% if link['rel'] == 'prev' and data['startindex'] > 0 %}
+                <a class="btn btn-info" href="{{ link['href'] }}">Prev</a>
+                {% elif link['rel'] == 'next' and data['features'] %}
+                <a class="btn btn-info" href="{{ link['href'] }}">Next</a>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6">
+        <div class="card shadow mb-4">
+          <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+              <h6 class="m-0 font-weight-bold text-primary">
+                Items
+              </h6>
+          </div>
+          <!-- Card Body -->
+          <div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>id</th>
+                  {% if data['title_field'] %}
+                    <th>{{ data['title_field'] }}</th>
+                  {% endif %}
+                  {% for k, v in data['features'][0]['properties'].items() %}
+                    {# start with id & title then take first 5 columns for table #}
+                    {% if loop.index < 5 and k != data['id_field'] and k != data['title_field'] %}
+                    <th>{{ k }}</th>
+                    {% endif %}
+                  {% endfor %}
+              </tr>
+            </thead>
+            <tbody>
+              {% for ft in data['features'] %}
+              <tr>
+                <td data-label="id"><a href="{{ ft['properties'][data['uri_field']] }}" title="{{ ft.id }}">{{ ft.id | string | truncate( 12 )  }}</a></td>
+                {% if data['title_field'] %}
+                  <td data-label="name"><a href="{{ data['items_path']}}/{{ ft['id'] }}" title="{{ ft['properties'][data['title_field']] }}">{{ ft['properties'][data['title_field']] | string | truncate( 35 ) }}</a></td>
+                {% endif %}
+                {% for k, v in ft['properties'].items() %}
+                  {% if loop.index < 5 and k not in [data['id_field'], data['title_field'], 'extent'] %}
+                  <td data-label="{{ k }}">{{ v | string | truncate( 35 ) }}</td>
+                  {% endif %}
+                {% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="row col-sm-12">
+        <p>No items</p>
+    </div>
+    {% endif %}
+    </section>
+{% endblock %}
+
+{% block extrafoot %}
+{% if data['features'] %}
+    <script>
+    var map = L.map('items-map').setView([{{ 45 }}, {{ -75 }}], 5);
+    map.addLayer(new L.TileLayer(
+        '{{ config['server']['map']['url'] }}', {
+            maxZoom: 18,
+            attribution: '{{ config['server']['map']['attribution'] }}'
+        }
+    ));
+    var geojson_data = {{ data['features'] |to_json }};
+    var items = new L.GeoJSON(geojson_data, {
+        onEachFeature: function (feature, layer) {
+            var url = '{{ data['items_path'] }}/' + feature.id + '?f=html';
+            var html = '<span><a href="' + url + '">' + {% if data['title_field'] %} feature['properties']['{{ data['title_field'] }}'] {% else %} feature.id {% endif %} + '</a></span>';
+            layer.bindPopup(html);
+        }
+    });
+
+    map.addLayer(items);
+    map.fitBounds(items.getBounds());
+    </script>
+{% endif %}
+{% endblock %}

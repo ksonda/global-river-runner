@@ -1,0 +1,27 @@
+{
+	"@context":
+	{
+		"tms": "http://www.opengis.net/tms/1.0/",
+		"identifier": "@id",
+		"type": "@type",
+		"title": "tms:title",
+		"abstract": "tms:abstract",
+		"boundingBox": "tms:boundingBox",
+		"TileMatrixSetType": "tms:TileMatrixSetType",
+		"supportedCRS":
+		{
+			"@id": "tms:supportedCRS",
+			"@type": "@id"
+		},
+		"wellKnownScaleSet":
+		{
+			"@id": "tms:wellKnownScaleSet",
+			"@type": "@id"
+		},
+		"tileMatrix":
+		{
+			"@id": "tms:tileMatrix",
+			"@container": "@list"
+		}
+	}
+}

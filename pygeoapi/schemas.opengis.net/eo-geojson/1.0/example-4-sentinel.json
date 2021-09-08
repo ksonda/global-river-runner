@@ -1,0 +1,100 @@
+{
+    "type" : "Feature",
+    "id" : "http://fedeo.esa.int/opensearch/request/?httpAccept=application/geo%2Bjson&parentIdentifier=EOP:ESA:SCIHUB:S2&uid=S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714",
+    "bbox" : [ -30.498976899500033, 38.7099201955759, -29.188651926553845, 39.7290432642928 ],
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [ [ [ -30.498976899500033, 39.6975094680204 ], [ -30.450260110444944, 38.7099201955759 ], [ -29.188651926553845, 38.74036995699254 ], [ -29.21960079191267, 39.7290432642928 ], [ -30.498976899500033, 39.6975094680204 ] ] ]
+    },
+    "properties" : {
+      "status" : "ARCHIVED",
+      "parentIdentifier" : "EOP:ESA:SCIHUB:S2",
+      "identifier" : "S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714",
+      "title" : "S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714",
+      "productId" : "S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714",
+      "date" : "2018-11-13T13:00:31.024Z/2018-11-13T13:00:31.024Z",
+      "updated" : "2018-11-13T13:53:10.599Z",
+      
+      "additionalAttributes": {
+        "s2datatakeid" : "GS2A_20181113T130031_017724_N02.07",
+        "processingbaseline" : "02.07",
+        "uuid" : "615e550d-0050-45d3-92f1-ee9176ce628c",
+        "platformidentifier" : "2015-028A",
+        "hv_order_tileid" : "SJ26K",
+        "datatakesensingstart" : "2018-11-13T13:00:31.024Z"
+      },
+
+      "links" : {
+        "alternates" : [ {
+          "href" : "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&parentIdentifier=EOP:ESA:SCIHUB:S2&uid=S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714&recordSchema=server-choice&password=j4d5OfJ%2F%2Bv%2BTLmlP%2FQ8me9jyEVA1%2B23pSRLh5or5xmk%3D",
+          "type" : "application/atom+xml",
+          "title" : "Atom format"
+        }, {
+          "href" : "http://fedeo.esa.int/opensearch/request/?httpAccept=application/gml%2Bxml&parentIdentifier=EOP:ESA:SCIHUB:S2&uid=S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714&recordSchema=om10&password=j4d5OfJ%2F%2Bv%2BTLmlP%2FQ8me9jyEVA1%2B23pSRLh5or5xmk%3D",
+          "type" : "application/gml+xml;profile=http://www.opengis.net/spec/EOMPOM/1.0",
+          "title" : "O&M metadata"
+        }, {
+          "href" : "http://fedeo.esa.int/opensearch/request/?httpAccept=application/gml%2Bxml&parentIdentifier=EOP:ESA:SCIHUB:S2&uid=S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714&recordSchema=om&password=j4d5OfJ%2F%2Bv%2BTLmlP%2FQ8me9jyEVA1%2B23pSRLh5or5xmk%3D",
+          "type" : "application/gml+xml;profile=http://www.opengis.net/spec/EOMPOM/1.1",
+          "title" : "O&M 1.1 metadata"
+        }, {
+          "href" : "http://fedeo.esa.int/opensearch/request/?httpAccept=application/rdf%2Bxml&parentIdentifier=EOP:ESA:SCIHUB:S2&uid=S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714&recordSchema=om&password=j4d5OfJ%2F%2Bv%2BTLmlP%2FQ8me9jyEVA1%2B23pSRLh5or5xmk%3D",
+          "type" : "application/rdf+xml",
+          "title" : "RDF/XML format"
+        }, {
+          "href" : "http://fedeo.esa.int/opensearch/request/?httpAccept=application/ld%2Bjson&parentIdentifier=EOP:ESA:SCIHUB:S2&uid=S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714&recordSchema=om&password=j4d5OfJ%2F%2Bv%2BTLmlP%2FQ8me9jyEVA1%2B23pSRLh5or5xmk%3D",
+          "type" : "text/turtle",
+          "title" : "JSON-LD format"
+        }, {
+          "href" : "http://fedeo.esa.int/opensearch/request/?httpAccept=text/turtle&parentIdentifier=EOP:ESA:SCIHUB:S2&uid=S2A_MSIL1C_20181113T130031_N0207_R138_T26SKJ_20181113T130714&recordSchema=om&password=j4d5OfJ%2F%2Bv%2BTLmlP%2FQ8me9jyEVA1%2B23pSRLh5or5xmk%3D",
+          "type" : "text/turtle",
+          "title" : "Turtle format"
+        } ],
+        "data" : [ {
+          "href" : "https://scihub.copernicus.eu/dhus/odata/v1/Products('615e550d-0050-45d3-92f1-ee9176ce628c')/$value",
+          "type" : "application/x-binary",
+          "title" : "Download"
+        } ],
+        "previews" : [ {
+          "href" : "https://scihub.copernicus.eu/dhus/odata/v1/Products('615e550d-0050-45d3-92f1-ee9176ce628c')/Products('Quicklook')/$value",
+          "type" : "image/jpeg",
+          "title" : "Quicklook"
+        } ],
+        "up" : [ {
+          "href" : "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&uid=EOP:ESA:SCIHUB:S2&recordSchema=iso",
+          "type" : "application/atom+xml",
+          "title" : "Up"
+        } ]
+      },
+      "acquisitionInformation" : [ {
+        "platform" : {
+          "platformShortName" : "Sentinel-2",
+          "platformSerialIdentifier" : "A"
+        },
+        "instrument" : {
+          "instrumentShortName" : "MSI",
+          "sensorType" : "OPTICAL"
+        },
+        "acquisitionParameters" : {
+          "operationalMode" : "INS-NOBS",
+          "beginningDateTime" : "2018-11-13T13:00:31.024Z",
+          "endingDateTime" : "2018-11-13T13:00:31.024Z",
+          "orbitDirection" : "DESCENDING",
+          "orbitNumber" : 17724,
+          "relativeOrbitNumber" : 138,
+          "tileId" : "26SKJ",
+          "acquisitionType" : "NOMINAL"
+        }
+      } ],
+      "productInformation" : {
+        "productType" : "S2MSI1C",
+        "availabilityTime" : "2018-11-13T13:53:10.599Z",
+        "referenceSystemIdentifier" : "epsg:4326",
+        "cloudCover" : 95.0,
+        "processingLevel": "1C",
+        "processorVersion" : "02.07",
+        "size" : 669960,
+        "format" : "SAFE"
+      }
+    }
+  } 

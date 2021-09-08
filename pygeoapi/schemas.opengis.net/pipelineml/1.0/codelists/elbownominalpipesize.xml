@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Elbow Nominal Pipe Size
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a nominal pipe size of the component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Dec 19 2017  9:34AM
+	Last Modification Date: Jun 13 2018  1:59PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="elbowNominalPipeSize">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">elbowNominalPipeSize</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5639">
+			<gml:description>1.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5639</gml:identifier>
+			<gml:name>1.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5640">
+			<gml:description>2.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5640</gml:identifier>
+			<gml:name>2.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5641">
+			<gml:description>3.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5641</gml:identifier>
+			<gml:name>3.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5642">
+			<gml:description>4.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5642</gml:identifier>
+			<gml:name>4.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5643">
+			<gml:description>5.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5643</gml:identifier>
+			<gml:name>5.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5644">
+			<gml:description>6.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5644</gml:identifier>
+			<gml:name>6.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5645">
+			<gml:description>8.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5645</gml:identifier>
+			<gml:name>8.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5646">
+			<gml:description>10.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5646</gml:identifier>
+			<gml:name>10.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5647">
+			<gml:description>12.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5647</gml:identifier>
+			<gml:name>12.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5648">
+			<gml:description>14.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5648</gml:identifier>
+			<gml:name>14.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5649">
+			<gml:description>16.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5649</gml:identifier>
+			<gml:name>16.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5650">
+			<gml:description>18.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5650</gml:identifier>
+			<gml:name>18.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5651">
+			<gml:description>20.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5651</gml:identifier>
+			<gml:name>20.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5652">
+			<gml:description>24.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5652</gml:identifier>
+			<gml:name>24.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5653">
+			<gml:description>30.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5653</gml:identifier>
+			<gml:name>30.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5654">
+			<gml:description>36.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5654</gml:identifier>
+			<gml:name>36.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5655">
+			<gml:description>42.000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbownominalpipesize">5655</gml:identifier>
+			<gml:name>42.000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

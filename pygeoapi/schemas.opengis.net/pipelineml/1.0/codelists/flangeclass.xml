@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Flange Class
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry
+ vetted and accepted standards. This list defines the acceptable
+ values pertaining to the class of the flange component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Mar 28 2017  4:10PM
+	Last Modification Date: Jun 13 2018  1:57PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="flangeClass">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">flangeClass</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeclass">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5790">
+			<gml:description>150</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeclass">5790</gml:identifier>
+			<gml:name>150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5791">
+			<gml:description>300</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeclass">5791</gml:identifier>
+			<gml:name>300</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5792">
+			<gml:description>400</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeclass">5792</gml:identifier>
+			<gml:name>400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5793">
+			<gml:description>600</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeclass">5793</gml:identifier>
+			<gml:name>600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5794">
+			<gml:description>900</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeclass">5794</gml:identifier>
+			<gml:name>900</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5795">
+			<gml:description>1500</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeclass">5795</gml:identifier>
+			<gml:name>1500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5796">
+			<gml:description>2500</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/flangeclass">5796</gml:identifier>
+			<gml:name>2500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

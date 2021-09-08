@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metoceancorridor:GetCorridor
+    xmlns:wcs20="http://www.opengis.net/wcs/2.0"
+    xmlns:metocean="http://www.opengis.net/wcs/metoceanProfile/1.0"
+    xmlns:metoceancorridor="http://www.opengis.net/wcs/metoceanProfile_getCorridor/1.0"
+    xmlns:wcsCRS="http://www.opengis.net/wcs_service-extension_crs/1.0"
+    xmlns:scal="http://www.opengis.net/WCS_service-extension_scaling/1.0"
+    xmlns:int="http://www.opengis.net/WCS_service-extension_interpolation/1.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:cis="http://www.opengis.net/cis/1.1/gml"
+    xmlns:rsub="http://www.opengis.net/wcs/range-subsetting/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/wcs/metoceanProfile_getCorridor/1.0 http://schemas.opengis.net/wcs/metoceanProfile/1.0/wcsMetOceanGetCorridor.xsd"
+    service="WCS" version="2.0.0">
+
+
+    <!-- =================================================================================-->
+    <!--This example illustrates how a vertical cross section may be defined              -->
+    <!--The vertical cross section will require a base line specified as a set of ponnts  -->
+    <!--The points will have a time coordinate. This allows for the use case where the    -->
+    <!--cross section progresses through time. Note that time may be interpolated.        -->
+    <!--==================================================================================-->
+
+    <wcs20:CoverageId>UK_GLOBAL_2017-05-15T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:format>CovJSON/</wcs20:format>
+    <wcs20:mediaType>CovJSON/</wcs20:mediaType>
+    <rsub:RangeSubset>
+        <rsub:RangeItem>
+            <rsub:RangeComponent>Wind_Speed</rsub:RangeComponent>
+        </rsub:RangeItem>
+        <rsub:RangeItem>
+            <rsub:RangeComponent>Wind_Direction</rsub:RangeComponent>
+        </rsub:RangeItem>
+    </rsub:RangeSubset>
+
+
+    <!-- Define the axis of the cross section. The coordinates in this example are lat/lon   -->
+    <!-- The cross sections vertical coordinate in in pressure hPa -->
+    <!-- The cross section is for a single time 2015-05-15T00:00:00Z -->
+    <!-- If required the time for each point may be different, there is no syntax change -->
+
+
+    <metoceancorridor:path>
+        <metoceancorridor:PathDescription srsName="http://www.opengis.net/def/crs-compound?
+            1=http://www.opengis.net/def/crs/EPSG/0/4326&amp;
+            2=http://http://www.opengis.net/def/crs/OGC/0/AnsiDate" axisLabels="Lat Lon Time">
+            <cis:DisplacementAxisNest axisLabels="Lat Lon Time" uomLabels="deg deg ISO8601">
+                <cis:P><cis:C>45.0</cis:C><cis:C>5.0</cis:C><cis:C>2015-05-15T00:00:00Z</cis:C></cis:P>
+                <cis:P><cis:C>46.0</cis:C><cis:C>0.0</cis:C><cis:C>2015-05-15T00:00:00Z</cis:C></cis:P>
+                <cis:P><cis:C>47.0</cis:C><cis:C>-5.0</cis:C><cis:C>2015-05-15T00:00:00Z</cis:C></cis:P>
+                <cis:P><cis:C>48.0</cis:C><cis:C>-10.0</cis:C><cis:C>2015-05-15T00:00:00Z</cis:C></cis:P>
+                <cis:P><cis:C>49.0</cis:C><cis:C>-15.0</cis:C><cis:C>2015-05-15T00:00:00Z</cis:C></cis:P>
+                <cis:P><cis:C>51.0</cis:C><cis:C>-20.0</cis:C><cis:C>2015-05-15T00:00:00Z</cis:C></cis:P>
+                <cis:P><cis:C>52.0</cis:C><cis:C>-25.0</cis:C><cis:C>2015-05-15T00:00:00Z</cis:C></cis:P>
+            </cis:DisplacementAxisNest>
+            <cis:GridLimits srsName="http://www.opengis.net/def/crs/OGC/0/Index1D" axisLabels="i">
+                <cis:IndexAxis axisLabel="i" lowerBound="0" upperBound="6"/>
+            </cis:GridLimits>
+        </metoceancorridor:PathDescription>
+    </metoceancorridor:path>
+
+    <!-- The vertical axis will have 10 levels in this example every 100 hPa  -->
+    <!-- If scaling is omitted then a simple vertical subeset will be done.   -->
+
+    <metoceancorridor:corridorExtent>
+        <metoceancorridor:CorridorExtent srsName="http://www.opengis.net/def/crs/Corridor_Height"
+            axisLabels="Corridor_Height" srsDimension="2">
+            <cis:AxisExtent axisLabel="Corridor_Height" uomLabel="hPa" lowerBound="1000.0" upperBound="100.0"/>
+            <scal:Scaling>
+                <scal:ScaleToSize>
+                    <scal:TargetAxisSize>
+                        <scal:axis>Corridor_Height</scal:axis>
+                        <scal:targetSize>10</scal:targetSize>
+                    </scal:TargetAxisSize>
+                </scal:ScaleToSize>
+            </scal:Scaling>
+        </metoceancorridor:CorridorExtent>
+    </metoceancorridor:corridorExtent>
+
+    <metoceancorridor:corridorExtractionMethod>
+        <metoceancorridor:CorridorExtractionMethod>
+            <int:Interpolation>
+                <int:globalInterpolation>http://www.opengis.net/def/interpolation/OGC/1/linear</int:globalInterpolation>
+                <int:InterpolationPerAxis>
+                    <int:axis>Corridor_Height</int:axis>
+                    <int:interpolationMethod>http://www.opengis.net/def/interpolation/OGC/1/barycentric</int:interpolationMethod>
+                </int:InterpolationPerAxis>
+                <int:InterpolationPerAxis>
+                    <int:axis>Time</int:axis>
+                    <int:interpolationMethod>http://www.opengis.net/def/interpolation/OGC/1/linear</int:interpolationMethod>
+                </int:InterpolationPerAxis>
+            </int:Interpolation>
+        </metoceancorridor:CorridorExtractionMethod>
+    </metoceancorridor:corridorExtractionMethod>
+</metoceancorridor:GetCorridor>

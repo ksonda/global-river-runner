@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Elbow Bound Specification
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry
+ vetted and accepted standards. This list defines the acceptable
+ values pertaining to a set of bound type that collectively define the specifications of a elbow component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Apr 24 2017  5:15PM
+	Last Modification Date: Jun 13 2018  1:57PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="elbowBoundSpecification">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">elbowBoundSpecification</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5609">
+			<gml:description>ASTM A312; Schedule 20</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5609</gml:identifier>
+			<gml:name>ASTM A312; Schedule 20</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5610">
+			<gml:description>ASTM A312; Schedule 40</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5610</gml:identifier>
+			<gml:name>ASTM A312; Schedule 40</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5611">
+			<gml:description>ASTM A312; Schedule 60</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5611</gml:identifier>
+			<gml:name>ASTM A312; Schedule 60</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5612">
+			<gml:description>ASTM A312; Schedule 80</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5612</gml:identifier>
+			<gml:name>ASTM A312; Schedule 80</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5613">
+			<gml:description>ASTM A312; Schedule 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5613</gml:identifier>
+			<gml:name>ASTM A312; Schedule 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5614">
+			<gml:description>ASTM A312; Schedule 120</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5614</gml:identifier>
+			<gml:name>ASTM A312; Schedule 120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5615">
+			<gml:description>ASTM A312; Schedule 140</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5615</gml:identifier>
+			<gml:name>ASTM A312; Schedule 140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5616">
+			<gml:description>ASTM A312; Schedule 160</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5616</gml:identifier>
+			<gml:name>ASTM A312; Schedule 160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5617">
+			<gml:description>ASTM A312; Standard</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5617</gml:identifier>
+			<gml:name>ASTM A312; Standard</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5618">
+			<gml:description>ASTM A312; X-S</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5618</gml:identifier>
+			<gml:name>ASTM A312; X-S</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5619">
+			<gml:description>ASTM A312; XX-S</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowboundspecification">5619</gml:identifier>
+			<gml:name>ASTM A312; XX-S</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

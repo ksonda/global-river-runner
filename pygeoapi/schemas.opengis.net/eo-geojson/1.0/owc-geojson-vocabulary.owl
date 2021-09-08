@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ This file can be opened with http://www.essepuntato.it/lode or http://ontorule-project.eu/parrot/parrot.          
+-->
+
+<!--
+   Abstract:  RDF Schema Vocabulary Definition - Source code for Annex B3 of OGC 17-003 (OWC Part). 
+ 
+   09/10/2017:
+     - iana namespace added and used for atom:alternate etc.  
+   12-22/01/2018:
+     - Modifications to align with v1.0.0 D1 of OGC 17-003 document.   
+   16/08/2018:
+     - Updates further to OGC Request for Public comments.
+   24/10/2018:
+     - Isolated OWC-related content in dedicated OWL file.
+   08/11/2018:
+     - Updates further to OGC SWG telco decisions of 6/11/2018 (DLR-3: removal of range and domain for iana properties).    
+   
+-->
+
+
+<!-- 
+ Declaring some entities to be used later.          
+-->
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY dc 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcterms 'http://purl.org/dc/terms/'>
+    <!ENTITY gj 'http://purl.org/geojson/vocab#'>
+	<!ENTITY owc 'http://www.opengis.net/ont/owc/1.0/'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+    <!ENTITY atom 'http://www.w3.org/2005/Atom/'>
+	<!ENTITY iana 'http://www.iana.org/assignments/relation/'>
+	<!ENTITY media 'http://search.yahoo.com/mrss/'>
+	<!ENTITY schema 'http://schema.org/'>
+
+	<!ENTITY ical 'http://www.w3.org/2002/12/cal/ical#'>
+	<!ENTITY schema 'http://schema.org/'>
+	<!ENTITY xs 'http://www.w3.org/2001/XMLSchema-datatypes#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"  xmlns:vann="http://purl.org/vocab/vann/" xmlns:skos="http://www.w3.org/2004/02/skos/core#"  xmlns:media="http://search.yahoo.com/mrss/" xmlns:iana="http://www.iana.org/assignments/relation/" xmlns:owc="http://www.opengis.net/ont/owc/1.0/"  xmlns:atom="http://www.w3.org/2005/Atom/" >
+
+	<owl:Ontology rdf:about="&owc;">
+		<dc:title>OGC 14-055r2 - OGC OWS Context Vocabulary</dc:title>
+		<owl:versionInfo rdf:datatype="&xsd;string">1.0.0 D1</owl:versionInfo>
+		<void:vocabulary rdf:resource="&dcterms;"/>
+		<!-- annotations for documentation tools -->
+		<dc:date rdf:datatype="&xsd;string">2018-11-08</dc:date>
+		<rdfs:comment rdf:datatype="&xsd;string">This vocabulary defines the classes and properties required to model OWS Context classes and properties inherited by OGC 17-003.
+        The implementation is derived from the conceptual models defined in the OGC 14-055r2 document.</rdfs:comment>
+		
+		<vann:preferredNamespacePrefix>owc</vann:preferredNamespacePrefix>
+		<vann:preferredNamespaceUri>&owc;</vann:preferredNamespaceUri>
+		
+		<dc:creator rdf:datatype="&xsd;string">Yves Coene, Spacebel s.a.</dc:creator>
+		<dc:contributor rdf:datatype="&xsd;string">John Taylor, CGI</dc:contributor>
+		<dc:contributor rdf:datatype="&xsd;string">Olivier Barois, European Space Agency</dc:contributor>
+        <dcterms:license>http://www.opengeospatial.org/ogc/software</dcterms:license>
+		<!-- <owl:imports rdf:resource="&dcterms;"/> -->
+		<!-- <owl:imports rdf:resource="&ical;"/> -->	
+		
+	</owl:Ontology>
+
+
+<!-- 
+       Table 5: Properties Class and properties 
+-->
+
+<owl:Class rdf:about="&owc;Properties">
+  <rdfs:label>Properties</rdfs:label>
+  <rdfs:comment>Object containing the properties of the OWS Context Feature.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&owc;"/>
+ <!--  <rdfs:subClassOf rdf:resource="&eop;DataIdentification"/>  -->
+  <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc7946"/>
+</owl:Class>
+
+<owl:ObjectProperty rdf:about="&owc;links">
+   <rdfs:label>links</rdfs:label>
+   <rdfs:domain rdf:resource="&owc;Properties"/>
+   <rdfs:range rdf:resource="&owc;Links"/>
+   <dc:description>Refers to related, actionable resources including download location, quicklook, original or alternative metadata representations.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 14-055r2</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&owc;offerings">
+   <rdfs:label>offerings</rdfs:label>
+   <rdfs:domain rdf:resource="&owc;Properties"/>
+   <rdfs:range rdf:resource="&owc;Offering"/>
+   <dc:description>Service or online content offering for the resource targeted at OGC compliant clients.  See OGC 14-055r2.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 14-055r2</dcterms:source>
+</owl:ObjectProperty>
+
+
+
+<!-- 
+       Table 6: Links Class and properties 
+-->
+
+<owl:Class rdf:about="&owc;Links">
+  <rdfs:label>Links</rdfs:label>
+  <rdfs:comment>Contains references to related resources as hypermedia links.  They include references to quicklooks, data download links or alternative representations of the metadata.  Inherits properties defined by OGC 14-055r2.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource ="&owc;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003, OGC 14-055r2</dcterms:source>
+  <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+	"type": "Links",
+    "data": [
+        {
+            "href": "http://tpm-ds.eo.esa.int/products/SEA_GEC_1P/1978/09/27/SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F.ZIP", 
+            "type": "application/binary",
+            "title": "Download"
+        }
+    ],
+    "previews": [
+        {
+            "href": "http://tpm-ds.eo.esa.int/metadata/SEA_GEC_1P/1978/09/27/SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F.BI.PNG",
+            "type": "image/png",
+            "title": "Quicklook"
+        }
+	],
+    "alternates": [
+        {
+            "href": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=SEA_GEC_1P&amp;uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F", 
+            "type": "application/atom+xml",
+            "title": "Atom format"
+        }
+    ]
+}
+   </vann:example>
+</owl:Class>
+
+<owl:ObjectProperty rdf:about="&iana;alternate">
+   <rdfs:label>alternates</rdfs:label>
+   <dc:description>Reference to a description of the resource in an alternative format.
+Is defined by OGC 14-055r2 §7.1.2.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003, OGC 14-055r2</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc5988"/>
+   <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "alternates": [
+        {
+            "href": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=SEA_GEC_1P&amp;uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F", 
+            "type": "application/atom+xml",
+            "title": "Atom format"
+        }
+    ]
+}
+   </vann:example>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&iana;via">
+   <rdfs:label>via</rdfs:label>
+   <dc:description>Reference to a description of the resource in its original format.  Is defined by OGC 14-055r2 §7.1.2.15</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 14-055r2</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc5988"/>
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:about="&iana;icon">
+   <rdfs:label>previews</rdfs:label>
+   <dc:description>Reference to a quicklook or browse image representing the resource.
+Is defined by OGC 14-055r2 §7.1.2.10</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 14-055r2</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc4287#section-4.2.5"/>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc5988"/>
+  <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "previews": [
+        {
+            "href": "http://tpm-ds.eo.esa.int/metadata/SEA_GEC_1P/1978/09/27/SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F.BI.PNG",
+            "type": "image/png",
+            "title": "Quicklook"
+        }
+    ]
+}
+   </vann:example>
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:about="&iana;enclosure">
+   <rdfs:label>data</rdfs:label>
+   <dc:description>Reference to the location of the data resource as defined by OGC 14-055r2 §7.1.2.12</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 14-055r2</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc5988"/>
+  <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "data": [
+        {
+            "href": "http://tpm-ds.eo.esa.int/products/SEA_GEC_1P/1978/09/27/SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F.ZIP", 
+            "type": "application/binary",
+            "title": "Download"
+        }
+    ]
+}
+   </vann:example>
+</owl:ObjectProperty>
+
+
+
+<!-- 
+       Table 7: Atom Link Class and properties 
+-->
+
+<owl:Class rdf:about="&atom;Link">
+  <rdfs:label>Link</rdfs:label>
+  <rdfs:comment>A link contains the properties of a hypermedia link to a resource identified by its URI.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource ="&atom;"/>
+  <rdfs:isDefinedBy rdf:resource ="https://tools.ietf.org/html/rfc4287#section-4.2.7"/>
+  <dcterms:source rdf:datatype="&xsd;string">RFC 4287, OGC 14-055r2</dcterms:source>
+  <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc4287#section-4.2.7"/>
+</owl:Class>
+
+
+<owl:DatatypeProperty rdf:about="&atom;href">   <!-- or atom;href or owc;href -->
+    <rdfs:label>href</rdfs:label>
+   
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="&atom;Link"/>	      
+		  <owl:Class rdf:about="&owc;Operation"/>		  
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+	
+   <rdfs:range rdf:resource="&xsd;anyURI"/> 
+   <dc:description>URI describing the related resource.  Is defined by OGC 14-055r2 §7.1.10.</dc:description>
+   <owl:equivalentProperty rdf:resource="&rdf;about"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 14-055r2</dcterms:source>
+</owl:DatatypeProperty>
+
+
+<owl:DatatypeProperty rdf:about="&atom;type">
+   <rdfs:label>type</rdfs:label>
+   
+   <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="&atom;Link"/>	      
+		  <owl:Class rdf:about="&owc;Operation"/>		  
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+   
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <dc:description>Hint about the type of the representation that is expected to be returned when the value of href is dereferenced.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&atom;"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc4287"/>
+</owl:DatatypeProperty>
+
+
+<owl:DatatypeProperty rdf:about="&atom;length">
+   <rdfs:label>length</rdfs:label>
+   <rdfs:domain rdf:resource="&atom;Link"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>
+   <dc:description>Hint about the content length (in bytes) of the representation that is expected to be returned when the value of href is dereferenced.  Is defined by Atom (RFC4287).</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&atom;"/>
+   <dcterms:source rdf:datatype="&xsd;string">RFC4287</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc4287"/>
+</owl:DatatypeProperty>
+
+
+<!-- 
+        OGC 14-055r2, OGC 12-084r2: Offering Class and properties 
+-->
+
+<owl:Class rdf:about="&owc;Offering">
+  <rdfs:label>Offering</rdfs:label>
+  <rdfs:comment>Service or inline content offering for the EO product intended to be consumed by OGC-compliant clients.  Is defined by OGC 14-055r2.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource ="&owc;"/>
+  <rdfs:isDefinedBy rdf:resource="http://docs.opengeospatial.org/is/12-084r2/12-084r2.html#54"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 12-084r2, OGC 14-055r2</dcterms:source>
+  <rdfs:seeAlso rdf:resource="http://docs.opengeospatial.org/is/12-084r2/12-084r2.html#54"/>
+    <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "type": "Offering",
+    "code": "http://www.opengis.net/spec/owc-geojson/1.0/req/wcs",
+    "operations": [
+        {
+            "code": "GetCapabilities",
+            "method": "GET",
+            "type": "application/xml",
+            "href": "http://fedeo.esa.int/geoserver/wcs?REQUEST=GetCapabilities&amp;version=2.0.1&amp;service=WCS"
+		},
+        {
+            "code": "GetCoverage",
+            "method": "GET",
+            "type": "application/x-binary",
+            "href": http://fedeo.esa.int/geoserver/wcs?service=wcs&amp;version=2.0.1&amp;request=getcoverage&amp;coverageid=ASA_IMM_1PNIPA20080308_183226_000001722066_00371_31487_2902"							
+        }
+    ] 
+}
+   </vann:example>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&owc;code">
+   <rdfs:label>code</rdfs:label>
+   <rdfs:comment>Code identifying the type of offering, equal to a requirement class identifier (URI) for the extension defining the operation. 
+Examples:
+- http://www.opengis.net/spec/owc-geojson/1.0/req/wcs
+- http://www.opengis.net/spec/owc-geojson/1.0/req/wmts</rdfs:comment>
+   <vann:example>
+    "code": "http://www.opengis.net/spec/owc-geojson/1.0/req/wms"
+   </vann:example>
+   
+   <rdfs:domain rdf:resource="&owc;Offering"/>
+   <rdfs:range rdf:resource="&xsd;anyURI"/>  
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+   <rdfs:seeAlso rdf:resource="http://docs.opengeospatial.org/is/12-084r2/12-084r2.html#54"/>
+</owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:about="&owc;operations">
+   <rdfs:label>operations</rdfs:label>
+   <rdfs:comment>Operations used to invoke the service.</rdfs:comment>
+   <rdfs:domain rdf:resource="&owc;Offering"/>
+   <rdfs:range rdf:resource="&owc;Operation"/>  
+   <rdfs:isDefinedBy rdf:resource="&owc;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 14-055r2</dcterms:source>
+   <rdfs:seeAlso rdf:resource="http://docs.opengeospatial.org/is/12-084r2/12-084r2.html#54"/>
+</owl:ObjectProperty>
+
+<!-- 
+        OGC 14-055r2, OGC 12-084r2: Operation Class and properties 
+-->
+
+<owl:Class rdf:about="&owc;Operation">
+  <rdfs:label>Operation</rdfs:label>
+  <rdfs:comment>Defines the operation either to get the information or to get the capabilities.  Is defined by OGC 14-055r2.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource ="&owc;"/>
+  <rdfs:isDefinedBy rdf:resource="http://docs.opengeospatial.org/is/12-084r2/12-084r2.html#60"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 12-084r2, OGC 14-055r2</dcterms:source>
+  <rdfs:seeAlso rdf:resource="http://docs.opengeospatial.org/is/12-084r2/12-084r2.html#60"/>
+</owl:Class>
+
+
+</rdf:RDF>

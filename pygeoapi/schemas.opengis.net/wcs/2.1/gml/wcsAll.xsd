@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.opengis.net/wcs/2.1/gml"
+    xmlns:wcs21="http://www.opengis.net/wcs/2.1/gml"
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified" version="2.1.0" xml:lang="en">
+    <annotation>
+        <appinfo>wcsAll.xsd</appinfo>
+        <documentation>This XML Schema Document includes, directly and indirectly, all the XML Schema Documents defined by the OGC Web Coverage Service (WCS).
+            Last updated: 2020-08-27
+            Copyright (c) 2017, 2020 Open Geospatial Consortium
+            To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+        </documentation>
+    </annotation>
+
+    <!-- ============================================================== -->
+    <!-- includes and imports                                           -->
+    <!-- ============================================================== -->
+    <include schemaLocation="wcsCommon.xsd"/>
+    <include schemaLocation="wcsDescribeCoverage.xsd"/>
+
+</schema>

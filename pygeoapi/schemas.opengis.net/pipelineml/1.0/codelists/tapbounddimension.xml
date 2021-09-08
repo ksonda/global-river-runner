@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Tap Bound Dimension
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a set of bound values that collectively define the physical dimensions of tap component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Jul  6 2017 11:02AM
+	Last Modification Date: Jun 13 2018  1:58PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="tapBoundDimension">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">tapBoundDimension</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7621">
+			<gml:description>0.5&quot; NPS;  1.375&quot; OD;  0.9375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7621</gml:identifier>
+			<gml:name>0.5&quot; NPS;  1.375&quot; OD;  0.9375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7622">
+			<gml:description>0.5&quot; NPS;  1.40625&quot; OD;  0.90625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7622</gml:identifier>
+			<gml:name>0.5&quot; NPS;  1.40625&quot; OD;  0.90625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7623">
+			<gml:description>0.5&quot; NPS;  1.40625&quot; OD;  0.9375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7623</gml:identifier>
+			<gml:name>0.5&quot; NPS;  1.40625&quot; OD;  0.9375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7624">
+			<gml:description>0.5&quot; NPS;  1.71875&quot; OD;  0.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7624</gml:identifier>
+			<gml:name>0.5&quot; NPS;  1.71875&quot; OD;  0.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7625">
+			<gml:description>0.75&quot; NPS;  1.71875&quot; OD;  1.15625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7625</gml:identifier>
+			<gml:name>0.75&quot; NPS;  1.71875&quot; OD;  1.15625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7626">
+			<gml:description>0.75&quot; NPS;  1.75&quot; OD;  0.1875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7626</gml:identifier>
+			<gml:name>0.75&quot; NPS;  1.75&quot; OD;  0.1875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7627">
+			<gml:description>0.75&quot; NPS;  1.95313&quot; OD;  1&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7627</gml:identifier>
+			<gml:name>0.75&quot; NPS;  1.95313&quot; OD;  1&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7628">
+			<gml:description>0.75&quot; NPS;  1.625&quot; OD;  0.1875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7628</gml:identifier>
+			<gml:name>0.75&quot; NPS;  1.625&quot; OD;  0.1875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7629">
+			<gml:description>1&quot; NPS;  2&quot; OD;  1.4375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7629</gml:identifier>
+			<gml:name>1&quot; NPS;  2&quot; OD;  1.4375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7630">
+			<gml:description>1&quot; NPS;  2.125&quot; OD;  1.4375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7630</gml:identifier>
+			<gml:name>1&quot; NPS;  2.125&quot; OD;  1.4375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7631">
+			<gml:description>1&quot; NPS;  2.4375&quot; OD;  1.3125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7631</gml:identifier>
+			<gml:name>1&quot; NPS;  2.4375&quot; OD;  1.3125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7632">
+			<gml:description>1.25&quot; NPS;  2.5625&quot; OD;  1.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7632</gml:identifier>
+			<gml:name>1.25&quot; NPS;  2.5625&quot; OD;  1.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7633">
+			<gml:description>1.25&quot; NPS;  2.71875&quot; OD;  1.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7633</gml:identifier>
+			<gml:name>1.25&quot; NPS;  2.71875&quot; OD;  1.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7634">
+			<gml:description>1.25&quot; NPS;  2.375&quot; OD;  1.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7634</gml:identifier>
+			<gml:name>1.25&quot; NPS;  2.375&quot; OD;  1.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7635">
+			<gml:description>1.25&quot; NPS;  2.4375&quot; OD;  1.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7635</gml:identifier>
+			<gml:name>1.25&quot; NPS;  2.4375&quot; OD;  1.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7636">
+			<gml:description>1.5&quot; NPS;  2.84375&quot; OD;  2&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7636</gml:identifier>
+			<gml:name>1.5&quot; NPS;  2.84375&quot; OD;  2&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7637">
+			<gml:description>1.5&quot; NPS;  2.875&quot; OD;  2&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7637</gml:identifier>
+			<gml:name>1.5&quot; NPS;  2.875&quot; OD;  2&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7638">
+			<gml:description>1.5&quot; NPS;  3.25&quot; OD;  1.9375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7638</gml:identifier>
+			<gml:name>1.5&quot; NPS;  3.25&quot; OD;  1.9375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7639">
+			<gml:description>2&quot; NPS;  3.46875&quot; OD;  2.5625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7639</gml:identifier>
+			<gml:name>2&quot; NPS;  3.46875&quot; OD;  2.5625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7640">
+			<gml:description>2&quot; NPS;  3.5&quot; OD;  2.5625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7640</gml:identifier>
+			<gml:name>2&quot; NPS;  3.5&quot; OD;  2.5625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7641">
+			<gml:description>2&quot; NPS;  4.96875&quot; OD;  2.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7641</gml:identifier>
+			<gml:name>2&quot; NPS;  4.96875&quot; OD;  2.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7642">
+			<gml:description>2.5&quot; NPS;  4.0625&quot; OD;  3&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7642</gml:identifier>
+			<gml:name>2.5&quot; NPS;  4.0625&quot; OD;  3&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7643">
+			<gml:description>3&quot; NPS;  4.8125&quot; OD;  3.6875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7643</gml:identifier>
+			<gml:name>3&quot; NPS;  4.8125&quot; OD;  3.6875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7644">
+			<gml:description>3.5&quot; NPS;  5.21875&quot; OD;  4&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7644</gml:identifier>
+			<gml:name>3.5&quot; NPS;  5.21875&quot; OD;  4&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7645">
+			<gml:description>3.5&quot; NPS;  5.375&quot; OD;  4.4375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7645</gml:identifier>
+			<gml:name>3.5&quot; NPS;  5.375&quot; OD;  4.4375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7646">
+			<gml:description>3.5&quot; NPS;  5.375&quot; OD;  4&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7646</gml:identifier>
+			<gml:name>3.5&quot; NPS;  5.375&quot; OD;  4&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7647">
+			<gml:description>3.5&quot; NPS;  5.625&quot; OD;  4&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7647</gml:identifier>
+			<gml:name>3.5&quot; NPS;  5.625&quot; OD;  4&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7648">
+			<gml:description>3.5&quot; NPS;  5.375&quot; OD;  3.875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7648</gml:identifier>
+			<gml:name>3.5&quot; NPS;  5.375&quot; OD;  3.875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7649">
+			<gml:description>4&quot; NPS;  5.96875&quot; OD;  4.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7649</gml:identifier>
+			<gml:name>4&quot; NPS;  5.96875&quot; OD;  4.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7650">
+			<gml:description>4&quot; NPS;  6&quot; OD;  4.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7650</gml:identifier>
+			<gml:name>4&quot; NPS;  6&quot; OD;  4.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7651">
+			<gml:description>4&quot; NPS;  6.0625&quot; OD;  4.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7651</gml:identifier>
+			<gml:name>4&quot; NPS;  6.0625&quot; OD;  4.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7652">
+			<gml:description>5&quot; NPS;  7.0625&quot; OD;  5.5625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7652</gml:identifier>
+			<gml:name>5&quot; NPS;  7.0625&quot; OD;  5.5625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7653">
+			<gml:description>5&quot; NPS;  7.3125&quot; OD;  5.5625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7653</gml:identifier>
+			<gml:name>5&quot; NPS;  7.3125&quot; OD;  5.5625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7654">
+			<gml:description>5&quot; NPS;  7.125&quot; OD;  5.5625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7654</gml:identifier>
+			<gml:name>5&quot; NPS;  7.125&quot; OD;  5.5625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7655">
+			<gml:description>5&quot; NPS;  7.25&quot; OD;  5.25&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7655</gml:identifier>
+			<gml:name>5&quot; NPS;  7.25&quot; OD;  5.25&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7656">
+			<gml:description>6&quot; NPS;  8.5&quot; OD;  6.6875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7656</gml:identifier>
+			<gml:name>6&quot; NPS;  8.5&quot; OD;  6.6875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7657">
+			<gml:description>6&quot; NPS;  8.625&quot; OD;  6.6875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7657</gml:identifier>
+			<gml:name>6&quot; NPS;  8.625&quot; OD;  6.6875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7658">
+			<gml:description>6&quot; NPS;  8.875&quot; OD;  6.6875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7658</gml:identifier>
+			<gml:name>6&quot; NPS;  8.875&quot; OD;  6.6875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7659">
+			<gml:description>6&quot; NPS;  8.6875&quot; OD;  6.0625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7659</gml:identifier>
+			<gml:name>6&quot; NPS;  8.6875&quot; OD;  6.0625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7660">
+			<gml:description>6&quot; NPS;  8.6875&quot; OD;  5.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7660</gml:identifier>
+			<gml:name>6&quot; NPS;  8.6875&quot; OD;  5.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7661">
+			<gml:description>8&quot; NPS;  10.375&quot; OD;  8.6875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7661</gml:identifier>
+			<gml:name>8&quot; NPS;  10.375&quot; OD;  8.6875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7662">
+			<gml:description>8&quot; NPS;  11.5&quot; OD;  8.6875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7662</gml:identifier>
+			<gml:name>8&quot; NPS;  11.5&quot; OD;  8.6875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7663">
+			<gml:description>8&quot; NPS;  10.625&quot; OD;  8.6875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7663</gml:identifier>
+			<gml:name>8&quot; NPS;  10.625&quot; OD;  8.6875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7664">
+			<gml:description>10&quot; NPS;  12.6875&quot; OD;  10.8125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7664</gml:identifier>
+			<gml:name>10&quot; NPS;  12.6875&quot; OD;  10.8125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7665">
+			<gml:description>10&quot; NPS;  12.75&quot; OD;  10.4375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7665</gml:identifier>
+			<gml:name>10&quot; NPS;  12.75&quot; OD;  10.4375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7666">
+			<gml:description>10&quot; NPS;  12.5625&quot; OD;  10.8125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7666</gml:identifier>
+			<gml:name>10&quot; NPS;  12.5625&quot; OD;  10.8125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7667">
+			<gml:description>10&quot; NPS;  12.875&quot; OD;  10.4375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7667</gml:identifier>
+			<gml:name>10&quot; NPS;  12.875&quot; OD;  10.4375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7668">
+			<gml:description>12&quot; NPS;  14.875&quot; OD;  12.8125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7668</gml:identifier>
+			<gml:name>12&quot; NPS;  14.875&quot; OD;  12.8125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7669">
+			<gml:description>12&quot; NPS;  14.9375&quot; OD;  12.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7669</gml:identifier>
+			<gml:name>12&quot; NPS;  14.9375&quot; OD;  12.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7670">
+			<gml:description>12&quot; NPS;  15.1875&quot; OD;  13&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7670</gml:identifier>
+			<gml:name>12&quot; NPS;  15.1875&quot; OD;  13&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7671">
+			<gml:description>14&quot; NPS;  16.125&quot; OD;  14.0625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7671</gml:identifier>
+			<gml:name>14&quot; NPS;  16.125&quot; OD;  14.0625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7672">
+			<gml:description>14&quot; NPS;  17&quot; OD;  13.8125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7672</gml:identifier>
+			<gml:name>14&quot; NPS;  17&quot; OD;  13.8125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7673">
+			<gml:description>14&quot; NPS;  16.6875&quot; OD;  14.3125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7673</gml:identifier>
+			<gml:name>14&quot; NPS;  16.6875&quot; OD;  14.3125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7674">
+			<gml:description>16&quot; NPS;  18.25&quot; OD;  16.0625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7674</gml:identifier>
+			<gml:name>16&quot; NPS;  18.25&quot; OD;  16.0625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7675">
+			<gml:description>16&quot; NPS;  18.375&quot; OD;  15.875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7675</gml:identifier>
+			<gml:name>16&quot; NPS;  18.375&quot; OD;  15.875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7676">
+			<gml:description>16&quot; NPS;  18.875&quot; OD;  16.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7676</gml:identifier>
+			<gml:name>16&quot; NPS;  18.875&quot; OD;  16.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7677">
+			<gml:description>18&quot; NPS;  20.375&quot; OD;  17.3125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7677</gml:identifier>
+			<gml:name>18&quot; NPS;  20.375&quot; OD;  17.3125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7678">
+			<gml:description>18&quot; NPS;  20.5&quot; OD;  18.0625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7678</gml:identifier>
+			<gml:name>18&quot; NPS;  20.5&quot; OD;  18.0625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7679">
+			<gml:description>18&quot; NPS;  20.75&quot; OD;  18.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7679</gml:identifier>
+			<gml:name>18&quot; NPS;  20.75&quot; OD;  18.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7680">
+			<gml:description>18&quot; NPS;  21.125&quot; OD;  18.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7680</gml:identifier>
+			<gml:name>18&quot; NPS;  21.125&quot; OD;  18.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7681">
+			<gml:description>20&quot; NPS;  22.5&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7681</gml:identifier>
+			<gml:name>20&quot; NPS;  22.5&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7682">
+			<gml:description>20&quot; NPS;  22.9375&quot; OD;  20.0625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7682</gml:identifier>
+			<gml:name>20&quot; NPS;  22.9375&quot; OD;  20.0625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7683">
+			<gml:description>20&quot; NPS;  23.0625&quot; OD;  20.0625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7683</gml:identifier>
+			<gml:name>20&quot; NPS;  23.0625&quot; OD;  20.0625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7684">
+			<gml:description>20&quot; NPS;  23.375&quot; OD;  20.8125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7684</gml:identifier>
+			<gml:name>20&quot; NPS;  23.375&quot; OD;  20.8125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7685">
+			<gml:description>24&quot; NPS;  27.125&quot; OD;  24.1875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7685</gml:identifier>
+			<gml:name>24&quot; NPS;  27.125&quot; OD;  24.1875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7686">
+			<gml:description>24&quot; NPS;  27.875&quot; OD;  24.1875&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7686</gml:identifier>
+			<gml:name>24&quot; NPS;  27.875&quot; OD;  24.1875&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7687">
+			<gml:description>24&quot; NPS;  27.875&quot; OD;  25.125&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7687</gml:identifier>
+			<gml:name>24&quot; NPS;  27.875&quot; OD;  25.125&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7688">
+			<gml:description>26&quot; NPS;  26&quot; OD;  26&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7688</gml:identifier>
+			<gml:name>26&quot; NPS;  26&quot; OD;  26&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7689">
+			<gml:description>30&quot; NPS;  30&quot; OD;  30&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7689</gml:identifier>
+			<gml:name>30&quot; NPS;  30&quot; OD;  30&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7690">
+			<gml:description>32&quot; NPS;  32&quot; OD;  32&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7690</gml:identifier>
+			<gml:name>32&quot; NPS;  32&quot; OD;  32&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7691">
+			<gml:description>34&quot; NPS;  34&quot; OD;  34&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7691</gml:identifier>
+			<gml:name>34&quot; NPS;  34&quot; OD;  34&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7692">
+			<gml:description>36&quot; NPS;  36&quot; OD;  36&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7692</gml:identifier>
+			<gml:name>36&quot; NPS;  36&quot; OD;  36&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7693">
+			<gml:description>38&quot; NPS;  28&quot; OD;  28&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7693</gml:identifier>
+			<gml:name>38&quot; NPS;  28&quot; OD;  28&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7694">
+			<gml:description>38&quot; NPS;  38&quot; OD;  38&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7694</gml:identifier>
+			<gml:name>38&quot; NPS;  38&quot; OD;  38&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7695">
+			<gml:description>40&quot; NPS;  40&quot; OD;  40&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7695</gml:identifier>
+			<gml:name>40&quot; NPS;  40&quot; OD;  40&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7696">
+			<gml:description>42&quot; NPS;  42&quot; OD;  42&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7696</gml:identifier>
+			<gml:name>42&quot; NPS;  42&quot; OD;  42&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7697">
+			<gml:description>1.315&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7697</gml:identifier>
+			<gml:name>1.315&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7698">
+			<gml:description>1.375&quot; NPS;  1.375&quot; OD;  1.375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7698</gml:identifier>
+			<gml:name>1.375&quot; NPS;  1.375&quot; OD;  1.375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7699">
+			<gml:description>1.375&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7699</gml:identifier>
+			<gml:name>1.375&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7700">
+			<gml:description>1.375&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7700</gml:identifier>
+			<gml:name>1.375&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7701">
+			<gml:description>1.375&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7701</gml:identifier>
+			<gml:name>1.375&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7702">
+			<gml:description>1.375&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7702</gml:identifier>
+			<gml:name>1.375&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7703">
+			<gml:description>1.375&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7703</gml:identifier>
+			<gml:name>1.375&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7704">
+			<gml:description>1.5&quot; NPS;  1.5&quot; OD;  1.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7704</gml:identifier>
+			<gml:name>1.5&quot; NPS;  1.5&quot; OD;  1.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7705">
+			<gml:description>1.5&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7705</gml:identifier>
+			<gml:name>1.5&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7706">
+			<gml:description>1.5&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7706</gml:identifier>
+			<gml:name>1.5&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7707">
+			<gml:description>2&quot; NPS;  2&quot; OD;  2&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7707</gml:identifier>
+			<gml:name>2&quot; NPS;  2&quot; OD;  2&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7708">
+			<gml:description>2&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7708</gml:identifier>
+			<gml:name>2&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7709">
+			<gml:description>2&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7709</gml:identifier>
+			<gml:name>2&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7710">
+			<gml:description>2&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7710</gml:identifier>
+			<gml:name>2&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7711">
+			<gml:description>2&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7711</gml:identifier>
+			<gml:name>2&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7712">
+			<gml:description>2&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7712</gml:identifier>
+			<gml:name>2&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7713">
+			<gml:description>2&quot; NPS;  14&quot; OD;  14&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7713</gml:identifier>
+			<gml:name>2&quot; NPS;  14&quot; OD;  14&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7714">
+			<gml:description>2&quot; NPS;  16&quot; OD;  16&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7714</gml:identifier>
+			<gml:name>2&quot; NPS;  16&quot; OD;  16&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7715">
+			<gml:description>2&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7715</gml:identifier>
+			<gml:name>2&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7716">
+			<gml:description>2&quot; NPS;  24&quot; OD;  24&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7716</gml:identifier>
+			<gml:name>2&quot; NPS;  24&quot; OD;  24&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7717">
+			<gml:description>2&quot; NPS;  30&quot; OD;  30&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7717</gml:identifier>
+			<gml:name>2&quot; NPS;  30&quot; OD;  30&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7718">
+			<gml:description>2&quot; NPS;  36&quot; OD;  36&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7718</gml:identifier>
+			<gml:name>2&quot; NPS;  36&quot; OD;  36&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7719">
+			<gml:description>2.375&quot; NPS;  2.375&quot; OD;  2.375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7719</gml:identifier>
+			<gml:name>2.375&quot; NPS;  2.375&quot; OD;  2.375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7720">
+			<gml:description>2.375&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7720</gml:identifier>
+			<gml:name>2.375&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7721">
+			<gml:description>2.375&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7721</gml:identifier>
+			<gml:name>2.375&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7722">
+			<gml:description>2.375&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7722</gml:identifier>
+			<gml:name>2.375&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7723">
+			<gml:description>2.375&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7723</gml:identifier>
+			<gml:name>2.375&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7724">
+			<gml:description>2.375&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7724</gml:identifier>
+			<gml:name>2.375&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7725">
+			<gml:description>2.375&quot; NPS;  14&quot; OD;  14&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7725</gml:identifier>
+			<gml:name>2.375&quot; NPS;  14&quot; OD;  14&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7726">
+			<gml:description>2.375&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7726</gml:identifier>
+			<gml:name>2.375&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7727">
+			<gml:description>2.375&quot; NPS;  24&quot; OD;  24&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7727</gml:identifier>
+			<gml:name>2.375&quot; NPS;  24&quot; OD;  24&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7728">
+			<gml:description>2.375&quot; NPS;  36&quot; OD;  36&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7728</gml:identifier>
+			<gml:name>2.375&quot; NPS;  36&quot; OD;  36&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7729">
+			<gml:description>3.5&quot; NPS;  3.5&quot; OD;  3.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7729</gml:identifier>
+			<gml:name>3.5&quot; NPS;  3.5&quot; OD;  3.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7730">
+			<gml:description>3.5&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7730</gml:identifier>
+			<gml:name>3.5&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7731">
+			<gml:description>3.5&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7731</gml:identifier>
+			<gml:name>3.5&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7732">
+			<gml:description>3.5&quot; NPS;  16&quot; OD;  16&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7732</gml:identifier>
+			<gml:name>3.5&quot; NPS;  16&quot; OD;  16&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7733">
+			<gml:description>3.5&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7733</gml:identifier>
+			<gml:name>3.5&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7734">
+			<gml:description>3.5&quot; NPS;  36&quot; OD;  36&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7734</gml:identifier>
+			<gml:name>3.5&quot; NPS;  36&quot; OD;  36&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7735">
+			<gml:description>4.5&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7735</gml:identifier>
+			<gml:name>4.5&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7736">
+			<gml:description>4.5&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7736</gml:identifier>
+			<gml:name>4.5&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7737">
+			<gml:description>4.5&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7737</gml:identifier>
+			<gml:name>4.5&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7738">
+			<gml:description>4.5&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7738</gml:identifier>
+			<gml:name>4.5&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7739">
+			<gml:description>4.5&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7739</gml:identifier>
+			<gml:name>4.5&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7740">
+			<gml:description>4.5&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7740</gml:identifier>
+			<gml:name>4.5&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7741">
+			<gml:description>4.5&quot; NPS;  24&quot; OD;  24&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7741</gml:identifier>
+			<gml:name>4.5&quot; NPS;  24&quot; OD;  24&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7742">
+			<gml:description>4.5&quot; NPS;  30&quot; OD;  30&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7742</gml:identifier>
+			<gml:name>4.5&quot; NPS;  30&quot; OD;  30&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7743">
+			<gml:description>4.5&quot; NPS;  42&quot; OD;  42&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7743</gml:identifier>
+			<gml:name>4.5&quot; NPS;  42&quot; OD;  42&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7744">
+			<gml:description>6.625&quot; NPS;  2&quot; OD;  2&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7744</gml:identifier>
+			<gml:name>6.625&quot; NPS;  2&quot; OD;  2&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7745">
+			<gml:description>6.625&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7745</gml:identifier>
+			<gml:name>6.625&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7746">
+			<gml:description>6.625&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7746</gml:identifier>
+			<gml:name>6.625&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7747">
+			<gml:description>6.625&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7747</gml:identifier>
+			<gml:name>6.625&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7748">
+			<gml:description>6.625&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7748</gml:identifier>
+			<gml:name>6.625&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7749">
+			<gml:description>6.625&quot; NPS;  14&quot; OD;  14&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7749</gml:identifier>
+			<gml:name>6.625&quot; NPS;  14&quot; OD;  14&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7750">
+			<gml:description>6.625&quot; NPS;  16&quot; OD;  16&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7750</gml:identifier>
+			<gml:name>6.625&quot; NPS;  16&quot; OD;  16&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7751">
+			<gml:description>6.625&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7751</gml:identifier>
+			<gml:name>6.625&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7752">
+			<gml:description>6.625&quot; NPS;  24&quot; OD;  24&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7752</gml:identifier>
+			<gml:name>6.625&quot; NPS;  24&quot; OD;  24&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7753">
+			<gml:description>6.625&quot; NPS;  30&quot; OD;  30&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7753</gml:identifier>
+			<gml:name>6.625&quot; NPS;  30&quot; OD;  30&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7754">
+			<gml:description>8.625&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7754</gml:identifier>
+			<gml:name>8.625&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7755">
+			<gml:description>8.625&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7755</gml:identifier>
+			<gml:name>8.625&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7756">
+			<gml:description>8.625&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7756</gml:identifier>
+			<gml:name>8.625&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7757">
+			<gml:description>8.625&quot; NPS;  16&quot; OD;  16&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7757</gml:identifier>
+			<gml:name>8.625&quot; NPS;  16&quot; OD;  16&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7758">
+			<gml:description>8.625&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7758</gml:identifier>
+			<gml:name>8.625&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7759">
+			<gml:description>8.625&quot; NPS;  30&quot; OD;  30&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7759</gml:identifier>
+			<gml:name>8.625&quot; NPS;  30&quot; OD;  30&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7760">
+			<gml:description>8.625&quot; NPS;  36&quot; OD;  36&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7760</gml:identifier>
+			<gml:name>8.625&quot; NPS;  36&quot; OD;  36&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7761">
+			<gml:description>10.75&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7761</gml:identifier>
+			<gml:name>10.75&quot; NPS;  4.5&quot; OD;  4.5&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7762">
+			<gml:description>10.75&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7762</gml:identifier>
+			<gml:name>10.75&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7763">
+			<gml:description>10.75&quot; NPS;  14&quot; OD;  14&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7763</gml:identifier>
+			<gml:name>10.75&quot; NPS;  14&quot; OD;  14&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7764">
+			<gml:description>10.75&quot; NPS;  16&quot; OD;  16&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7764</gml:identifier>
+			<gml:name>10.75&quot; NPS;  16&quot; OD;  16&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7765">
+			<gml:description>10.75&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7765</gml:identifier>
+			<gml:name>10.75&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7766">
+			<gml:description>10.75&quot; NPS;  30&quot; OD;  30&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7766</gml:identifier>
+			<gml:name>10.75&quot; NPS;  30&quot; OD;  30&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7767">
+			<gml:description>12.75&quot; NPS;  12.75&quot; OD;  2.375&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7767</gml:identifier>
+			<gml:name>12.75&quot; NPS;  12.75&quot; OD;  2.375&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7768">
+			<gml:description>12.75&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7768</gml:identifier>
+			<gml:name>12.75&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7769">
+			<gml:description>12.75&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7769</gml:identifier>
+			<gml:name>12.75&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7770">
+			<gml:description>12.75&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7770</gml:identifier>
+			<gml:name>12.75&quot; NPS;  12.75&quot; OD;  12.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7771">
+			<gml:description>12.75&quot; NPS;  16&quot; OD;  16&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7771</gml:identifier>
+			<gml:name>12.75&quot; NPS;  16&quot; OD;  16&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7772">
+			<gml:description>12.75&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7772</gml:identifier>
+			<gml:name>12.75&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7773">
+			<gml:description>12.75&quot; NPS;  22&quot; OD;  22&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7773</gml:identifier>
+			<gml:name>12.75&quot; NPS;  22&quot; OD;  22&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7774">
+			<gml:description>12.75&quot; NPS;  24&quot; OD;  24&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7774</gml:identifier>
+			<gml:name>12.75&quot; NPS;  24&quot; OD;  24&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7775">
+			<gml:description>12.75&quot; NPS;  30&quot; OD;  30&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7775</gml:identifier>
+			<gml:name>12.75&quot; NPS;  30&quot; OD;  30&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7776">
+			<gml:description>12.75&quot; NPS;  36&quot; OD;  36&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7776</gml:identifier>
+			<gml:name>12.75&quot; NPS;  36&quot; OD;  36&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7777">
+			<gml:description>12.75&quot; NPS;  42&quot; OD;  42&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7777</gml:identifier>
+			<gml:name>12.75&quot; NPS;  42&quot; OD;  42&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7778">
+			<gml:description>14&quot; NPS;  14&quot; OD;  14&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7778</gml:identifier>
+			<gml:name>14&quot; NPS;  14&quot; OD;  14&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7779">
+			<gml:description>16&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7779</gml:identifier>
+			<gml:name>16&quot; NPS;  8.625&quot; OD;  8.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7780">
+			<gml:description>16&quot; NPS;  16&quot; OD;  16&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7780</gml:identifier>
+			<gml:name>16&quot; NPS;  16&quot; OD;  16&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7781">
+			<gml:description>16&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7781</gml:identifier>
+			<gml:name>16&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7782">
+			<gml:description>16&quot; NPS;  30&quot; OD;  30&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7782</gml:identifier>
+			<gml:name>16&quot; NPS;  30&quot; OD;  30&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7783">
+			<gml:description>16&quot; NPS;  36&quot; OD;  36&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7783</gml:identifier>
+			<gml:name>16&quot; NPS;  36&quot; OD;  36&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7784">
+			<gml:description>20&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7784</gml:identifier>
+			<gml:name>20&quot; NPS;  10.75&quot; OD;  10.75&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7785">
+			<gml:description>20&quot; NPS;  20&quot; OD;  20&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7785</gml:identifier>
+			<gml:name>20&quot; NPS;  20&quot; OD;  20&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7786">
+			<gml:description>24&quot; NPS;  24&quot; OD;  24&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7786</gml:identifier>
+			<gml:name>24&quot; NPS;  24&quot; OD;  24&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7787">
+			<gml:description>3.5&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7787</gml:identifier>
+			<gml:name>3.5&quot; NPS;  6.625&quot; OD;  6.625&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7788">
+			<gml:description>4.5&quot; NPS;  16&quot; OD;  16&quot; ID</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/tapbounddimension">7788</gml:identifier>
+			<gml:name>4.5&quot; NPS;  16&quot; OD;  16&quot; ID</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

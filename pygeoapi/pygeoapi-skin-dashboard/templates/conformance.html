@@ -1,0 +1,27 @@
+{% extends "_base.html" %}
+{% block title %}{{ super() }} Conformance {% endblock %}
+{% block crumbs %}{{ super() }}
+/ <a href="./conformance">Conformance</a>
+{% endblock %}
+{% block body %}
+    <section id="conformance">
+      <h1>Conformance</h1>
+      <p>This page lists all the standards this API conforms to.</p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Standard</th>
+          </tr>
+        </thead>  
+        <tbody>
+        {% for link in data['conformsTo'] %}
+            <tr>
+              <td>
+                <a title="{{ link }}" href="{{ link }}">{{ link }}</a>
+              </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </section>
+{% endblock %}

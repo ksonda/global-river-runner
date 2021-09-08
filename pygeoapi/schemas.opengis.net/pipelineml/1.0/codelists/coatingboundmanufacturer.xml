@@ -1,0 +1,3242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Coating Bound Manufacturer
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a set of bound values that collectively define the manufacture, product name, and model number of coating.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Aug 11 2017 10:10AM
+	Last Modification Date: Jun 13 2018  1:58PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="coatingBoundManufacturer">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">coatingBoundManufacturer</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id831">
+			<gml:description>3M; Scotchkote; 204 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">831</gml:identifier>
+			<gml:name>3M; Scotchkote; 204 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id832">
+			<gml:description>3M; Scotchkote; 205 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">832</gml:identifier>
+			<gml:name>3M; Scotchkote; 205 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id833">
+			<gml:description>3M; Scotchkote; 206 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">833</gml:identifier>
+			<gml:name>3M; Scotchkote; 206 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id834">
+			<gml:description>3M; Scotchkote; 212 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">834</gml:identifier>
+			<gml:name>3M; Scotchkote; 212 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id835">
+			<gml:description>3M; Scotchkote; 217 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">835</gml:identifier>
+			<gml:name>3M; Scotchkote; 217 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id836">
+			<gml:description>3M; Scotchkote; 226P Patch Stick Compound</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">836</gml:identifier>
+			<gml:name>3M; Scotchkote; 226P Patch Stick Compound</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id837">
+			<gml:description>3M; Scotchkote; 306 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">837</gml:identifier>
+			<gml:name>3M; Scotchkote; 306 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id838">
+			<gml:description>3M; Scotchkote; 311 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">838</gml:identifier>
+			<gml:name>3M; Scotchkote; 311 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id839">
+			<gml:description>3M; Scotchkote; 312 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">839</gml:identifier>
+			<gml:name>3M; Scotchkote; 312 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id840">
+			<gml:description>3M; Scotchkote; 314 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">840</gml:identifier>
+			<gml:name>3M; Scotchkote; 314 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id841">
+			<gml:description>3M; Scotchkote; 323 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">841</gml:identifier>
+			<gml:name>3M; Scotchkote; 323 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id842">
+			<gml:description>3M; Scotchkote; 327 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">842</gml:identifier>
+			<gml:name>3M; Scotchkote; 327 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id843">
+			<gml:description>3M; Scotchkote; 345 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">843</gml:identifier>
+			<gml:name>3M; Scotchkote; 345 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id844">
+			<gml:description>3M; Scotchkote; 352 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">844</gml:identifier>
+			<gml:name>3M; Scotchkote; 352 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id845">
+			<gml:description>3M; Scotchkote; Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">845</gml:identifier>
+			<gml:name>3M; Scotchkote; Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id846">
+			<gml:description>3M; Scotchkote; Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">846</gml:identifier>
+			<gml:name>3M; Scotchkote; Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id847">
+			<gml:description>3M; Scotchkote; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">847</gml:identifier>
+			<gml:name>3M; Scotchkote; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id848">
+			<gml:description>3M; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">848</gml:identifier>
+			<gml:name>3M; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id849">
+			<gml:description>Allied Pipeline Technologies; Enamel; 6859</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">849</gml:identifier>
+			<gml:name>Allied Pipeline Technologies; Enamel; 6859</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id850">
+			<gml:description>Amercoat; 68HS VOC Zinc</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">850</gml:identifier>
+			<gml:name>Amercoat; 68HS VOC Zinc</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id851">
+			<gml:description>Amercoat; 78HB Coal Tar Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">851</gml:identifier>
+			<gml:name>Amercoat; 78HB Coal Tar Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id852">
+			<gml:description>Amercoat; Amerilock; 2/400 Aluminum Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">852</gml:identifier>
+			<gml:name>Amercoat; Amerilock; 2/400 Aluminum Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id853">
+			<gml:description>Amercoat; Amerilock; 2/400 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">853</gml:identifier>
+			<gml:name>Amercoat; Amerilock; 2/400 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id854">
+			<gml:description>Amercoat; Amershield; VOC Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">854</gml:identifier>
+			<gml:name>Amercoat; Amershield; VOC Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id855">
+			<gml:description>Amercoat; Dimetcote; 21-5 Water Based Zinc</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">855</gml:identifier>
+			<gml:name>Amercoat; Dimetcote; 21-5 Water Based Zinc</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id856">
+			<gml:description>Amercoat; Dimetcote; 9H Inorganic Zinc</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">856</gml:identifier>
+			<gml:name>Amercoat; Dimetcote; 9H Inorganic Zinc</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id857">
+			<gml:description>Amercoat; PSX 700 Engineered Siloxane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">857</gml:identifier>
+			<gml:name>Amercoat; PSX 700 Engineered Siloxane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id858">
+			<gml:description>Axalta; Corlar; 2.1 HG-D</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">858</gml:identifier>
+			<gml:name>Axalta; Corlar; 2.1 HG-D</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id859">
+			<gml:description>Axalta; Corlar; 2.1 HTA</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">859</gml:identifier>
+			<gml:name>Axalta; Corlar; 2.1 HTA</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id860">
+			<gml:description>Axalta; Corlar; 2.1 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">860</gml:identifier>
+			<gml:name>Axalta; Corlar; 2.1 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id861">
+			<gml:description>Axalta; Corlar; 2.1 PR-P</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">861</gml:identifier>
+			<gml:name>Axalta; Corlar; 2.1 PR-P</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id862">
+			<gml:description>Axalta; Corlar; 2.1 ST</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">862</gml:identifier>
+			<gml:name>Axalta; Corlar; 2.1 ST</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id863">
+			<gml:description>Axalta; Corlar; 2.8 HG</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">863</gml:identifier>
+			<gml:name>Axalta; Corlar; 2.8 HG</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id864">
+			<gml:description>Axalta; DuPont; WP</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">864</gml:identifier>
+			<gml:name>Axalta; DuPont; WP</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id865">
+			<gml:description>Axalta; Dupont; ZVH</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">865</gml:identifier>
+			<gml:name>Axalta; Dupont; ZVH</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id866">
+			<gml:description>Axalta; Imron; 1.2 HG</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">866</gml:identifier>
+			<gml:name>Axalta; Imron; 1.2 HG</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id867">
+			<gml:description>Axalta; Imron; 1.5 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">867</gml:identifier>
+			<gml:name>Axalta; Imron; 1.5 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id868">
+			<gml:description>Axalta; Imron; 1.5 ST-D</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">868</gml:identifier>
+			<gml:name>Axalta; Imron; 1.5 ST-D</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id869">
+			<gml:description>Axalta; Imron; 2.1 HG</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">869</gml:identifier>
+			<gml:name>Axalta; Imron; 2.1 HG</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id870">
+			<gml:description>Axalta; Imron; 2.1 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">870</gml:identifier>
+			<gml:name>Axalta; Imron; 2.1 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id871">
+			<gml:description>Axalta; Imron; 2.8 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">871</gml:identifier>
+			<gml:name>Axalta; Imron; 2.8 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id872">
+			<gml:description>Axalta; Imron; 3.5 HG</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">872</gml:identifier>
+			<gml:name>Axalta; Imron; 3.5 HG</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id873">
+			<gml:description>Axalta; Imron; Industrial Strength</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">873</gml:identifier>
+			<gml:name>Axalta; Imron; Industrial Strength</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id874">
+			<gml:description>Axalta; Tufcote; 1.9 HG-D</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">874</gml:identifier>
+			<gml:name>Axalta; Tufcote; 1.9 HG-D</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id875">
+			<gml:description>Axalta; Tufcote; 2.5 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">875</gml:identifier>
+			<gml:name>Axalta; Tufcote; 2.5 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id876">
+			<gml:description>Axalta; Tufcote; 2.8 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">876</gml:identifier>
+			<gml:name>Axalta; Tufcote; 2.8 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id877">
+			<gml:description>Barrett; AA Coal Tar Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">877</gml:identifier>
+			<gml:name>Barrett; AA Coal Tar Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id878">
+			<gml:description>Barrett; AWW Coal Tar Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">878</gml:identifier>
+			<gml:name>Barrett; AWW Coal Tar Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id879">
+			<gml:description>Barrett; Coal Tar Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">879</gml:identifier>
+			<gml:name>Barrett; Coal Tar Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id880">
+			<gml:description>Carboline; Bitumastic; 300 M (Coal Tar Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">880</gml:identifier>
+			<gml:name>Carboline; Bitumastic; 300 M (Coal Tar Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id881">
+			<gml:description>Carboline; Bitumastic; 50</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">881</gml:identifier>
+			<gml:name>Carboline; Bitumastic; 50</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id882">
+			<gml:description>Carboline; Carboguard; 890 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">882</gml:identifier>
+			<gml:name>Carboline; Carboguard; 890 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id883">
+			<gml:description>Carboline; Carboguard; 891 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">883</gml:identifier>
+			<gml:name>Carboline; Carboguard; 891 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id884">
+			<gml:description>Carboline; Carbomastic; 15/15 FC</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">884</gml:identifier>
+			<gml:name>Carboline; Carbomastic; 15/15 FC</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id885">
+			<gml:description>Carboline; Carbothane; 134 VOC Urethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">885</gml:identifier>
+			<gml:name>Carboline; Carbothane; 134 VOC Urethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id886">
+			<gml:description>Carboline; Kop-Coat; A-788 Splash Zone</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">886</gml:identifier>
+			<gml:name>Carboline; Kop-Coat; A-788 Splash Zone</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id887">
+			<gml:description>Carboline; Polyclad; 975/975H</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">887</gml:identifier>
+			<gml:name>Carboline; Polyclad; 975/975H</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id888">
+			<gml:description>Carboline; Rustbond / Rustbond FC</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">888</gml:identifier>
+			<gml:name>Carboline; Rustbond / Rustbond FC</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id889">
+			<gml:description>Denso; Protal; 7000 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">889</gml:identifier>
+			<gml:name>Denso; Protal; 7000 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id890">
+			<gml:description>Denso; Protal; 7125 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">890</gml:identifier>
+			<gml:name>Denso; Protal; 7125 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id891">
+			<gml:description>Denso; Protal; 7200 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">891</gml:identifier>
+			<gml:name>Denso; Protal; 7200 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id892">
+			<gml:description>Denso; Protal; 7250 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">892</gml:identifier>
+			<gml:name>Denso; Protal; 7250 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id893">
+			<gml:description>Denso; Protal; 7300 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">893</gml:identifier>
+			<gml:name>Denso; Protal; 7300 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id894">
+			<gml:description>Denso; Protal; 7900 High Temp Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">894</gml:identifier>
+			<gml:name>Denso; Protal; 7900 High Temp Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id895">
+			<gml:description>Denso; Protal; ARO Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">895</gml:identifier>
+			<gml:name>Denso; Protal; ARO Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id896">
+			<gml:description>Denso; Protal; ST Epoxy Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">896</gml:identifier>
+			<gml:name>Denso; Protal; ST Epoxy Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id897">
+			<gml:description>Devoe; Bar-Rust; 231LV Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">897</gml:identifier>
+			<gml:name>Devoe; Bar-Rust; 231LV Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id898">
+			<gml:description>Devoe; Bar-Rust; 233H Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">898</gml:identifier>
+			<gml:name>Devoe; Bar-Rust; 233H Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id899">
+			<gml:description>Devoe; Bar-Rust; 234P Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">899</gml:identifier>
+			<gml:name>Devoe; Bar-Rust; 234P Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id900">
+			<gml:description>Devoe; Bar-Rust; 235V Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">900</gml:identifier>
+			<gml:name>Devoe; Bar-Rust; 235V Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id901">
+			<gml:description>Devoe; Cathacoat; 305 Waterbased Zinc</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">901</gml:identifier>
+			<gml:name>Devoe; Cathacoat; 305 Waterbased Zinc</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id902">
+			<gml:description>Devoe; Devclad; 182 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">902</gml:identifier>
+			<gml:name>Devoe; Devclad; 182 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id903">
+			<gml:description>Devoe; Devclad; 238 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">903</gml:identifier>
+			<gml:name>Devoe; Devclad; 238 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id904">
+			<gml:description>Devoe; Devtar; 5A-HS Coal Tar Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">904</gml:identifier>
+			<gml:name>Devoe; Devtar; 5A-HS Coal Tar Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id905">
+			<gml:description>Devoe; Devthane; 378H Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">905</gml:identifier>
+			<gml:name>Devoe; Devthane; 378H Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id906">
+			<gml:description>Devoe; Devthane; 379H Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">906</gml:identifier>
+			<gml:name>Devoe; Devthane; 379H Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id907">
+			<gml:description>Ellis; Decade Self-Priming Urethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">907</gml:identifier>
+			<gml:name>Ellis; Decade Self-Priming Urethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id908">
+			<gml:description>Ellis; Engard Heavy Duty</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">908</gml:identifier>
+			<gml:name>Ellis; Engard Heavy Duty</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id909">
+			<gml:description>Ellis; Hy-lux Waterborne</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">909</gml:identifier>
+			<gml:name>Ellis; Hy-lux Waterborne</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id910">
+			<gml:description>Ellis; Maximus Industrial</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">910</gml:identifier>
+			<gml:name>Ellis; Maximus Industrial</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id911">
+			<gml:description>Ellis; Shaft-lac Enamels</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">911</gml:identifier>
+			<gml:name>Ellis; Shaft-lac Enamels</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id912">
+			<gml:description>Induron; AC 403 Acrylic Elastomeric</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">912</gml:identifier>
+			<gml:name>Induron; AC 403 Acrylic Elastomeric</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id913">
+			<gml:description>Induron; Aquanaut Acrylic Primer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">913</gml:identifier>
+			<gml:name>Induron; Aquanaut Acrylic Primer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id914">
+			<gml:description>Induron; Aquanaut II Acrylic Primer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">914</gml:identifier>
+			<gml:name>Induron; Aquanaut II Acrylic Primer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id915">
+			<gml:description>Induron; Ceramasafe 90 Ceramic Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">915</gml:identifier>
+			<gml:name>Induron; Ceramasafe 90 Ceramic Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id916">
+			<gml:description>Induron; Indurethane 6600</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">916</gml:identifier>
+			<gml:name>Induron; Indurethane 6600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id917">
+			<gml:description>Induron; PE-70 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">917</gml:identifier>
+			<gml:name>Induron; PE-70 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id918">
+			<gml:description>Induron; Perma-Clean 100 Ceramic Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">918</gml:identifier>
+			<gml:name>Induron; Perma-Clean 100 Ceramic Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id919">
+			<gml:description>Induron; RC-70 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">919</gml:identifier>
+			<gml:name>Induron; RC-70 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id920">
+			<gml:description>Induron; Ruff Stuff 2100 Coal Tar Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">920</gml:identifier>
+			<gml:name>Induron; Ruff Stuff 2100 Coal Tar Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id921">
+			<gml:description>Induron; TL70 Ceramic Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">921</gml:identifier>
+			<gml:name>Induron; TL70 Ceramic Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id922">
+			<gml:description>Nap-Gard; 2500 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">922</gml:identifier>
+			<gml:name>Nap-Gard; 2500 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id923">
+			<gml:description>Nap-Gard; 2501 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">923</gml:identifier>
+			<gml:name>Nap-Gard; 2501 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id924">
+			<gml:description>Nap-Gard; 2502 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">924</gml:identifier>
+			<gml:name>Nap-Gard; 2502 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id925">
+			<gml:description>Nap-Gard; 7-2500</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">925</gml:identifier>
+			<gml:name>Nap-Gard; 7-2500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id926">
+			<gml:description>Nap-Gard; 7-2508</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">926</gml:identifier>
+			<gml:name>Nap-Gard; 7-2508</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id927">
+			<gml:description>Nap-Gard; Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">927</gml:identifier>
+			<gml:name>Nap-Gard; Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id928">
+			<gml:description>Nap-Gard; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">928</gml:identifier>
+			<gml:name>Nap-Gard; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id929">
+			<gml:description>Napko; 2501</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">929</gml:identifier>
+			<gml:name>Napko; 2501</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id930">
+			<gml:description>Napko; 5682</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">930</gml:identifier>
+			<gml:name>Napko; 5682</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id931">
+			<gml:description>Polyguard; NHT-5600 2-part Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">931</gml:identifier>
+			<gml:name>Polyguard; NHT-5600 2-part Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id932">
+			<gml:description>Polyguard; NHT-6100 2-part Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">932</gml:identifier>
+			<gml:name>Polyguard; NHT-6100 2-part Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id933">
+			<gml:description>Polyguard; NonShield Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">933</gml:identifier>
+			<gml:name>Polyguard; NonShield Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id934">
+			<gml:description>Polyguard; RD-6</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">934</gml:identifier>
+			<gml:name>Polyguard; RD-6</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id935">
+			<gml:description>Polyguard; RD-9</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">935</gml:identifier>
+			<gml:name>Polyguard; RD-9</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id936">
+			<gml:description>Polyguard; RG-2400</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">936</gml:identifier>
+			<gml:name>Polyguard; RG-2400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id937">
+			<gml:description>Polyguard; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">937</gml:identifier>
+			<gml:name>Polyguard; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id938">
+			<gml:description>Polyken; 900 (General Utility Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">938</gml:identifier>
+			<gml:name>Polyken; 900 (General Utility Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id939">
+			<gml:description>Polyken; 905 (Joint and Fitting Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">939</gml:identifier>
+			<gml:name>Polyken; 905 (Joint and Fitting Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id940">
+			<gml:description>Polyken; 908 (Utility Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">940</gml:identifier>
+			<gml:name>Polyken; 908 (Utility Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id941">
+			<gml:description>Polyken; 910 (All Purpose Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">941</gml:identifier>
+			<gml:name>Polyken; 910 (All Purpose Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id942">
+			<gml:description>Polyken; 911 (Utility Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">942</gml:identifier>
+			<gml:name>Polyken; 911 (Utility Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id943">
+			<gml:description>Polyken; 920 (General Utility Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">943</gml:identifier>
+			<gml:name>Polyken; 920 (General Utility Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id944">
+			<gml:description>Polyken; 930 (Joint Wrap/Girth Welds)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">944</gml:identifier>
+			<gml:name>Polyken; 930 (Joint Wrap/Girth Welds)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id945">
+			<gml:description>Polyken; 932 (Girth Weld Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">945</gml:identifier>
+			<gml:name>Polyken; 932 (Girth Weld Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id946">
+			<gml:description>Polyken; 934 (Pipe Fittings/Bends)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">946</gml:identifier>
+			<gml:name>Polyken; 934 (Pipe Fittings/Bends)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id947">
+			<gml:description>Polyken; 936 (High UV Resistant)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">947</gml:identifier>
+			<gml:name>Polyken; 936 (High UV Resistant)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id948">
+			<gml:description>Polyken; 937 (Mastic)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">948</gml:identifier>
+			<gml:name>Polyken; 937 (Mastic)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id949">
+			<gml:description>Polyken; 938 (Mastic)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">949</gml:identifier>
+			<gml:name>Polyken; 938 (Mastic)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id950">
+			<gml:description>Polyken; 939 (Filler Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">950</gml:identifier>
+			<gml:name>Polyken; 939 (Filler Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id951">
+			<gml:description>Polyken; 954 (Outer Wrap)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">951</gml:identifier>
+			<gml:name>Polyken; 954 (Outer Wrap)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id952">
+			<gml:description>Polyken; 955 (Outer Wrap)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">952</gml:identifier>
+			<gml:name>Polyken; 955 (Outer Wrap)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id953">
+			<gml:description>Polyken; 956 (YGIII)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">953</gml:identifier>
+			<gml:name>Polyken; 956 (YGIII)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id954">
+			<gml:description>Polyken; 980 (Inner Wrap)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">954</gml:identifier>
+			<gml:name>Polyken; 980 (Inner Wrap)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id955">
+			<gml:description>Polyken; 989 (YGIII)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">955</gml:identifier>
+			<gml:name>Polyken; 989 (YGIII)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id956">
+			<gml:description>Polyken; 1019 (Liquid Adhesive)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">956</gml:identifier>
+			<gml:name>Polyken; 1019 (Liquid Adhesive)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id957">
+			<gml:description>Polyken; 1027 (Liquid Adhesive)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">957</gml:identifier>
+			<gml:name>Polyken; 1027 (Liquid Adhesive)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id958">
+			<gml:description>Polyken; 1033A (Low VOC Liquid Adhesive)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">958</gml:identifier>
+			<gml:name>Polyken; 1033A (Low VOC Liquid Adhesive)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id959">
+			<gml:description>Polyken; 1039 (Zero VOC Liquid Adhesive)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">959</gml:identifier>
+			<gml:name>Polyken; 1039 (Zero VOC Liquid Adhesive)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id960">
+			<gml:description>Polyken; 1600 (High Temp/Shear)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">960</gml:identifier>
+			<gml:name>Polyken; 1600 (High Temp/Shear)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id961">
+			<gml:description>Polyken; 1619 (Liquid Adhesive)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">961</gml:identifier>
+			<gml:name>Polyken; 1619 (Liquid Adhesive)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id962">
+			<gml:description>Polyken; 2000 (High Temp/Shear)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">962</gml:identifier>
+			<gml:name>Polyken; 2000 (High Temp/Shear)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id963">
+			<gml:description>Polyken; 2019 (Liquid Adhesive)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">963</gml:identifier>
+			<gml:name>Polyken; 2019 (Liquid Adhesive)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id964">
+			<gml:description>Polyken; 2036 (High Shear)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">964</gml:identifier>
+			<gml:name>Polyken; 2036 (High Shear)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id965">
+			<gml:description>Polyken; 2055 (High Shear)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">965</gml:identifier>
+			<gml:name>Polyken; 2055 (High Shear)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id966">
+			<gml:description>Polyken; 4000 PCS (Primerless Tape)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">966</gml:identifier>
+			<gml:name>Polyken; 4000 PCS (Primerless Tape)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id967">
+			<gml:description>Polyken; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">967</gml:identifier>
+			<gml:name>Polyken; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id968">
+			<gml:description>Porter Tuff 2000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">968</gml:identifier>
+			<gml:name>Porter Tuff 2000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id969">
+			<gml:description>Powercrete; DD</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">969</gml:identifier>
+			<gml:name>Powercrete; DD</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id970">
+			<gml:description>Powercrete; J</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">970</gml:identifier>
+			<gml:name>Powercrete; J</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id971">
+			<gml:description>Powercrete; PW</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">971</gml:identifier>
+			<gml:name>Powercrete; PW</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id972">
+			<gml:description>Powercrete; R-120/YGE</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">972</gml:identifier>
+			<gml:name>Powercrete; R-120/YGE</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id973">
+			<gml:description>Powercrete; R-150</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">973</gml:identifier>
+			<gml:name>Powercrete; R-150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id974">
+			<gml:description>Powercrete; R-60</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">974</gml:identifier>
+			<gml:name>Powercrete; R-60</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id975">
+			<gml:description>Powercrete; R-65/F1</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">975</gml:identifier>
+			<gml:name>Powercrete; R-65/F1</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id976">
+			<gml:description>Powercrete; R-95</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">976</gml:identifier>
+			<gml:name>Powercrete; R-95</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id977">
+			<gml:description>Powercrete; Superflow</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">977</gml:identifier>
+			<gml:name>Powercrete; Superflow</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id978">
+			<gml:description>Powercrete; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">978</gml:identifier>
+			<gml:name>Powercrete; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id979">
+			<gml:description>Powercrete; W</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">979</gml:identifier>
+			<gml:name>Powercrete; W</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id980">
+			<gml:description>Reilly; 230-A Coal Tar Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">980</gml:identifier>
+			<gml:name>Reilly; 230-A Coal Tar Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id981">
+			<gml:description>Reilly; 238 Coal Tar Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">981</gml:identifier>
+			<gml:name>Reilly; 238 Coal Tar Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id982">
+			<gml:description>Royston; Black Tack</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">982</gml:identifier>
+			<gml:name>Royston; Black Tack</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id983">
+			<gml:description>Royston; Cold Applied Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">983</gml:identifier>
+			<gml:name>Royston; Cold Applied Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id984">
+			<gml:description>Royston; Greenline Wrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">984</gml:identifier>
+			<gml:name>Royston; Greenline Wrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id985">
+			<gml:description>Royston; One Step Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">985</gml:identifier>
+			<gml:name>Royston; One Step Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id986">
+			<gml:description>Royston; R28 Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">986</gml:identifier>
+			<gml:name>Royston; R28 Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id987">
+			<gml:description>Royston; Roskote A51</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">987</gml:identifier>
+			<gml:name>Royston; Roskote A51</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id988">
+			<gml:description>Royston; Roybond 747</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">988</gml:identifier>
+			<gml:name>Royston; Roybond 747</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id989">
+			<gml:description>Royston; Sealant Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">989</gml:identifier>
+			<gml:name>Royston; Sealant Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id990">
+			<gml:description>Royston; Thick N Quick Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">990</gml:identifier>
+			<gml:name>Royston; Thick N Quick Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id991">
+			<gml:description>Royston; TR Green</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">991</gml:identifier>
+			<gml:name>Royston; TR Green</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id992">
+			<gml:description>Royston; Wet Set B-822 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">992</gml:identifier>
+			<gml:name>Royston; Wet Set B-822 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id993">
+			<gml:description>Specialty Polymer Coatings; SP-1088 Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">993</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1088 Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id994">
+			<gml:description>Specialty Polymer Coatings; SP-1288 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">994</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1288 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id995">
+			<gml:description>Specialty Polymer Coatings; SP-1386 Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">995</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1386 Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id996">
+			<gml:description>Specialty Polymer Coatings; SP-1842 Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">996</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1842 Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id997">
+			<gml:description>Specialty Polymer Coatings; SP-1853 Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">997</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1853 Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id998">
+			<gml:description>Specialty Polymer Coatings; SP-1864 Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">998</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1864 Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id999">
+			<gml:description>Specialty Polymer Coatings; SP-1865 Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">999</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1865 Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1000">
+			<gml:description>Specialty Polymer Coatings; SP-1866 HTP Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1000</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1866 HTP Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1001">
+			<gml:description>Specialty Polymer Coatings; SP-1890 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1001</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1890 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1002">
+			<gml:description>Specialty Polymer Coatings; SP-1891 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1002</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-1891 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1003">
+			<gml:description>Specialty Polymer Coatings; SP-2832 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1003</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-2832 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1004">
+			<gml:description>Specialty Polymer Coatings; SP-2888 R.G. Epoxy/Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1004</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-2888 R.G. Epoxy/Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1005">
+			<gml:description>Specialty Polymer Coatings; SP-2889 EPL Epoxy/Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1005</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-2889 EPL Epoxy/Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1006">
+			<gml:description>Specialty Polymer Coatings; SP-3888 HT Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1006</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-3888 HT Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1007">
+			<gml:description>Specialty Polymer Coatings; SP-3889 HT Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1007</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-3889 HT Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1008">
+			<gml:description>Specialty Polymer Coatings; SP-4888 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1008</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-4888 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1009">
+			<gml:description>Specialty Polymer Coatings; SP-5891 Epoxy Vinyl/Acrylic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1009</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-5891 Epoxy Vinyl/Acrylic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1010">
+			<gml:description>Specialty Polymer Coatings; SP-6888 R.G. Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1010</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-6888 R.G. Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1011">
+			<gml:description>Specialty Polymer Coatings; SP-8833 TC Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1011</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-8833 TC Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1012">
+			<gml:description>Specialty Polymer Coatings; SP-8888 Zero VOC Novolac Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1012</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-8888 Zero VOC Novolac Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1013">
+			<gml:description>Specialty Polymer Coatings; SP-8889 Zero VOC Novolac Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1013</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-8889 Zero VOC Novolac Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1014">
+			<gml:description>Specialty Polymer Coatings; SP-8988 Ceramic Phenolic Novolac Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1014</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; SP-8988 Ceramic Phenolic Novolac Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1015">
+			<gml:description>Tapecoat; 20</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1015</gml:identifier>
+			<gml:name>Tapecoat; 20</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1016">
+			<gml:description>Tapecoat; 6025 Gray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1016</gml:identifier>
+			<gml:name>Tapecoat; 6025 Gray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1017">
+			<gml:description>Tapecoat; 7000 High Temperature Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1017</gml:identifier>
+			<gml:name>Tapecoat; 7000 High Temperature Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1018">
+			<gml:description>Tapecoat; 7025 EX Flow Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1018</gml:identifier>
+			<gml:name>Tapecoat; 7025 EX Flow Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1019">
+			<gml:description>Tapecoat; 7030 High Build/High Temperature Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1019</gml:identifier>
+			<gml:name>Tapecoat; 7030 High Build/High Temperature Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1020">
+			<gml:description>Tapecoat; 7100 Wet Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1020</gml:identifier>
+			<gml:name>Tapecoat; 7100 Wet Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1021">
+			<gml:description>Tapecoat; Aluminum Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1021</gml:identifier>
+			<gml:name>Tapecoat; Aluminum Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1022">
+			<gml:description>Tapecoat; CT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1022</gml:identifier>
+			<gml:name>Tapecoat; CT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1023">
+			<gml:description>Tapecoat; Enviroprime</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1023</gml:identifier>
+			<gml:name>Tapecoat; Enviroprime</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1024">
+			<gml:description>Tapecoat; Enviroseal Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1024</gml:identifier>
+			<gml:name>Tapecoat; Enviroseal Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1025">
+			<gml:description>Tapecoat; Enviroshield R Module</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1025</gml:identifier>
+			<gml:name>Tapecoat; Enviroshield R Module</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1026">
+			<gml:description>Tapecoat; Envirostrechwrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1026</gml:identifier>
+			<gml:name>Tapecoat; Envirostrechwrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1027">
+			<gml:description>Tapecoat; Envirotape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1027</gml:identifier>
+			<gml:name>Tapecoat; Envirotape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1028">
+			<gml:description>Tapecoat; FlangeCoat</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1028</gml:identifier>
+			<gml:name>Tapecoat; FlangeCoat</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1029">
+			<gml:description>Tapecoat; Flo-Coat</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1029</gml:identifier>
+			<gml:name>Tapecoat; Flo-Coat</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1030">
+			<gml:description>Tapecoat; Gray Pad</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1030</gml:identifier>
+			<gml:name>Tapecoat; Gray Pad</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1031">
+			<gml:description>Tapecoat; H35 Gray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1031</gml:identifier>
+			<gml:name>Tapecoat; H35 Gray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1032">
+			<gml:description>Tapecoat; H50 Gray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1032</gml:identifier>
+			<gml:name>Tapecoat; H50 Gray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1033">
+			<gml:description>Tapecoat; HT Sealant</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1033</gml:identifier>
+			<gml:name>Tapecoat; HT Sealant</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1034">
+			<gml:description>Tapecoat; HT/MB</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1034</gml:identifier>
+			<gml:name>Tapecoat; HT/MB</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1035">
+			<gml:description>Tapecoat; M50 RC Gray/Black</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1035</gml:identifier>
+			<gml:name>Tapecoat; M50 RC Gray/Black</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1036">
+			<gml:description>Tapecoat; Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1036</gml:identifier>
+			<gml:name>Tapecoat; Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1037">
+			<gml:description>Tapecoat; Mastic 2000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1037</gml:identifier>
+			<gml:name>Tapecoat; Mastic 2000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1038">
+			<gml:description>Tapecoat; Moldable Sealant</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1038</gml:identifier>
+			<gml:name>Tapecoat; Moldable Sealant</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1039">
+			<gml:description>Tapecoat; Reinforcing Scrim</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1039</gml:identifier>
+			<gml:name>Tapecoat; Reinforcing Scrim</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1040">
+			<gml:description>Tapecoat; Roskote 201</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1040</gml:identifier>
+			<gml:name>Tapecoat; Roskote 201</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1041">
+			<gml:description>Tapecoat; SL/75 Shrink Sleeve</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1041</gml:identifier>
+			<gml:name>Tapecoat; SL/75 Shrink Sleeve</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1042">
+			<gml:description>Tapecoat; T Tape GPE</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1042</gml:identifier>
+			<gml:name>Tapecoat; T Tape GPE</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1043">
+			<gml:description>Tapecoat; TC Omniprime</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1043</gml:identifier>
+			<gml:name>Tapecoat; TC Omniprime</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1044">
+			<gml:description>Tapecoat; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1044</gml:identifier>
+			<gml:name>Tapecoat; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1045">
+			<gml:description>Tapecoat; Wet Bond Flexible Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1045</gml:identifier>
+			<gml:name>Tapecoat; Wet Bond Flexible Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1046">
+			<gml:description>Wasser; MC-Ferrow B 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1046</gml:identifier>
+			<gml:name>Wasser; MC-Ferrow B 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1047">
+			<gml:description>Wasser; MC-Ferrox A 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1047</gml:identifier>
+			<gml:name>Wasser; MC-Ferrox A 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1048">
+			<gml:description>Wasser; MC-Luster 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1048</gml:identifier>
+			<gml:name>Wasser; MC-Luster 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1049">
+			<gml:description>Wasser; MC-Miomastic 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1049</gml:identifier>
+			<gml:name>Wasser; MC-Miomastic 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1050">
+			<gml:description>Wasser; MC-Miozinc 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1050</gml:identifier>
+			<gml:name>Wasser; MC-Miozinc 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1051">
+			<gml:description>Wasser; MC-Prepbond 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1051</gml:identifier>
+			<gml:name>Wasser; MC-Prepbond 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1052">
+			<gml:description>Wasser; MC-Shieldcoat 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1052</gml:identifier>
+			<gml:name>Wasser; MC-Shieldcoat 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1053">
+			<gml:description>Wasser; MC-Tar 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1053</gml:identifier>
+			<gml:name>Wasser; MC-Tar 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1054">
+			<gml:description>Wasser; MC-Universal Primer 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1054</gml:identifier>
+			<gml:name>Wasser; MC-Universal Primer 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1055">
+			<gml:description>Wasser; MC-Zinc 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1055</gml:identifier>
+			<gml:name>Wasser; MC-Zinc 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1056">
+			<gml:description>Royston; Butyl Moldable Sealant</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1056</gml:identifier>
+			<gml:name>Royston; Butyl Moldable Sealant</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1057">
+			<gml:description>Royston; Enviroseal C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1057</gml:identifier>
+			<gml:name>Royston; Enviroseal C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1058">
+			<gml:description>Royston; Greenline</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1058</gml:identifier>
+			<gml:name>Royston; Greenline</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1059">
+			<gml:description>Royston; Handy Cap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1059</gml:identifier>
+			<gml:name>Royston; Handy Cap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1060">
+			<gml:description>Royston; Handy Cap IP</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1060</gml:identifier>
+			<gml:name>Royston; Handy Cap IP</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1061">
+			<gml:description>Royston; Handy Cap XL IP</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1061</gml:identifier>
+			<gml:name>Royston; Handy Cap XL IP</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1062">
+			<gml:description>Royston; Mastic A51</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1062</gml:identifier>
+			<gml:name>Royston; Mastic A51</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1063">
+			<gml:description>Royston; Mastic R28</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1063</gml:identifier>
+			<gml:name>Royston; Mastic R28</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1064">
+			<gml:description>Royston; Mastic R28 Zero VOC</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1064</gml:identifier>
+			<gml:name>Royston; Mastic R28 Zero VOC</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1065">
+			<gml:description>Royston; Royfill C Casing Filler</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1065</gml:identifier>
+			<gml:name>Royston; Royfill C Casing Filler</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1066">
+			<gml:description>Royston; Royfill H Casing Filler</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1066</gml:identifier>
+			<gml:name>Royston; Royfill H Casing Filler</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1067">
+			<gml:description>Royston; Royston A51</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1067</gml:identifier>
+			<gml:name>Royston; Royston A51</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1068">
+			<gml:description>Trenton; Wax-Tape #1</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1068</gml:identifier>
+			<gml:name>Trenton; Wax-Tape #1</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1069">
+			<gml:description>Trenton; Wax-Tape #2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1069</gml:identifier>
+			<gml:name>Trenton; Wax-Tape #2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1070">
+			<gml:description>Trenton; HT-3000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1070</gml:identifier>
+			<gml:name>Trenton; HT-3000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1071">
+			<gml:description>Trenton; MCO</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1071</gml:identifier>
+			<gml:name>Trenton; MCO</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1072">
+			<gml:description>Trenton; PVC</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1072</gml:identifier>
+			<gml:name>Trenton; PVC</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1073">
+			<gml:description>Trenton; Guard-Wrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1073</gml:identifier>
+			<gml:name>Trenton; Guard-Wrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1074">
+			<gml:description>Trenton; Poly-Ply</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1074</gml:identifier>
+			<gml:name>Trenton; Poly-Ply</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1075">
+			<gml:description>Trenton; Glass-Wrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1075</gml:identifier>
+			<gml:name>Trenton; Glass-Wrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1076">
+			<gml:description>Trenton; Fill-Coat #1</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1076</gml:identifier>
+			<gml:name>Trenton; Fill-Coat #1</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1077">
+			<gml:description>Trenton; Fill-Coat #2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1077</gml:identifier>
+			<gml:name>Trenton; Fill-Coat #2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1078">
+			<gml:description>Trenton; Fill-Coat #6</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1078</gml:identifier>
+			<gml:name>Trenton; Fill-Coat #6</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1079">
+			<gml:description>Trenton; Pre-Con</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1079</gml:identifier>
+			<gml:name>Trenton; Pre-Con</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1080">
+			<gml:description>Trenton; Short-Stop</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1080</gml:identifier>
+			<gml:name>Trenton; Short-Stop</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1081">
+			<gml:description>Trenton; Seal-Wrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1081</gml:identifier>
+			<gml:name>Trenton; Seal-Wrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1082">
+			<gml:description>Amercoat; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1082</gml:identifier>
+			<gml:name>Amercoat; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1083">
+			<gml:description>Axalta; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1083</gml:identifier>
+			<gml:name>Axalta; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1084">
+			<gml:description>Barrett; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1084</gml:identifier>
+			<gml:name>Barrett; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1085">
+			<gml:description>Carboline; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1085</gml:identifier>
+			<gml:name>Carboline; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1086">
+			<gml:description>Denso; Protal; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1086</gml:identifier>
+			<gml:name>Denso; Protal; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1087">
+			<gml:description>Denso; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1087</gml:identifier>
+			<gml:name>Denso; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1088">
+			<gml:description>Devoe; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1088</gml:identifier>
+			<gml:name>Devoe; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1089">
+			<gml:description>Ellis; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1089</gml:identifier>
+			<gml:name>Ellis; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1090">
+			<gml:description>Induron; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1090</gml:identifier>
+			<gml:name>Induron; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1091">
+			<gml:description>Reilly; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1091</gml:identifier>
+			<gml:name>Reilly; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1092">
+			<gml:description>Royston; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1092</gml:identifier>
+			<gml:name>Royston; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1093">
+			<gml:description>Specialty Polymer Coatings; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1093</gml:identifier>
+			<gml:name>Specialty Polymer Coatings; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1094">
+			<gml:description>Trenton; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1094</gml:identifier>
+			<gml:name>Trenton; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1095">
+			<gml:description>Wasser; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1095</gml:identifier>
+			<gml:name>Wasser; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1096">
+			<gml:description>Allied Pipeline Technologies; Primer; 6858</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1096</gml:identifier>
+			<gml:name>Allied Pipeline Technologies; Primer; 6858</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1097">
+			<gml:description>Allied Pipeline Technologies; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1097</gml:identifier>
+			<gml:name>Allied Pipeline Technologies; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1098">
+			<gml:description>Bredero Shaw; Hevicote</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1098</gml:identifier>
+			<gml:name>Bredero Shaw; Hevicote</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1099">
+			<gml:description>Bredero Shaw; Pritec (Extruded Polyethylene)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1099</gml:identifier>
+			<gml:name>Bredero Shaw; Pritec (Extruded Polyethylene)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1100">
+			<gml:description>Bredero Shaw; Yellow Jacket</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1100</gml:identifier>
+			<gml:name>Bredero Shaw; Yellow Jacket</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1101">
+			<gml:description>Bredero Shaw; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1101</gml:identifier>
+			<gml:name>Bredero Shaw; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1102">
+			<gml:description>Canusa; CanusaCOAT Copolymers</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1102</gml:identifier>
+			<gml:name>Canusa; CanusaCOAT Copolymers</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1103">
+			<gml:description>Canusa; CanusaCOAT Fillers</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1103</gml:identifier>
+			<gml:name>Canusa; CanusaCOAT Fillers</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1104">
+			<gml:description>Canusa; CanusaCOAT Mastics</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1104</gml:identifier>
+			<gml:name>Canusa; CanusaCOAT Mastics</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1105">
+			<gml:description>Canusa; Factory Grade; GTS-PE</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1105</gml:identifier>
+			<gml:name>Canusa; Factory Grade; GTS-PE</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1106">
+			<gml:description>Canusa; Factory Grade; GTS-PP</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1106</gml:identifier>
+			<gml:name>Canusa; Factory Grade; GTS-PP</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1107">
+			<gml:description>Canusa; Factory Grade; IntelliCOAT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1107</gml:identifier>
+			<gml:name>Canusa; Factory Grade; IntelliCOAT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1108">
+			<gml:description>Canusa; HBE; Atomizer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1108</gml:identifier>
+			<gml:name>Canusa; HBE; Atomizer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1109">
+			<gml:description>Canusa; HBE-95</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1109</gml:identifier>
+			<gml:name>Canusa; HBE-95</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1110">
+			<gml:description>Canusa; HBE-Armor</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1110</gml:identifier>
+			<gml:name>Canusa; HBE-Armor</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1111">
+			<gml:description>Canusa; HBE-CW</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1111</gml:identifier>
+			<gml:name>Canusa; HBE-CW</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1112">
+			<gml:description>Canusa; HBE-DX</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1112</gml:identifier>
+			<gml:name>Canusa; HBE-DX</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1113">
+			<gml:description>Canusa; HBE-HT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1113</gml:identifier>
+			<gml:name>Canusa; HBE-HT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1114">
+			<gml:description>Canusa; HBE-OS</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1114</gml:identifier>
+			<gml:name>Canusa; HBE-OS</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1115">
+			<gml:description>Canusa; Heat Shrink Wrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1115</gml:identifier>
+			<gml:name>Canusa; Heat Shrink Wrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1116">
+			<gml:description>Canusa; INR-110</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1116</gml:identifier>
+			<gml:name>Canusa; INR-110</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1117">
+			<gml:description>Canusa; IntelliFUSE</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1117</gml:identifier>
+			<gml:name>Canusa; IntelliFUSE</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1118">
+			<gml:description>Canusa; Scar-Guard</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1118</gml:identifier>
+			<gml:name>Canusa; Scar-Guard</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1119">
+			<gml:description>Canusa; SuperCase</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1119</gml:identifier>
+			<gml:name>Canusa; SuperCase</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1120">
+			<gml:description>Canusa; SuperSeal</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1120</gml:identifier>
+			<gml:name>Canusa; SuperSeal</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1121">
+			<gml:description>Canusa; SuperStop/PLX</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1121</gml:identifier>
+			<gml:name>Canusa; SuperStop/PLX</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1122">
+			<gml:description>Canusa; WrapidBond </gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1122</gml:identifier>
+			<gml:name>Canusa; WrapidBond </gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1123">
+			<gml:description>Canusa; WrapidBond FST</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1123</gml:identifier>
+			<gml:name>Canusa; WrapidBond FST</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1124">
+			<gml:description>Canusa; WrapidBond GTS-PP-VE</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1124</gml:identifier>
+			<gml:name>Canusa; WrapidBond GTS-PP-VE</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1125">
+			<gml:description>Canusa; WrapidBond UV</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1125</gml:identifier>
+			<gml:name>Canusa; WrapidBond UV</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1126">
+			<gml:description>Canusa; WrapidShield PE</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1126</gml:identifier>
+			<gml:name>Canusa; WrapidShield PE</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1127">
+			<gml:description>Canusa; WrapidShrink; AuqaShield</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1127</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; AuqaShield</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1128">
+			<gml:description>Canusa; WrapidShrink; DDX</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1128</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; DDX</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1129">
+			<gml:description>Canusa; WrapidShrink; GTS-50</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1129</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; GTS-50</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1130">
+			<gml:description>Canusa; WrapidShrink; GTS-65</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1130</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; GTS-65</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1131">
+			<gml:description>Canusa; WrapidShrink; GTS-80</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1131</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; GTS-80</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1132">
+			<gml:description>Canusa; WrapidShrink; GTS-PP-100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1132</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; GTS-PP-100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1133">
+			<gml:description>Canusa; WrapidShrink; GTS-PP-65</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1133</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; GTS-PP-65</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1134">
+			<gml:description>Canusa; WrapidShrink; KLNN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1134</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; KLNN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1135">
+			<gml:description>Canusa; WrapidShrink; KLON</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1135</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; KLON</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1136">
+			<gml:description>Canusa; WrapidShrink; K-Series; K-40</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1136</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; K-Series; K-40</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1137">
+			<gml:description>Canusa; WrapidShrink; K-Series; K-60</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1137</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; K-Series; K-60</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1138">
+			<gml:description>Canusa; WrapidShrink; MIS-100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1138</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; MIS-100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1139">
+			<gml:description>Canusa; WrapidShrink; MIS-65</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1139</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; MIS-65</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1140">
+			<gml:description>Canusa; WrapidShrink; PLA</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1140</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; PLA</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1141">
+			<gml:description>Canusa; WrapidShrink; PMA</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1141</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; PMA</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1142">
+			<gml:description>Canusa; WrapidShrink; Superseal</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1142</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; Superseal</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1143">
+			<gml:description>Canusa; WrapidShrink; TBK</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1143</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; TBK</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1144">
+			<gml:description>Canusa; WrapidShrink; TBK-60</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1144</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; TBK-60</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1145">
+			<gml:description>Canusa; WrapidShrink; Wrapidseal</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1145</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; Wrapidseal</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1146">
+			<gml:description>Canusa; WrapidShrink; XCS</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1146</gml:identifier>
+			<gml:name>Canusa; WrapidShrink; XCS</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1147">
+			<gml:description>Canusa; WrapidTape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1147</gml:identifier>
+			<gml:name>Canusa; WrapidTape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1148">
+			<gml:description>Canusa; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1148</gml:identifier>
+			<gml:name>Canusa; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1149">
+			<gml:description>Chase; Servishield</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1149</gml:identifier>
+			<gml:name>Chase; Servishield</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1150">
+			<gml:description>Chase; Serviwrap Tape; M30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1150</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; M30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1151">
+			<gml:description>Chase; Serviwrap Tape; Moulding Putty</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1151</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; Moulding Putty</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1152">
+			<gml:description>Chase; Serviwrap Tape; Outerwrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1152</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; Outerwrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1153">
+			<gml:description>Chase; Serviwrap Tape; Primer AB</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1153</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; Primer AB</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1154">
+			<gml:description>Chase; Serviwrap Tape; R15</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1154</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; R15</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1155">
+			<gml:description>Chase; Serviwrap Tape; R30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1155</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; R30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1156">
+			<gml:description>Chase; Serviwrap Tape; T15</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1156</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; T15</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1157">
+			<gml:description>Chase; Serviwrap Tape; T20B(C)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1157</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; T20B(C)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1158">
+			<gml:description>Chase; Serviwrap Tape; T30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1158</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; T30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1159">
+			<gml:description>Chase; Serviwrap Tape; T30B(C)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1159</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; T30B(C)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1160">
+			<gml:description>Chase; Serviwrap Tape; TB30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1160</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; TB30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1161">
+			<gml:description>Chase; Serviwrap Tape; TB30B(C)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1161</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; TB30B(C)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1162">
+			<gml:description>Chase; Serviwrap Tape; TP30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1162</gml:identifier>
+			<gml:name>Chase; Serviwrap Tape; TP30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1163">
+			<gml:description>Cooks; 720-L-16 (Fusion Bond Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1163</gml:identifier>
+			<gml:name>Cooks; 720-L-16 (Fusion Bond Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1164">
+			<gml:description>Dampney; Endcor; 400</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1164</gml:identifier>
+			<gml:name>Dampney; Endcor; 400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1165">
+			<gml:description>Dampney; Endcor; 450</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1165</gml:identifier>
+			<gml:name>Dampney; Endcor; 450</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1166">
+			<gml:description>Dampney; Endcor; 460</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1166</gml:identifier>
+			<gml:name>Dampney; Endcor; 460</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1167">
+			<gml:description>Dampney; Endcor; 4600C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1167</gml:identifier>
+			<gml:name>Dampney; Endcor; 4600C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1168">
+			<gml:description>Dampney; Endcor; 560C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1168</gml:identifier>
+			<gml:name>Dampney; Endcor; 560C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1169">
+			<gml:description>Dampney; Endcor; 700C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1169</gml:identifier>
+			<gml:name>Dampney; Endcor; 700C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1170">
+			<gml:description>Dampney; Endcor; 745</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1170</gml:identifier>
+			<gml:name>Dampney; Endcor; 745</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1171">
+			<gml:description>Dampney; Endcor; 750</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1171</gml:identifier>
+			<gml:name>Dampney; Endcor; 750</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1172">
+			<gml:description>Dampney; Endcor; 750C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1172</gml:identifier>
+			<gml:name>Dampney; Endcor; 750C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1173">
+			<gml:description>Dampney; Endcor; 772</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1173</gml:identifier>
+			<gml:name>Dampney; Endcor; 772</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1174">
+			<gml:description>Dampney; Endcor; 835</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1174</gml:identifier>
+			<gml:name>Dampney; Endcor; 835</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1175">
+			<gml:description>Dampney; Endcor; 860</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1175</gml:identifier>
+			<gml:name>Dampney; Endcor; 860</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1176">
+			<gml:description>Dampney; Endcor; 8898</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1176</gml:identifier>
+			<gml:name>Dampney; Endcor; 8898</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1177">
+			<gml:description>Denso; ColorTape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1177</gml:identifier>
+			<gml:name>Denso; ColorTape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1178">
+			<gml:description>Denso; Densyl Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1178</gml:identifier>
+			<gml:name>Denso; Densyl Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1179">
+			<gml:description>Denso; Hotline Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1179</gml:identifier>
+			<gml:name>Denso; Hotline Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1180">
+			<gml:description>Denso; Ht-Tack Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1180</gml:identifier>
+			<gml:name>Denso; Ht-Tack Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1181">
+			<gml:description>Denso; KF Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1181</gml:identifier>
+			<gml:name>Denso; KF Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1182">
+			<gml:description>Denso; LT Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1182</gml:identifier>
+			<gml:name>Denso; LT Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1183">
+			<gml:description>End-Cor; Coal Tar Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1183</gml:identifier>
+			<gml:name>End-Cor; Coal Tar Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1184">
+			<gml:description>Gulf States; 434</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1184</gml:identifier>
+			<gml:name>Gulf States; 434</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1185">
+			<gml:description>Gulf States; Coal Tar Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1185</gml:identifier>
+			<gml:name>Gulf States; Coal Tar Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1186">
+			<gml:description>Gulf States; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1186</gml:identifier>
+			<gml:name>Gulf States; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1187">
+			<gml:description>Integrated Protective Coatings; Intertuff; 132 HS</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1187</gml:identifier>
+			<gml:name>Integrated Protective Coatings; Intertuff; 132 HS</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1188">
+			<gml:description>Integrated Protective Coatings; Intertuff; 702 Coal Tar Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1188</gml:identifier>
+			<gml:name>Integrated Protective Coatings; Intertuff; 702 Coal Tar Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1189">
+			<gml:description>International; Ceilcote; 251 Flakeline (Polyester Resin Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1189</gml:identifier>
+			<gml:name>International; Ceilcote; 251 Flakeline (Polyester Resin Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1190">
+			<gml:description>International; Ceilcote; 252 Flakeline (Polyester Resin Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1190</gml:identifier>
+			<gml:name>International; Ceilcote; 252 Flakeline (Polyester Resin Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1191">
+			<gml:description>International; Ceilcote; Flakeline (Polyester Resin Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1191</gml:identifier>
+			<gml:name>International; Ceilcote; Flakeline (Polyester Resin Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1192">
+			<gml:description>International; Interzone; 1000 (Glass Flake Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1192</gml:identifier>
+			<gml:name>International; Interzone; 1000 (Glass Flake Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1193">
+			<gml:description>International; Interzone; 954</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1193</gml:identifier>
+			<gml:name>International; Interzone; 954</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1194">
+			<gml:description>International; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1194</gml:identifier>
+			<gml:name>International; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1195">
+			<gml:description>Koppers; Coal Tar Enamel; #2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1195</gml:identifier>
+			<gml:name>Koppers; Coal Tar Enamel; #2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1196">
+			<gml:description>Koppers; Coal Tar Enamel; 70-B</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1196</gml:identifier>
+			<gml:name>Koppers; Coal Tar Enamel; 70-B</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1197">
+			<gml:description>Koppers; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1197</gml:identifier>
+			<gml:name>Koppers; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1198">
+			<gml:description>Lilly; 2040</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1198</gml:identifier>
+			<gml:name>Lilly; 2040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1199">
+			<gml:description>Lilly; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1199</gml:identifier>
+			<gml:name>Lilly; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1200">
+			<gml:description>Mobile Chemical; Mobilox Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1200</gml:identifier>
+			<gml:name>Mobile Chemical; Mobilox Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1201">
+			<gml:description>Nap-Gard; 7-2675</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1201</gml:identifier>
+			<gml:name>Nap-Gard; 7-2675</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1202">
+			<gml:description>Pittsburg; Bituminous</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1202</gml:identifier>
+			<gml:name>Pittsburg; Bituminous</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1203">
+			<gml:description>Pittsburg; Coal Tar</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1203</gml:identifier>
+			<gml:name>Pittsburg; Coal Tar</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1204">
+			<gml:description>Pittsburg; Coal Tar Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1204</gml:identifier>
+			<gml:name>Pittsburg; Coal Tar Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1205">
+			<gml:description>Pittsburg; Coal Tar Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1205</gml:identifier>
+			<gml:name>Pittsburg; Coal Tar Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1206">
+			<gml:description>Pittsburg; Lacquer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1206</gml:identifier>
+			<gml:name>Pittsburg; Lacquer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1207">
+			<gml:description>Pittsburg; Mod</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1207</gml:identifier>
+			<gml:name>Pittsburg; Mod</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1208">
+			<gml:description>Pittsburg; Plast</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1208</gml:identifier>
+			<gml:name>Pittsburg; Plast</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1209">
+			<gml:description>Pittsburg; Red Primer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1209</gml:identifier>
+			<gml:name>Pittsburg; Red Primer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1210">
+			<gml:description>Pittsburg; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1210</gml:identifier>
+			<gml:name>Pittsburg; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1211">
+			<gml:description>Plexguard; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1211</gml:identifier>
+			<gml:name>Plexguard; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1212">
+			<gml:description>Plicoflex; Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1212</gml:identifier>
+			<gml:name>Plicoflex; Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1213">
+			<gml:description>Plicoflex; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1213</gml:identifier>
+			<gml:name>Plicoflex; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1214">
+			<gml:description>Raychem; Shrink Wrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1214</gml:identifier>
+			<gml:name>Raychem; Shrink Wrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1215">
+			<gml:description>Raychem; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1215</gml:identifier>
+			<gml:name>Raychem; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1216">
+			<gml:description>Valspar; Pipeclad; 1500</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1216</gml:identifier>
+			<gml:name>Valspar; Pipeclad; 1500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1217">
+			<gml:description>Valspar; Pipeclad; 1600</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1217</gml:identifier>
+			<gml:name>Valspar; Pipeclad; 1600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1218">
+			<gml:description>Valspar; Pipeclad; 2000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1218</gml:identifier>
+			<gml:name>Valspar; Pipeclad; 2000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1219">
+			<gml:description>Valspar; Pipeclad; 2040 ARO</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1219</gml:identifier>
+			<gml:name>Valspar; Pipeclad; 2040 ARO</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1220">
+			<gml:description>Valspar; Pipeclad; 2040 Flex</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1220</gml:identifier>
+			<gml:name>Valspar; Pipeclad; 2040 Flex</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1221">
+			<gml:description>Valspar; Pipeclad; Flowliner</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1221</gml:identifier>
+			<gml:name>Valspar; Pipeclad; Flowliner</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1222">
+			<gml:description>Valspar; Pipeclad; HOT 120</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1222</gml:identifier>
+			<gml:name>Valspar; Pipeclad; HOT 120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1223">
+			<gml:description>Valspar; Pipeclad; HOT 150</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1223</gml:identifier>
+			<gml:name>Valspar; Pipeclad; HOT 150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1224">
+			<gml:description>Valspar; Pipeclad; ID Coating</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1224</gml:identifier>
+			<gml:name>Valspar; Pipeclad; ID Coating</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1225">
+			<gml:description>Valspar; Pipeclad; LAT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1225</gml:identifier>
+			<gml:name>Valspar; Pipeclad; LAT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1226">
+			<gml:description>Valspar; Pipeclad; Rough Coat</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1226</gml:identifier>
+			<gml:name>Valspar; Pipeclad; Rough Coat</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1227">
+			<gml:description>Valspar; Pipeclad; UV Coat</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1227</gml:identifier>
+			<gml:name>Valspar; Pipeclad; UV Coat</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1228">
+			<gml:description>Valspar; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1228</gml:identifier>
+			<gml:name>Valspar; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1229">
+			<gml:description>Whitcolite; Asphalt Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1229</gml:identifier>
+			<gml:name>Whitcolite; Asphalt Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1230">
+			<gml:description>Whitcolite; Asphalt Enamel; A-303e</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1230</gml:identifier>
+			<gml:name>Whitcolite; Asphalt Enamel; A-303e</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1231">
+			<gml:description>Whitcolite; Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingboundmanufacturer">1231</gml:identifier>
+			<gml:name>Whitcolite; Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

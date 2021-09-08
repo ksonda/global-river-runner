@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Example of a 1D timeseries represented as a partitioned coverage
+     as defined in the OGC Coverage Implementation Schema 1.1.
+     Last updated 2020-10-27.
+-->
+
+<GeneralGridCoverage
+    xmlns='http://www.opengis.net/cis/1.1/gml'
+    xmlns:gml='http://www.opengis.net/gml/3.2'
+    xmlns:cis="http://www.opengis.net/cis/1.1/gml"
+    xmlns:swe='http://www.opengis.net/swe/2.0'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:schemaLocation="http://www.opengis.net/cis/1.1/gml http://schemas.opengis.net/cis/1.1/gml/cisAll.xsd http://www.opengis.net/wcs/metoceanProfile/1.0 http://schemas.opengis.net/wcs/metoceanProfile/1.0/wcsMetOceanProfileALL.xsd"
+    gml:id="CIS_001">
+
+    <Envelope srsName="http://www.opengis.net/def/crs/OGC/0/AnsiDate" axisLabels="date" srsDimension="1">
+        <AxisExtent axisLabel="date" uomLabel="d" lowerBound="2015-09-20" upperBound="2015-09-23"/>
+    </Envelope>
+
+    <PartitionSet>
+        <Partition>
+            <Envelope srsName="http://www.opengis.net/def/crs/OGC/0/AnsiDate" axisLabels="time" srsDimension="1">
+                <AxisExtent axisLabel="date" uomLabel="d" lowerBound="2017-05-15T00:00:00Z" upperBound="2017-05-15T00:00:00Z"/>
+            </Envelope>
+            <GeneralGridCoverage gml:id="CIS_002">
+                <DomainSet>
+                    <GeneralGrid srsName="http://www.opengis.net/def/crs/EPSG/0/4979" axisLabels="Lat Long Time">
+
+                        <cis:DisplacementAxisNest axisLabels="Lat Lon Time altitude" uomLabels="deg deg Time ft">
+                            <cis:P><cis:C>45.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+                            <cis:P><cis:C>46.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+
+                            <cis:P><cis:C>45.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+                            <cis:P><cis:C>46.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+
+                            <cis:P><cis:C>45.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+                            <cis:P><cis:C>46.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+
+                            <cis:P><cis:C>45.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+                            <cis:P><cis:C>46.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+
+                            <cis:P><cis:C>45.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                            <cis:P><cis:C>46.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>5.0</cis:C><cis:C>2017-05-15T00:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                        </cis:DisplacementAxisNest>
+
+                        <cis:GridLimits srsName="http://www.metoffice,gov.uk/def/crs/OGC/0/Index2D" axisLabels="i j" >
+                            <cis:IndexAxis axisLabel="i" lowerBound="0" upperBound="4"/>
+                            <cis:IndexAxis axisLabel="j" lowerBound="0" upperBound="4"/>
+                        </cis:GridLimits>
+                    </GeneralGrid>
+                </DomainSet>
+                <RangeSet>
+                    <DataBlock>
+                        <V>235</V> <V>235</V> <V>235</V> <V>235</V> <V>235</V>
+                        <V>229</V> <V>229</V> <V>229</V> <V>229</V> <V>229</V>
+                        <V>229</V> <V>229</V> <V>229</V> <V>229</V> <V>229</V>
+                        <V>219</V> <V>219</V> <V>219</V> <V>219</V> <V>219</V>
+                        <V>217</V> <V>217</V> <V>217</V> <V>217</V> <V>217</V>
+                    </DataBlock>
+                </RangeSet>
+                <RangeType>
+                    <swe:DataRecord>
+                        <swe:field name="Temperature">
+                        </swe:field>
+                    </swe:DataRecord>
+                </RangeType>
+            </GeneralGridCoverage>
+        </Partition>
+        <Partition>
+            <Envelope srsName="http://www.opengis.net/def/crs/OGC/0/AnsiDate" axisLabels="time" srsDimension="1">
+                <AxisExtent axisLabel="date" uomLabel="d" lowerBound="2017-05-15T00:00:00Z" upperBound="2017-05-15T00:00:00Z"/>
+            </Envelope>
+            <GeneralGridCoverage gml:id="CIS_003">
+                <DomainSet>
+                    <GeneralGrid srsName="http://www.opengis.net/def/crs/EPSG/0/4979" axisLabels="Lat Long Time">
+
+                        <cis:DisplacementAxisNest axisLabels="Lat Lon Time altitude" uomLabels="deg deg Time ft">
+                            <cis:P><cis:C>46.0</cis:C><cis:C>-1.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>-0.8</cis:C><cis:C>22017-05-15T15:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>-0.6</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>-0.3</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+                            <cis:P><cis:C>50.0</cis:C><cis:C>0.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>27500</cis:C></cis:P>
+
+                            <cis:P><cis:C>46.0</cis:C><cis:C>-1.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>-0.8</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>-0.6</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>-0.3</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+                            <cis:P><cis:C>50.0</cis:C><cis:C>0.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>30000</cis:C></cis:P>
+
+                            <cis:P><cis:C>46.0</cis:C><cis:C>-1.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>-0.8</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>-0.6</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>-0.3</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+                            <cis:P><cis:C>50.0</cis:C><cis:C>0.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>32500</cis:C></cis:P>
+
+                            <cis:P><cis:C>46</cis:C><cis:C>-1.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>-0.8</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>-0.6</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>-0.3</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+                            <cis:P><cis:C>50.0</cis:C><cis:C>0.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>35000</cis:C></cis:P>
+
+                            <cis:P><cis:C>46.0</cis:C><cis:C>-1.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                            <cis:P><cis:C>47.0</cis:C><cis:C>-0.8</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                            <cis:P><cis:C>48.0</cis:C><cis:C>-0.6</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                            <cis:P><cis:C>49.0</cis:C><cis:C>-0.3</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                            <cis:P><cis:C>50.0</cis:C><cis:C>0.0</cis:C><cis:C>2017-05-15T15:00:00Z</cis:C><cis:C>37500</cis:C></cis:P>
+                        </cis:DisplacementAxisNest>
+
+                        <cis:GridLimits srsName="http://www.metoffice,gov.uk/def/crs/OGC/0/Index2D" axisLabels="i j" >
+                            <cis:IndexAxis axisLabel="i" lowerBound="0" upperBound="4"/>
+                            <cis:IndexAxis axisLabel="j" lowerBound="0" upperBound="4"/>
+                        </cis:GridLimits>
+                    </GeneralGrid>
+                </DomainSet>
+                <RangeSet>
+                    <DataBlock>
+                        <V>235</V> <V>235</V> <V>235</V> <V>235</V> <V>235</V>
+                        <V>229</V> <V>229</V> <V>229</V> <V>229</V> <V>229</V>
+                        <V>229</V> <V>229</V> <V>229</V> <V>229</V> <V>229</V>
+                        <V>219</V> <V>219</V> <V>219</V> <V>219</V> <V>219</V>
+                        <V>217</V> <V>217</V> <V>217</V> <V>217</V> <V>217</V>
+                    </DataBlock>
+                </RangeSet>
+                <RangeType>
+                    <swe:DataRecord>
+                        <swe:field name="Temperature">
+                        </swe:field>
+                    </swe:DataRecord>
+                </RangeType>
+            </GeneralGridCoverage>
+        </Partition>
+        <Partition>
+            <Envelope srsName="http://www.opengis.net/def/crs/OGC/0/AnsiDate" axisLabels="date" srsDimension="1">
+                <AxisExtent axisLabel="date" uomLabel="d" lowerBound="2015-09-22" upperBound="2015-09-22"/>
+            </Envelope>
+            <GeneralGridCoverage gml:id="CIS_004">
+                <DomainSet>
+                    <GeneralGrid srsName="http://www.opengis.net/def/crs/OGC/0/Index1D" axisLabels="i">
+                        <IndexAxis axisLabel="i" lowerBound="0" upperBound="0"/>
+                    </GeneralGrid>
+                </DomainSet>
+                <RangeSet>
+                    <DataBlock>
+                        <V>2</V>
+                    </DataBlock>
+                </RangeSet>
+                <RangeType>
+                    <swe:DataRecord>
+                        <swe:field name="Temperature">
+                            <swe:Quantity definition="http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0/Temperature">
+                                <swe:description>air_temperature</swe:description>
+                                <swe:nilValues/>
+                                <swe:uom code="K"/>
+                                <swe:constraint>
+                                    <swe:AllowedValues>
+                                        <swe:interval>-273 100</swe:interval>
+                                        <swe:significantFigures>4</swe:significantFigures>
+                                    </swe:AllowedValues>
+                                </swe:constraint>
+                            </swe:Quantity>
+                        </swe:field>
+                    </swe:DataRecord>
+                </RangeType>
+            </GeneralGridCoverage>
+        </Partition>
+        <Partition>
+            <Envelope srsName="http://www.opengis.net/def/crs/OGC/0/AnsiDate" axisLabels="date" srsDimension="1">
+                <AxisExtent axisLabel="date" uomLabel="d" lowerBound="2015-09-23" upperBound="2015-09-23"/>
+            </Envelope>
+            <GeneralGridCoverage gml:id="CIS_005">
+                <DomainSet>
+                    <GeneralGrid srsName="http://www.opengis.net/def/crs/OGC/0/Index1D" axisLabels="i">
+                        <IndexAxis axisLabel="i" lowerBound="0" upperBound="0"/>
+                    </GeneralGrid>
+                </DomainSet>
+                <RangeSet>
+                    <DataBlock>
+                        <V>3</V>
+                    </DataBlock>
+                </RangeSet>
+                <RangeType>
+                    <swe:DataRecord>
+                        <swe:field name="Temperature">
+                            <swe:Quantity definition="http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0/Temperature">
+                                <swe:description>air_temperature</swe:description>
+                                <swe:nilValues/>
+                                <swe:uom code="K"/>
+                                <swe:constraint>
+                                    <swe:AllowedValues>
+                                        <swe:interval>-273 100</swe:interval>
+                                        <swe:significantFigures>4</swe:significantFigures>
+                                    </swe:AllowedValues>
+                                </swe:constraint>
+                            </swe:Quantity>
+                        </swe:field>
+                    </swe:DataRecord>
+                </RangeType>
+            </GeneralGridCoverage>
+        </Partition>
+    </PartitionSet>
+
+    <RangeType>
+        <swe:DataRecord>
+            <swe:field name="singleBand">
+                <swe:Quantity definition="http://www.opengis.net/def/dataType/OGC/0/unsignedInt">
+                    <swe:uom code="10^0"/>
+                </swe:Quantity>
+            </swe:field>
+        </swe:DataRecord>
+    </RangeType>
+
+</GeneralGridCoverage>
+

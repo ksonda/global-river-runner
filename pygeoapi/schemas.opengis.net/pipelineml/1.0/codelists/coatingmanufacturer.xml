@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Coating Manufacturer
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry
+ vetted and accepted standards. This list defines the acceptable
+ values pertaining to the manufacturers of coating componentary.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Jul 19 2017 12:45PM
+	Last Modification Date: Jun 13 2018  1:58PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="coatingManufacturer">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">coatingManufacturer</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1232">
+			<gml:description>3M</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1232</gml:identifier>
+			<gml:name>3M</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1233">
+			<gml:description>Allied Pipeline Technologies</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1233</gml:identifier>
+			<gml:name>Allied Pipeline Technologies</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1234">
+			<gml:description>Amercoat</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1234</gml:identifier>
+			<gml:name>Amercoat</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1235">
+			<gml:description>Axalta</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1235</gml:identifier>
+			<gml:name>Axalta</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1236">
+			<gml:description>Barrett</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1236</gml:identifier>
+			<gml:name>Barrett</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1237">
+			<gml:description>Bredero Shaw</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1237</gml:identifier>
+			<gml:name>Bredero Shaw</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1238">
+			<gml:description>Canusa</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1238</gml:identifier>
+			<gml:name>Canusa</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1239">
+			<gml:description>Carboline</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1239</gml:identifier>
+			<gml:name>Carboline</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1240">
+			<gml:description>Chase</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1240</gml:identifier>
+			<gml:name>Chase</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1241">
+			<gml:description>Cooks</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1241</gml:identifier>
+			<gml:name>Cooks</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1242">
+			<gml:description>Dampney</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1242</gml:identifier>
+			<gml:name>Dampney</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1243">
+			<gml:description>Denso</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1243</gml:identifier>
+			<gml:name>Denso</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1244">
+			<gml:description>Devoe</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1244</gml:identifier>
+			<gml:name>Devoe</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1245">
+			<gml:description>Ellis</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1245</gml:identifier>
+			<gml:name>Ellis</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1246">
+			<gml:description>End-Cor</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1246</gml:identifier>
+			<gml:name>End-Cor</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1247">
+			<gml:description>Gulf States</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1247</gml:identifier>
+			<gml:name>Gulf States</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1248">
+			<gml:description>Induron</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1248</gml:identifier>
+			<gml:name>Induron</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1249">
+			<gml:description>Integrated Protective Coatings</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1249</gml:identifier>
+			<gml:name>Integrated Protective Coatings</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1250">
+			<gml:description>International</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1250</gml:identifier>
+			<gml:name>International</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1251">
+			<gml:description>Koppers</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1251</gml:identifier>
+			<gml:name>Koppers</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1252">
+			<gml:description>Lilly</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1252</gml:identifier>
+			<gml:name>Lilly</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1253">
+			<gml:description>Mobile Chemical</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1253</gml:identifier>
+			<gml:name>Mobile Chemical</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1254">
+			<gml:description>Nap-Gard</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1254</gml:identifier>
+			<gml:name>Nap-Gard</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1255">
+			<gml:description>Napko</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1255</gml:identifier>
+			<gml:name>Napko</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1256">
+			<gml:description>Pittsburg</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1256</gml:identifier>
+			<gml:name>Pittsburg</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1257">
+			<gml:description>Plexguard</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1257</gml:identifier>
+			<gml:name>Plexguard</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1258">
+			<gml:description>Plicoflex</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1258</gml:identifier>
+			<gml:name>Plicoflex</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1259">
+			<gml:description>Polyguard</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1259</gml:identifier>
+			<gml:name>Polyguard</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1260">
+			<gml:description>Polyken</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1260</gml:identifier>
+			<gml:name>Polyken</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1261">
+			<gml:description>Porter Tuff 2000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1261</gml:identifier>
+			<gml:name>Porter Tuff 2000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1262">
+			<gml:description>Powercrete</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1262</gml:identifier>
+			<gml:name>Powercrete</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1263">
+			<gml:description>Raychem</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1263</gml:identifier>
+			<gml:name>Raychem</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1264">
+			<gml:description>Reilly</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1264</gml:identifier>
+			<gml:name>Reilly</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1265">
+			<gml:description>Royston</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1265</gml:identifier>
+			<gml:name>Royston</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1266">
+			<gml:description>Specialty Polymer Coatings</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1266</gml:identifier>
+			<gml:name>Specialty Polymer Coatings</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1267">
+			<gml:description>Tapecoat</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1267</gml:identifier>
+			<gml:name>Tapecoat</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1268">
+			<gml:description>Trenton</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1268</gml:identifier>
+			<gml:name>Trenton</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1269">
+			<gml:description>Valspar</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1269</gml:identifier>
+			<gml:name>Valspar</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1270">
+			<gml:description>Wasser</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1270</gml:identifier>
+			<gml:name>Wasser</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1271">
+			<gml:description>Whitcolite</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmanufacturer">1271</gml:identifier>
+			<gml:name>Whitcolite</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

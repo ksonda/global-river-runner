@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Example of a 3-D general grid coverage with distorted spatial axes and an irregular height axis
+     as defined in the OGC Coverage Implementation Schema 1.1.
+     Last updated 2020-10-27.
+-->
+
+<GeneralGridCoverage
+    xmlns='http://www.opengis.net/cis/1.1/gml'
+    xmlns:gml='http://www.opengis.net/gml/3.2'
+    xmlns:cis="http://www.opengis.net/cis/1.1/gml"
+    xmlns:swe='http://www.opengis.net/swe/2.0'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:schemaLocation="http://www.opengis.net/cis/1.1/gml http://schemas.opengis.net/cis/1.1/gml/cisAll.xsd http://www.opengis.net/wcs/metoceanProfile/1.0 http://schemas.opengis.net/wcs/metoceanProfile/1.0/wcsMetOceanProfileALL.xsd"
+    gml:id="CIS_002">
+
+    <DomainSet>
+        <GeneralGrid srsName="http://www.opengis.net/def/crs/EPSG/0/4979" axisLabels="Lat Long h">
+            <cis:RegularAxis lowerBound="2015-05-15T00:00:00Z" upperBound="2015-05-15T03:00:00Z" resolution="PT01H" uomLabel="ISO8601" axisLabel="TimeAxis"/>
+            <cis:DisplacementAxisNest axisLabels="Lat Lon " uomLabels="deg deg ISO8601 hPa">
+                <cis:P><cis:C>51.3</cis:C><cis:C>0.0</cis:C></cis:P>
+                <cis:P><cis:C>52.0</cis:C><cis:C>1.0</cis:C></cis:P>
+                <cis:P><cis:C>53.0</cis:C><cis:C>2.0</cis:C></cis:P>
+
+                <cis:P><cis:C>53.0</cis:C><cis:C>2.0</cis:C></cis:P>
+                <cis:P><cis:C>52.5</cis:C><cis:C>3.0</cis:C></cis:P>
+                <cis:P><cis:C>52.0</cis:C><cis:C>3.0</cis:C></cis:P>
+
+                <cis:P><cis:C>52.0</cis:C><cis:C>3.5</cis:C></cis:P>
+                <cis:P><cis:C>52.0</cis:C><cis:C>4.0</cis:C></cis:P>
+                <cis:P><cis:C>51.5</cis:C><cis:C>4.5</cis:C></cis:P>
+            </cis:DisplacementAxisNest>
+            <cis:GridLimits srsName="http://www.metoffice,gov.uk/def/crs/OGC/0/Index3D" axisLabels="i j k" >
+                <cis:IndexAxis axisLabel="i" lowerBound="0" upperBound="3"/>
+                <cis:IndexAxis axisLabel="j" lowerBound="0" upperBound="2"/>
+                <cis:IndexAxis axisLabel="k" lowerBound="0" upperBound="2"/>
+            </cis:GridLimits>
+        </GeneralGrid>
+    </DomainSet>
+
+<!--This is a simple timmeseries at each of the ground sensor points-->
+<!--    The time series is set at hourly intervals for three hours.-->
+    <RangeSet>
+        <DataBlock>
+<!--           The set of temperatures for each hour for all road positions-->
+<!--            This set of values is for the intitial timme (T+0)-->
+            <V>10.0</V> <V>10.5</V> <V>11.0</V> <V>12.0</V>
+
+<!-- The next sensor in the road -->
+            <V>11.5</V> <V>12.0</V> <V>12.0</V> <V>12.3</V>
+
+<!-- The next sensor in the road -->
+            <V>15.5</V> <V>14.0</V> <V>13.0</V> <V>11.3</V>
+
+<!-- The next sensor in the road and so on-->
+        </DataBlock>
+    </RangeSet>
+
+    <RangeType>
+        <swe:DataRecord>
+            <swe:field name="Temperature">
+                <swe:Quantity definition="http://codes.wmo.int/grib2/codeflag/4.2/_0-0-0/Temperature">
+                    <swe:description>air_temperature</swe:description>
+                    <swe:nilValues/>
+                    <swe:uom code="K"/>
+                    <swe:constraint>
+                        <swe:AllowedValues>
+                            <swe:interval>-273 100</swe:interval>
+                            <swe:significantFigures>4</swe:significantFigures>
+                        </swe:AllowedValues>
+                    </swe:constraint>
+                </swe:Quantity>
+            </swe:field>
+        </swe:DataRecord>
+    </RangeType>
+
+</GeneralGridCoverage>
+

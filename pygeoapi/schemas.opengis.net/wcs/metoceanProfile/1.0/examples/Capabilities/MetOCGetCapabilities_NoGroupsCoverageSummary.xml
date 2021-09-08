@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wcs20:Capabilities updateSequence="20120504T160000Z" version="2.0.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+  xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr"
+  xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:metocean="http://www.opengis.net/wcs/metoceanProfile/1.0"
+  xmlns:wcs20="http://www.opengis.net/wcs/2.0" xmlns:ows="http://www.opengis.net/ows/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:covcoll="http://www.opengis.net/wcs/covcoll/1.0"
+  xmlns:cis="http://www.opengis.net/cis/1.1/gml"
+  xmlns:crs="http://www.opengis.net/wcs/service-extension/crs/1.0"
+  xsi:schemaLocation="http://www.opengis.net/wcs/2.0 http://schemas.opengis.net/wcs/2.0/wcsAll.xsd http://www.opengis.net/wcs/metoceanProfile/1.0 http://schemas.opengis.net/wcs/metoceanProfile/1.0/wcsMetOceanProfileALL.xsd">
+  <ows:ServiceIdentification>
+    <ows:Title>Test configuration of Met data server</ows:Title>
+    <ows:Abstract> Copyright (C) The Met Office - UK </ows:Abstract>
+    <ows:Keywords>
+      <ows:Keyword>MO-WCS</ows:Keyword>
+      <ows:Keyword>WCS MO-AP</ows:Keyword>
+      <ows:Keyword>WCS 2.1</ows:Keyword>
+      <ows:Keyword>WCS</ows:Keyword>
+      <ows:Keyword>Meteorological Products</ows:Keyword>
+      <ows:Keyword>Hydrological Products</ows:Keyword>
+      <ows:Keyword>Land Surface Products</ows:Keyword>
+      <ows:Keyword>Space Weather Products</ows:Keyword>
+      <ows:Keyword>Oceanographic Products</ows:Keyword>
+      <ows:Keyword>Aviation</ows:Keyword>
+    </ows:Keywords>
+    <ows:ServiceType codeSpace="OGC">OGC WCS</ows:ServiceType>
+    <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
+    <ows:Profile>http://www.opengis.net/spec/WCS_application-profile_metoc/1.0/conf/mowcs</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_application-profile_metoc/1.0/conf/mowcs_get-kvp</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS/2.0/conf/core</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_protocol-binding_get-kvp/2.0/conf/get-kvp</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_protocol-binding_post-xml/2.0/conf/post-xml</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_service-model_crs-predefined/1.0/conf/crs-
+      predefined</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_encoding_geotiff/1.0/conf/geotiff</ows:Profile>
+    <ows:Profile>http://www.placeholder.com/GML_and_GeoTIFF</ows:Profile>
+    <ows:Profile>http://www.opengis.net/spec/WCS_service-
+      model_scaling+interpolation/1.0/conf/scaling+interpolation</ows:Profile>
+    <ows:Fees>None</ows:Fees>
+    <ows:AccessConstraints>None</ows:AccessConstraints>
+  </ows:ServiceIdentification>
+  <ows:ServiceProvider>
+    <ows:ProviderName>The Met Office Fitzroy Road Exeter UK EX13PB</ows:ProviderName>
+    <ows:ProviderSite xlink:href="http://metocserver.metoffice.gov.uk" xlink:type="simple"/>
+    <ows:ServiceContact>
+      <ows:IndividualName>William Shatner</ows:IndividualName>
+      <ows:PositionName>Author</ows:PositionName>
+      <ows:ContactInfo>
+        <ows:Phone>
+          <ows:Voice>Provided on request</ows:Voice>
+          <ows:Facsimile>None</ows:Facsimile>
+        </ows:Phone>
+        <ows:Address>
+          <ows:DeliveryPoint>Fitzroy Road</ows:DeliveryPoint>
+          <ows:City>Exeter</ows:City>
+          <ows:AdministrativeArea>Exeter City</ows:AdministrativeArea>
+          <ows:PostalCode>EX13PB</ows:PostalCode>
+          <ows:Country>UK</ows:Country>
+          <ows:ElectronicMailAddress>office@metoffice.gov.uk</ows:ElectronicMailAddress>
+        </ows:Address>
+        <ows:OnlineResource xlink:href="http://metoceanserver.metoffice.gov.uk"
+          xlink:type="simple"/>
+        <ows:HoursOfService>Mon - Fri 08:30 - 17:00 UT and CEST+1</ows:HoursOfService>
+        <ows:ContactInstructions>E-mails are usually answered within 3 working
+          days.</ows:ContactInstructions>
+      </ows:ContactInfo>
+      <ows:Role>Service provider</ows:Role>
+    </ows:ServiceContact>
+  </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="http://metoceanserver.metoffice.gov.uk/wcs"
+            xlink:type="simple"/>
+          <ows:Post xlink:href="http://metoceanserver.metoffice.gov.uk/wcs"
+            xlink:type="simple">
+            <ows:Constraint name="PostEncoding">
+              <ows:AllowedValues>
+                <ows:Value>XML</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Post>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="DescribeCoverage">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="http://metoceanserver.metoffice.gov.uk/wcs"
+            xlink:type="simple"/>
+          <ows:Post xlink:href="http://metoceanserver.metoffice.gov.uk/wcs"
+            xlink:type="simple">
+            <ows:Constraint name="PostEncoding">
+              <ows:AllowedValues>
+                <ows:Value>XML</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Post>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="GetCoverage">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="http://metoceanserver.metoffice.gov.uk/wcs"
+            xlink:type="simple"/>
+          <ows:Post xlink:href="http://metoceanserver.metoffice.gov.uk/wcs"
+            xlink:type="simple">
+            <ows:Constraint name="PostEncoding">
+              <ows:AllowedValues>
+                <ows:Value>XML</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Post>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="DescribeCoverageCollection">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="http://metoceanserver.metoffice.gov.uk/wcs"
+            xlink:type="simple"/>
+          <ows:Post xlink:href="http://metoceanserver.metoffice.gov.uk/wcs"
+            xlink:type="simple">
+            <ows:Constraint name="PostEncoding">
+              <ows:AllowedValues>
+                <ows:Value>XML</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Post>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Constraint name="CountDefault">
+      <ows:NoValues/>
+      <ows:DefaultValue>100</ows:DefaultValue>
+    </ows:Constraint>
+  </ows:OperationsMetadata>
+  <wcs20:ServiceMetadata>
+    <wcs20:formatSupported>image/tiff</wcs20:formatSupported>
+    <wcs20:formatSupported>image/jp2</wcs20:formatSupported>
+    <wcs20:formatSupported>application/x-netcdf</wcs20:formatSupported>
+    <wcs20:formatSupported>application/x-hdf</wcs20:formatSupported>
+    <wcs20:formatSupported>application/GRIB1</wcs20:formatSupported>
+    <wcs20:formatSupported>application/GRIB2</wcs20:formatSupported>
+    <wcs20:formatSupported>application/NetCDF3</wcs20:formatSupported>
+    <wcs20:Extension>
+      <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/4326</crs:crsSupported>
+      <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/3857</crs:crsSupported>
+      <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/900913</crs:crsSupported>
+      <crs:crsSupported>http://www.opengis.net/def/crs/EPSG/0/3035</crs:crsSupported>
+    </wcs20:Extension>
+  </wcs20:ServiceMetadata>
+  <wcs20:Contents>
+
+    <wcs20:Extension>
+      <metocean:GetCapabilituesMetOceanExtension>
+        <metocean:coverageSummary>
+          <metocean:CoverageSummary>
+            <wcs20:CoverageId>BestData_ISBL</wcs20:CoverageId>
+            <cis:Envelope srsName="http://www.opengis.net/def/crs-compound?
+              1=http://www.opengis.net/def/crs/EPSG/0/4326;
+              2=http://http://www.opengis.net/def/crs/OGC/0/Time"
+              axisLabels="Lat Lon Time" srsDimension="3">
+              <cis:AxisExtent axisLabel="Lat" uomLabel="deg" lowerBound="-90" upperBound="90" />
+              <cis:AxisExtent axisLabel="Lon" uomLabel="deg" lowerBound="-180" upperBound="180" />
+              <cis:AxisExtent axisLabel="Time" uomLabel="ISO8601"   lowerBound="2015-05-15T00.00.00Z" upperBound="2015-05-20T00.00.00Z" />
+            </cis:Envelope>
+          </metocean:CoverageSummary>
+          <metocean:CoverageSummary>
+            <wcs20:CoverageId>BestData_AGL</wcs20:CoverageId>
+            <cis:Envelope srsName="http://www.opengis.net/def/crs-compound?
+              1=http://www.opengis.net/def/crs/EPSG/0/4326;
+              2=http://http://www.opengis.net/def/crs/OGC/0/Time"
+              axisLabels="Lat Lon Time" srsDimension="3">
+              <cis:AxisExtent axisLabel="Lat" uomLabel="deg" lowerBound="-90" upperBound="90" />
+              <cis:AxisExtent axisLabel="Lon" uomLabel="deg" lowerBound="-180" upperBound="180" />
+              <cis:AxisExtent axisLabel="Time" uomLabel="ISO8601"   lowerBound="2015-05-15T00.00.00Z" upperBound="2015-05-20T00.00.00Z" />
+            </cis:Envelope>
+          </metocean:CoverageSummary>
+          <metocean:CoverageSummary>
+            <wcs20:CoverageId>BestData_Ground</wcs20:CoverageId>
+            <cis:Envelope srsName="http://www.opengis.net/def/crs-compound?
+              1=http://www.opengis.net/def/crs/EPSG/0/4326;
+              2=http://http://www.opengis.net/def/crs/OGC/0/Time"
+              axisLabels="Lat Lon Time" srsDimension="3">
+              <cis:AxisExtent axisLabel="Lat" uomLabel="deg" lowerBound="-90" upperBound="90" />
+              <cis:AxisExtent axisLabel="Lon" uomLabel="deg" lowerBound="-180" upperBound="180" />
+              <cis:AxisExtent axisLabel="Time" uomLabel="ISO8601"   lowerBound="2015-05-15T00.00.00Z" upperBound="2015-05-20T00.00.00Z" />
+            </cis:Envelope>
+          </metocean:CoverageSummary>
+        </metocean:coverageSummary>
+      </metocean:GetCapabilituesMetOceanExtension>
+    </wcs20:Extension>
+  </wcs20:Contents>
+</wcs20:Capabilities>

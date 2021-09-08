@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Linepipe Bound Specification
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a combined or bound set of type that includes grade, specification, and yield strength.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Feb 13 2017 12:47PM
+	Last Modification Date: Jun 13 2018  1:57PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="linepipeBoundSpecification">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">linepipeBoundSpecification</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6164">
+			<gml:description>API-5L; A; 30000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6164</gml:identifier>
+			<gml:name>API-5L; A; 30000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6165">
+			<gml:description>API-5L; A-25; 25000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6165</gml:identifier>
+			<gml:name>API-5L; A-25; 25000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6166">
+			<gml:description>API-5L; B; 35000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6166</gml:identifier>
+			<gml:name>API-5L; B; 35000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6167">
+			<gml:description>API-5L; X-42; 42000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6167</gml:identifier>
+			<gml:name>API-5L; X-42; 42000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6168">
+			<gml:description>API-5L; X-46; 46000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6168</gml:identifier>
+			<gml:name>API-5L; X-46; 46000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6169">
+			<gml:description>API-5L; X-52; 52000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6169</gml:identifier>
+			<gml:name>API-5L; X-52; 52000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6170">
+			<gml:description>API-5L; X-56; 56000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6170</gml:identifier>
+			<gml:name>API-5L; X-56; 56000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6171">
+			<gml:description>API-5L; X-60; 60000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6171</gml:identifier>
+			<gml:name>API-5L; X-60; 60000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6172">
+			<gml:description>API-5L; X-65; 65000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6172</gml:identifier>
+			<gml:name>API-5L; X-65; 65000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6173">
+			<gml:description>API-5L; X-70; 70000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6173</gml:identifier>
+			<gml:name>API-5L; X-70; 70000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6174">
+			<gml:description>ASTM A-106; A; 30000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6174</gml:identifier>
+			<gml:name>ASTM A-106; A; 30000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6175">
+			<gml:description>ASTM A-106; B; 35000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6175</gml:identifier>
+			<gml:name>ASTM A-106; B; 35000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6176">
+			<gml:description>ASTM A-135; A; 30000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6176</gml:identifier>
+			<gml:name>ASTM A-135; A; 30000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6177">
+			<gml:description>ASTM A-135; B; 35000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6177</gml:identifier>
+			<gml:name>ASTM A-135; B; 35000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6178">
+			<gml:description>ASTM A-53; A; 30000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6178</gml:identifier>
+			<gml:name>ASTM A-53; A; 30000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6179">
+			<gml:description>ASTM A-53; B; 35000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6179</gml:identifier>
+			<gml:name>ASTM A-53; B; 35000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6180">
+			<gml:description>API-5LS; X-70; 70000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipeboundspecification">6180</gml:identifier>
+			<gml:name>API-5LS; X-70; 70000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

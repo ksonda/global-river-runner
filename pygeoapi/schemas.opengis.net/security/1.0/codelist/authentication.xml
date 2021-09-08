@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmx:CT_CodelistCatalogue xmlns="http://www.opengis.net/def/security/1.0/codelist/authentication"
+  xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco"
+  xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+  http://www.isotc211.org/2005/gmx http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmx/gmx.xsd
+  http://www.isotc211.org/2005/gco http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gco/gco.xsd
+  http://www.opengis.net/gml/3.2 http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19136_Schemas/gml.xsd">
+<!--
+  ==============================================================
+  OWS Common Security Extension codelist
+  ==============================================================
+-->
+<!--
+    This document is described in OGC 17-007r1.
+
+    Copyright (c) 2018 Open Geospatial Consortium.
+    To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+-->
+<!-- Version: 1.0.0 2018-10-16 -->
+
+  <!--=====Catalogue description=====-->
+  <gmx:name>
+    <gco:CharacterString>authnCodelist</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>OGC codelist for description security annotations regarding authentication</gco:CharacterString>
+  </gmx:scope>
+  <gmx:fieldOfApplication>
+    <gco:CharacterString>OGC</gco:CharacterString>
+  </gmx:fieldOfApplication>
+  <gmx:versionNumber>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmx:versionNumber>
+  <gmx:versionDate>
+    <gco:Date>2019-01-23</gco:Date>
+  </gmx:versionDate>
+  <!--============================================================================-->
+  <!--============================================================================-->
+  <!--============================= Codelists =======================================-->
+  <!--=== Authentication ===-->
+  <gmx:codelistItem>
+    <gmx:CodeListDictionary gml:id="authentication">
+      <gml:description>identification of authentication methods</gml:description>
+      <gml:identifier codeSpace="OGC">urn:ogc:def:security:authentication</gml:identifier>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="HTTP_BASIC">
+          <gml:description>The "basic" authentication scheme is based on the model that the
+				    client must authenticate itself with a user-ID and a password for
+				    each realm.  The realm value should be considered an opaque string
+				    which can only be compared for equality with other realms on that
+				    server. The server will service the request only if it can validate
+				    the user-ID and password for the protection space of the Request-URI.
+				    There are no optional authentication parameters.</gml:description>
+          <gml:identifier codeSpace="IETF">urn:ogc:def:security:authentication:ietf:2617:Basic</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="HTTP_DIGEST">
+          <gml:description>
+            Like Basic Access Authentication, the Digest scheme is based on a
+		        simple challenge-response paradigm. The Digest scheme challenges
+		        using a nonce value. A valid response contains a checksum (by
+		        default, the MD5 checksum) of the username, the password, the given
+		        nonce value, the HTTP method, and the requested URI. In this way, the
+		        password is never sent in the clear. Just as with the Basic scheme,
+		        the username and password must be prearranged in some fashion not
+		        addressed by this document.</gml:description>
+          <gml:identifier codeSpace="IETF">urn:ogc:def:security:authentication:ietf:2617:Digest</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="OAUTH2_BEARER_TOKEN">
+         <gml:description>
+           In the scenario supported by the OAuth 2.0 SSO profile, a web user or service either accesses a resource
+            at a service provider, or accesses an identity provider such that the service provider and desired resource are understood
+            or implicit. The web user authenticates (or has already authenticated) to the identity provider, Which then produces an
+            authorization grant which was then used by an authorization service to return an access token.  This access token then
+            subtitutes as both authentication and authorization on future requests.</gml:description>
+          <gml:identifier codeSpace="IETF">urn:ogc:def:security:authentication:ietf:6750:Bearer</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="TLS_CLIENT_CERTIFICATE">
+          <gml:description>
+            This type of authentication is an extension to the TLS handshake as outlined in section 7.4.4:
+            "A non-anonymous server can optionally request a certificate from
+            the client, if appropriate for the selected cipher suite.  This
+            message, if sent, will immediately follow the ServerKeyExchange
+            message (if it is sent; otherwise, this message follows the
+            server’s Certificate message)."[RFC 5246]
+            In case the client cannot provide a suitable and valid certificate, no TLS
+            connection gets established</gml:description>
+          <gml:identifier codeSpace="IETF">urn:ogc:def:security:authentication:ietf:5246:client_certificate</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="USERNAME_TOKEN">
+          <gml:description>WSSE UsernameToken as specified in https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:ogc:def:security:authentication:wsse:username_token</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_InternetProtocol">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:InternetProtocol</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_InternetProtocolPassword">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:InternetProtocolPassword</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_Kerberos">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:Kerberos</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_MobileOneFactorUnregistered">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:MobileOneFactorUnregistered</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_MobileTwoFactorUnregistered">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:MobileTwoFactorUnregistered</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_MobileOneFactorContract">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:MobileOneFactorContract</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_MobileTwoFactorContract">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:MobileTwoFactorContract</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_Password">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:Password</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_PasswordProtectedTransport">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_PreviousSession">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_PublicKeyX509">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:X509</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_PublicKeyPGP">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:PGP</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_PublicKeySPKI">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:SPKI</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_PublicKeyXMLDigitalSignature">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:XMLDSig</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_Smartcard">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:Smartcard</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_SmartcardPKI">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:SmartcardPKI</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_SoftwarePKI">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:SoftwarePKI</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_Telephony">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:Telephony</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_TelephonyNomadic">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:NomadTelephony</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_PersonalTelephony">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:PersonalTelephony</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_AuthenticatedTelephony">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:AuthenticatedTelephony</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_SecureRemotePassword">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:SecureRemotePassword</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_TLSClient">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:TLSClient</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_TimeSyncToken">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:TimeSyncToken</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+      <gmx:codeEntry>
+        <gmx:CodeDefinition gml:id="SAML2_Unspecified">
+          <gml:description>As specified in https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf</gml:description>
+          <gml:identifier codeSpace="OASIS">urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</gml:identifier>
+        </gmx:CodeDefinition>
+      </gmx:codeEntry>
+    </gmx:CodeListDictionary>
+  </gmx:codelistItem>
+  <!--=== EOF ===-->
+</gmx:CT_CodelistCatalogue>

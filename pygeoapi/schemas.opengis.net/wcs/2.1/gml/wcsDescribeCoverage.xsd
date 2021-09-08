@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.opengis.net/wcs/2.1/gml"
+    xmlns:wcs21="http://www.opengis.net/wcs/2.1/gml"
+    xmlns:wcs20="http://www.opengis.net/wcs/2.0"
+    xmlns:cis11="http://www.opengis.net/cis/1.1/gml"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified" version="2.1.0" xml:lang="en">
+    <annotation>
+        <appinfo>wcsDescribeCoverage.xsd</appinfo>
+        <appinfo>
+            <GMLProfileSchema>http://schemas.opengis.net/cis/1.1/gml/cisAll.xsd</GMLProfileSchema>
+        </appinfo>
+        <documentation>This XML Schema Document defines the DescribeCoverage operation request and response XML elements and types, used by the OGC Web Coverage Service (WCS).
+            Last updated: 2020-07-30
+            Copyright (c) 2019,2020 Open Geospatial Consortium.
+            To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+        </documentation>
+    </annotation>
+
+    <!-- ============================================================== -->
+    <!-- includes and imports                                           -->
+    <!-- ============================================================== -->
+    <import namespace="http://www.opengis.net/wcs/2.0"     schemaLocation="http://schemas.opengis.net/wcs/2.0/wcsAll.xsd"/>
+    <import namespace="http://www.opengis.net/cis/1.1/gml" schemaLocation="http://schemas.opengis.net/cis/1.1/gml/cisAll.xsd"/>
+    <import namespace="http://www.opengis.net/gml/3.2"     schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+    <import namespace="http://www.opengis.net/ows/2.0"     schemaLocation="http://schemas.opengis.net/ows/2.0/owsAll.xsd"/>
+    <include schemaLocation="wcsCommon.xsd"/>
+
+    <!-- ============================================================== -->
+    <!-- elements and types                                             -->
+    <!-- ============================================================== -->
+    <element name="CoverageDescriptions" type="wcs21:CoverageDescriptionsType">
+        <annotation>
+            <documentation>Response from a WCS DescribeCoverage operation, containing one or more coverage descriptions. For CIS 1.0 coverages, the coverage description returned shall be a WCS 2.0 coverage description, for CIS 1.1 coverages the description shall adhere to WCS 2.1. </documentation>
+        </annotation>
+    </element>
+    <complexType name="CoverageDescriptionsType">
+        <sequence>
+            <choice minOccurs="0" maxOccurs="unbounded">
+                <element ref="wcs20:CoverageDescription"/>
+                <element ref="wcs21:CoverageDescription"/>
+            </choice>
+        </sequence>
+    </complexType>
+    <!-- =========================================================== -->
+    <element name="CoverageDescription" type="wcs21:CoverageDescriptionType" substitutionGroup="gml:AbstractFeature">
+        <annotation>
+            <documentation>Description of a CIS 1.1 coverage available from a WCS 2.1 server. It is identical to a WCS 2.0 coverage description, except that it utilizes the CIS 1.1 coverage constituents rather than CIS 1.0. </documentation>
+        </annotation>
+    </element>
+    <complexType name="CoverageDescriptionType">
+        <complexContent>
+            <extension base="gml:AbstractFeatureType">
+                <sequence>
+                    <element ref="wcs20:CoverageId"/>
+                    <element ref="gml:coverageFunction" minOccurs="0"/>
+                    <element ref="cis11:Envelope"/>
+                    <element ref="cis11:Metadata" minOccurs="0" maxOccurs="unbounded"/>
+                    <choice>
+                        <element ref="cis11:DomainSet"/>
+                        <element ref="cis11:PartitionSet"/>
+                    </choice>
+                    <element ref="cis11:RangeType"/>
+                    <element ref="wcs20:ServiceParameters"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <!-- ======================================================================= -->
+    <!--  Changed by PJT May 21st 2019 to create WCS21 Describe Coverge      -->
+    <!--  This was done to include the new wcs21:requestType that allows the     -->
+    <!--  version type to be either 2.0 or 2.1 to maintain backward compatibility-->
+    <!-- ======================================================================= -->
+    <element name="DescribeCoverage" type="wcs21:DescribeCoverageType">
+        <annotation>
+            <documentation>Request to a WCS to perform the DescribeCoverage operation. This operation allows a client to retrieve descriptions of one or more coverages. In this XML encoding, no "request" parameter is included, since the element name specifies the specific operation. </documentation>
+        </annotation>
+    </element>
+    <complexType name="DescribeCoverageType">
+        <complexContent>
+            <extension base="wcs21:RequestBaseType">
+                <sequence>
+                    <element ref="wcs20:CoverageId" maxOccurs="unbounded">
+                        <annotation>
+                            <documentation>Unordered list of identifiers of desired coverages. A client can obtain identifiers by a prior GetCapabilities request, or from a third-party source. </documentation>
+                        </annotation>
+                    </element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+</schema>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metoceancorridor:GetCorridor
+    xmlns:wcs20="http://www.opengis.net/wcs/2.0"
+    xmlns:metocean="http://www.opengis.net/wcs/metoceanProfile/1.0"
+    xmlns:metoceancorridor="http://www.opengis.net/wcs/metoceanProfile_getCorridor/1.0"
+    xmlns:wcsCRS="http://www.opengis.net/wcs_service-extension_crs/1.0"
+    xmlns:scal="http://www.opengis.net/WCS_service-extension_scaling/1.0"
+    xmlns:int="http://www.opengis.net/WCS_service-extension_interpolation/1.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:cis="http://www.opengis.net/cis/1.1/gml"
+    xmlns:rsub="http://www.opengis.net/wcs/range-subsetting/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/wcs/metoceanProfile_getCorridor/1.0 http://schemas.opengis.net/wcs/metoceanProfile/1.0/wcsMetOceanGetCorridor.xsd"
+    service="WCS" version="2.0.0">
+    <!-- =================================================================================-->
+    <!--This example illustrates how a  4D trajectory can be described e.g. a road,      -->
+    <!--The road will have a width (in this case lateral extent of 5Km) and a centreline. -->
+    <!--In this example the corridor is divided into 500 segments of equal length from    -->
+    <!--start to finish. The centre line is defined by the output feature with the way    -->
+    <!--points being a set of latitues and longitudes. The two axes are defined with one  -->
+    <!--axis as being along the corridor path and the other perpendicular to it           -->
+    <!--==================================================================================-->
+
+    <wcs20:CoverageId>UK_GLOBAL_2017-05-15T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:format>CovJSON/</wcs20:format>
+    <wcs20:mediaType>CovJSON/</wcs20:mediaType>
+    <rsub:RangeSubset>
+        <rsub:RangeItem>
+            <rsub:RangeComponent>Temperature</rsub:RangeComponent>
+        </rsub:RangeItem>
+        <rsub:RangeItem>
+            <rsub:RangeComponent>Wind_Speed</rsub:RangeComponent>
+        </rsub:RangeItem>
+        <rsub:RangeItem>
+            <rsub:RangeComponent>Wind_Direction</rsub:RangeComponent>
+        </rsub:RangeItem>
+    </rsub:RangeSubset>
+
+
+    <!-- Define the corridor width, height and resolution. In this example the flight   -->
+    <!-- is divided up timewise into 7 segments in time, Thus in this example the time -->
+    <!-- of the time is 2 hours or 120 minutes  Thus each segment will be 12 minutes. Note there are 13 points-->
+
+
+    <metoceancorridor:path>
+        <metoceancorridor:PathDescription srsName="http://www.opengis.net/def/crs-compound?
+            1=http://www.opengis.net/def/crs/EPSG/0/4326&amp;
+            2=http://http://www.opengis.net/def/crs/OGC/0/AnsiDate&amp;
+            3= http://codes.wmo.int/grib2/codeflag/4.5/_102/Specific_altitude_above_mean_sea_level"
+            axisLabels="Lat Lon Time Specific_altitude_above_mean_sea_level">
+            <cis:DisplacementAxisNest axisLabels="Lat Lon Time Specific_altitude_above_mean_sea_level" uomLabels="deg deg ISO8601 ft">
+                <cis:P><cis:C>45.0</cis:C><cis:C>5.0</cis:C><cis:C>2015-05-15T00:00:00Z</cis:C><cis:C>3600</cis:C></cis:P>
+                <cis:P><cis:C>46.0</cis:C><cis:C>0.0</cis:C><cis:C>2015-05-15T00:15:00Z</cis:C><cis:C>3500</cis:C></cis:P>
+                <cis:P><cis:C>47.0</cis:C><cis:C>-5.0</cis:C><cis:C>2015-05-15T00:30:00Z</cis:C><cis:C>34200</cis:C></cis:P>
+                <cis:P><cis:C>48.0</cis:C><cis:C>-10.0</cis:C><cis:C>2015-05-15T00:45:00Z</cis:C><cis:C>3400</cis:C></cis:P>
+                <cis:P><cis:C>49.0</cis:C><cis:C>-15.0</cis:C><cis:C>2015-05-15T01:00:00Z</cis:C><cis:C>3200</cis:C></cis:P>
+                <cis:P><cis:C>51.0</cis:C><cis:C>-20.0</cis:C><cis:C>2015-05-15T01:15:00Z</cis:C><cis:C>3000</cis:C></cis:P>
+                <cis:P><cis:C>52.0</cis:C><cis:C>-25.0</cis:C><cis:C>2015-05-15T01:30:00Z</cis:C><cis:C>2000</cis:C></cis:P>
+            </cis:DisplacementAxisNest>
+
+            <cis:GridLimits srsName="http://www.opengis.net/def/crs/OGC/0/Index1D" axisLabels="i">
+                <cis:IndexAxis axisLabel="i" lowerBound="0" upperBound="6"/>
+            </cis:GridLimits>
+        </metoceancorridor:PathDescription>
+    </metoceancorridor:path>
+
+    <metoceancorridor:corridorExtent>
+        <metoceancorridor:CorridorExtent srsName="http://www.opengis.net/def/crs-compound?
+            1=http://www.opengis.net/def/crs/EPSG/0/4326&amp;
+            2=http://www.opengis.net/def/crs/Corridor_Height"
+            axisLabels="Lat Lon Corridor" srsDimension="3">
+            <cis:AxisExtent axisLabel="Corridor_Width" uomLabel="deg" lowerBound="-5.0" upperBound="5.0"/>
+            <cis:AxisExtent axisLabel="Corridor_Height" uomLabel="ft" lowerBound="-1000.0" upperBound="1000.0"/>
+            <scal:Scaling>
+                <scal:ScaleToSize>
+                    <scal:TargetAxisSize>
+                        <scal:axis>Corridor_Width</scal:axis>
+                        <scal:targetSize>5</scal:targetSize>
+                    </scal:TargetAxisSize>
+                    <scal:TargetAxisSize>
+                        <scal:axis>Corridor_Height</scal:axis>
+                        <scal:targetSize>5</scal:targetSize>
+                    </scal:TargetAxisSize>
+                </scal:ScaleToSize>
+            </scal:Scaling>
+        </metoceancorridor:CorridorExtent>
+    </metoceancorridor:corridorExtent>
+
+    <metoceancorridor:corridorExtractionMethod>
+        <metoceancorridor:CorridorExtractionMethod>
+            <metoceancorridor:corridorExtractionMethodValue>Trajectory_Point_Interpolation</metoceancorridor:corridorExtractionMethodValue>
+            <metoceancorridor:corridorOrientationValue>VERTICAL</metoceancorridor:corridorOrientationValue>
+            <int:Interpolation>
+                <int:globalInterpolation>http://www.opengis.net/def/interpolation/OGC/1/linear</int:globalInterpolation>
+                <int:InterpolationPerAxis>
+                    <int:axis>Corridor_Path</int:axis>
+                    <int:interpolationMethod>http://www.opengis.net/def/interpolation/OGC/1/linear</int:interpolationMethod>
+                </int:InterpolationPerAxis>
+                <int:InterpolationPerAxis>
+                    <int:axis>Corridor_Width</int:axis>
+                    <int:interpolationMethod>http://www.opengis.net/def/interpolation/OGC/1/cubic</int:interpolationMethod>
+                </int:InterpolationPerAxis>
+                <int:InterpolationPerAxis>
+                    <int:axis>Corridor_Height</int:axis>
+                    <int:interpolationMethod>http://www.opengis.net/def/interpolation/OGC/1/barycentric</int:interpolationMethod>
+                </int:InterpolationPerAxis>
+            </int:Interpolation>
+        </metoceancorridor:CorridorExtractionMethod>
+    </metoceancorridor:corridorExtractionMethod>
+</metoceancorridor:GetCorridor>

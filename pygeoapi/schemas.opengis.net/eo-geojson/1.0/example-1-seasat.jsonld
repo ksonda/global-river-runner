@@ -1,0 +1,179 @@
+{
+	"@context": {
+		"eop": "http://www.opengis.net/ont/eo-geojson/1.0/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dct": "http://purl.org/dc/terms/",
+		"atom": "http://www.w3.org/2005/Atom/",
+        "iana": "http://www.iana.org/assignments/relation/",
+		"owc": "http://www.opengis.net/ont/owc/1.0/",
+		"gj": "https://purl.org/geojson/vocab#",
+		"gsp": "http://www.opengis.net/ont/geosparql#",
+		"ical": "http://www.w3.org/2002/12/cal/ical#",
+        "media": "http://search.yahoo.com/mrss/"
+	},
+	"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/geo%2Bjson&parentIdentifier=EOP:ESA:OADS:SEA_GEC_1P&uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F",
+
+	"@type": [
+		"gj:Feature",
+		"gsp:Feature",
+		"eop:EarthObservation"
+	],
+	"gj:bbox": {
+		"@list": [
+			-2.69574,
+			61.965195,
+			0.135472,
+			63.261372
+		]
+	},
+	"gsp:hasGeometry": {
+		"gsp:asWKT": "Polygon((-2.682513, 63.261372, -2.695740, 61.997604, 0.005087, 61.965195, 0.135472, 63.227173, -2.682513, 63.261372))",
+		"@type": "gsp:Geometry"
+	},
+
+	"gj:geometry": {
+		"@type": "gj:Polygon",
+		"gj:coordinates": [
+			-2.682513,
+			63.261372,
+			-2.69574,
+			61.997604,
+			0.005087,
+			61.965195,
+			0.135472,
+			63.227173,
+			-2.682513,
+			63.261372
+		]
+	},
+	"gj:properties": {
+        "@type": "gj:Properties",
+		"dct:date": "1978-09-27T01:04:30Z/1978-09-27T01:04:45Z",
+		"dct:modified": "2017-04-11T13:36:16Z",
+		"dct:title": "SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F",
+        "dct:identifier": "SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F",
+		"eop:acquisitionInformation": {
+            "@type": "eop:AcquisitionInformation",
+			"eop:acquisitionParameters": {
+                "@type": "eop:AcquisitionParameters",   
+                "eop:operationalMode": "IM",
+				"eop:polarisationChannels":  {
+                    "@id": "eop:PolarisationChannels/HH"
+                },
+				"eop:polarisationMode":  {
+                    "@id": "eop:PolarisationMode/S"
+                },
+				"eop:acquisitionAngles": {
+                    "@type": "eop:AcquisitionAngles",
+					"eop:incidenceAngleVariation": 9.6,
+					"eop:maximumIncidenceAngle": 29.2,
+					"eop:minimumIncidenceAngle": 19.6
+				},
+				"eop:acquisitionSubType": "DEFAULT",
+				"eop:acquisitionType": {
+                    "@id": "eop:AcquisitionType/NOMINAL"
+                },
+				"eop:antennaLookDirection": {
+                    "@id": "eop:RIGHT"
+                },
+				"eop:orbitDirection":  {
+                    "@id": "eop:DESCENDING"
+                },
+				"eop:orbitNumber": 1316,
+				"eop:wrsLongitudeGrid": "0",
+				"ical:dtend": "1978-09-27T01:04:45Z",
+				"ical:dtstart": "1978-09-27T01:04:30Z"
+			},
+			"eop:instrument": {
+				"@id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/a37282d4-322c-4dd0-8edc-36099b9b586c",
+                "@type": "eop:Instrument",
+				"eop:instrumentShortName": "SAR",
+                "eop:sensorType":  {
+                    "@id": "eop:RADAR"
+                }
+			},
+			"eop:platform": {
+				"@id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/1bffe898-f4a2-458e-92c5-cd7c9c1cd5f0",
+                "@type": "eop:Platform",
+				"eop:platform": "Seasat",
+				"eop:platformSerialIdentifier": "1"
+			}
+		},
+		"eop:parentIdentifier": "SEA_GEC_1P",
+		"eop:productInformation": {
+            "@type": "eop:ProductInformation",
+			"eop:availabilityTime": "2014-10-04T04:19:17Z",
+			"eop:productType": "SEA_GEC_1P",
+			"eop:referenceSystemIdentifier": "http://www.opengis.net.def/crs/EPSG/0/4326",
+			"eop:size": 255211520
+		},
+		"eop:status":  {
+            "@id": "eop:ARCHIVED"
+        },
+		"owc:links": {
+            "@type": "owc:Links",
+			"iana:alternate": [
+				{
+					"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&parentIdentifier=EOP:ESA:OADS:SEA_GEC_1P&uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F&recordSchema=server-choice",
+                    "@type": "atom:link",
+					"dct:title": "Atom format",
+					"atom:type": "application/atom+xml"
+				},
+				{
+					"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/gml%2Bxml&parentIdentifier=EOP:ESA:OADS:SEA_GEC_1P&uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F&recordSchema=om10",
+                    "@type": "atom:link",
+					"dct:title": "O&M metadata",
+					"atom:type": "application/gml+xml;profile=http://www.opengis.net/spec/EOMPOM/1.0"
+				},
+				{
+					"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/gml%2Bxml&parentIdentifier=EOP:ESA:OADS:SEA_GEC_1P&uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F&recordSchema=om",
+                    "@type": "atom:link",
+					"dct:title": "O&M 1.1 metadata",
+					"atom:type": "application/gml+xml;profile=http://www.opengis.net/spec/EOMPOM/1.1"
+				},
+				{
+					"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/rdf%2Bxml&parentIdentifier=EOP:ESA:OADS:SEA_GEC_1P&uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F&recordSchema=server-choice",
+                    "@type": "atom:link",
+					"dct:title": "RDF/XML format",
+					"atom:type": "application/rdf+xml"
+				},
+				{
+					"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/ld%2Bjson&parentIdentifier=EOP:ESA:OADS:SEA_GEC_1P&uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F&recordSchema=server-choice",
+                    "@type": "atom:link",
+					"dct:title": "JSON-LD format",
+					"atom:type": "application/ld+json"
+				},
+				{
+					"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=text/turtle&parentIdentifier=EOP:ESA:OADS:SEA_GEC_1P&uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F&recordSchema=server-choice",
+                    "@type": "atom:link",
+					"dct:title": "Turtle format",
+					"atom:type": "text/turtle"
+				}
+			],
+			"iana:enclosure": {
+				"@id": "http://tpm-ds.eo.esa.int/products/SEA_GEC_1P/1978/09/27/SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F.ZIP",
+                "@type": "atom:link",
+				"dct:title": "Download",
+				"atom:type": "application/x-binary"
+			},
+			"iana:icon": {
+				"@id": "http://tpm-ds.eo.esa.int/metadata/SEA_GEC_1P/1978/09/27/SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F.BI.PNG",
+                "@type": "atom:link",
+				"dct:title": "Quicklook",
+				"atom:type": "image/png",
+                "dct:conformsTo": "http://www.opengis.net.def/crs/EPSG/0/4326",
+                "media:category": {
+                    "@id": "eop:QUICKLOOK",
+                    "@type": "media:Category"
+                },
+                "media:expression": "sample"
+			},
+			"iana:up": {
+				"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&uid=SEA_GEC_1P&recordSchema=iso",
+                "@type": "atom:link",
+				"dct:title": "Up",
+				"atom:type": "application/atom+xml"
+			}
+		}
+	}
+}

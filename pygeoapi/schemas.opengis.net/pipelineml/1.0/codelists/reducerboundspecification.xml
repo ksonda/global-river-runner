@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Reducer Bound Specificatoin
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry
+ vetted and accepted standards. This list defines the acceptable
+ values pertaining to a set of bound type that collectively define the specifications of a reducer component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Apr 26 2017  3:07PM
+	Last Modification Date: Jun 13 2018  1:57PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="reducerBoundSpecification">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">reducerBoundSpecification</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7171">
+			<gml:description>ASME B16.9; Schedule 100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7171</gml:identifier>
+			<gml:name>ASME B16.9; Schedule 100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7172">
+			<gml:description>ASME B16.9; Schedule 140</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7172</gml:identifier>
+			<gml:name>ASME B16.9; Schedule 140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7173">
+			<gml:description>ASME B16.9; Standard</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7173</gml:identifier>
+			<gml:name>ASME B16.9; Standard</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7174">
+			<gml:description>ASME B16.9; XX-S</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7174</gml:identifier>
+			<gml:name>ASME B16.9; XX-S</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7175">
+			<gml:description>ASME B16.9; Schedule 120</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7175</gml:identifier>
+			<gml:name>ASME B16.9; Schedule 120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7176">
+			<gml:description>ASME B16.9; Schedule 160</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7176</gml:identifier>
+			<gml:name>ASME B16.9; Schedule 160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7177">
+			<gml:description>ASME B16.9; Schedule 20</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7177</gml:identifier>
+			<gml:name>ASME B16.9; Schedule 20</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7178">
+			<gml:description>ASME B16.9; Schedule 40</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7178</gml:identifier>
+			<gml:name>ASME B16.9; Schedule 40</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7179">
+			<gml:description>ASME B16.9; Schedule 60</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7179</gml:identifier>
+			<gml:name>ASME B16.9; Schedule 60</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7180">
+			<gml:description>ASME B16.9; Schedule 80</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7180</gml:identifier>
+			<gml:name>ASME B16.9; Schedule 80</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7181">
+			<gml:description>ASME B16.9; X-S</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/reducerboundspecification">7181</gml:identifier>
+			<gml:name>ASME B16.9; X-S</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

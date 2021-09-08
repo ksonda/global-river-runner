@@ -1,0 +1,395 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "GeoJSON encoding of OGC 14-055r2 subset required by OGC 17-047 JSON Schema",
+	"description": "Definition of OGC 14-055r2 and GeoJSON elements required by GeoJSON encoding of EO Dataset Metadata.  Note that numbers in the instance should not be surrounded by double-quotes to validate against this schema. ",
+	"definitions": {
+		"Point": {
+			"title": "Point",
+			"type": "object",
+			"properties": {
+				"coordinates": {
+					"title": "gj:coordinates",
+					"description": "One position (longitude, lattitude)",
+					"type": "array",
+					"minItems": 2,
+					"maxItems": 2,
+					"items": {
+						"type": "number"
+					}
+				},
+				"type": {
+					"type": "string",
+					"enum": [
+						"Point"
+					]
+				}
+			},
+			"required": [
+				"coordinates",
+				"type"
+			],
+			"additionalProperties": false
+		},
+		"MultiPoint": {
+			"title": "point",
+			"type": "object",
+			"properties": {
+				"coordinates": {
+					"title": "gj:coordinates",
+					"description": "Array of positions",
+					"type": "array",
+					"minItems": 1,
+					"items": 
+						{
+							"description": "One position",
+							"type": "array",
+							"minItems": 2,
+							"maxItems": 2,
+							"items": {
+								"type": "number"
+							}
+						}
+					,
+					"additionalItems": false
+				},
+				"type": {
+					"type": "string",
+					"enum": [
+						"MultiPoint"
+					]
+				}
+			},
+			"required": [
+				"coordinates",
+				"type"
+			],
+			"additionalProperties": false
+		},
+		"LineString": {
+			"title": "LineString",
+			"type": "object",
+			"properties": {
+				"coordinates": {
+					"title": "coordinates",
+					"description": "Array of positions",
+					"type": "array",
+					"minItems": 2,
+					"items": {
+						"description": "One position",
+						"type": "array",
+						"minItems": 2,
+						"maxItems": 2,
+						"items": {
+							"type": "number"
+						}
+					}
+				},
+				"type": {
+					"type": "string",
+					"enum": [
+						"LineString"
+					]
+				}
+			},
+			"required": [
+				"coordinates",
+				"type"
+			],
+			"additionalProperties": false
+		},
+		"MultiLineString": {
+			"title": "MultiLineString",
+			"type": "object",
+			"properties": {
+				"coordinates": {
+					"title": "coordinates",
+					"description": "Array of linestring",
+					"type": "array",
+					"minItems": 1,
+					"items": {
+						"description": "Linestring, i.e. array of positions",
+						"type": "array",
+						"minItems": 2,
+						"items": {
+							"description": "Position (longitude, lattitude)",
+							"type": "array",
+							"minItems": 2,
+							"maxItems": 2,
+							"items": {
+								"type": "number"
+							}
+						}
+					}
+				},
+				"type": {
+					"type": "string",
+					"enum": [
+						"MultiLineString"
+					]
+				}
+			},
+			"required": [
+				"coordinates",
+				"type"
+			],
+			"additionalProperties": false
+		},
+		"Polygon": {
+			"title": "Polygon",
+			"type": "object",
+			"properties": {
+				"coordinates": {
+					"title": "coordinates",
+					"description": "Array of linestrings",
+					"type": "array",
+					"minItems": 1,
+					"items": {
+						"description": "Linear ring, i.e. linestring or array of positions",
+						"type": "array",
+						"minItems": 1,
+						"items": {
+							"description": "One position",
+							"type": "array",
+							"minItems": 2,
+							"maxItems": 2,
+							"items": {
+								"type": "number"
+							}
+						}
+					}
+				},
+				"type": {
+					"type": "string",
+					"enum": [
+						"Polygon"
+					]
+				}
+			},
+			"required": [
+				"coordinates",
+				"type"
+			],
+			"additionalProperties": false
+		},
+		"MultiPolygon": {
+			"title": "MultiPolygon",
+			"type": "object",
+			"properties": {
+				"coordinates": {
+					"title": "coordinates",
+					"description": "Array of Polygons",
+					"type": "array",
+					"minItems": 1,
+					"items": {
+						"description": "Array of linestrings",
+						"type": "array",
+						"minItems": 1,
+						"items": {
+							"description": "Linear ring, i.e. linestring or array of positions",
+							"type": "array",
+							"items": {
+								"description": "One position",
+								"type": "array",
+								"minItems": 2,
+								"maxItems": 2,
+								"items": {
+									"type": "number"
+								}
+							}
+						}
+					}
+				},
+				"type": {
+					"type": "string",
+					"enum": [
+						"MultiPolygon"
+					]
+				}
+			},
+			"required": [
+				"coordinates",
+				"type"
+			],
+			"additionalProperties": false
+		},
+		"Geometry": {
+			"title": "Geometry",
+			"type": "object",
+			"oneOf": [
+				{
+					"$ref": "#/definitions/Point"
+				},
+				{
+					"$ref": "#/definitions/MultiPoint"
+				},
+				{
+					"$ref": "#/definitions/LineString"
+				},
+				{
+					"$ref": "#/definitions/MultiLineString"
+				},
+				{
+					"$ref": "#/definitions/Polygon"
+				},
+				{
+					"$ref": "#/definitions/MultiPolygon"
+				}
+			]
+		},
+		"Agent": {
+			"description": "RFC4287 §3.2 and OGC 14-055r2 §7.1.1.7, §7.1.8",
+			"type": "object",
+			"minProperties": 1,
+			"properties": {
+				"type": {
+					"type": "string",
+					"enum": [
+						"Agent",
+						"Person",
+						"Organization"
+					]
+				},
+				"name": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string",
+					"format": "email"
+				},
+				"uri": {
+					"type": "string",
+					"format": "uri"
+				},
+				"title": {
+					"description": "OGC 14-055r2 §7.1.8",
+					"type": "string"
+				},
+				"version": {
+					"description": "OGC 14-055r2 §7.1.8",
+					"type": "string"
+				}
+			}
+		},
+		"Category": {
+			"description": "OGC 14-055r2 §7.1.1.15",
+			"type": "object",
+			"properties": {
+				"type": {
+					"type": "string",
+					"enum": [
+						"Category"
+					]
+				},
+				"scheme": {
+					"type": "string",
+					"format": "uri"
+				},
+				"term": {
+					"type": "string"
+				},
+				"label": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"term"
+			],
+			"additionalProperties": false
+		},
+		"Link": {
+			"description": "OGC 14-055r2",
+			"type": "object",
+			"properties": {
+				"href": {
+					"type": "string",
+					"format": "uri"
+				},
+				"type": {
+					"description": "MIME type",
+					"type": "string"
+				},
+				"title": {
+					"type": "string"
+				},
+				"length": {
+					"type": "integer",
+					"minimum": 0,
+					"exclusiveMinimum": true
+				},
+				"lang": {
+					"description": "RFC-3066",
+					"type": "string"
+				}
+			},
+			"required": [
+				"href"
+			]
+		},
+		"Offering": {
+			"title": "Offering",
+			"description": "Offering as defined in OGC 14-055r2",
+			"type": "object",
+			"properties": {
+				"code": {
+					"type": "string",
+					"format": "uri"
+				},
+				"operations": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/Operation"
+					}
+				},
+				"contents": {
+					"type": "array"
+				},
+				"styles": {
+					"type": "array"
+				}
+			},
+			"required": [
+				"code"
+			]
+		},
+		"Operation": {
+			"description": "OGC 14-055r2",
+			"type": "object",
+			"properties": {
+				"code": {
+					"type": "string",
+					"format": "uri"
+				},
+				"method": {
+					"type": "string",
+					"enum": [
+						"GET",
+						"POST",
+						"PUT",
+						"HEAD",
+						"PATCH",
+						"DELETE"
+					]
+				},
+				"type": {
+					"description": "Media type",
+					"type": "string"
+				},
+				"href": {
+					"type": "string",
+					"format": "uri"
+				},
+				"request": {
+					"type": "object"
+				},
+				"result": {
+					"type": "object"
+				}
+			},
+			"required": [
+				"code",
+				"method",
+				"href"
+			]
+		}
+	}
+}

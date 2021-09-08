@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Pump Type
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry
+ vetted and accepted standards. This list defines the acceptable
+ values pertaining to the pump type.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Jun  6 2017  4:26PM
+	Last Modification Date: Jun 13 2018  1:58PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="pumpType">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">pumpType</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6587">
+			<gml:description>Centrifugal; Overhung; Flexibly Coupled; Horizontal; Foot-mounted</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6587</gml:identifier>
+			<gml:name>Centrifugal; Overhung; Flexibly Coupled; Horizontal; Foot-mounted</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6588">
+			<gml:description>Centrifugal; Overhung; Flexibly Coupled; Horizontal; Centreline-supported</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6588</gml:identifier>
+			<gml:name>Centrifugal; Overhung; Flexibly Coupled; Horizontal; Centreline-supported</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6589">
+			<gml:description>Centrifugal; Overhung; Flexibly Coupled; Vertical in-line with Bearing Bracket</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6589</gml:identifier>
+			<gml:name>Centrifugal; Overhung; Flexibly Coupled; Vertical in-line with Bearing Bracket</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6590">
+			<gml:description>Centrifugal; Overhung; Rigidly Coupled; Vertical in-line</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6590</gml:identifier>
+			<gml:name>Centrifugal; Overhung; Rigidly Coupled; Vertical in-line</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6591">
+			<gml:description>Centrifugal; Overhung; Close Coupled; Vertical in-line</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6591</gml:identifier>
+			<gml:name>Centrifugal; Overhung; Close Coupled; Vertical in-line</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6592">
+			<gml:description>Centrifugal; Overhung; Close Coupled; High-speed Integrally Geared</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6592</gml:identifier>
+			<gml:name>Centrifugal; Overhung; Close Coupled; High-speed Integrally Geared</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6593">
+			<gml:description>Centrifugal; Between-bearings; 1 &amp; 2 Stage; Axially Split</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6593</gml:identifier>
+			<gml:name>Centrifugal; Between-bearings; 1 &amp; 2 Stage; Axially Split</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6594">
+			<gml:description>Centrifugal; Between-bearings; 1 &amp; 2 Stage; Radially Split</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6594</gml:identifier>
+			<gml:name>Centrifugal; Between-bearings; 1 &amp; 2 Stage; Radially Split</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6595">
+			<gml:description>Centrifugal; Between-bearings; Multistage; Axially Split</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6595</gml:identifier>
+			<gml:name>Centrifugal; Between-bearings; Multistage; Axially Split</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6596">
+			<gml:description>Centrifugal; Between-bearings; Multistage; Radially Split; Single Casting</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6596</gml:identifier>
+			<gml:name>Centrifugal; Between-bearings; Multistage; Radially Split; Single Casting</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6597">
+			<gml:description>Centrifugal; Between-bearings; Multistage; Radially Split; Double Casting</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6597</gml:identifier>
+			<gml:name>Centrifugal; Between-bearings; Multistage; Radially Split; Double Casting</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6598">
+			<gml:description>Centrifugal; Vertically Suspended; Single Casing; Discharge through Column; Diffuser</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6598</gml:identifier>
+			<gml:name>Centrifugal; Vertically Suspended; Single Casing; Discharge through Column; Diffuser</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6599">
+			<gml:description>Centrifugal; Vertically Suspended; Single Casing; Discharge through Column; Volute</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6599</gml:identifier>
+			<gml:name>Centrifugal; Vertically Suspended; Single Casing; Discharge through Column; Volute</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6600">
+			<gml:description>Centrifugal; Vertically Suspended; Single Casing; Discharge through Column; Axial Flow</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6600</gml:identifier>
+			<gml:name>Centrifugal; Vertically Suspended; Single Casing; Discharge through Column; Axial Flow</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6601">
+			<gml:description>Centrifugal; Vertically Suspended; Single Casing; Separate Discharge; Line Shaft</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6601</gml:identifier>
+			<gml:name>Centrifugal; Vertically Suspended; Single Casing; Separate Discharge; Line Shaft</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6602">
+			<gml:description>Centrifugal; Vertically Suspended; Single Casing; Separate Discharge; Cantilever</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6602</gml:identifier>
+			<gml:name>Centrifugal; Vertically Suspended; Single Casing; Separate Discharge; Cantilever</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6603">
+			<gml:description>Centrifugal; Vertically Suspended; Double Casing; Diffuser</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6603</gml:identifier>
+			<gml:name>Centrifugal; Vertically Suspended; Double Casing; Diffuser</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6604">
+			<gml:description>Centrifugal; Vertically Suspended; Double Casing; Volute</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6604</gml:identifier>
+			<gml:name>Centrifugal; Vertically Suspended; Double Casing; Volute</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6605">
+			<gml:description>Positive Displacement; Rotary; Gear</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6605</gml:identifier>
+			<gml:name>Positive Displacement; Rotary; Gear</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6606">
+			<gml:description>Positive Displacement; Rotary; Screw</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6606</gml:identifier>
+			<gml:name>Positive Displacement; Rotary; Screw</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6607">
+			<gml:description>Positive Displacement; Rotary; Vane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6607</gml:identifier>
+			<gml:name>Positive Displacement; Rotary; Vane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6608">
+			<gml:description>Positive Displacement; Rotary; Progressive Cavity</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6608</gml:identifier>
+			<gml:name>Positive Displacement; Rotary; Progressive Cavity</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6609">
+			<gml:description>Positive Displacement; Reciprocating; Diaphragm</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6609</gml:identifier>
+			<gml:name>Positive Displacement; Reciprocating; Diaphragm</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6610">
+			<gml:description>Positive Displacement; Reciprocating; Plunger</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6610</gml:identifier>
+			<gml:name>Positive Displacement; Reciprocating; Plunger</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6611">
+			<gml:description>Positive Displacement; Reciprocating; Piston</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/pumptype">6611</gml:identifier>
+			<gml:name>Positive Displacement; Reciprocating; Piston</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

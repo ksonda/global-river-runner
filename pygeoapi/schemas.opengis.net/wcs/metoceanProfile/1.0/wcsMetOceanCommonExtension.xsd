@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.opengis.net/wcs/metoceanProfile/1.0"
+	xmlns:metocean="http://www.opengis.net/wcs/metoceanProfile/1.0"
+	xmlns:cis="http://www.opengis.net/cis/1.1/gml" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:wcs20="http://www.opengis.net/wcs/2.0" xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:om="http://www.opengis.net/om/2.0"
+	xmlns:sam="http://www.opengis.net/sampling/2.0"
+	xmlns:sams="http://www.opengis.net/samplingSpatial/2.0"
+	xmlns:metce="http://def.wmo.int/metce/2013" xmlns:ows="http://www.opengis.net/ows/2.0"
+	xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" version="1.0.0" xml:lang="en">
+	<annotation>
+		<appinfo>wcsMetOceanCommonExtension.xsd</appinfo>
+		<documentation>This XML Schema Document includes, directly and indirectly, all the XML
+			Schema Documents defined by the OGC Web Coverage Service (WCS) - MetOcean Application
+			Profile (metOcean-AP).
+			Last updated: 2020-10-27
+			Copyright (c) 2011-2020 Open Geospatial Consortium.
+			To obtain additional rights of use, visit http://www.ogc.org/legal/ .
+		</documentation>
+	</annotation>
+	<!-- =========================================================== -->
+	<!-- includes and imports                                        -->
+	<!-- =========================================================== -->
+
+	<xs:import namespace="http://www.opengis.net/gml/3.2"
+		schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	<import namespace="http://www.opengis.net/cis/1.1/gml"
+		schemaLocation="http://schemas.opengis.net/cis/1.1/gml/cisAll.xsd"/>
+	<xs:import namespace="http://www.opengis.net/om/2.0"
+		schemaLocation="http://schemas.opengis.net/om/2.0/observation.xsd"/>
+	<xs:import namespace="http://www.opengis.net/samplingSpatial/2.0"
+		schemaLocation="http://schemas.opengis.net/samplingSpatial/2.0/spatialSamplingFeature.xsd"/>
+	<xs:import namespace="http://www.opengis.net/sampling/2.0"
+		schemaLocation="http://schemas.opengis.net/sampling/2.0/samplingFeature.xsd"/>
+	<xs:import namespace="http://www.opengis.net/ows/2.0"
+		schemaLocation="http://schemas.opengis.net/ows/2.0/owsAll.xsd"/>
+	<xs:import namespace="http://www.isotc211.org/2005/gmd"
+		schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/dataQuality.xsd"/>
+	<xs:import namespace="http://def.wmo.int/metce/2013"
+		schemaLocation="http://schemas.wmo.int/metce/1.2/procedure.xsd"/>
+
+
+	<xs:element name="Footprint" substitutionGroup="gml:AbstractGeometry">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="gml:AbstractGeometryType">
+					<xs:sequence>
+						<xs:element ref="metocean:horizontalDomain"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+
+	<xs:element name="sections" type="metocean:sectionsType"/>
+	<xs:complexType name="sectionsType">
+		<xs:sequence>
+			<xs:element name="Section" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="modeldomainType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ocean"/>
+			<xs:enumeration value="atmospheric"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<xs:element name="ModelDomain" type="metocean:ModelDomainType"
+		substitutionGroup="gml:AbstractObject"/>
+	<xs:complexType name="ModelDomainType">
+		<xs:sequence>
+			<xs:element name="horizontalProjection">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="gml:AbstractMemberType">
+							<xs:sequence>
+								<xs:element ref="gml:Polygon"/>
+							</xs:sequence>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="horizontalDomain" type="metocean:horizontalDomainType"
+		substitutionGroup="gml:AbstractObject"/>
+	<xs:complexType name="horizontalDomainType">
+		<xs:sequence>
+			<xs:element ref="gml:Polygon"/>
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:element name="timeHeightMask">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="metocean:TimeHeightMask"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ParameterMask" type="metocean:parameterMaskType"
+		substitutionGroup="gmd:AbstractDQ_Result"/>
+	<xs:complexType name="parameterMaskType">
+		<xs:complexContent>
+			<xs:extension base="gmd:AbstractDQ_Result_Type">
+				<xs:sequence>
+					<xs:element name="rangeComponent" type="xs:string" minOccurs="0" maxOccurs="1"/>
+					<xs:element ref="metocean:timeHeightMask" minOccurs="0" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:element name="ResultMask" type="metocean:resultMaskType"
+		substitutionGroup="gmd:AbstractDQ_Element"/>
+	<xs:complexType name="resultMaskType">
+		<xs:complexContent>
+			<xs:extension base="gmd:AbstractDQ_Element_Type">
+				<xs:sequence/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="TimeHeightMask" type="metocean:TimeHeightMaskType"
+		substitutionGroup="cis:GeneralGridCoverage"/>
+	<xs:complexType name="TimeHeightMaskType">
+		<xs:complexContent>
+			<xs:extension base="cis:GeneralGridCoverageType"> </xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+
+	<xs:element name="SimulationProcessMetadata" type="metocean:SimulationProcessMetadataType"
+		substitutionGroup="metce:MeasurementContext"/>
+	<xs:complexType name="SimulationProcessMetadataType">
+		<xs:complexContent>
+			<xs:extension base="metce:MeasurementContextType">
+				<xs:sequence>
+					<sequence>
+						<element name="processType" type="gml:ReferenceType">
+							<annotation>
+								<documentation>A defintion of the type of process used in the
+									observation. This may be a Sensor, ManualMethod, Algorithm or
+									Simulation (including models).</documentation>
+							</annotation>
+						</element>
+
+						<element maxOccurs="1" minOccurs="0" name="discipline"
+							type="gml:ReferenceType">
+							<annotation>
+								<documentation>Indicates the medium that was sampled. E.g. water,
+									air, etc.</documentation>
+							</annotation>
+						</element>
+						<element maxOccurs="1" minOccurs="0" name="typeOfData"
+							type="gml:ReferenceType">
+							<annotation>
+								<documentation>Indicates the medium that was sampled. E.g. water,
+									air, etc.</documentation>
+							</annotation>
+						</element>
+						<element maxOccurs="1" minOccurs="0" name="signifcanceOfReferenceTime"
+							type="gml:ReferenceType">
+							<annotation>
+								<documentation>Indicates the medium that was sampled. E.g. water,
+									air, etc.</documentation>
+							</annotation>
+						</element>
+						<element maxOccurs="1" minOccurs="0" name="originatingCentre"
+							type="gml:ReferenceType">
+							<annotation>
+								<documentation>Indicates the medium that was sampled. E.g. water,
+									air, etc.</documentation>
+							</annotation>
+						</element>
+						<element maxOccurs="1" minOccurs="0" name="productionStatusOfData"
+							type="gml:ReferenceType">
+							<annotation>
+								<documentation>Indicates the medium that was sampled. E.g. water,
+									air, etc.</documentation>
+							</annotation>
+						</element>
+						<element maxOccurs="1" minOccurs="0" name="typeOfCalendarUsed"
+							type="gml:ReferenceType">
+							<annotation>
+								<documentation>Indicates the medium that was sampled. E.g. water,
+									air, etc.</documentation>
+							</annotation>
+						</element>
+						<element maxOccurs="1" minOccurs="0" name="fixedSurfacetypesAndUnits"
+							type="gml:ReferenceType">
+							<annotation>
+								<documentation>Indicates the medium that was sampled. E.g. water,
+									air, etc.</documentation>
+							</annotation>
+						</element>
+					</sequence>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<element name="SimulationProcessDomain" substitutionGroup="sams:SF_SpatialSamplingFeature"
+		type="metocean:SimulationProcessDomainType">
+		<annotation>
+			<documentation>A site.</documentation>
+		</annotation>
+	</element>
+	<complexType name="SimulationProcessDomainType">
+		<complexContent>
+			<extension base="sams:SF_SpatialSamplingFeatureType">
+				<sequence> </sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+
+	<xs:element name="referenceTime">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="gml:timePosition"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="coverageCollectionId" type="NCName">
+		<annotation>
+			<documentation>This element represents CoverageCollection identifiers. It uses the same
+				type as gml:id to allow for identifier values to be used in both contexts.
+			</documentation>
+		</annotation>
+	</xs:element>
+</xs:schema>

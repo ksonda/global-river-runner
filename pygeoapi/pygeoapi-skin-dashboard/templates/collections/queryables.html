@@ -1,0 +1,31 @@
+{% extends "_base.html" %}
+{% block title %}{{ super() }} Queryables {% endblock %}
+{% block crumbs %}{{ super() }}
+/ <a href="../../collections">Collections</a>
+/ <a href="./{{ data['id'] }}">{{ data['title'] }}</a>
+/ <a href="./{{ data['id'] }}/queryables">Queryables</a>
+{% endblock %}
+{% block body %}
+    <section id="queryables">
+      <h1>Queryables of {{ data['title'] }}</h1>
+      <p>
+        For this collection these queryable parameters are available.
+      </p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Queryable</th>
+            <th>Type</th>
+          </tr>
+        </thead>  
+        <tbody>
+        {% for queryable in data['queryables'] %}
+        <tr>
+            <td>{{ queryable['queryable'] }} </td>
+            <td>{{ queryable['type'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+      </table>
+    </section>
+{% endblock %}

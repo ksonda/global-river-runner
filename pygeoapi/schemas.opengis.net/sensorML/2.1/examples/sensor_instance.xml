@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sml:SimpleProcess gml:id="SensorML_0"
+xmlns="http://www.opengis.net/gml/3.2"
+xmlns:gml="http://www.opengis.net/gml/3.2"
+xmlns:sml="http://www.opengis.net/sensorml/2.1"
+xmlns:swe="http://www.opengis.net/swe/2.0"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.opengis.net/sensorml/2.1 http://schemas.opengis.net/sensorML/2.1/sensorML.xsd">
+<description>
+  Test of setEncodedValues and setArrayValues</description>
+<sml:typeOf xlink:title="OGC:sensorML:test" xlink:href="./sensor_model.xml" />
+<sml:configuration>
+  <sml:Settings>
+
+    <!-- Set the camera perspective center using setArrayValues -->
+    <sml:setArrayValues ref="parameters/perspectiveCenter">
+      <sml:ArrayValues>
+        <sml:encoding>
+          <swe:TextEncoding
+            tokenSeparator="," blockSeparator="&#x0A;" decimalSeparator="." />
+        </sml:encoding>
+        <sml:value>
+          1505083.09478582,-4446383.37808881,4305623.97164075
+        </sml:value>
+      </sml:ArrayValues>
+    </sml:setArrayValues>
+
+    <!-- Set the lens radial distortion coefficients using setEncodedValues -->
+    <sml:setEncodedValues ref="parameters/radialDistortion">
+        0,2.42746313696e-007,8.75184423e-010,-4.4605e-014,0
+    </sml:setEncodedValues>
+
+    </sml:Settings>
+  </sml:configuration>
+</sml:SimpleProcess>

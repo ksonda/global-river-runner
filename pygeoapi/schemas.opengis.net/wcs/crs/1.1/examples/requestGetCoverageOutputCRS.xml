@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wcs20:GetCoverage
+  xmlns:wcs20="http://www.opengis.net/wcs/2.0"
+  xmlns:wcs21="http://www.opengis.net/wcs/2.1/gml"
+  xmlns:wcscrs="http://www.opengis.net/wcs_service-extension_crs/1.1"
+  xmlns:gml="http://www.opengis.net/gml/3.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/wcs/2.0 http://schemas.opengis.net/wcs/2.0/wcsAll.xsd
+  http://www.opengis.net/wcs/2.1/gml http://schemas.opengis.net/wcs/2.1/gml/wcsAll.xsd
+  http://www.opengis.net/wcs/service-extension/crs/1.1 http://schemas.opengis.net/wcs/crs/1.1/wcsCrs.xsd"
+  service="WCS"
+  version="2.1.0">
+  <wcs20:Extension>
+      <wcscrs:Crs>
+          <wcscrs:outputCrs>http://www.opengis.net/def/crs/EPSG/0/4326</wcscrs:outputCrs>
+      </wcscrs:Crs>
+  </wcs20:Extension>
+  <wcs20:CoverageId>C0001</wcs20:CoverageId>
+</wcs20:GetCoverage>
+

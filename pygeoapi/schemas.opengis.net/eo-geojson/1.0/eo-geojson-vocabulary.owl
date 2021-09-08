@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ This file can be opened with http://www.essepuntato.it/lode or http://ontorule-project.eu/parrot/parrot.          
+-->
+
+<!--
+   Abstract:  RDF Schema Vocabulary Definition - Source code for Annex B3 of OGC 17-003. 
+ 
+   09/10/2017:
+     - iana namespace added and used for atom:alternate etc.  
+   12-22/01/2018:
+     - Modifications to align with v1.0.0 D1 of OGC 17-003 document.   
+   30/10/2018:
+     - Updates further to OGC Request for Public comments.
+   09/11/2018:
+     - Updates further to OGC SWG telco decisions of 6/11/2018.   
+   19/02/2019:
+     - Updates further to OGC SWG telco decisions of 18/02/2019: InstrumentParameter class removed and properties
+       moved to AcquisitionParameters.  "domain" property corrected (was still "Instrument") for moved properties.
+-->
+
+
+<!-- 
+ Declaring some entities to be used later.          
+-->
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY dc 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcterms 'http://purl.org/dc/terms/'>
+    <!ENTITY gj 'http://purl.org/geojson/vocab#'>
+	<!ENTITY owc 'http://www.opengis.net/ont/owc/1.0/'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+    <!ENTITY atom 'http://www.w3.org/2005/Atom/'>
+	<!ENTITY iana 'http://www.iana.org/assignments/relation/'>
+	<!ENTITY media 'http://search.yahoo.com/mrss/'>
+	<!ENTITY schema 'http://schema.org/'>
+	<!ENTITY eop 'http://www.opengis.net/ont/eo-geojson/1.0/'>
+	<!ENTITY ical 'http://www.w3.org/2002/12/cal/ical#'>
+	<!ENTITY schema 'http://schema.org/'>
+	<!ENTITY xs 'http://www.w3.org/2001/XMLSchema-datatypes#'> 
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"  xmlns:vann="http://purl.org/vocab/vann/" xmlns:skos="http://www.w3.org/2004/02/skos/core#"  xmlns:eop="http://www.opengis.net/ont/eo-geojson/1.0/"   xmlns:media="http://search.yahoo.com/mrss/" xmlns:iana="http://www.iana.org/assignments/relation/"  xmlns:owc="http://www.opengis.net/ont/owc/1.0/">
+
+	<owl:Ontology rdf:about="&eop;">
+		<dc:title>OGC 17-003 - Earth Observation Dataset Metadata Vocabulary</dc:title>
+		<owl:versionInfo rdf:datatype="&xsd;string">1.0.0</owl:versionInfo>
+		<void:vocabulary rdf:resource="&dcterms;"/>
+		<!-- annotations for documentation tools -->
+		<dc:date rdf:datatype="&xsd;string">2018-11-09</dc:date>
+		<rdfs:comment rdf:datatype="&xsd;string">This vocabulary defines the classes and properties required to model Earth Observation (EO) metadata for datasets (i.e. products or granules).  It provides the models for the exchange of information describing EO datasets, both within and between different organisations.
+        The implementation is derived from the conceptual models defined in the Earth Observation Metadata Profile of Observations and Measurements OGC 10-157r4, and the Unified Metadata Model for Granules (UMM-G).</rdfs:comment>
+		
+		<vann:preferredNamespacePrefix>eop</vann:preferredNamespacePrefix>
+		<vann:preferredNamespaceUri>&eop;</vann:preferredNamespaceUri>
+		
+		<dc:creator rdf:datatype="&xsd;string">Yves Coene, Spacebel s.a.</dc:creator>
+		<dc:contributor rdf:datatype="&xsd;string">John Taylor, CGI</dc:contributor>
+		<dc:contributor rdf:datatype="&xsd;string">Olivier Barois, European Space Agency</dc:contributor>
+        <dc:contributor rdf:datatype="&xsd;string">Sirko Schindler, DLR</dc:contributor>
+        <dcterms:license>http://www.opengeospatial.org/ogc/software</dcterms:license>
+		<!-- <owl:imports rdf:resource="&dcterms;"/> -->
+		<!-- <owl:imports rdf:resource="&ical;"/> -->	
+		
+        <!--       <owl:imports rdf:resource="&owc;"/>   -->
+        <owl:imports rdf:resource="http://geo.spacebel.be/opensearch/owc.owl"/>  <!-- temporary import location for owc vocabulary  -->
+		<owl:imports rdf:resource="&gj;"/>   
+  
+	</owl:Ontology>
+
+<!-- 
+ 
+-->
+
+
+<!-- 
+       Table 4: EarthObservation Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;EarthObservation">
+  <rdfs:label>EarthObservation</rdfs:label>
+  <rdfs:comment> Earth Observation as defined in OGC 10-157r4</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+  <rdfs:subClassOf rdf:resource="&gj;Feature"/> 
+  <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "type": "Feature",
+    "id": http://fedeo.esa.int/opensearch/request/?parentIdentifier=SEA_GEC_1P&amp;uid=SE1_OPER_SEA_GEC_1P_19780927T010430_19780927T010445_001316_0000_2267_9B4F",
+    "bbox": [
+        -2.69574,
+        61.965195,
+        0.135472,
+        63.261372
+    ],
+    "geometry": {...},
+    "properties": {...}
+}
+  </vann:example>
+</owl:Class>
+
+
+<!-- 
+       Table 5: Properties Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;Properties">
+  <rdfs:label>Properties</rdfs:label>
+  <rdfs:comment>Object containing the properties of the Earth Observation.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+  <rdfs:subClassOf rdf:resource="&eop;DataIdentification"/>
+  <rdfs:subClassOf rdf:resource="&owc;Properties"/>   <!-- NEW FOR SPLIT -->
+  <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc7946"/>
+</owl:Class>
+
+<owl:Class rdf:about="&eop;StatusType">
+  <rdfs:label>StatusType</rdfs:label>
+  <rdfs:comment>Enumeration of acquisition status constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:StatusType rdf:about="&eop;ARCHIVED">
+   <dc:description>Acquisition status constant.</dc:description>
+</eop:StatusType>
+<eop:StatusType rdf:about="&eop;ACQUIRED">
+		<dc:description>Acquisition status constant.</dc:description>
+</eop:StatusType>
+<eop:StatusType rdf:about="&eop;CANCELLED">
+		<dc:description>Acquisition status constant.</dc:description>
+</eop:StatusType>
+<eop:StatusType rdf:about="&eop;FAILED">
+		<dc:description>Acquisition status constant.</dc:description>
+</eop:StatusType>
+<eop:StatusType rdf:about="&eop;PLANNED">
+		<dc:description>Acquisition status constant.</dc:description>
+</eop:StatusType>
+<eop:StatusType rdf:about="&eop;POTENTIAL">
+		<dc:description>Acquisition status constant.</dc:description>
+</eop:StatusType>
+<eop:StatusType rdf:about="&eop;REJECTED">
+		<dc:description>Acquisition status constant.</dc:description>
+</eop:StatusType>
+<eop:StatusType rdf:about="&eop;QUALITYDEGRADED">
+		<dc:description>Acquisition status constant.</dc:description>
+</eop:StatusType>
+
+
+<owl:ObjectProperty rdf:about="&eop;status">
+   <rdfs:label>status</rdfs:label>
+   <rdfs:domain rdf:resource="&eop;Properties"/>
+   
+   <rdfs:range rdf:resource="&eop;StatusType"/>
+	
+   <dc:description>Refers to product status.
+   
+Fixed Values :
+ - ARCHIVED
+ - ACQUIRED
+ - CANCELLED
+ - FAILED
+ - PLANNED
+ - POTENTIAL
+ - REJECTED
+ - QUALITYDEGRADED.</dc:description>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&eop;acquisitionInformation">
+   <rdfs:label>acquisitionInformation</rdfs:label>
+   <rdfs:domain rdf:resource="&eop;Properties"/>
+   <rdfs:range rdf:resource="&eop;AcquisitionInformation"/>
+   <rdfs:comment>Contains acquisition information.</rdfs:comment>
+   <dc:description>Contains acquisition information.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&eop;productInformation">
+   <rdfs:label>productInformation</rdfs:label>
+   <rdfs:domain rdf:resource="&eop;Properties"/>
+   <rdfs:range rdf:resource="&eop;ProductInformation"/>
+   <rdfs:comment>Contains product information.</rdfs:comment>
+   <dc:description>Contains product information.</dc:description>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+
+
+<!-- 
+       Table 6: Links Class and properties 
+-->
+
+<owl:ObjectProperty rdf:about="&iana;describedby">
+   <rdfs:label>qualityReport</rdfs:label>
+   <dc:description>Reference to the location of a related quality report as defined by OGC 14-055r2 §7.1.2.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003, OGC 14-055r2</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc5988"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&iana;related">
+   <rdfs:label>related</rdfs:label>
+   <dc:description>Reference to the location of a related resource, e.g. cloud mask, snow mask.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc5988"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&iana;up">
+   <rdfs:label>up</rdfs:label>
+   <dc:description>Reference to the metadata of higher level resource (e.g.  Collection, also identified by parentIdentifier) resource.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://tools.ietf.org/html/rfc5988"/>
+</owl:ObjectProperty>
+
+<!-- 
+       Table 7: Atom Link Class and properties 
+-->
+
+
+<owl:Class rdf:about="&eop;CategoryType">
+  <rdfs:label>CategoryType</rdfs:label>
+  <rdfs:comment>Enumeration of category constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:CategoryType rdf:about="&eop;THUMBNAIL">
+		       <dc:description>Category constant.</dc:description>
+</eop:CategoryType>
+<eop:CategoryType rdf:about="&eop;QUICKLOOK">
+		       <dc:description>Category constant.</dc:description>
+</eop:CategoryType>
+<eop:CategoryType rdf:about="&eop;ALBUM">
+		       <dc:description>Category constant.</dc:description>
+</eop:CategoryType>
+<eop:CategoryType rdf:about="&eop;SNOW">
+		       <dc:description>Category constant.</dc:description>
+</eop:CategoryType>
+<eop:CategoryType rdf:about="&eop;CLOUD">
+		       <dc:description>Category constant.</dc:description>
+</eop:CategoryType>
+<eop:CategoryType rdf:about="&eop;QUALITY">  
+             <dc:description>Category constant.</dc:description>
+</eop:CategoryType>
+
+<owl:ObjectProperty rdf:about="&media;category">
+   <rdfs:label>category</rdfs:label>
+   <dc:description>Media category of the related resource which corresponds to a preview or mask:
+- THUMBNAIL
+- QUICKLOOK
+- ALBUM
+- SNOW
+- CLOUD
+- QUALITY
+Only applicable for media resources.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&media;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003, MediaRSS</dcterms:source>
+   <rdfs:seeAlso rdf:resource="http://www.rssboard.org/media-rss#media-category"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&media;expression">
+   <rdfs:label>expression</rdfs:label>
+   <dc:description>Determines if the related resource is a sample or the full version of the product.  Use "full" for “product/ProductInformation/”.  Use "sample" for "browse/BrowseInformation/" or "mask/MaskInformation/".</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&media;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003, MediaRSS</dcterms:source>
+   <rdfs:seeAlso rdf:resource="http://www.rssboard.org/media-rss#media-content"/>
+</owl:DatatypeProperty>
+
+
+<!-- 
+       Table 8: DataIdentification Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;DataIdentification">
+  <rdfs:label>DataIdentification</rdfs:label>
+  <rdfs:comment>Base class of Properties.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource ="&eop;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&eop;parentIdentifier">
+   <rdfs:label>parentIdentifier</rdfs:label>
+   <rdfs:comment>Collection identifier.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;DataIdentification"/>
+   <vann:example>
+{
+    "parentIdentifier": "SEA_GEC_1P"
+}
+   </vann:example>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;doi">
+   <rdfs:label>doi</rdfs:label>
+   <rdfs:comment>Digital Object Identifier identifying the product (see http://www.doi.org).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;DataIdentification"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:about="&eop;additionalAttributes">
+   <rdfs:label>additionalAttributes</rdfs:label>
+   <rdfs:comment>Container for ad-hoc additional metadata attributes which are organisation or mission specific.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;DataIdentification"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+
+<!-- 
+       Table 10: VerticalSpatialDomain Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;VerticalSpatialDomain">
+  <rdfs:label>VerticalSpatialDomain</rdfs:label>
+  <rdfs:comment>Contains the properties related to the spatial extent in the vertical dimension.  Its properties are inherited by the AcquisitionParameters object.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource ="&eop;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:Class>
+
+<owl:Class rdf:about="&eop;Unit">
+  <rdfs:label>Unit</rdfs:label>
+  <rdfs:comment>Base class to include all unit constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<owl:Class rdf:about="&eop;AltitudeUnitType">
+  <rdfs:label>AltitudeUnitType</rdfs:label>
+  <rdfs:comment>Enumeration of altitudeUnit constants.</rdfs:comment>
+  <owl:equivalentClass>
+      <owl:Class>
+        <owl:oneOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="&eop;Unit/Bar"/>
+          <rdf:Description rdf:about="&eop;Unit/Meter"/>
+        </owl:oneOf>
+      </owl:Class>
+    </owl:equivalentClass>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="&eop;Unit/Meter">
+    <rdfs:label>meter</rdfs:label>
+    <dc:description>Unit constant representing SI unit "meter" (m).</dc:description>
+    <rdf:type rdf:resource="&eop;Unit"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&eop;Unit/Bar">
+    <rdfs:label>bar</rdfs:label>
+    <dc:description>Unit constant representing non-SI unit "bar" (bar).</dc:description>
+    <rdf:type rdf:resource="&eop;Unit"/>
+</owl:NamedIndividual>
+
+<owl:ObjectProperty rdf:about="&eop;altitudeUnit">
+   <rdfs:label>locationUnit</rdfs:label>
+   <rdfs:comment>Unit of measure used to express lowestLocation and highestLocation: meter (m) or bar (bar). Default is meter (m).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;VerticalSpatialDomain"/>
+   <rdfs:range rdf:resource="&eop;AltitudeUnitType"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;minimumAltitude">
+   <rdfs:label>lowestLocation</rdfs:label>
+   <rdfs:comment>Upper bound of measurements in vertical dimension.  Unit of measure defined by locationUnit property.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;VerticalSpatialDomain"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;maximumAltitude">
+   <rdfs:label>highestLocation</rdfs:label>
+   <rdfs:comment>Lower bound of measurements in vertical dimension.   Unit of measure defined by locationUnit property.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;VerticalSpatialDomain"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<!-- 
+       Table 11: OrbitParameters Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;OrbitParameters">
+  <rdfs:label>OrbitParameters</rdfs:label>
+  <rdfs:comment>Contains the properties related to the orbit.  Its properties are inherited by the AcquisitionParameters object.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource ="&eop;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:Class>
+
+<owl:Class rdf:about="&eop;OrbitDirectionType">
+  <rdfs:label>OrbitDirectionType</rdfs:label>
+  <rdfs:comment>Enumeration of orbit direction constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:OrbitDirectionType rdf:about="&eop;ASCENDING">
+   <dc:description>Orbit direction constant.</dc:description>
+</eop:OrbitDirectionType>
+
+<eop:OrbitDirectionType rdf:about="&eop;DESCENDING">
+   <dc:description>Orbit direction constant.</dc:description>
+</eop:OrbitDirectionType>
+
+<owl:ObjectProperty rdf:about="&eop;orbitDirection">
+   <rdfs:label>orbitDirection</rdfs:label>
+   <rdfs:comment>Acquisition orbit direction at the start of the acquisition/product.
+Values:
+•	ASCENDING
+•	DESCENDING</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;OrbitParameters"/> 
+   <rdfs:range rdf:resource="&eop;OrbitDirectionType"/>
+    
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&eop;lastOrbitDirection">
+   <rdfs:label>lastOrbitDirection</rdfs:label>
+   <rdfs:comment>Acquisition orbit direction at the end of the acquisition/product. Assumed to be identical to orbitDirection if not present.
+Values:
+•	ASCENDING
+•	DESCENDING</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;OrbitParameters"/> 
+   <rdfs:range rdf:resource="&eop;OrbitDirectionType"/>
+    
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;orbitDuration">
+   <rdfs:label>orbitDuration</rdfs:label>
+   <rdfs:comment>Actual orbit duration in milliseconds.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;OrbitParameters"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;orbitNumber">
+   <rdfs:label>orbitNumber</rdfs:label>
+   <rdfs:comment>Acquisition orbit number.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;OrbitParameters"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;lastOrbitNumber">
+   <rdfs:label>lastOrbitNumber</rdfs:label>
+   <rdfs:comment>Acquisition last orbit number.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;OrbitParameters"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;ascendingNodeDate">
+   <rdfs:label>ascendingNodeDate</rdfs:label>
+   <rdfs:comment>UTC date and time at ascending node of orbit.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;OrbitParameters"/>
+   <rdfs:range rdf:resource="&xsd;dateTime"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;ascendingNodeLongitude">
+   <rdfs:label>ascendingNodeLongitude</rdfs:label>
+   <rdfs:comment>Longitude at ascending node of orbit. Should be expressed in degrees.
+</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;OrbitParameters"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+
+<!-- 
+       Table 12: TemporalInformation Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;TemporalInformation">
+  <rdfs:label>TemporalInformation</rdfs:label>
+  <rdfs:comment>Contains the properties related to the start and end time of the acquisition of the data.  Its properties are inherited by the AcquisitionParameters object.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource ="&eop;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:Class>
+
+
+<!-- 
+       Table 13: AcquisitionInformation Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;AcquisitionInformation">
+  <rdfs:label>AcquisitionInformation</rdfs:label>
+  <rdfs:comment>Acquisition information of the Earth Observation as defined in OGC 17-003</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+  <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "type": "AcquisitionInformation",
+    "platform": {
+        "id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/1bffe898-f4a2-458e-92c5-cd7c9c1cd5f0",
+        "platformShortName": "Seasat", 
+        "platformSerialIdentifier": "1"
+    }, 
+    "instrument": {
+        "id":  "http://gcmdservices.gsfc.nasa.gov/kms/concept/a37282d4-322c-4dd0-8edc-36099b9b586c",
+        "sensorType": "RADAR", 
+        "instrumentShortName": "SAR"
+    },  
+    "acquisitionParameters": {
+        "operationalMode": "IM", 
+        "polarisationMode": "S", 
+        "polarisationChannels": "HH",
+        "beginningDateTime": "1978-09-27T01:04:30Z", 
+        "endingDateTime": "1978-09-27T01:04:45Z", 
+        "acquisitionType": "NOMINAL", 
+        "acquisitionSubType": "DEFAULT", 
+        "orbitNumber": "1316", 
+        "orbitDirection": "DESCENDING", 
+        "antennaLookDirection": "RIGHT", 
+        "acquisitionAngles": {
+            "minimumIncidenceAngle": 19.6, 
+            "maximumIncidenceAngle": 9.6, 
+            "incidenceAngleVariation": 9.6
+        }
+    }
+}
+   </vann:example>  
+</owl:Class>
+
+<owl:ObjectProperty rdf:about="&eop;platform">
+   <rdfs:label>platform</rdfs:label>
+   <rdfs:domain rdf:resource="&eop;AcquisitionInformation"/>
+   <rdfs:range rdf:resource="&eop;Platform"/>
+   <dc:description>The Platform used for the acquisition.  If more than one platform is used for creating the product, then the AcquisitionInformation object occurs more than once.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&eop;instrument">
+   <rdfs:label>instrument</rdfs:label>
+   <rdfs:domain rdf:resource="&eop;AcquisitionInformation"/>
+   <rdfs:range rdf:resource="&eop;Instrument"/>
+   <dc:description>The Instrument/Sensor used for the acquisition.
+If more than one instrument is used for creating the product, then the AcquisitionInformation object occurs more than once.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="&eop;acquisitionParameters">
+   <rdfs:label>acquisitionParameters</rdfs:label>
+   <rdfs:domain rdf:resource="&eop;AcquisitionInformation"/>
+   <rdfs:range rdf:resource="&eop;AcquisitionParameters"/>
+   <dc:description>The acquisition parameters (i.e. pointing angles, etc.).</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<!-- 
+       Table 14: Platform Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;Platform">
+  <rdfs:label>Platform</rdfs:label>
+  <rdfs:comment>Contains the properties of the platform (satellite) that was used to perform the observation.  Use as "id" the URI defined by GCMD to identify the platform.  A list of URI can be downloaded from https://gcmdservices.gsfc.nasa.gov/static/kms/platforms/platforms.rdf.</rdfs:comment>
+  <rdfs:seeAlso rdf:resource="https://gcmdservices.gsfc.nasa.gov/static/kms/platforms/platforms.rdf"/>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+    <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "type": "Platform",
+    "id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/a1498dff-002d-4d67-9091-16822c608221",
+    "platformShortName": "Seasat", 
+    "platformSerialIdentifier": "1",
+    "orbitType": "LEO"
+}
+   </vann:example>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&eop;platformShortName">
+   <rdfs:label>platformShortName</rdfs:label>
+   <rdfs:comment>Platform short name (e.g. "Seasat" or "ENVISAT").</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;Platform"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;platformSerialIdentifier">
+   <rdfs:label>platformSerialIdentifier</rdfs:label>
+   <rdfs:comment>Platform serial identifier (e.g. for Seasat : 1).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;Platform"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+
+<owl:Class rdf:about="&eop;OrbitType">
+  <rdfs:label>OrbitType</rdfs:label>
+  <rdfs:comment>Enumeration of orbitType constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:OrbitType rdf:about="&eop;GEO">
+   <dc:description>Orbit type constant.</dc:description>
+</eop:OrbitType>
+<eop:OrbitType rdf:about="&eop;LEO">
+   <dc:description>Orbit type constant.</dc:description>
+</eop:OrbitType>
+
+<owl:ObjectProperty rdf:about="&eop;orbitType">
+   <rdfs:label>orbitType</rdfs:label>
+   <rdfs:comment>High level characterisation of main mission types taken from a codelist.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;Platform"/>
+   
+   <rdfs:range rdf:resource="&eop;OrbitType"/>
+	   
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<!-- 
+       Table 15: Instrument Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;Instrument">
+  <rdfs:label>Instrument</rdfs:label>
+  <rdfs:comment>Contains the properties of the instrument that was used to perform the observation.  Use as "id" the URI defined by GCMD to identify the instrument.  A list of URI can be downloaded from https://gcmdservices.gsfc.nasa.gov/static/kms/instruments/instruments.rdf.</rdfs:comment>
+  <rdfs:seeAlso rdf:resource="https://gcmdservices.gsfc.nasa.gov/static/kms/instruments/instruments.rdf"/>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+  <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "type": "Instrument",
+    "id":  "http://gcmdservices.gsfc.nasa.gov/kms/concept/a37282d4-322c-4dd0-8edc-36099b9b586c",
+    "sensorType": "RADAR", 
+    "instrumentShortName": "SAR"
+}
+   </vann:example>
+</owl:Class>
+
+<owl:Class rdf:about="&eop;SensorType">
+  <rdfs:label>SensorType</rdfs:label>
+  <rdfs:comment>Enumeration of sensorType constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:SensorType rdf:about="&eop;OPTICAL">
+   <dc:description>Sensor type constant.</dc:description>
+</eop:SensorType>
+<eop:SensorType rdf:about="&eop;RADAR">
+   <dc:description>Sensor type constant.</dc:description>
+</eop:SensorType>
+<eop:SensorType rdf:about="&eop;ALTIMETRIC">
+   <dc:description>Sensor type constant.</dc:description>
+</eop:SensorType>
+<eop:SensorType rdf:about="&eop;ATMOSPHERIC">
+   <dc:description>Sensor type constant.</dc:description>
+</eop:SensorType>
+<eop:SensorType rdf:about="&eop;LIMB">
+   <dc:description>Sensor type constant.</dc:description>
+</eop:SensorType>
+
+<owl:ObjectProperty rdf:about="&eop;sensorType">
+   <rdfs:label>sensorType</rdfs:label>
+   <rdfs:comment>Sensor type based on codelist.  Values:
+       - OPTICAL
+       - RADAR
+       - ALTIMETRIC
+       - ATMOSPHERIC
+       - LIMB.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;Instrument"/>
+   <rdfs:range rdf:resource="&eop;SensorType"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;instrumentShortName">
+   <rdfs:label>instrumentShortName</rdfs:label>
+   <rdfs:comment>Instrument (Sensor) name.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;Instrument"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+
+<!-- 
+       Table 16: InstrumentParameters Class and properties 
+-->
+
+
+
+
+<!-- 
+       Table 17: WavelengthInformation Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;WavelengthInformation">
+  <rdfs:label>WavelengthInformation</rdfs:label>
+  <rdfs:comment>Contains the properties of the instrument related to the wavelengths used for the observation.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&eop;discreteWavelength">
+   <rdfs:label>discreteWavelengths</rdfs:label>
+   <rdfs:comment>Discrete wavelength observed in the product.   Unit of measure is SI base unit (m) without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;WavelengthInformation"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;startWavelength">
+   <rdfs:label>startWavelength</rdfs:label>
+   <rdfs:comment>Start of the observed wavelength range.  Unit of measure is SI base unit (m) without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;WavelengthInformation"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;endWavelength">
+   <rdfs:label>endWavelength</rdfs:label>
+   <rdfs:comment>End of the observed wavelength range.  Unit of measure is SI base unit (m) without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;WavelengthInformation"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="&eop;SpectralRangeType">
+  <rdfs:label>SpectralRangeType</rdfs:label>
+  <rdfs:comment>Enumeration of spectralRangeType constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/INFRARED">
+   <dc:description>SpectralRange type constant.</dc:description>
+   <skos:narrower rdf:resource="&eop;SpectralRange/NIR"/>
+   <skos:narrower rdf:resource="&eop;SpectralRange/SWIR"/>
+   <skos:narrower rdf:resource="&eop;SpectralRange/MWIR"/>
+   <skos:narrower rdf:resource="&eop;SpectralRange/LWIR"/>
+   <skos:narrower rdf:resource="&eop;SpectralRange/FIR"/>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/NIR">
+   <dc:description>SpectralRange type constant for Near Infrared (NIR).</dc:description>
+   <skos:broader rdf:resource="&eop;SpectralRange/INFRARED"/>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/SWIR">
+   <dc:description>SpectralRange type constant for Short Wavelength Infrared (SWIR).</dc:description>
+   <skos:broader rdf:resource="&eop;SpectralRange/INFRARED"/>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/MWIR">
+   <dc:description>SpectralRange type constant for Mid Wavelength Infrared (MWIR).</dc:description>
+   <skos:broader rdf:resource="&eop;SpectralRange/INFRARED"/>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/LWIR">
+   <dc:description>SpectralRange type constant for Long Wavelength Infrared (LWIR).</dc:description>
+   <skos:broader rdf:resource="&eop;SpectralRange/INFRARED"/>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/FIR">
+   <dc:description>SpectralRange type constant for Far Infrared (FIR).</dc:description>
+   <skos:broader rdf:resource="&eop;SpectralRange/INFRARED"/>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/UV">
+   <dc:description>SpectralRange type constant for Ultraviolet (UV).</dc:description>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/MICROWAVE">
+   <dc:description>SpectralRange type constant.</dc:description>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/VISIBLE">
+   <dc:description>SpectralRange type constant.</dc:description>
+</eop:SpectralRangeType>
+<eop:SpectralRangeType rdf:about="&eop;SpectralRange/OTHER">
+   <dc:description>SpectralRange type constant.</dc:description>
+</eop:SpectralRangeType>
+
+<owl:ObjectProperty rdf:about="&eop;spectralRange">
+   <rdfs:label>spectralRange</rdfs:label>
+   <rdfs:comment>The observed Spectral Range:
+Values:
+- INFRARED
+- NIR
+- SWIR
+- MWIR
+- LWIR
+- FIR
+- UV
+- VISIBLE
+- MICROWAVE
+- OTHER.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;WavelengthInformation"/>
+   <rdfs:range rdf:resource="&eop;SpectralRangeType"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;wavelengthResolution">
+   <rdfs:label>wavelengthResolution</rdfs:label>
+   <rdfs:comment>Spacing between consecutive wavelengths.   Unit of measure is SI base unit (m) without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;WavelengthInformation"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+
+<!-- 
+       Table 18: AcquisitionParameters Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;AcquisitionParameters">
+  <rdfs:label>AcquisitionParameters</rdfs:label>
+  <rdfs:comment>Contains the properties related to the acquisition of the data.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource="&eop;TemporalInformation"/>
+  <rdfs:subClassOf rdf:resource="&eop;VerticalSpatialDomain"/>
+  <rdfs:subClassOf rdf:resource="&eop;OrbitParameters"/>
+  <rdfs:isDefinedBy rdf:resource ="&eop;"/>
+  <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+ <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "type": "AcquisitionParameters",
+    "beginningDateTime": "1978-09-27T01:04:30Z", 
+    "endingDateTime": "1978-09-27T01:04:45Z", 
+    "acquisitionType": "NOMINAL", 
+    "acquisitionSubType": "DEFAULT", 
+    "orbitNumber": "1316", 
+    "orbitDirection": "DESCENDING", 
+    "antennaLookDirection": "RIGHT", 
+    "acquisitionAngles": {
+        "minimumIncidenceAngle": 19.6, 
+        "maximumIncidenceAngle": 9.6, 
+        "incidenceAngleVariation": 9.6
+    }
+}
+   </vann:example> 
+</owl:Class>
+
+
+
+<owl:Class rdf:about="&eop;AcquisitionType">
+  <rdfs:label>AcquisitionType</rdfs:label>
+  <rdfs:comment>Enumeration of acquisitionType constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:AcquisitionType rdf:about="&eop;AcquisitionType/NOMINAL">
+   <dc:description>Acquisition type constant.</dc:description>
+</eop:AcquisitionType>
+
+<eop:AcquisitionType rdf:about="&eop;AcquisitionType/CALIBRATION">
+  <dc:description>Acquisition type constant.</dc:description>
+</eop:AcquisitionType>
+
+<eop:AcquisitionType rdf:about="&eop;AcquisitionType/OTHER">
+  <dc:description>Acquisition type constant.</dc:description>
+</eop:AcquisitionType>
+
+<owl:ObjectProperty rdf:about="&eop;acquisitionType">
+   <rdfs:label>acquisitionType</rdfs:label>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+
+   <rdfs:range rdf:resource="&eop;AcquisitionType"/>
+
+  <dc:description>AcquisitionType can be one of: 
+ - NOMINAL
+ - CALIBRATION
+ - OTHER.</dc:description>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;acquisitionSubType">
+   <rdfs:label>acquisitionSubType</rdfs:label>
+   <rdfs:comment>The broad value defined by the acquisitionType is too restrictive, so mission specific type definition should refer to mission/ground segment dedicated codeSpace.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;startTimeFromAscendingNode">
+   <rdfs:label>startTimeFromAscendingNode</rdfs:label>
+   <rdfs:comment>Start time of acquisition in milliseconds from ascending node date.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;completionTimeFromAscendingNode">
+   <rdfs:label>completionTimeFromAscendingNode</rdfs:label>
+   <rdfs:comment>Stop time of acquisition in milliseconds from ascending node date.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>  
+   <!-- <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>   -->
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;relativeOrbitNumber">
+   <rdfs:label>relativeOrbitNumber</rdfs:label>
+   <rdfs:comment>Orbit number since start of cycle.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;wrsLongitudeGrid">
+   <rdfs:label>wrsLongitudeGrid</rdfs:label>
+   <rdfs:comment>Neutral wrsLongitudeGrid equivalent to track in track/frame, K in K/J, etc.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;wrsLatitudeGrid">
+   <rdfs:label>wrsLatitudeGrid</rdfs:label>
+   <rdfs:comment>Neutral wrsLatitudeGrid equivalent to frame in track/frame,  J in K/J, etc.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;tileId">
+   <rdfs:label>tileId</rdfs:label>
+   <rdfs:comment>While track/frame can be used to represent the first part of an MGRS coordinate (i.g. grid zone), the tileId identifies e.g. the second part of an MGRS coordinate (square identification), e.g. in case of Sentinel.
+Used when the world reference system coordinates can not be expressed in X/Y (Track/Frame) terms, such has for UTM tiles. (used for Sentinel-2 L1C granules).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;groundTrackUncertainty">
+   <rdfs:label>groundTrackUncertainty</rdfs:label>
+   <rdfs:comment>Measure of the uncertainty of the ground track. Sometimes known as deadband e.g. 1000m (1Km) deadband.  Unit of measure is SI base unit (m) without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;cycleNumber">
+   <rdfs:label>cycleNumber</rdfs:label>
+   <rdfs:comment>Number of Cycles.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="&eop;AntennaLookDirectionType">
+  <rdfs:label>AntennaLookDirectionType</rdfs:label>
+  <rdfs:comment>Enumeration of antennaLookDirectionType constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:AntennaLookDirectionType rdf:about="&eop;LEFT">
+   <dc:description>Antenna look direction constant.</dc:description>
+</eop:AntennaLookDirectionType>
+
+<eop:AntennaLookDirectionType rdf:about="&eop;RIGHT">
+   <dc:description>Antenna look direction constant.</dc:description>
+</eop:AntennaLookDirectionType>
+
+<owl:ObjectProperty rdf:about="&eop;antennaLookDirection">
+   <rdfs:label>antennaLookDirection</rdfs:label>
+   <rdfs:comment>Look direction of antenna taken from codelist
+Values:
+- LEFT
+- RIGHT.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&eop;AntennaLookDirectionType"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;acquisitionStation">
+   <rdfs:label>acquisitionStation</rdfs:label>
+   <rdfs:comment>Acquisition / receiving station code. Possible values are mission specific and should be retrieved using codespace.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:about="&eop;acquisitionAngles">
+   <rdfs:label>acquisitionAngles</rdfs:label>
+   <rdfs:comment>Acquisition angles.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&eop;AcquisitionAngles"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source> 
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;operationalMode">
+   <rdfs:label>operationalMode</rdfs:label>
+   <rdfs:comment>Sensor mode. Possible values are mission specific.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;swathIdentifier">
+   <rdfs:label>swathIdentifier</rdfs:label>
+   <rdfs:comment>Swath identifier (e.g. Envisat ASAR has 7 distinct swaths (I1,I2,I3...I7) that correspond to precise incidence angles for the sensor).</rdfs:comment>
+  <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="&eop;PolarisationModeType">
+  <rdfs:label>PolarisationModeType</rdfs:label>
+  <rdfs:comment>Enumeration of polarisationMode constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:PolarisationModeType rdf:about="&eop;PolarisationMode/S">
+   <dc:description>Polarisation mode constant.</dc:description>
+</eop:PolarisationModeType>
+<eop:PolarisationModeType rdf:about="&eop;PolarisationMode/D">
+   <dc:description>Polarisation mode constant.</dc:description>
+</eop:PolarisationModeType>
+<eop:PolarisationModeType rdf:about="&eop;PolarisationMode/T">
+   <dc:description>Polarisation mode constant.</dc:description>
+</eop:PolarisationModeType>
+<eop:PolarisationModeType rdf:about="&eop;PolarisationMode/Q">
+   <dc:description>Polarisation mode constant.</dc:description>
+</eop:PolarisationModeType>
+<eop:PolarisationModeType rdf:about="&eop;PolarisationMode/UNDEFINED">
+   <dc:description>Polarisation mode constant.</dc:description>
+</eop:PolarisationModeType>
+
+<owl:ObjectProperty rdf:about="&eop;polarisationMode">
+   <rdfs:label>polarisationMode</rdfs:label>
+   <rdfs:comment>Polarisation mode taken from codelist:
+S (for single),
+D (for dual),
+T (for twin),
+Q (for quad),
+UNDEFINED.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>  
+   <rdfs:range rdf:resource="&eop;PolarisationModeType"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+
+<owl:Class rdf:about="&eop;PolarisationChannelsType">
+  <rdfs:label>PolarisationChannelsType</rdfs:label>
+  <rdfs:comment>Enumeration of polarisationChannels constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/HH">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/HV">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/VH">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/VV">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/HH_VV">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/HH_VH">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/HH_HV">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/VH_VV">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/VH_HV">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/VV_HV">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/VV_VH">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/HV_VH">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/HH_HV_VH_VV">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+<eop:PolarisationChannelsType rdf:about="&eop;PolarisationChannels/UNDEFINED">
+   <dc:description>Polarisation channel constant.</dc:description>
+</eop:PolarisationChannelsType>
+
+<owl:ObjectProperty rdf:about="&eop;polarisationChannels">
+   <rdfs:label>polarisationChannels</rdfs:label>
+   <rdfs:comment>Polarisation channel transmit/receive configuration: horizontal, vertical.
+Values:
+- HH
+- HV
+- VH
+- VV
+- HH, VV
+- HH, VH
+- HH, HV
+- VH, VV
+- VH, HV
+- VV, HV
+- VV, VH
+- HV, VH
+- HH, HV, VH, VV
+- UNDEFINED</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   
+   <rdfs:range rdf:resource="&eop;PolarisationChannelsType"/>   
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;resolution">
+   <rdfs:label>resolution</rdfs:label>
+   <rdfs:comment>Sensor resolution.  Unit of measure is SI base unit (m) without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;verticalResolution">
+   <rdfs:label>verticalResolution</rdfs:label>
+   <rdfs:comment>lmb: Vertical spacing of data (if regular)
+atm: Full width at half maximum of the rows of the vertical averaging kernel matrix
+Unit of measure is SI base unit (m) without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:about="&eop;wavelengths">
+   <rdfs:label>wavelengths</rdfs:label>
+   <rdfs:comment>List of discrete wavelengths observed in the product.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&eop;WavelengthInformation"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="&eop;MeasurementType">
+  <rdfs:label>MeasurementType</rdfs:label>
+  <rdfs:comment>Enumeration of measurementType constants.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<eop:MeasurementType rdf:about="&eop;ABSORPTION">
+   <dc:description>Measurement type constant.</dc:description>
+</eop:MeasurementType>
+<eop:MeasurementType rdf:about="&eop;EMISSION">
+   <dc:description>Measurement type constant.</dc:description>
+</eop:MeasurementType>
+
+<owl:ObjectProperty rdf:about="&eop;measurementType">
+   <rdfs:label>measurementType</rdfs:label>
+   <rdfs:comment>Measurement type taken from codelist:
+Values:
+- ABSORPTION
+- EMISSION.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>  
+   <rdfs:range rdf:resource="&eop;MeasurementType"/>  
+	
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;dopplerFrequency">
+   <rdfs:label>dopplerFrequency</rdfs:label>
+   <rdfs:comment>Doppler Frequency of acquisition.   Unit of measure is SI base unit (m) without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;samplingRate">
+   <rdfs:label>samplingRates</rdfs:label>
+   <rdfs:comment>Rate at which samples are provided in product. Some products may contain more than one sampling rate, e.g. 1kHz and 20kHz. Cardinality is therefore zero to many.  Unit of measure (Hz) is SI derived unit without prefix.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionParameters"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+
+<!-- 
+       Table 19: AcquisitionAngles Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;AcquisitionAngles">
+  <rdfs:label>AcquisitionAngles</rdfs:label>
+  <rdfs:comment>Contains the properties related to the acquisition angles.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+  <vann:example>
+{
+    "@context": "https://www.opengis.net/eo-geojson/1.0",
+    "type": "AcquisitionAngles",
+    "minimumIncidenceAngle": 19.6, 
+    "maximumIncidenceAngle": 9.6, 
+    "incidenceAngleVariation": 9.6
+}
+   </vann:example>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&eop;illuminationAzimuthAngle">
+   <rdfs:label>illuminationAzimuthAngle</rdfs:label>
+   <rdfs:comment>Mean illumination/solar azimuth angle given in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;illuminationZenithAngle">
+   <rdfs:label>illuminationZenithAngle</rdfs:label>
+   <rdfs:comment>Mean illumination/solar zenith angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;illuminationElevationAngle">
+   <rdfs:label>illuminationElevationAngle</rdfs:label>
+   <rdfs:comment>Mean illumination/solar elevation angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;incidenceAngle">
+   <rdfs:label>incidenceAngle</rdfs:label>
+   <rdfs:comment>Acquisition global incidence angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;minimumIncidenceAngle">
+   <rdfs:label>minimumIncidenceAngle</rdfs:label>
+   <rdfs:comment>Minimum incidence angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;maximumIncidenceAngle">
+   <rdfs:label>maximumIncidenceAngle</rdfs:label>
+   <rdfs:comment>Maximum incidence angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;incidenceAngleVariation">
+   <rdfs:label>incidenceAngleVariation</rdfs:label>
+   <rdfs:comment>Incidence angle variation in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;acrossTrackIncidenceAngle">
+   <rdfs:label>acrossTrackIncidenceAngle</rdfs:label>
+   <rdfs:comment>Acquisition across track incidence angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;alongTrackIncidenceAngle">
+   <rdfs:label>alongTrackIncidenceAngle</rdfs:label>
+   <rdfs:comment>Acquisition along track incidence angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;instrumentAzimuthAngle">
+   <rdfs:label>instrumentAzimuthAngle</rdfs:label>
+   <rdfs:comment>Mean instrument azimuth angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;instrumentZenithAngle">
+   <rdfs:label>instrumentZenithAngle</rdfs:label>
+   <rdfs:comment>Mean instrument zenith angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;instrumentElevationAngle">
+   <rdfs:label>instrumentElevationAngle</rdfs:label>
+   <rdfs:comment>Mean instrument elevation angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;pitch">
+   <rdfs:label>pitch</rdfs:label>
+   <rdfs:comment>Satellite pitch angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;roll">
+   <rdfs:label>roll</rdfs:label>
+   <rdfs:comment>Satellite roll angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;yaw">
+   <rdfs:label>yaw</rdfs:label>
+   <rdfs:comment>Satellite yaw angle in degrees (i.e. uom='deg').</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;AcquisitionAngles"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+
+
+
+
+<!-- 
+       Table 20: ProductInformation Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;ProductInformation">
+  <rdfs:label>ProductInformation</rdfs:label>
+  <rdfs:comment>Product information of the Earth Observation product as defined in OGC 17-003</rdfs:comment>
+  <rdfs:subClassOf rdf:resource="&eop;ProcessingInformation"/>
+  <rdfs:subClassOf rdf:resource="&eop;CoverageDescription"/>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&eop;productType">
+   <rdfs:label>productType</rdfs:label>
+   <rdfs:comment>Describes the product type in case that mixed types are available within a single collection, this is a ground segment specific definition.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;size">
+   <rdfs:label>size</rdfs:label>
+   <rdfs:comment>Product size (bytes) allowing the user to realise how long a download is likely to take.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;integer"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;statusSubType">
+   <rdfs:label>statusSubType</rdfs:label>
+   <rdfs:comment>Refines the status of a product when the “status” is set to “ARCHIVED”.  
+Possible values:
+- “ON-LINE”
+- “OFF-LINE”.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;statusDetail">
+   <rdfs:label>statusDetail</rdfs:label>
+   <rdfs:comment>This field refers to the status value. It should be used to motivate the reason of a failure, cancelation, rejection or degraded quality.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;availabilityTime">
+   <rdfs:label>availabilityTime</rdfs:label>
+   <rdfs:comment>The time when the result becomes available
+ dateTime in ISO 8601 format (CCYY-MM-DDThh:mm[:ss[.cc]]Z).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;dateTime"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;timeliness">
+   <rdfs:label>timeliness</rdfs:label>
+   <rdfs:comment>Timeliness of the product, such as "near real time", "rush". Possible values are mission specific and shall refer to mission/ground segment dedicated codeSpace.
+Example of values could be "NRT", "NOMINAL", “NTC” or “STC”.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;productGroupId">
+   <rdfs:label>productGroupId</rdfs:label>
+   <rdfs:comment>Holds the identifier of a particular group to which the product belongs to. Group members represent then "granules" or "portions" of end-user products that are eligible for specific aggregations (e.g. all Sentinel-2 granules having the same productGroupId can be assembled together to form a Sentinel-2 end-user product).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;productVersion">
+   <rdfs:label>productVersion</rdfs:label>
+   <rdfs:comment>Product version.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;archivingCenter">
+   <rdfs:label>archivingCenter</rdfs:label>
+   <rdfs:comment>Archiving center code. Possible values are mission specific.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;archivingDate">
+   <rdfs:label>archivingDate</rdfs:label>
+   <rdfs:comment>Archiving date time.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&xsd;dateTime"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:about="&eop;qualityInformation">
+   <rdfs:label>qualityInformation</rdfs:label>
+   <rdfs:comment>Contains properties related to the quality of the product.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProductInformation"/>
+   <rdfs:range rdf:resource="&eop;QualityInformation"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:ObjectProperty>
+
+
+
+<!-- 
+       Table 21: QualityInformation Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;QualityInformation">
+  <rdfs:label>QualityInformation</rdfs:label>
+  <rdfs:comment>Contains the properties related to the quality of the product.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&eop;qualityStatus">
+   <rdfs:label>qualityStatus</rdfs:label>
+   <rdfs:comment>Indicator that specifies whether the product quality is degraded or not.  This optional field shall be provided if the product has passed a quality check.
+Values:
+DEGRADED, NOMINAL.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;QualityInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;qualityDegradation">
+   <rdfs:label>qualityDegradation</rdfs:label>
+   <rdfs:comment>Quality degradation percentage (i.e. uom=’%’).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;QualityInformation"/>
+   <rdfs:range rdf:resource="&xsd;double"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;qualityDegradationQuotationMode">
+   <rdfs:label>qualityDegradationQuotationMode</rdfs:label>
+   <rdfs:comment>Indicator to know how the quality degradation percentage has been calculated.
+Values:
+AUTOMATIC, MANUAL.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;QualityInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;qualityDegradationTag">
+   <rdfs:label>qualityDegradationTag</rdfs:label>
+   <rdfs:comment>Contains further textual information concerning the quality degradation.  It shall be provided if qualityStatus value is DEGRADED. Possible values are mission specific and should refer to mission/ground segment dedicated codeSpace.
+Example of values could be "RADIOMETRY" or "GEOLOCATION".</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;QualityInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+
+<!-- 
+       Table 22: ProcessingInformation Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;ProcessingInformation">
+  <rdfs:label>ProcessingInformation</rdfs:label>
+  <rdfs:comment>Contains the properties related to the processing of the data.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&eop;compositeType">
+   <rdfs:label>compositeType</rdfs:label>
+   <rdfs:comment>Type of composite product expressed as timeperiod that the composite product covers using ISO 8601 duration format P[n]Y[n]M[n]D encoding , e.g. P10D for a 10 day composite.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+   <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/ISO_8601#Durations"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;processingMethod">
+   <rdfs:label>processingMethod</rdfs:label>
+   <rdfs:comment>Method used to compute datalayer. (e.g. Kalman filtering, ROSE).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;processingMethodVersion">
+   <rdfs:label>processingMethodVersion</rdfs:label>
+   <rdfs:comment>Method version (e.g. 1.0).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;processingCenter">
+   <rdfs:label>processingCenter</rdfs:label>
+   <rdfs:comment>Processing center code. Possible values are mission specific.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;processingDate">
+   <rdfs:label>processingDate</rdfs:label>
+   <rdfs:comment>Processing date time.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;dateTime"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;processingLevel">
+   <rdfs:label>processingLevel</rdfs:label>
+   <rdfs:comment>Processing level applied to the product: "1A", "1B", "1C", "2", "3".</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;processingMode">
+   <rdfs:label>processingMode</rdfs:label>
+   <rdfs:comment>Processing mode taken from mission specific code list.
+Examples of values are:
+•	NRT
+•	NOMINAL
+•	BACKLOGGED
+•	REPROCESSED
+•	VALIDATE.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;processorName">
+   <rdfs:label>processorName</rdfs:label>
+   <rdfs:comment>Processor software name (e.g. FastROSE).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;processorVersion">
+   <rdfs:label>processorName</rdfs:label>
+   <rdfs:comment>Processor software version (e.g. 1.0).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;productContentType">
+   <rdfs:label>productContentType</rdfs:label>
+   <rdfs:comment>Classification of product according to ground type covered. Note cardinality allows for multiple instances of this property.
+Allowed Values:
+•	COASTAL
+•	CONTINENTAL
+•	HYDROLOGY
+•	ICE
+•	OPEN_OCEAN
+•	OTHER
+•	REGIONAL.</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;ProcessingInformation"/>
+   <rdfs:range rdf:resource="&xsd;string"/>
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<!-- 
+       Table 23: CoverageDescription Class and properties 
+-->
+
+<owl:Class rdf:about="&eop;CoverageDescription">
+  <rdfs:label>CoverageDescription</rdfs:label>
+  <rdfs:comment>Contains the properties related to the coverage. Its properties are inherited by the ProductInformation object.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource="&eop;"/>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="&eop;cloudCover">
+   <rdfs:label>cloudCover</rdfs:label>
+   <rdfs:comment>Cloud cover percentage (i.e. uom=’%’).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;CoverageDescription"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="&eop;snowCover">
+   <rdfs:label>snowCover</rdfs:label>
+   <rdfs:comment>Snow cover percentage (i.e. uom=’%’).</rdfs:comment>
+   <rdfs:domain rdf:resource="&eop;CoverageDescription"/>
+   <rdfs:range rdf:resource="&xsd;double"/>  
+   <rdfs:isDefinedBy rdf:resource="&eop;"/>
+   <dcterms:source rdf:datatype="&xsd;string">OGC 17-003</dcterms:source>
+</owl:DatatypeProperty>
+
+
+</rdf:RDF>

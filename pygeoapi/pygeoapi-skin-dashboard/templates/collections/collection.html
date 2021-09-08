@@ -1,0 +1,98 @@
+{% extends "_base.html" %}
+{% block title %}{{ super() }} {{ data['title'] }} {% endblock %}
+{% block crumbs %}{{ super() }}
+/ <a href="../collections">Collections</a>
+/ <a href="./{{ data['id'] }}">{{ data['title'] }}</a>
+{% endblock %}
+
+{% block extrahead %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+{% endblock %}
+
+{% block body %}
+    <section id="collection">
+      <div class="row">
+        <div class="col-sm">
+          <h1>{{ data['title'] }}</h1>
+          <p>{{ data['description'] }}</p>
+          <p>
+            {% for kw in data['keywords'] %}
+              <span class="badge badge-info">{{ kw }}</span>
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+              <h6 class="m-0 font-weight-bold text-primary">
+                Items coverage
+              </h6>
+            </div>
+            <!-- Card Body -->
+            <div>
+              <div id="collection-map" style="height:300px"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+        {% if data['itemType'] == 'feature' or data['itemType'] == 'record'   %}
+        <h3>Browse</h3>
+        <ul>
+          <li>
+            <div>
+              <a title="Browse Items" href="{{ config['server']['url'] }}/collections/{{ data['id'] }}/items">
+                Browse through the items of "{{ data['title'] }}"</a></div>
+          </li>
+        </ul>
+        <h3>Queryables</h3>
+        <ul>
+          <li>
+            <div>
+              <a title="Display Queryables" href="{{ config['server']['url'] }}/collections/{{ data['id'] }}/queryables">
+                Display Queryables of "{{ data['title'] }}"</a></div>
+          </li>
+        </ul>
+        {% for provider in config['resources'][data['id']]['providers'] %}
+          {% if 'tile' in provider['type'] %}
+        <h3>Tiles</h3>
+        <ul>
+          <li>
+            <div>
+              <a title="Display Tiles" href="{{ config['server']['url'] }}/collections/{{ data['id'] }}/tiles">Display Tiles of "{{ data['title'] }}"</a>
+            </div>
+          </li>
+        </ul>
+          {% endif %}
+        {% endfor %}
+        {% endif  %}
+        </div>
+      </div>
+    </section>
+{% endblock %}
+
+{% block extrafoot %}
+    <script>
+    var map = L.map('collection-map').setView([{{ 0 }}, {{ 0 }}], 1);
+    map.addLayer(new L.TileLayer(
+      '{{ config['server']['map']['url'] }}', {
+        maxZoom: 18,
+        attribution: '{{ config['server']['map']['attribution'] }}'
+      }
+    ));
+
+    var bbox_layer = L.polygon([
+      ['{{ data['extent']['spatial']['bbox'][0][1] }}', '{{ data['extent']['spatial']['bbox'][0][0] }}'],
+      ['{{ data['extent']['spatial']['bbox'][0][3] }}', '{{ data['extent']['spatial']['bbox'][0][0] }}'],
+      ['{{ data['extent']['spatial']['bbox'][0][3] }}', '{{ data['extent']['spatial']['bbox'][0][2] }}'],
+      ['{{ data['extent']['spatial']['bbox'][0][1] }}', '{{ data['extent']['spatial']['bbox'][0][2] }}']
+    ]);
+
+    map.addLayer(bbox_layer);
+    map.fitBounds(bbox_layer.getBounds(), {maxZoom: 10});
+    </script>
+{% endblock %}

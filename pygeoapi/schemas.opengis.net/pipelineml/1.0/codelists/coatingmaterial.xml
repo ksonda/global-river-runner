@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Coating Material
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to the material of the coating.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Jul 24 2017 10:26AM
+	Last Modification Date: Jun 13 2018  1:58PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="coatingMaterial">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">coatingMaterial</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1272">
+			<gml:description>Bitumen</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1272</gml:identifier>
+			<gml:name>Bitumen</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1273">
+			<gml:description>Asphalt Enamel (AE)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1273</gml:identifier>
+			<gml:name>Asphalt Enamel (AE)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1274">
+			<gml:description>Bidim</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1274</gml:identifier>
+			<gml:name>Bidim</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1275">
+			<gml:description>Bituminous Tape</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1275</gml:identifier>
+			<gml:name>Bituminous Tape</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1276">
+			<gml:description>Coal Tar Enamel Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1276</gml:identifier>
+			<gml:name>Coal Tar Enamel Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1277">
+			<gml:description>Coal Tar Enamel/Asphalt</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1277</gml:identifier>
+			<gml:name>Coal Tar Enamel/Asphalt</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1278">
+			<gml:description>Coal Tar Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1278</gml:identifier>
+			<gml:name>Coal Tar Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1279">
+			<gml:description>Cold Asphalt Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1279</gml:identifier>
+			<gml:name>Cold Asphalt Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1280">
+			<gml:description>Copper</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1280</gml:identifier>
+			<gml:name>Copper</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1281">
+			<gml:description>Corrugated Metal</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1281</gml:identifier>
+			<gml:name>Corrugated Metal</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1282">
+			<gml:description>Enamel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1282</gml:identifier>
+			<gml:name>Enamel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1283">
+			<gml:description>Enamel, Hot</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1283</gml:identifier>
+			<gml:name>Enamel, Hot</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1284">
+			<gml:description>Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1284</gml:identifier>
+			<gml:name>Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1285">
+			<gml:description>Epoxy, Liquid</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1285</gml:identifier>
+			<gml:name>Epoxy, Liquid</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1286">
+			<gml:description>Extruded Polyethylene (X-Tru)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1286</gml:identifier>
+			<gml:name>Extruded Polyethylene (X-Tru)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1287">
+			<gml:description>Felt Paper</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1287</gml:identifier>
+			<gml:name>Felt Paper</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1288">
+			<gml:description>Fiber Cement Mortar (FCM)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1288</gml:identifier>
+			<gml:name>Fiber Cement Mortar (FCM)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1289">
+			<gml:description>Fiberglass, Innerwrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1289</gml:identifier>
+			<gml:name>Fiberglass, Innerwrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1290">
+			<gml:description>Fiberglass, Outerwrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1290</gml:identifier>
+			<gml:name>Fiberglass, Outerwrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1291">
+			<gml:description>Fusion Bond Epoxy (FBE)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1291</gml:identifier>
+			<gml:name>Fusion Bond Epoxy (FBE)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1292">
+			<gml:description>Glass Felt</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1292</gml:identifier>
+			<gml:name>Glass Felt</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1293">
+			<gml:description>Glass Fiber</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1293</gml:identifier>
+			<gml:name>Glass Fiber</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1294">
+			<gml:description>Hot Applied Wax</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1294</gml:identifier>
+			<gml:name>Hot Applied Wax</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1295">
+			<gml:description>Kraft Paper</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1295</gml:identifier>
+			<gml:name>Kraft Paper</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1296">
+			<gml:description>Lacquer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1296</gml:identifier>
+			<gml:name>Lacquer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1297">
+			<gml:description>Mineral Felt</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1297</gml:identifier>
+			<gml:name>Mineral Felt</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1298">
+			<gml:description>Mummy Wrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1298</gml:identifier>
+			<gml:name>Mummy Wrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1299">
+			<gml:description>Non-Shielding Tape (NST)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1299</gml:identifier>
+			<gml:name>Non-Shielding Tape (NST)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1300">
+			<gml:description>Organic Paint</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1300</gml:identifier>
+			<gml:name>Organic Paint</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1301">
+			<gml:description>Overlay, Abrasion Resistent</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1301</gml:identifier>
+			<gml:name>Overlay, Abrasion Resistent</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1302">
+			<gml:description>Polyester</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1302</gml:identifier>
+			<gml:name>Polyester</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1303">
+			<gml:description>Polyester Resin Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1303</gml:identifier>
+			<gml:name>Polyester Resin Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1304">
+			<gml:description>Polyethylene (PE)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1304</gml:identifier>
+			<gml:name>Polyethylene (PE)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1305">
+			<gml:description>Polyethylene (PE), Three-Layer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1305</gml:identifier>
+			<gml:name>Polyethylene (PE), Three-Layer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1306">
+			<gml:description>Polyethylene (PE), Two-Layer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1306</gml:identifier>
+			<gml:name>Polyethylene (PE), Two-Layer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1307">
+			<gml:description>Polyethylene, High Density (PEHD)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1307</gml:identifier>
+			<gml:name>Polyethylene, High Density (PEHD)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1308">
+			<gml:description>Polyethylene, Low Density (PELD)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1308</gml:identifier>
+			<gml:name>Polyethylene, Low Density (PELD)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1309">
+			<gml:description>Polyethylene, Medium Density (PEMD)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1309</gml:identifier>
+			<gml:name>Polyethylene, Medium Density (PEMD)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1310">
+			<gml:description>Polyolefin, Flame-Sprayed</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1310</gml:identifier>
+			<gml:name>Polyolefin, Flame-Sprayed</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1311">
+			<gml:description>Polypropylene (PP)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1311</gml:identifier>
+			<gml:name>Polypropylene (PP)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1312">
+			<gml:description>Polypropylene (PP), Three-Layer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1312</gml:identifier>
+			<gml:name>Polypropylene (PP), Three-Layer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1313">
+			<gml:description>Polypropylene (PP), Two-Layer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1313</gml:identifier>
+			<gml:name>Polypropylene (PP), Two-Layer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1314">
+			<gml:description>Polypropylene, Flame Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1314</gml:identifier>
+			<gml:name>Polypropylene, Flame Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1315">
+			<gml:description>Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1315</gml:identifier>
+			<gml:name>Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1316">
+			<gml:description>Polyurethane, Liguid</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1316</gml:identifier>
+			<gml:name>Polyurethane, Liguid</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1317">
+			<gml:description>Polyvinylchloride</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1317</gml:identifier>
+			<gml:name>Polyvinylchloride</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1318">
+			<gml:description>PUPP Lining</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1318</gml:identifier>
+			<gml:name>PUPP Lining</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1319">
+			<gml:description>Red Primer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1319</gml:identifier>
+			<gml:name>Red Primer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1320">
+			<gml:description>Somastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1320</gml:identifier>
+			<gml:name>Somastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1321">
+			<gml:description>Tape, Kraft</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1321</gml:identifier>
+			<gml:name>Tape, Kraft</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1322">
+			<gml:description>Tape, Petrolatum</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1322</gml:identifier>
+			<gml:name>Tape, Petrolatum</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1323">
+			<gml:description>Tape, Plastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1323</gml:identifier>
+			<gml:name>Tape, Plastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1324">
+			<gml:description>Tape, Polyethylene (PE/Poly)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1324</gml:identifier>
+			<gml:name>Tape, Polyethylene (PE/Poly)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1325">
+			<gml:description>Tape, Polymeric</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1325</gml:identifier>
+			<gml:name>Tape, Polymeric</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1326">
+			<gml:description>Tape, Polyuretane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1326</gml:identifier>
+			<gml:name>Tape, Polyuretane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1327">
+			<gml:description>Tape, PVC/Plastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1327</gml:identifier>
+			<gml:name>Tape, PVC/Plastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1328">
+			<gml:description>Tape, Wax</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1328</gml:identifier>
+			<gml:name>Tape, Wax</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1329">
+			<gml:description>TF-2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1329</gml:identifier>
+			<gml:name>TF-2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1330">
+			<gml:description>TF-3</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1330</gml:identifier>
+			<gml:name>TF-3</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1331">
+			<gml:description>TF-4</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1331</gml:identifier>
+			<gml:name>TF-4</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1332">
+			<gml:description>TG-2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1332</gml:identifier>
+			<gml:name>TG-2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1333">
+			<gml:description>TG-3</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1333</gml:identifier>
+			<gml:name>TG-3</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1334">
+			<gml:description>TG-4</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1334</gml:identifier>
+			<gml:name>TG-4</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1335">
+			<gml:description>TGF</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1335</gml:identifier>
+			<gml:name>TGF</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1336">
+			<gml:description>TGF-1</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1336</gml:identifier>
+			<gml:name>TGF-1</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1337">
+			<gml:description>TGF-2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1337</gml:identifier>
+			<gml:name>TGF-2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1338">
+			<gml:description>TGF-3 (Coat Tar - Coating and Wrapped)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1338</gml:identifier>
+			<gml:name>TGF-3 (Coat Tar - Coating and Wrapped)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1339">
+			<gml:description>TGF-4</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1339</gml:identifier>
+			<gml:name>TGF-4</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1340">
+			<gml:description>TGF-7</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1340</gml:identifier>
+			<gml:name>TGF-7</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1341">
+			<gml:description>TGM-2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1341</gml:identifier>
+			<gml:name>TGM-2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1342">
+			<gml:description>TGM-3</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1342</gml:identifier>
+			<gml:name>TGM-3</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1343">
+			<gml:description>TGM-4</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1343</gml:identifier>
+			<gml:name>TGM-4</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1344">
+			<gml:description>TGO-2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1344</gml:identifier>
+			<gml:name>TGO-2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1345">
+			<gml:description>TGO-3</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1345</gml:identifier>
+			<gml:name>TGO-3</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1346">
+			<gml:description>TGO-4</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1346</gml:identifier>
+			<gml:name>TGO-4</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1347">
+			<gml:description>TGP-2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1347</gml:identifier>
+			<gml:name>TGP-2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1348">
+			<gml:description>TGP-3</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1348</gml:identifier>
+			<gml:name>TGP-3</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1349">
+			<gml:description>TGP-4</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1349</gml:identifier>
+			<gml:name>TGP-4</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1350">
+			<gml:description>Urethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1350</gml:identifier>
+			<gml:name>Urethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1351">
+			<gml:description>Visco Elastic Polymers</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1351</gml:identifier>
+			<gml:name>Visco Elastic Polymers</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1352">
+			<gml:description>Wax, Hot Applied</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1352</gml:identifier>
+			<gml:name>Wax, Hot Applied</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1353">
+			<gml:description>Wooden Plates</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1353</gml:identifier>
+			<gml:name>Wooden Plates</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1354">
+			<gml:description>Asphalt</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1354</gml:identifier>
+			<gml:name>Asphalt</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1355">
+			<gml:description>Coal Tar</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1355</gml:identifier>
+			<gml:name>Coal Tar</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1356">
+			<gml:description>Coal Tar Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1356</gml:identifier>
+			<gml:name>Coal Tar Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1357">
+			<gml:description>Concrete</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1357</gml:identifier>
+			<gml:name>Concrete</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1358">
+			<gml:description>Tar Set</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1358</gml:identifier>
+			<gml:name>Tar Set</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1359">
+			<gml:description>Unwrapped (Bare)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1359</gml:identifier>
+			<gml:name>Unwrapped (Bare)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1360">
+			<gml:description>Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1360</gml:identifier>
+			<gml:name>Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1361">
+			<gml:description>Fiberglass</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1361</gml:identifier>
+			<gml:name>Fiberglass</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1362">
+			<gml:description>Asbestos Felt</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1362</gml:identifier>
+			<gml:name>Asbestos Felt</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1363">
+			<gml:description>Steel</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1363</gml:identifier>
+			<gml:name>Steel</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1364">
+			<gml:description>Coal Tar Enamel (CTE)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmaterial">1364</gml:identifier>
+			<gml:name>Coal Tar Enamel (CTE)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

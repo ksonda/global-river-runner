@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Coating Model Number
+	Description: 
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Feb  1 2018  2:57PM
+	Last Modification Date: Jun 13 2018  1:59PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="coatingModelNumber">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">coatingModelNumber</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1365">
+			<gml:description>Not Applicable</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1365</gml:identifier>
+			<gml:name>Not Applicable</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1366">
+			<gml:description> #2</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1366</gml:identifier>
+			<gml:name> #2</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1367">
+			<gml:description> 1.2 HG</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1367</gml:identifier>
+			<gml:name> 1.2 HG</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1368">
+			<gml:description> 1.5 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1368</gml:identifier>
+			<gml:name> 1.5 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1369">
+			<gml:description> 1.5 ST-D</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1369</gml:identifier>
+			<gml:name> 1.5 ST-D</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1370">
+			<gml:description> 1.9 HG-D</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1370</gml:identifier>
+			<gml:name> 1.9 HG-D</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1371">
+			<gml:description> 1000 (Glass Flake Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1371</gml:identifier>
+			<gml:name> 1000 (Glass Flake Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1372">
+			<gml:description> 132 HS</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1372</gml:identifier>
+			<gml:name> 132 HS</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1373">
+			<gml:description> 134 VOC Urethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1373</gml:identifier>
+			<gml:name> 134 VOC Urethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1374">
+			<gml:description> 15/15 FC</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1374</gml:identifier>
+			<gml:name> 15/15 FC</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1375">
+			<gml:description> 182 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1375</gml:identifier>
+			<gml:name> 182 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1376">
+			<gml:description> 2.1 HG</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1376</gml:identifier>
+			<gml:name> 2.1 HG</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1377">
+			<gml:description> 2.1 HG-D</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1377</gml:identifier>
+			<gml:name> 2.1 HG-D</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1378">
+			<gml:description> 2.1 HTA</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1378</gml:identifier>
+			<gml:name> 2.1 HTA</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1379">
+			<gml:description> 2.1 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1379</gml:identifier>
+			<gml:name> 2.1 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1380">
+			<gml:description> 2.1 PR-P</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1380</gml:identifier>
+			<gml:name> 2.1 PR-P</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1381">
+			<gml:description> 2.1 ST</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1381</gml:identifier>
+			<gml:name> 2.1 ST</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1382">
+			<gml:description> 2.5 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1382</gml:identifier>
+			<gml:name> 2.5 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1383">
+			<gml:description> 2.8 HG</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1383</gml:identifier>
+			<gml:name> 2.8 HG</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1384">
+			<gml:description> 2.8 PR</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1384</gml:identifier>
+			<gml:name> 2.8 PR</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1385">
+			<gml:description> 2/400 Aluminum Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1385</gml:identifier>
+			<gml:name> 2/400 Aluminum Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1386">
+			<gml:description> 2/400 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1386</gml:identifier>
+			<gml:name> 2/400 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1387">
+			<gml:description> 204 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1387</gml:identifier>
+			<gml:name> 204 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1388">
+			<gml:description> 2040 ARO</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1388</gml:identifier>
+			<gml:name> 2040 ARO</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1389">
+			<gml:description> 2040 Flex</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1389</gml:identifier>
+			<gml:name> 2040 Flex</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1390">
+			<gml:description> 205 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1390</gml:identifier>
+			<gml:name> 205 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1391">
+			<gml:description> 206 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1391</gml:identifier>
+			<gml:name> 206 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1392">
+			<gml:description> 21-5 Water Based Zinc</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1392</gml:identifier>
+			<gml:name> 21-5 Water Based Zinc</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1393">
+			<gml:description> 212 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1393</gml:identifier>
+			<gml:name> 212 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1394">
+			<gml:description> 217 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1394</gml:identifier>
+			<gml:name> 217 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1395">
+			<gml:description> 226P Patch Stick Compound</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1395</gml:identifier>
+			<gml:name> 226P Patch Stick Compound</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1396">
+			<gml:description> 231LV Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1396</gml:identifier>
+			<gml:name> 231LV Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1397">
+			<gml:description> 233H Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1397</gml:identifier>
+			<gml:name> 233H Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1398">
+			<gml:description> 234P Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1398</gml:identifier>
+			<gml:name> 234P Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1399">
+			<gml:description> 235V Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1399</gml:identifier>
+			<gml:name> 235V Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1400">
+			<gml:description> 238 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1400</gml:identifier>
+			<gml:name> 238 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1401">
+			<gml:description> 251 Flakeline (Polyester Resin Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1401</gml:identifier>
+			<gml:name> 251 Flakeline (Polyester Resin Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1402">
+			<gml:description> 252 Flakeline (Polyester Resin Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1402</gml:identifier>
+			<gml:name> 252 Flakeline (Polyester Resin Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1403">
+			<gml:description> 3.5 HG</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1403</gml:identifier>
+			<gml:name> 3.5 HG</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1404">
+			<gml:description> 300 M (Coal Tar Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1404</gml:identifier>
+			<gml:name> 300 M (Coal Tar Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1405">
+			<gml:description> 305 Waterbased Zinc</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1405</gml:identifier>
+			<gml:name> 305 Waterbased Zinc</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1406">
+			<gml:description> 306 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1406</gml:identifier>
+			<gml:name> 306 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1407">
+			<gml:description> 311 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1407</gml:identifier>
+			<gml:name> 311 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1408">
+			<gml:description> 312 Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1408</gml:identifier>
+			<gml:name> 312 Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1409">
+			<gml:description> 314 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1409</gml:identifier>
+			<gml:name> 314 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1410">
+			<gml:description> 323 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1410</gml:identifier>
+			<gml:name> 323 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1411">
+			<gml:description> 327 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1411</gml:identifier>
+			<gml:name> 327 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1412">
+			<gml:description> 345 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1412</gml:identifier>
+			<gml:name> 345 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1413">
+			<gml:description> 352 Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1413</gml:identifier>
+			<gml:name> 352 Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1414">
+			<gml:description> 378H Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1414</gml:identifier>
+			<gml:name> 378H Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1415">
+			<gml:description> 379H Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1415</gml:identifier>
+			<gml:name> 379H Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1416">
+			<gml:description> 4600C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1416</gml:identifier>
+			<gml:name> 4600C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1417">
+			<gml:description> 560C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1417</gml:identifier>
+			<gml:name> 560C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1418">
+			<gml:description> 5A-HS Coal Tar Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1418</gml:identifier>
+			<gml:name> 5A-HS Coal Tar Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1419">
+			<gml:description> 70-B</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1419</gml:identifier>
+			<gml:name> 70-B</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1420">
+			<gml:description> 7000 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1420</gml:identifier>
+			<gml:name> 7000 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1421">
+			<gml:description> 700C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1421</gml:identifier>
+			<gml:name> 700C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1422">
+			<gml:description> 702 Coal Tar Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1422</gml:identifier>
+			<gml:name> 702 Coal Tar Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1423">
+			<gml:description> 7125 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1423</gml:identifier>
+			<gml:name> 7125 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1424">
+			<gml:description> 7200 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1424</gml:identifier>
+			<gml:name> 7200 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1425">
+			<gml:description> 7250 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1425</gml:identifier>
+			<gml:name> 7250 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1426">
+			<gml:description> 7300 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1426</gml:identifier>
+			<gml:name> 7300 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1427">
+			<gml:description> 750C</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1427</gml:identifier>
+			<gml:name> 750C</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1428">
+			<gml:description> 7900 High Temp Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1428</gml:identifier>
+			<gml:name> 7900 High Temp Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1429">
+			<gml:description> 890 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1429</gml:identifier>
+			<gml:name> 890 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1430">
+			<gml:description> 891 Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1430</gml:identifier>
+			<gml:name> 891 Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1431">
+			<gml:description> 975/975H</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1431</gml:identifier>
+			<gml:name> 975/975H</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1432">
+			<gml:description> 9H Inorganic Zinc</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1432</gml:identifier>
+			<gml:name> 9H Inorganic Zinc</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1433">
+			<gml:description> A-303e</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1433</gml:identifier>
+			<gml:name> A-303e</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1434">
+			<gml:description> A-788 Splash Zone</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1434</gml:identifier>
+			<gml:name> A-788 Splash Zone</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1435">
+			<gml:description> ARO Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1435</gml:identifier>
+			<gml:name> ARO Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1436">
+			<gml:description> Atomizer</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1436</gml:identifier>
+			<gml:name> Atomizer</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1437">
+			<gml:description> AuqaShield</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1437</gml:identifier>
+			<gml:name> AuqaShield</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1438">
+			<gml:description> DDX</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1438</gml:identifier>
+			<gml:name> DDX</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1439">
+			<gml:description> Epoxy Spray</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1439</gml:identifier>
+			<gml:name> Epoxy Spray</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1440">
+			<gml:description> Flakeline (Polyester Resin Epoxy)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1440</gml:identifier>
+			<gml:name> Flakeline (Polyester Resin Epoxy)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1441">
+			<gml:description> Flowliner</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1441</gml:identifier>
+			<gml:name> Flowliner</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1442">
+			<gml:description> Fusion Bond Epoxy</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1442</gml:identifier>
+			<gml:name> Fusion Bond Epoxy</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1443">
+			<gml:description> GTS-50</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1443</gml:identifier>
+			<gml:name> GTS-50</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1444">
+			<gml:description> GTS-65</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1444</gml:identifier>
+			<gml:name> GTS-65</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1445">
+			<gml:description> GTS-80</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1445</gml:identifier>
+			<gml:name> GTS-80</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1446">
+			<gml:description> GTS-PE</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1446</gml:identifier>
+			<gml:name> GTS-PE</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1447">
+			<gml:description> GTS-PP</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1447</gml:identifier>
+			<gml:name> GTS-PP</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1448">
+			<gml:description> GTS-PP-100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1448</gml:identifier>
+			<gml:name> GTS-PP-100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1449">
+			<gml:description> GTS-PP-65</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1449</gml:identifier>
+			<gml:name> GTS-PP-65</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1450">
+			<gml:description> HOT 120</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1450</gml:identifier>
+			<gml:name> HOT 120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1451">
+			<gml:description> HOT 150</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1451</gml:identifier>
+			<gml:name> HOT 150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1452">
+			<gml:description> ID Coating</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1452</gml:identifier>
+			<gml:name> ID Coating</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1453">
+			<gml:description> Industrial Strength</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1453</gml:identifier>
+			<gml:name> Industrial Strength</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1454">
+			<gml:description> IntelliCOAT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1454</gml:identifier>
+			<gml:name> IntelliCOAT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1455">
+			<gml:description> K-Series</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1455</gml:identifier>
+			<gml:name> K-Series</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1456">
+			<gml:description> KLNN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1456</gml:identifier>
+			<gml:name> KLNN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1457">
+			<gml:description> KLON</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1457</gml:identifier>
+			<gml:name> KLON</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1458">
+			<gml:description> LAT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1458</gml:identifier>
+			<gml:name> LAT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1459">
+			<gml:description> M30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1459</gml:identifier>
+			<gml:name> M30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1460">
+			<gml:description> MIS-100</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1460</gml:identifier>
+			<gml:name> MIS-100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1461">
+			<gml:description> MIS-65</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1461</gml:identifier>
+			<gml:name> MIS-65</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1462">
+			<gml:description> Moulding Putty</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1462</gml:identifier>
+			<gml:name> Moulding Putty</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1463">
+			<gml:description> Outerwrap</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1463</gml:identifier>
+			<gml:name> Outerwrap</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1464">
+			<gml:description> PLA</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1464</gml:identifier>
+			<gml:name> PLA</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1465">
+			<gml:description> PMA</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1465</gml:identifier>
+			<gml:name> PMA</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1466">
+			<gml:description> Primer AB</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1466</gml:identifier>
+			<gml:name> Primer AB</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1467">
+			<gml:description> R15</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1467</gml:identifier>
+			<gml:name> R15</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1468">
+			<gml:description> R30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1468</gml:identifier>
+			<gml:name> R30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1469">
+			<gml:description> Rough Coat</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1469</gml:identifier>
+			<gml:name> Rough Coat</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1470">
+			<gml:description> ST Epoxy Mastic</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1470</gml:identifier>
+			<gml:name> ST Epoxy Mastic</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1471">
+			<gml:description> Superseal</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1471</gml:identifier>
+			<gml:name> Superseal</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1472">
+			<gml:description> T15</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1472</gml:identifier>
+			<gml:name> T15</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1473">
+			<gml:description> T20B(C)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1473</gml:identifier>
+			<gml:name> T20B(C)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1474">
+			<gml:description> T30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1474</gml:identifier>
+			<gml:name> T30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1475">
+			<gml:description> T30B(C)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1475</gml:identifier>
+			<gml:name> T30B(C)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1476">
+			<gml:description> TB30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1476</gml:identifier>
+			<gml:name> TB30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1477">
+			<gml:description> TB30B(C)</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1477</gml:identifier>
+			<gml:name> TB30B(C)</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1478">
+			<gml:description> TBK</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1478</gml:identifier>
+			<gml:name> TBK</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1479">
+			<gml:description> TBK-60</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1479</gml:identifier>
+			<gml:name> TBK-60</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1480">
+			<gml:description> TP30</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1480</gml:identifier>
+			<gml:name> TP30</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1481">
+			<gml:description> Unknown</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1481</gml:identifier>
+			<gml:name> Unknown</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1482">
+			<gml:description> UV Coat</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1482</gml:identifier>
+			<gml:name> UV Coat</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1483">
+			<gml:description> VOC Polyurethane</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1483</gml:identifier>
+			<gml:name> VOC Polyurethane</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1484">
+			<gml:description> WP</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1484</gml:identifier>
+			<gml:name> WP</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1485">
+			<gml:description> Wrapidseal</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1485</gml:identifier>
+			<gml:name> Wrapidseal</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1486">
+			<gml:description> XCS</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1486</gml:identifier>
+			<gml:name> XCS</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1487">
+			<gml:description> ZVH</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1487</gml:identifier>
+			<gml:name> ZVH</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1488">
+			<gml:description>1500</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1488</gml:identifier>
+			<gml:name>1500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1489">
+			<gml:description>1600</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1489</gml:identifier>
+			<gml:name>1600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1490">
+			<gml:description>2000</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1490</gml:identifier>
+			<gml:name>2000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1491">
+			<gml:description>400</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1491</gml:identifier>
+			<gml:name>400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1492">
+			<gml:description>450</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1492</gml:identifier>
+			<gml:name>450</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1493">
+			<gml:description>460</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1493</gml:identifier>
+			<gml:name>460</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1494">
+			<gml:description>50</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1494</gml:identifier>
+			<gml:name>50</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1495">
+			<gml:description>6858</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1495</gml:identifier>
+			<gml:name>6858</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1496">
+			<gml:description>6859</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1496</gml:identifier>
+			<gml:name>6859</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1497">
+			<gml:description>745</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1497</gml:identifier>
+			<gml:name>745</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1498">
+			<gml:description>750</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1498</gml:identifier>
+			<gml:name>750</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1499">
+			<gml:description>772</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1499</gml:identifier>
+			<gml:name>772</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1500">
+			<gml:description>835</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1500</gml:identifier>
+			<gml:name>835</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1501">
+			<gml:description>860</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1501</gml:identifier>
+			<gml:name>860</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1502">
+			<gml:description>8898</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1502</gml:identifier>
+			<gml:name>8898</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1503">
+			<gml:description>954</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/coatingmodelnumber">1503</gml:identifier>
+			<gml:name>954</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ==============================================================
+  OWS Common Security Extension to annotate security
+  Definition of element ows:OperationsMetadata replicating the
+  definition from the OWS Common Schema to become available as XSD
+  ==============================================================
+-->
+<!--
+    This document is described in OGC 17-007r1.
+
+    Copyright (c) 2018 Open Geospatial Consortium.
+    To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+-->
+<!-- Version: 2018-10-16 -->
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:ows_security="http://www.opengis.net/security/1.0"
+  xmlns:ows="http://www.opengis.net/ows/1.1"
+  xmlns:wms="http://www.opengis.net/wms"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  targetNamespace="http://www.opengis.net/security/1.0"
+  elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
+  <import namespace="http://www.opengis.net/wms" schemaLocation="http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd"/>
+  <import namespace="http://www.opengis.net/ows/1.1" schemaLocation="http://schemas.opengis.net/ows/1.1.0/owsOperationsMetadata.xsd"/>
+  <xs:complexType name="ExtendedSecurityCapabilitiesType">
+    <sequence>
+      <element ref="ows:OperationsMetadata"/>
+    </sequence>
+  </xs:complexType>
+  <element name="ExtendedSecurityCapabilities" type="ows_security:ExtendedSecurityCapabilitiesType" substitutionGroup="wms:_ExtendedCapabilities"/>
+</schema>
+

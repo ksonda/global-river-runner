@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metoceanpolygon:GetPolygon
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:wcs20="http://www.opengis.net/wcs/2.0"
+    xmlns:cis="http://www.opengis.net/cis/1.1/gml"
+    xmlns:metocean="http://www.opengis.net/wcs/metoceanProfile/1.0"
+    xmlns:metoceanpolygon="http://www.opengis.net/wcs/metoceanProfile_getPolygon/1.0"
+    xmlns:int="http://www.opengis.net/WCS_service-extension_interpolation/1.0"
+    xmlns:rsub="http://www.opengis.net/wcs/range-subsetting/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/wcs/metoceanProfile_getPolygon/1.0 http://schemas.opengis.net/wcs/metoceanProfile/1.0/wcsMetOceanGetPolygon.xsd" 
+    service="WCS" version="2.0.0">
+    <wcs20:CoverageId>CoverageId0</wcs20:CoverageId>
+    <rsub:RangeSubset>
+        <rsub:RangeItem>
+            <rsub:RangeComponent>Temperature</rsub:RangeComponent>
+        </rsub:RangeItem>
+        <rsub:RangeItem>
+            <rsub:RangeComponent>Wind_Speed</rsub:RangeComponent>
+        </rsub:RangeItem>
+        <rsub:RangeItem>
+            <rsub:RangeComponent>Wind_Direction</rsub:RangeComponent>
+        </rsub:RangeItem>
+    </rsub:RangeSubset>
+    <metoceanpolygon:polygonDescription>
+        <metoceanpolygon:PolygonDescription>
+            <metoceanpolygon:polygonGeometry>
+                <metoceanpolygon:PolygonCircle gml:id="ID000">
+                    <gml:Polygon gml:id="ID001">
+                        <gml:exterior>
+                            <gml:Ring>
+                                <gml:curveMember>
+                                    <gml:Curve gml:id="curve01">
+                                        <gml:segments>
+                                            <gml:CircleByCenterPoint numArc="1">
+                                                <gml:pos>27.10 -73.10</gml:pos>
+                                                <gml:radius uom="[nmi_i]">250</gml:radius>
+                                            </gml:CircleByCenterPoint>
+                                        </gml:segments>
+                                    </gml:Curve>
+                                </gml:curveMember>
+                            </gml:Ring>
+                        </gml:exterior>
+                    </gml:Polygon>
+                </metoceanpolygon:PolygonCircle>
+            </metoceanpolygon:polygonGeometry>
+            <metoceanpolygon:verticaTemporalDescription>
+                <metoceanpolygon:VerticalTemporalDescription>
+                    <metoceanpolygon:subsetByInterpolation>
+                        <metoceanpolygon:SubsetByInterpolation>
+                            <metoceanpolygon:interpolation>
+                                <int:Interpolation>
+                                    <int:globalInterpolation>http://www.opengis.net/def/interpolation/OGC/1/linear</int:globalInterpolation>
+                                    <int:InterpolationPerAxis>
+                                        <int:axis>Time</int:axis>
+                                        <int:interpolationMethod>http://www.opengis.net/def/interpolation/OGC/1/linear</int:interpolationMethod>
+                                    </int:InterpolationPerAxis>
+                                    <int:InterpolationPerAxis>
+                                        <int:axis>pressure</int:axis>
+                                        <int:interpolationMethod>http://www.opengis.net/def/interpolation/OGC/1/barycentric</int:interpolationMethod>
+                                    </int:InterpolationPerAxis>
+                                </int:Interpolation>
+                            </metoceanpolygon:interpolation>
+
+                            <metoceanpolygon:generalGrid>
+                                <cis:GeneralGrid  srsName="http://www.opengis.net/def/crs-compound?
+                                    1=http://http://www.opengis.net/def/crs/OGC/0/Time&amp;
+                                    2=http://www.codes.wmo.int/GRIB2/table4.5/IsobaricSurface"
+                                    axisLabels="Time pressure">
+                                    <cis:IrregularAxis uomLabel="ISO8601" axisLabel="Time">
+                                        <cis:C>PT0H</cis:C>
+                                        <cis:C>PT6H</cis:C>
+                                        <cis:C>PT12H</cis:C>
+                                        <cis:C>PT18H</cis:C>
+                                        <cis:C>PT24H</cis:C>
+                                        <cis:C>PT30H</cis:C>
+                                        <cis:C>PT36H</cis:C>
+                                        <cis:C>PT42H</cis:C>
+                                        <cis:C>PT48H</cis:C>
+                                    </cis:IrregularAxis>
+
+                                    <cis:IrregularAxis  uomLabel="hPa" axisLabel="pressure">
+                                        <cis:C>1000.0</cis:C>
+                                        <cis:C>950.0</cis:C>
+                                        <cis:C>850.0</cis:C>
+                                        <cis:C>500.0</cis:C>
+                                        <cis:C>300.0</cis:C>
+                                        <cis:C>250.0</cis:C>
+                                        <cis:C>200.0</cis:C>
+                                    </cis:IrregularAxis>
+
+                                    <cis:GridLimits srsName="http://www.codes.wmo.int/def/crs/OGC/0/Index4D" axisLabels="k l" >
+                                        <cis:IndexAxis axisLabel="k" lowerBound="0" upperBound="8"/>
+                                        <cis:IndexAxis axisLabel="l" lowerBound="0" upperBound="6"/>
+                                    </cis:GridLimits>
+                                </cis:GeneralGrid>
+                            </metoceanpolygon:generalGrid>
+                        </metoceanpolygon:SubsetByInterpolation>
+                    </metoceanpolygon:subsetByInterpolation>
+                </metoceanpolygon:VerticalTemporalDescription>
+            </metoceanpolygon:verticaTemporalDescription>
+        </metoceanpolygon:PolygonDescription>
+    </metoceanpolygon:polygonDescription>
+</metoceanpolygon:GetPolygon>

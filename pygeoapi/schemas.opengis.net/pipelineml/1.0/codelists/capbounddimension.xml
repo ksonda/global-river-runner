@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Cap Bound Dimension
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a set of bound values that collectively define the physical dimensions of cap component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: May 25 2017  4:23PM
+	Last Modification Date: Jun 13 2018  1:58PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="capBoundDimension">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">capBoundDimension</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id31">
+			<gml:description>.5&quot; NPS; .84&quot; OD; .109&quot; WT; 1&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">31</gml:identifier>
+			<gml:name>.5&quot; NPS; .84&quot; OD; .109&quot; WT; 1&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id32">
+			<gml:description>.5&quot; NPS; .84&quot; OD; .147&quot; WT; 1&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">32</gml:identifier>
+			<gml:name>.5&quot; NPS; .84&quot; OD; .147&quot; WT; 1&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id33">
+			<gml:description>.75&quot; NPS; 1.05&quot; OD; .113&quot; WT; 1.25&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">33</gml:identifier>
+			<gml:name>.75&quot; NPS; 1.05&quot; OD; .113&quot; WT; 1.25&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id34">
+			<gml:description>.75&quot; NPS; 1.05&quot; OD; .154&quot; WT; 1.25&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">34</gml:identifier>
+			<gml:name>.75&quot; NPS; 1.05&quot; OD; .154&quot; WT; 1.25&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id35">
+			<gml:description>1&quot; NPS; 1.32&quot; OD; .133&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">35</gml:identifier>
+			<gml:name>1&quot; NPS; 1.32&quot; OD; .133&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id36">
+			<gml:description>1&quot; NPS; 1.315&quot; OD; .179&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">36</gml:identifier>
+			<gml:name>1&quot; NPS; 1.315&quot; OD; .179&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id37">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .14&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">37</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .14&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id38">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .191&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">38</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .191&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id39">
+			<gml:description>1.5&quot; NPS; 1.9&quot; OD; .145&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">39</gml:identifier>
+			<gml:name>1.5&quot; NPS; 1.9&quot; OD; .145&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id40">
+			<gml:description>1.5&quot; NPS; 1.9&quot; OD; .2&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">40</gml:identifier>
+			<gml:name>1.5&quot; NPS; 1.9&quot; OD; .2&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id41">
+			<gml:description>2&quot; NPS; 2.38&quot; OD; .154&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">41</gml:identifier>
+			<gml:name>2&quot; NPS; 2.38&quot; OD; .154&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id42">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .218&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">42</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .218&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id43">
+			<gml:description>2.5&quot; NPS; 2.88&quot; OD; .203&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">43</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.88&quot; OD; .203&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id44">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .276&quot; WT; 1.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">44</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .276&quot; WT; 1.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id45">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .216&quot; WT; 2&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">45</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .216&quot; WT; 2&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id46">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .3&quot; WT; 2&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">46</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .3&quot; WT; 2&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id47">
+			<gml:description>3.5&quot; NPS; 4&quot; OD; .226&quot; WT; 2.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">47</gml:identifier>
+			<gml:name>3.5&quot; NPS; 4&quot; OD; .226&quot; WT; 2.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id48">
+			<gml:description>3.5&quot; NPS; 4&quot; OD; .318&quot; WT; 2.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">48</gml:identifier>
+			<gml:name>3.5&quot; NPS; 4&quot; OD; .318&quot; WT; 2.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id49">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .237&quot; WT; 2.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">49</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .237&quot; WT; 2.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id50">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .337&quot; WT; 2.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">50</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .337&quot; WT; 2.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id51">
+			<gml:description>5&quot; NPS; 5.56&quot; OD; .258&quot; WT; 3&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">51</gml:identifier>
+			<gml:name>5&quot; NPS; 5.56&quot; OD; .258&quot; WT; 3&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id52">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .375&quot; WT; 3&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">52</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .375&quot; WT; 3&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id53">
+			<gml:description>6&quot; NPS; 6.62&quot; OD; .28&quot; WT; 3.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">53</gml:identifier>
+			<gml:name>6&quot; NPS; 6.62&quot; OD; .28&quot; WT; 3.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id54">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .432&quot; WT; 3.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">54</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .432&quot; WT; 3.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id55">
+			<gml:description>8&quot; NPS; 8.62&quot; OD; .322&quot; WT; 4&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">55</gml:identifier>
+			<gml:name>8&quot; NPS; 8.62&quot; OD; .322&quot; WT; 4&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id56">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .5&quot; WT; 4&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">56</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .5&quot; WT; 4&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id57">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .365&quot; WT; 5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">57</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .365&quot; WT; 5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id58">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .5&quot; WT; 5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">58</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .5&quot; WT; 5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id59">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .375&quot; WT; 6&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">59</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .375&quot; WT; 6&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id60">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .5&quot; WT; 6&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">60</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .5&quot; WT; 6&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id61">
+			<gml:description>14&quot; NPS; 14&quot; OD; .375&quot; WT; 6.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">61</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .375&quot; WT; 6.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id62">
+			<gml:description>14&quot; NPS; 14&quot; OD; .5&quot; WT; 6.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">62</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .5&quot; WT; 6.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id63">
+			<gml:description>16&quot; NPS; 16&quot; OD; .375&quot; WT; 7&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">63</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .375&quot; WT; 7&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id64">
+			<gml:description>16&quot; NPS; 16&quot; OD; .5&quot; WT; 7&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">64</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .5&quot; WT; 7&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id65">
+			<gml:description>18&quot; NPS; 18&quot; OD; .375&quot; WT; 8&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">65</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .375&quot; WT; 8&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id66">
+			<gml:description>18&quot; NPS; 18&quot; OD; .5&quot; WT; 8&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">66</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .5&quot; WT; 8&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id67">
+			<gml:description>20&quot; NPS; 20&quot; OD; .375&quot; WT; 9&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">67</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .375&quot; WT; 9&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id68">
+			<gml:description>20&quot; NPS; 20&quot; OD; .5&quot; WT; 9&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">68</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .5&quot; WT; 9&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id69">
+			<gml:description>24&quot; NPS; 24&quot; OD; .375&quot; WT; 10.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">69</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .375&quot; WT; 10.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id70">
+			<gml:description>24&quot; NPS; 24&quot; OD; .5&quot; WT; 10.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">70</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .5&quot; WT; 10.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id71">
+			<gml:description>30&quot; NPS; 30&quot; OD; .380&quot; WT; 10.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">71</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .380&quot; WT; 10.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id72">
+			<gml:description>30&quot; NPS; 30&quot; OD; .5&quot; WT; 10.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">72</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .5&quot; WT; 10.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id73">
+			<gml:description>36&quot; NPS; 36&quot; OD; .380&quot; WT; 10.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">73</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .380&quot; WT; 10.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id74">
+			<gml:description>36&quot; NPS; 36&quot; OD; .5&quot; WT; 10.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">74</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .5&quot; WT; 10.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id75">
+			<gml:description>42&quot; NPS; 42&quot; OD; .380&quot; WT; 12&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">75</gml:identifier>
+			<gml:name>42&quot; NPS; 42&quot; OD; .380&quot; WT; 12&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id76">
+			<gml:description>42&quot; NPS; 42&quot; OD; .5&quot; WT; 12&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">76</gml:identifier>
+			<gml:name>42&quot; NPS; 42&quot; OD; .5&quot; WT; 12&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id77">
+			<gml:description>48&quot; NPS; 48&quot; OD; .380&quot; WT; 13.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">77</gml:identifier>
+			<gml:name>48&quot; NPS; 48&quot; OD; .380&quot; WT; 13.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id78">
+			<gml:description>48&quot; NPS; 48&quot; OD; .5&quot; WT; 13.5&quot; LN</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/capbounddimension">78</gml:identifier>
+			<gml:name>48&quot; NPS; 48&quot; OD; .5&quot; WT; 13.5&quot; LN</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

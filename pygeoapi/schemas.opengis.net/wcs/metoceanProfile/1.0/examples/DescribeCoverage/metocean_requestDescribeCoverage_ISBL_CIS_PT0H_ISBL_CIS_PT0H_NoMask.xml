@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DescribeCoverage xmlns="http://www.opengis.net/wcs/2.1/gml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:wcs20="http://www.opengis.net/wcs/2.0"
+    xmlns:wcs="http://www.opengis.net/wcs/2.1/gml"
+    xmlns:metocean="http://www.opengis.net/wcs/metoceanProfile/1.0"
+    xsi:schemaLocation="http://www.opengis.net/wcs/2.1/gml http://schemas.opengis.net/wcs/2.1/gml/wcsDescribeCoverage.xsd http://www.opengis.net/wcs/metoceanProfile/1.0 http://schemas.opengis.net/wcs/metoceanProfile/1.0/wcsMetOceanProfileALL.xsd"
+    service="WCS" version="2.0.0">
+
+    <wcs20:Extension>
+        <metocean:sections>
+            <metocean:Section>metocean_DescribeCoverageProfile</metocean:Section>
+        </metocean:sections>
+    </wcs20:Extension>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+    <wcs20:CoverageId>GFS_Global_2016-10-12T00.00.00Z_ISBL</wcs20:CoverageId>
+</DescribeCoverage>

@@ -1,0 +1,23 @@
+{
+	"@context":
+	{
+		"BoundingBoxType": "tms:BoundingBoxType",
+		"crs":
+		{
+			"@id": "tms:crs",
+			"@type": "@id"
+		},
+		"lowerCorner":
+		{
+			"@id": "tms:lowerCorner",
+			"@container": "@list",
+			"@type": "http://www.w3.org/2001/XMLSchema#double"
+		},
+		"upperCorner":
+		{
+			"@id": "tms:upperCorner",
+			"@container": "@list",
+			"@type": "http://www.w3.org/2001/XMLSchema#double"
+		}
+	}
+}

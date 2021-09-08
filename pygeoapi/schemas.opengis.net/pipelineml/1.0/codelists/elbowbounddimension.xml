@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Elbow Bound Dimension
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a set of bound values that collectively define the physical dimensions of elbow component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Apr 10 2017  2:50PM
+	Last Modification Date: Jun 13 2018  1:57PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="elbowBoundDimension">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">elbowBoundDimension</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5441">
+			<gml:description>45 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.083 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5441</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.083 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5442">
+			<gml:description>45 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5442</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5443">
+			<gml:description>45 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.147 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5443</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.147 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5444">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.083 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5444</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.083 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5445">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.113 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5445</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.113 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5446">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.154 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5446</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.154 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5447">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5447</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5448">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.133 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5448</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.133 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5449">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.179 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5449</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.179 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5450">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5450</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5451">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.140 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5451</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.140 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5452">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.191 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5452</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.191 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5453">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5453</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5454">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.148 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5454</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.148 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5455">
+			<gml:description>45 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.200 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5455</gml:identifier>
+			<gml:name>45 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.200 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5456">
+			<gml:description>45 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5456</gml:identifier>
+			<gml:name>45 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5457">
+			<gml:description>45 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.154 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5457</gml:identifier>
+			<gml:name>45 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.154 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5458">
+			<gml:description>45 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.218 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5458</gml:identifier>
+			<gml:name>45 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.218 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5459">
+			<gml:description>45 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.120 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5459</gml:identifier>
+			<gml:name>45 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.120 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5460">
+			<gml:description>45 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.203 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5460</gml:identifier>
+			<gml:name>45 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.203 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5461">
+			<gml:description>45 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.276 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5461</gml:identifier>
+			<gml:name>45 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.276 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5462">
+			<gml:description>45 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.281 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5462</gml:identifier>
+			<gml:name>45 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.281 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5463">
+			<gml:description>45 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.120 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5463</gml:identifier>
+			<gml:name>45 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.120 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5464">
+			<gml:description>45 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.216 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5464</gml:identifier>
+			<gml:name>45 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.216 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5465">
+			<gml:description>45 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.300 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5465</gml:identifier>
+			<gml:name>45 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.300 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5466">
+			<gml:description>45 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.120 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5466</gml:identifier>
+			<gml:name>45 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.120 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5467">
+			<gml:description>45 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.226 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5467</gml:identifier>
+			<gml:name>45 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.226 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5468">
+			<gml:description>45 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.318 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5468</gml:identifier>
+			<gml:name>45 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.318 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5469">
+			<gml:description>45 Deg; 4.000&quot; NPS; 4.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5469</gml:identifier>
+			<gml:name>45 Deg; 4.000&quot; NPS; 4.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5470">
+			<gml:description>45 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.120 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5470</gml:identifier>
+			<gml:name>45 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.120 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5471">
+			<gml:description>45 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.237 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5471</gml:identifier>
+			<gml:name>45 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.237 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5472">
+			<gml:description>45 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.337 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5472</gml:identifier>
+			<gml:name>45 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.337 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5473">
+			<gml:description>45 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.134 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5473</gml:identifier>
+			<gml:name>45 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.134 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5474">
+			<gml:description>45 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.258 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5474</gml:identifier>
+			<gml:name>45 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.258 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5475">
+			<gml:description>45 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5475</gml:identifier>
+			<gml:name>45 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5476">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.000&quot; OD; 0.280 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5476</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.000&quot; OD; 0.280 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5477">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.000&quot; OD; 0.432 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5477</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.000&quot; OD; 0.432 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5478">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.134 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5478</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.134 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5479">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5479</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5480">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.219 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5480</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.219 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5481">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.250 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5481</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.250 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5482">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.280 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5482</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.280 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5483">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.322 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5483</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.322 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5484">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5484</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5485">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.432 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5485</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.432 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5486">
+			<gml:description>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5486</gml:identifier>
+			<gml:name>45 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5487">
+			<gml:description>45 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.148 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5487</gml:identifier>
+			<gml:name>45 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.148 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5488">
+			<gml:description>45 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.250 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5488</gml:identifier>
+			<gml:name>45 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.250 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5489">
+			<gml:description>45 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.322 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5489</gml:identifier>
+			<gml:name>45 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.322 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5490">
+			<gml:description>45 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5490</gml:identifier>
+			<gml:name>45 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5491">
+			<gml:description>45 Deg; 10.000&quot; NPS; 10.000&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5491</gml:identifier>
+			<gml:name>45 Deg; 10.000&quot; NPS; 10.000&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5492">
+			<gml:description>45 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.165 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5492</gml:identifier>
+			<gml:name>45 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.165 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5493">
+			<gml:description>45 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.365 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5493</gml:identifier>
+			<gml:name>45 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.365 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5494">
+			<gml:description>45 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5494</gml:identifier>
+			<gml:name>45 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5495">
+			<gml:description>45 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5495</gml:identifier>
+			<gml:name>45 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5496">
+			<gml:description>45 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5496</gml:identifier>
+			<gml:name>45 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5497">
+			<gml:description>45 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.420 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5497</gml:identifier>
+			<gml:name>45 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.420 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5498">
+			<gml:description>45 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5498</gml:identifier>
+			<gml:name>45 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5499">
+			<gml:description>45 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.180 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5499</gml:identifier>
+			<gml:name>45 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.180 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5500">
+			<gml:description>45 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5500</gml:identifier>
+			<gml:name>45 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5501">
+			<gml:description>45 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5501</gml:identifier>
+			<gml:name>45 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5502">
+			<gml:description>45 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5502</gml:identifier>
+			<gml:name>45 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5503">
+			<gml:description>45 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5503</gml:identifier>
+			<gml:name>45 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5504">
+			<gml:description>45 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5504</gml:identifier>
+			<gml:name>45 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5505">
+			<gml:description>45 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5505</gml:identifier>
+			<gml:name>45 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5506">
+			<gml:description>45 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5506</gml:identifier>
+			<gml:name>45 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5507">
+			<gml:description>45 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5507</gml:identifier>
+			<gml:name>45 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5508">
+			<gml:description>45 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5508</gml:identifier>
+			<gml:name>45 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5509">
+			<gml:description>45 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5509</gml:identifier>
+			<gml:name>45 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5510">
+			<gml:description>45 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5510</gml:identifier>
+			<gml:name>45 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5511">
+			<gml:description>45 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.218 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5511</gml:identifier>
+			<gml:name>45 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.218 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5512">
+			<gml:description>45 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5512</gml:identifier>
+			<gml:name>45 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5513">
+			<gml:description>45 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5513</gml:identifier>
+			<gml:name>45 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5514">
+			<gml:description>45 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.250 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5514</gml:identifier>
+			<gml:name>45 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.250 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5515">
+			<gml:description>45 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5515</gml:identifier>
+			<gml:name>45 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5516">
+			<gml:description>45 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5516</gml:identifier>
+			<gml:name>45 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5517">
+			<gml:description>45 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5517</gml:identifier>
+			<gml:name>45 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5518">
+			<gml:description>45 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.565 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5518</gml:identifier>
+			<gml:name>45 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.565 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5519">
+			<gml:description>45 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.625 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5519</gml:identifier>
+			<gml:name>45 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.625 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5520">
+			<gml:description>45 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5520</gml:identifier>
+			<gml:name>45 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5521">
+			<gml:description>45 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.515 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5521</gml:identifier>
+			<gml:name>45 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.515 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5522">
+			<gml:description>45 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.741 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5522</gml:identifier>
+			<gml:name>45 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.741 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5523">
+			<gml:description>45 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.750 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5523</gml:identifier>
+			<gml:name>45 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.750 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5524">
+			<gml:description>45 Deg; 42.000&quot; NPS; 42.000&quot; OD; 0.678 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5524</gml:identifier>
+			<gml:name>45 Deg; 42.000&quot; NPS; 42.000&quot; OD; 0.678 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5525">
+			<gml:description>90 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.083 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5525</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.083 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5526">
+			<gml:description>90 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5526</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5527">
+			<gml:description>90 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.147 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5527</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 0.840&quot; OD; 0.147 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5528">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.083 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5528</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.083 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5529">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.113 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5529</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.113 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5530">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.154 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5530</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.050&quot; OD; 0.154 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5531">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5531</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5532">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.133 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5532</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.133 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5533">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.179 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5533</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.315&quot; OD; 0.179 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5534">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5534</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5535">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.140 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5535</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.140 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5536">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.191 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5536</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.660&quot; OD; 0.191 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5537">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5537</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5538">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.148 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5538</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.148 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5539">
+			<gml:description>90 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.200 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5539</gml:identifier>
+			<gml:name>90 Deg; 1.000&quot; NPS; 1.900&quot; OD; 0.200 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5540">
+			<gml:description>90 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.109 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5540</gml:identifier>
+			<gml:name>90 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.109 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5541">
+			<gml:description>90 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.154 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5541</gml:identifier>
+			<gml:name>90 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.154 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5542">
+			<gml:description>90 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.218 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5542</gml:identifier>
+			<gml:name>90 Deg; 2.000&quot; NPS; 2.375&quot; OD; 0.218 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5543">
+			<gml:description>90 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.120 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5543</gml:identifier>
+			<gml:name>90 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.120 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5544">
+			<gml:description>90 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.203 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5544</gml:identifier>
+			<gml:name>90 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.203 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5545">
+			<gml:description>90 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.276 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5545</gml:identifier>
+			<gml:name>90 Deg; 2.000&quot; NPS; 2.875&quot; OD; 0.276 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5546">
+			<gml:description>90 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.281 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5546</gml:identifier>
+			<gml:name>90 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.281 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5547">
+			<gml:description>90 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.120 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5547</gml:identifier>
+			<gml:name>90 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.120 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5548">
+			<gml:description>90 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.216 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5548</gml:identifier>
+			<gml:name>90 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.216 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5549">
+			<gml:description>90 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.300 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5549</gml:identifier>
+			<gml:name>90 Deg; 3.000&quot; NPS; 3.500&quot; OD; 0.300 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5550">
+			<gml:description>90 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.120 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5550</gml:identifier>
+			<gml:name>90 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.120 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5551">
+			<gml:description>90 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.226 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5551</gml:identifier>
+			<gml:name>90 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.226 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5552">
+			<gml:description>90 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.318 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5552</gml:identifier>
+			<gml:name>90 Deg; 3.000&quot; NPS; 4.000&quot; OD; 0.318 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5553">
+			<gml:description>90 Deg; 4.000&quot; NPS; 4.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5553</gml:identifier>
+			<gml:name>90 Deg; 4.000&quot; NPS; 4.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5554">
+			<gml:description>90 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.120 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5554</gml:identifier>
+			<gml:name>90 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.120 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5555">
+			<gml:description>90 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.237 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5555</gml:identifier>
+			<gml:name>90 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.237 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5556">
+			<gml:description>90 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.337 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5556</gml:identifier>
+			<gml:name>90 Deg; 4.000&quot; NPS; 4.500&quot; OD; 0.337 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5557">
+			<gml:description>90 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.134 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5557</gml:identifier>
+			<gml:name>90 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.134 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5558">
+			<gml:description>90 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.258 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5558</gml:identifier>
+			<gml:name>90 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.258 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5559">
+			<gml:description>90 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5559</gml:identifier>
+			<gml:name>90 Deg; 5.000&quot; NPS; 5.563&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5560">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.000&quot; OD; 0.280 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5560</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.000&quot; OD; 0.280 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5561">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.000&quot; OD; 0.432 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5561</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.000&quot; OD; 0.432 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5562">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.134 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5562</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.134 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5563">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5563</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5564">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.219 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5564</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.219 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5565">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.250 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5565</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.250 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5566">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.280 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5566</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.280 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5567">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.322 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5567</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.322 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5568">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5568</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5569">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.432 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5569</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.432 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5570">
+			<gml:description>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5570</gml:identifier>
+			<gml:name>90 Deg; 6.000&quot; NPS; 6.625&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5571">
+			<gml:description>90 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.148 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5571</gml:identifier>
+			<gml:name>90 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.148 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5572">
+			<gml:description>90 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.250 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5572</gml:identifier>
+			<gml:name>90 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.250 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5573">
+			<gml:description>90 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.322 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5573</gml:identifier>
+			<gml:name>90 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.322 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5574">
+			<gml:description>90 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5574</gml:identifier>
+			<gml:name>90 Deg; 8.000&quot; NPS; 8.625&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5575">
+			<gml:description>90 Deg; 10.000&quot; NPS; 10.000&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5575</gml:identifier>
+			<gml:name>90 Deg; 10.000&quot; NPS; 10.000&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5576">
+			<gml:description>90 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.165 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5576</gml:identifier>
+			<gml:name>90 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.165 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5577">
+			<gml:description>90 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.365 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5577</gml:identifier>
+			<gml:name>90 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.365 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5578">
+			<gml:description>90 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5578</gml:identifier>
+			<gml:name>90 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5579">
+			<gml:description>90 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5579</gml:identifier>
+			<gml:name>90 Deg; 10.000&quot; NPS; 10.750&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5580">
+			<gml:description>90 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5580</gml:identifier>
+			<gml:name>90 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5581">
+			<gml:description>90 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.420 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5581</gml:identifier>
+			<gml:name>90 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.420 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5582">
+			<gml:description>90 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5582</gml:identifier>
+			<gml:name>90 Deg; 12.000&quot; NPS; 12.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5583">
+			<gml:description>90 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.180 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5583</gml:identifier>
+			<gml:name>90 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.180 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5584">
+			<gml:description>90 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5584</gml:identifier>
+			<gml:name>90 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5585">
+			<gml:description>90 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5585</gml:identifier>
+			<gml:name>90 Deg; 12.000&quot; NPS; 12.750&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5586">
+			<gml:description>90 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5586</gml:identifier>
+			<gml:name>90 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5587">
+			<gml:description>90 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5587</gml:identifier>
+			<gml:name>90 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5588">
+			<gml:description>90 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5588</gml:identifier>
+			<gml:name>90 Deg; 14.000&quot; NPS; 14.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5589">
+			<gml:description>90 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5589</gml:identifier>
+			<gml:name>90 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5590">
+			<gml:description>90 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5590</gml:identifier>
+			<gml:name>90 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5591">
+			<gml:description>90 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5591</gml:identifier>
+			<gml:name>90 Deg; 16.000&quot; NPS; 16.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5592">
+			<gml:description>90 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.188 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5592</gml:identifier>
+			<gml:name>90 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.188 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5593">
+			<gml:description>90 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5593</gml:identifier>
+			<gml:name>90 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5594">
+			<gml:description>90 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5594</gml:identifier>
+			<gml:name>90 Deg; 18.000&quot; NPS; 18.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5595">
+			<gml:description>90 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.218 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5595</gml:identifier>
+			<gml:name>90 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.218 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5596">
+			<gml:description>90 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5596</gml:identifier>
+			<gml:name>90 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5597">
+			<gml:description>90 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5597</gml:identifier>
+			<gml:name>90 Deg; 20.000&quot; NPS; 20.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5598">
+			<gml:description>90 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.250 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5598</gml:identifier>
+			<gml:name>90 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.250 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5599">
+			<gml:description>90 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.375 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5599</gml:identifier>
+			<gml:name>90 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.375 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5600">
+			<gml:description>90 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5600</gml:identifier>
+			<gml:name>90 Deg; 24.000&quot; NPS; 24.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5601">
+			<gml:description>90 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5601</gml:identifier>
+			<gml:name>90 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5602">
+			<gml:description>90 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.565 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5602</gml:identifier>
+			<gml:name>90 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.565 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5603">
+			<gml:description>90 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.625 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5603</gml:identifier>
+			<gml:name>90 Deg; 30.000&quot; NPS; 30.000&quot; OD; 0.625 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5604">
+			<gml:description>90 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.500 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5604</gml:identifier>
+			<gml:name>90 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.500 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5605">
+			<gml:description>90 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.515 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5605</gml:identifier>
+			<gml:name>90 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.515 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5606">
+			<gml:description>90 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.741 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5606</gml:identifier>
+			<gml:name>90 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.741 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5607">
+			<gml:description>90 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.750 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5607</gml:identifier>
+			<gml:name>90 Deg; 36.000&quot; NPS; 36.000&quot; OD; 0.750 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5608">
+			<gml:description>90 Deg; 42.000&quot; NPS; 42.000&quot; OD; 0.678 WT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/elbowbounddimension">5608</gml:identifier>
+			<gml:name>90 Deg; 42.000&quot; NPS; 42.000&quot; OD; 0.678 WT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

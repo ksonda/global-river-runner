@@ -1,0 +1,144 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"dct": "http://purl.org/dc/terms/",
+		"atom": "http://www.w3.org/2005/Atom/",
+		"iana": "http://www.iana.org/assignments/relation/",
+		"os": "http://a9.com/-/spec/opensearch/1.1/",
+		"owc": "http://www.opengis.net/ont/owc/1.0/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"gj": "https://purl.org/geojson/vocab#",
+		"gsp": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"skos": "http://www.w3.org/2004/02/skos/core#",
+		"dcat": "http://www.w3.org/ns/dcat#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"sru": "http://docs.oasis-open.org/ns/search-ws/sruResponse/",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"eo": "http://a9.com/-/opensearch/extensions/eo/1.0/",
+		"geo": "http://a9.com/-/opensearch/extensions/geo/1.0/",
+		"time": "http://a9.com/-/opensearch/extensions/time/1.0/",
+		"title": "dct:title",
+		"identifier": "dct:identifier",
+		"rights": "dct:rights",
+		"recordSchema": "sru:recordSchema",
+		"lang": {
+			"@id": "dct:language",
+			"@type": "@id",
+			"@context": {
+				"@base": "http://id.loc.gov/vocabulary/iso639-1/"
+			}
+		},
+		"updated": "dct:modified",
+		"creator": "dct:creator",
+		"publisher": "dct:publisher",
+		"abstract": "dct:description",
+		"subtitle": "dct:description",
+		"categories": "dcat:theme",
+		"date": "dct:date",
+        "kind": {
+			"@id": "dct:type",
+			"@type": "@id"
+		},
+
+		"links": {
+			"@id": "owc:links",
+			"@context": {
+				"@vocab": "http://www.iana.org/assignments/relation/",
+				"type": "atom:type",
+				"data": "iana:enclosure",
+				"profiles": "iana:profile",
+				"previews": "iana:icon",
+				"alternates": "iana:alternate",
+				"qualityReport": "iana:describedby"
+			}
+		},
+		"queries": {
+			"@id": "os:queries",
+			"@context": {
+				"sru": "http://a9.com/-/opensearch/extensions/sru/2.0/",
+				"count": "os:count",
+				"searchTerms": "os:searchTerms",
+				"startPage": "os:startPage",
+				"inputEncoding": "os:inputEncoding",
+				"outputEncoding": "os:outputEncoding",
+				"request": "os:request",
+				"example": "os:example",
+				"correction": "os:correction",
+				"related": "os:related",
+				"superset": "os:superset",
+				"subset": "os:subset"
+			}
+		},
+		"Links": "owc:Links",
+		"Link": "atom:link",
+		"href": "@id",
+		"length": "atom:length",
+		"Category": "skos:Concept",
+		"label": "skos:prefLabel",
+		"term": "@id",
+		"scheme": "skos:inScheme",
+		"hasGeometry": "gsp:hasGeometry",
+		"asWKT": "gsp:asWKT",
+		"Feature": "gj:Feature",
+		"FeatureCollection": "gj:FeatureCollection",
+		"GeometryCollection": "gj:GeometryCollection",
+		"LineString": "gj:LineString",
+		"MultiLineString": "gj:MultiLineString",
+		"MultiPoint": "gj:MultiPoint",
+		"MultiPolygon": "gj:MultiPolygon",
+		"Point": "gj:Point",
+		"Polygon": "gj:Polygon",
+		"bbox": {
+			"@container": "@list",
+			"@id": "gj:bbox"
+		},
+		"coordinates": "gj:coordinates",
+		"features": {
+			"@container": "@set",
+			"@id": "gj:features"
+		},
+		"geometry": "gj:geometry",
+		"properties": "@nest",
+		"id": "@id",
+		"type": "@type",
+		"Query": "os:Query",
+		"totalResults": {
+			"@id": "os:totalResults",
+			"@type": "xsd:nonNegativeInteger"
+		},
+		"itemsPerPage": {
+			"@id": "os:itemsPerPage",
+			"@type": "xsd:nonNegativeInteger"
+		},
+		"startIndex": {
+			"@id": "os:startIndex",
+			"@type": "xsd:nonNegativeInteger"
+		},
+		"authors": {
+			"@id": "dct:creator",
+			"@context": {
+				"@vocab": "http://xmlns.com/foaf/0.1/"
+			}
+		},
+		"generator": {
+			"@id": "dct:creator",
+			"@context": {
+				"@vocab": "http://xmlns.com/foaf/0.1/",
+				"version": "owl:versionInfo",
+				"title": "foaf:name"
+			}
+		},
+		"Individual": "foaf:Person",
+		"email": "foaf:mbox",
+		"name": "foaf:name",
+		"uri": "@id",
+		"ExceptionReport": "sru:Diagnostics",
+		"exceptions": "sru:diagnostics",
+		"Exception": "sru:Diagnostic",
+		"exceptionCode": "sru:uri",
+		"exceptionText": "sru:message",
+		"locator": "sru:details"
+	}
+}

@@ -1,0 +1,126 @@
+{
+	"type": "Feature",
+	"id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/geo%2Bjson&parentIdentifier=EOP:ESA:CRYOSAT:CR2_SIR&uid=CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001",
+	"bbox": [
+		-0.004573,
+		-169.106794,
+		0.046332,
+		166.040236
+	],
+	"geometry": {
+		"type": "LineString",
+		"coordinates": [
+			[
+				-169.106794,
+				0.046332
+			],
+			[
+				166.040236,
+				-0.004573
+			]
+		]
+	},
+	"properties": {
+		"status": "ARCHIVED",
+		"parentIdentifier": "CR2_SIR",
+		"title": "CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001",
+      "identifier": "CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001",
+		"date": "2010-07-22T12:05:23Z/2010-07-22T13:44:36Z",
+		"updated": "2017-04-11T14:37:41Z",
+		"links": {
+			"alternates": [
+				{
+					"href": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&parentIdentifier=EOP:ESA:CRYOSAT:CR2_SIR&uid=CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001&recordSchema=server-choice",
+					"type": "application/atom+xml",
+					"title": "Atom format"
+				},
+				{
+					"href": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/gml%2Bxml&parentIdentifier=EOP:ESA:CRYOSAT:CR2_SIR&uid=CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001&recordSchema=om10",
+					"type": "application/gml+xml;profile=http://www.opengis.net/spec/EOMPOM/1.0",
+					"title": "O&M metadata"
+				},
+				{
+					"href": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/gml%2Bxml&parentIdentifier=EOP:ESA:CRYOSAT:CR2_SIR&uid=CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001&recordSchema=om",
+					"type": "application/gml+xml;profile=http://www.opengis.net/spec/EOMPOM/1.1",
+					"title": "O&M 1.1 metadata"
+				},
+				{
+					"href": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/rdf%2Bxml&parentIdentifier=EOP:ESA:CRYOSAT:CR2_SIR&uid=CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001&recordSchema=server-choice",
+					"type": "application/rdf+xml",
+					"title": "RDF/XML format"
+				},
+				{
+					"href": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/ld%2Bjson&parentIdentifier=EOP:ESA:CRYOSAT:CR2_SIR&uid=CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001&recordSchema=server-choice",
+					"type": "application/ld+json",
+					"title": "JSON-LD format"
+				},
+				{
+					"href": "http://fedeo.esa.int/opensearch/request/?httpAccept=text/turtle&parentIdentifier=EOP:ESA:CRYOSAT:CR2_SIR&uid=CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001&recordSchema=server-choice",
+					"type": "text/turtle",
+					"title": "Turtle format"
+				}
+			],
+			"data": [
+				{
+					"href": "ftp://science-pds.cryosat.esa.int//SIR_GDR/2010/07/CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001.DBL",
+					"type": "application/x-binary",
+					"title": "Download"
+				}
+			],
+			"via": [
+				{
+					"href": "ftp://science-pds.cryosat.esa.int//SIR_GDR/2010/07/CS_LTA__SIR_GDR_2__20100722T120449_20100722T134403_C001.HDR",
+					"type": "application/xml",
+					"title": "Via"
+				}
+			],
+			"up": [
+				{
+					"href": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&uid=CR2_SIR&recordSchema=iso",
+					"type": "application/atom+xml",
+					"title": "Up"
+				}
+			]
+		},
+		"acquisitionInformation": [
+			{
+				"platform": {
+                    "id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/a915ab2f-46c5-493b-9f18-aeb3383ee72b",
+					"platformShortName": "Cryosat",
+					"platformSerialIdentifier": "2"
+				},
+				"instrument": {
+                    "id": "https://gcmdservices.gsfc.nasa.gov/kms/concept/30787b9f-a407-47a5-b69b-5b9e1d1b1144",
+					"instrumentShortName": "SIRAL",
+					"sensorType": "ALTIMETRIC"
+				},
+				"acquisitionParameters": {
+                    "operationalMode": "",
+					"beginningDateTime": "2010-07-22T12:05:23Z",
+					"endingDateTime": "2010-07-22T13:44:36Z",
+					"orbitDirection": "ASCENDING",
+					"orbitNumber": 1523,
+					"lastOrbitNumber": 1523,
+					"ascendingNodeDate": "2010-07-22T12:04:49Z",
+					"ascendingNodeLongitude": -169.101978,
+					"acquisitionType": "NOMINAL",
+					"startTimeFromAscendingNode": 761,
+					"completionTimeFromAscendingNode": 5953440,
+					"acquisitionStation": "KS"
+				}
+			}
+		],
+		"productInformation": {
+			"productType": "SIR_GDR_2_",
+			"size": 8612306,
+			"availabilityTime": "2016-03-09T16:39:40Z",
+			"version": "C001",
+			"processingCenter": "PDS",
+			"processingDate": "2016-03-09T16:39:40Z",
+			"processorVersion": "3.1",
+			"qualityInformation": {
+				"qualityStatus": "DEGRADED"
+			}
+		}
+	}
+}

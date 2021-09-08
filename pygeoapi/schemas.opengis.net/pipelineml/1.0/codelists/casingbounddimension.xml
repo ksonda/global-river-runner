@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Casing Bound Dimension
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a set of bound values that collectively define the physical dimensions of casing component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Jul 13 2017  9:35AM
+	Last Modification Date: Jun 13 2018  1:58PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="casingBoundDimension">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">casingBoundDimension</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id233">
+			<gml:description>.75&quot; NPS; 1.05&quot; OD; .113&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">233</gml:identifier>
+			<gml:name>.75&quot; NPS; 1.05&quot; OD; .113&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id234">
+			<gml:description>.75&quot; NPS; 1.05&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">234</gml:identifier>
+			<gml:name>.75&quot; NPS; 1.05&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id235">
+			<gml:description>.75&quot; NPS; 1.05&quot; OD; .308&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">235</gml:identifier>
+			<gml:name>.75&quot; NPS; 1.05&quot; OD; .308&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id236">
+			<gml:description>1&quot; NPS; 1.315&quot; OD; .133&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">236</gml:identifier>
+			<gml:name>1&quot; NPS; 1.315&quot; OD; .133&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id237">
+			<gml:description>1&quot; NPS; 1.315&quot; OD; .179&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">237</gml:identifier>
+			<gml:name>1&quot; NPS; 1.315&quot; OD; .179&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id238">
+			<gml:description>1&quot; NPS; 1.315&quot; OD; .358&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">238</gml:identifier>
+			<gml:name>1&quot; NPS; 1.315&quot; OD; .358&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id239">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .14&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">239</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .14&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id240">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .191&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">240</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .191&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id241">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .193&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">241</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .193&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id242">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .382&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">242</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .382&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id243">
+			<gml:description>1.5&quot; NPS; 1.9&quot; OD; .145&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">243</gml:identifier>
+			<gml:name>1.5&quot; NPS; 1.9&quot; OD; .145&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id244">
+			<gml:description>1.5&quot; NPS; 1.9&quot; OD; .2&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">244</gml:identifier>
+			<gml:name>1.5&quot; NPS; 1.9&quot; OD; .2&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id245">
+			<gml:description>1.5&quot; NPS; 1.9&quot; OD; .4&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">245</gml:identifier>
+			<gml:name>1.5&quot; NPS; 1.9&quot; OD; .4&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id246">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .083&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">246</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .083&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id247">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .109&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">247</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .109&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id248">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">248</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id249">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .141&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">249</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .141&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id250">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">250</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id251">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .172&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">251</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .172&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id252">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">252</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id253">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">253</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id254">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .218&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">254</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .218&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id255">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">255</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id256">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">256</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id257">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .436&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">257</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .436&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id258">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .083&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">258</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .083&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id259">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .109&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">259</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .109&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id260">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">260</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id261">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .141&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">261</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .141&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id262">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">262</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id263">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">263</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id264">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .172&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">264</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .172&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id265">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">265</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id266">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">266</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id267">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">267</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id268">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">268</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id269">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .276&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">269</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .276&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id270">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">270</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id271">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .552&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">271</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .552&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id272">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .109&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">272</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .109&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id273">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .12&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">273</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .12&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id274">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">274</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id275">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">275</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id276">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">276</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id277">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .179&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">277</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .179&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id278">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">278</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id279">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">279</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id280">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">280</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id281">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .218&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">281</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .218&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id282">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">282</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id283">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">283</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id284">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .3&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">284</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .3&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id285">
+			<gml:description>3.5&quot; NPS; 4&quot; OD; .12&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">285</gml:identifier>
+			<gml:name>3.5&quot; NPS; 4&quot; OD; .12&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id286">
+			<gml:description>3.5&quot; NPS; 4&quot; OD; .226&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">286</gml:identifier>
+			<gml:name>3.5&quot; NPS; 4&quot; OD; .226&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id287">
+			<gml:description>3.5&quot; NPS; 4&quot; OD; .318&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">287</gml:identifier>
+			<gml:name>3.5&quot; NPS; 4&quot; OD; .318&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id288">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">288</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id289">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .141&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">289</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .141&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id290">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">290</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id291">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">291</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id292">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .165&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">292</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .165&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id293">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .172&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">293</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .172&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id294">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .179&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">294</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .179&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id295">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">295</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id296">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">296</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id297">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">297</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id298">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">298</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id299">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">299</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id300">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">300</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id301">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .258&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">301</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .258&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id302">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">302</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id303">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">303</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id304">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .337&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">304</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .337&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id305">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">305</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id306">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">306</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id307">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">307</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id308">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">308</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id309">
+			<gml:description>4.5&quot; NPS; 5&quot; OD; .134&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">309</gml:identifier>
+			<gml:name>4.5&quot; NPS; 5&quot; OD; .134&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id310">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">310</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id311">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .258&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">311</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .258&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id312">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">312</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id313">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">313</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id314">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">314</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id315">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .12&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">315</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .12&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id316">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">316</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id317">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .141&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">317</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .141&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id318">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .144&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">318</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .144&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id319">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">319</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id320">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">320</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id321">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .172&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">321</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .172&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id322">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .187&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">322</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .187&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id323">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">323</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id324">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">324</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id325">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .209&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">325</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .209&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id326">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">326</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id327">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">327</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id328">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">328</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id329">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">329</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id330">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .277&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">330</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .277&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id331">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">331</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id332">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">332</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id333">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">333</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id334">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">334</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id335">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .37&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">335</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .37&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id336">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">336</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id337">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .432&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">337</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .432&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id338">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .434&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">338</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .434&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id339">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">339</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id340">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">340</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id341">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">341</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id342">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">342</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id343">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .187&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">343</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .187&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id344">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">344</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id345">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">345</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id346">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">346</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id347">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">347</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id348">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">348</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id349">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .277&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">349</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .277&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id350">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">350</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id351">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">351</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id352">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">352</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id353">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .325&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">353</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .325&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id354">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">354</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id355">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .365&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">355</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .365&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id356">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">356</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id357">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">357</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id358">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">358</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id359">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">359</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id360">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">360</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id361">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .719&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">361</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .719&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id362">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .812&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">362</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .812&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id363">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .906&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">363</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .906&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id364">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">364</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id365">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">365</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id366">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">366</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id367">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">367</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id368">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">368</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id369">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .277&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">369</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .277&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id370">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .279&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">370</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .279&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id371">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">371</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id372">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .307&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">372</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .307&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id373">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">373</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id374">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">374</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id375">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .365&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">375</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .365&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id376">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">376</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id377">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">377</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id378">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">378</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id379">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">379</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id380">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .719&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">380</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .719&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id381">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .843&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">381</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .843&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id382">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; 1&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">382</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; 1&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id383">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; 1.125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">383</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; 1.125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id384">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .1&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">384</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .1&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id385">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">385</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id386">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">386</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id387">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">387</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id388">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">388</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id389">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">389</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id390">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">390</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id391">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">391</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id392">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .33&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">392</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .33&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id393">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">393</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id394">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">394</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id395">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .376&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">395</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .376&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id396">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">396</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id397">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">397</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id398">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">398</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id399">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">399</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id400">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .687&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">400</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .687&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id401">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .843&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">401</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .843&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id402">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; 1.125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">402</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; 1.125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id403">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; 1.312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">403</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; 1.312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id404">
+			<gml:description>14&quot; NPS; 14&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">404</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id405">
+			<gml:description>14&quot; NPS; 14&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">405</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id406">
+			<gml:description>14&quot; NPS; 14&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">406</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id407">
+			<gml:description>14&quot; NPS; 14&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">407</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id408">
+			<gml:description>14&quot; NPS; 14&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">408</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id409">
+			<gml:description>14&quot; NPS; 14&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">409</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id410">
+			<gml:description>14&quot; NPS; 14&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">410</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id411">
+			<gml:description>14&quot; NPS; 14&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">411</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id412">
+			<gml:description>14&quot; NPS; 14&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">412</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id413">
+			<gml:description>14&quot; NPS; 14&quot; OD; .593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">413</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id414">
+			<gml:description>14&quot; NPS; 14&quot; OD; .75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">414</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id415">
+			<gml:description>14&quot; NPS; 14&quot; OD; .937&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">415</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .937&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id416">
+			<gml:description>14&quot; NPS; 14&quot; OD; 1.093&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">416</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; 1.093&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id417">
+			<gml:description>14&quot; NPS; 14&quot; OD; 1.25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">417</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; 1.25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id418">
+			<gml:description>14&quot; NPS; 14&quot; OD; 1.406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">418</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; 1.406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id419">
+			<gml:description>16&quot; NPS; 16&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">419</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id420">
+			<gml:description>16&quot; NPS; 16&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">420</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id421">
+			<gml:description>16&quot; NPS; 16&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">421</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id422">
+			<gml:description>16&quot; NPS; 16&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">422</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id423">
+			<gml:description>16&quot; NPS; 16&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">423</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id424">
+			<gml:description>16&quot; NPS; 16&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">424</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id425">
+			<gml:description>16&quot; NPS; 16&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">425</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id426">
+			<gml:description>16&quot; NPS; 16&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">426</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id427">
+			<gml:description>16&quot; NPS; 16&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">427</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id428">
+			<gml:description>16&quot; NPS; 16&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">428</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id429">
+			<gml:description>16&quot; NPS; 16&quot; OD; .656&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">429</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .656&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id430">
+			<gml:description>16&quot; NPS; 16&quot; OD; .75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">430</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id431">
+			<gml:description>16&quot; NPS; 16&quot; OD; .843&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">431</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .843&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id432">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">432</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id433">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1.031&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">433</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1.031&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id434">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1.218&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">434</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1.218&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id435">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1.438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">435</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1.438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id436">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1.593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">436</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1.593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id437">
+			<gml:description>18&quot; NPS; 18&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">437</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id438">
+			<gml:description>18&quot; NPS; 18&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">438</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id439">
+			<gml:description>18&quot; NPS; 18&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">439</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id440">
+			<gml:description>18&quot; NPS; 18&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">440</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id441">
+			<gml:description>18&quot; NPS; 18&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">441</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id442">
+			<gml:description>18&quot; NPS; 18&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">442</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id443">
+			<gml:description>18&quot; NPS; 18&quot; OD; .75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">443</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id444">
+			<gml:description>18&quot; NPS; 18&quot; OD; .937&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">444</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .937&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id445">
+			<gml:description>18&quot; NPS; 18&quot; OD; 1.156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">445</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; 1.156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id446">
+			<gml:description>18&quot; NPS; 18&quot; OD; 1.375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">446</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; 1.375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id447">
+			<gml:description>18&quot; NPS; 18&quot; OD; 1.562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">447</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; 1.562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id448">
+			<gml:description>18&quot; NPS; 18&quot; OD; 1.781&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">448</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; 1.781&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id449">
+			<gml:description>20&quot; NPS; 20&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">449</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id450">
+			<gml:description>20&quot; NPS; 20&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">450</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id451">
+			<gml:description>20&quot; NPS; 20&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">451</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id452">
+			<gml:description>20&quot; NPS; 20&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">452</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id453">
+			<gml:description>20&quot; NPS; 20&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">453</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id454">
+			<gml:description>20&quot; NPS; 20&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">454</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id455">
+			<gml:description>20&quot; NPS; 20&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">455</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id456">
+			<gml:description>20&quot; NPS; 20&quot; OD; .593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">456</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id457">
+			<gml:description>20&quot; NPS; 20&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">457</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id458">
+			<gml:description>20&quot; NPS; 20&quot; OD; .812&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">458</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .812&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id459">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.031&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">459</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.031&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id460">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">460</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id461">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">461</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id462">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">462</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id463">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.968&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">463</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.968&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id464">
+			<gml:description>22&quot; NPS; 22&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">464</gml:identifier>
+			<gml:name>22&quot; NPS; 22&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id465">
+			<gml:description>22&quot; NPS; 22&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">465</gml:identifier>
+			<gml:name>22&quot; NPS; 22&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id466">
+			<gml:description>22&quot; NPS; 22&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">466</gml:identifier>
+			<gml:name>22&quot; NPS; 22&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id467">
+			<gml:description>24&quot; NPS; 24&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">467</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id468">
+			<gml:description>24&quot; NPS; 24&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">468</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id469">
+			<gml:description>24&quot; NPS; 24&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">469</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id470">
+			<gml:description>24&quot; NPS; 24&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">470</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id471">
+			<gml:description>24&quot; NPS; 24&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">471</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id472">
+			<gml:description>24&quot; NPS; 24&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">472</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id473">
+			<gml:description>24&quot; NPS; 24&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">473</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id474">
+			<gml:description>24&quot; NPS; 24&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">474</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id475">
+			<gml:description>24&quot; NPS; 24&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">475</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id476">
+			<gml:description>24&quot; NPS; 24&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">476</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id477">
+			<gml:description>24&quot; NPS; 24&quot; OD; .688&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">477</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .688&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id478">
+			<gml:description>26&quot; NPS; 26&quot; OD; .469&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">478</gml:identifier>
+			<gml:name>26&quot; NPS; 26&quot; OD; .469&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id479">
+			<gml:description>30&quot; NPS; 30&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">479</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id480">
+			<gml:description>30&quot; NPS; 30&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">480</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id481">
+			<gml:description>30&quot; NPS; 30&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">481</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id482">
+			<gml:description>30&quot; NPS; 30&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">482</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id483">
+			<gml:description>30&quot; NPS; 30&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">483</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id484">
+			<gml:description>30&quot; NPS; 30&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">484</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id485">
+			<gml:description>30&quot; NPS; 30&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">485</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id486">
+			<gml:description>30&quot; NPS; 30&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">486</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id487">
+			<gml:description>36&quot; NPS; 36&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">487</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id488">
+			<gml:description>36&quot; NPS; 36&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">488</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id489">
+			<gml:description>36&quot; NPS; 36&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">489</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id490">
+			<gml:description>36&quot; NPS; 36&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">490</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id491">
+			<gml:description>36&quot; NPS; 36&quot; OD; .75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">491</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id492">
+			<gml:description>42&quot; NPS; 42&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">492</gml:identifier>
+			<gml:name>42&quot; NPS; 42&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id493">
+			<gml:description>42&quot; NPS; 42&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">493</gml:identifier>
+			<gml:name>42&quot; NPS; 42&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id494">
+			<gml:description>20&quot; NPS; 20&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/casingbounddimension">494</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+

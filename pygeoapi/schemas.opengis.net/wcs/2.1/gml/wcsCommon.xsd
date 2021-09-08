@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.opengis.net/wcs/2.1/gml"
+    xmlns:wcs21="http://www.opengis.net/wcs/2.1/gml"
+    xmlns:wcs20="http://www.opengis.net/wcs/2.0"
+    xmlns:cis11="http://www.opengis.net/cis/1.1/gml"
+    xmlns:cis10="http://www.opengis.net/gmlcov/1.0"
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified" version="2.1.0" xml:lang="en">
+    <annotation>
+        <appinfo>wcsCommon.xsd</appinfo>
+        <documentation>This XML Schema Document defines the XML elements and types that are shared among the WCS operations.
+            Last updated: 2020-07-30
+            Copyright (c) 2017,2018,2019,2020 Open Geospatial Consortium.
+            To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+        </documentation>
+    </annotation>
+
+    <!-- ============================================================== -->
+    <!-- includes and imports                                           -->
+    <!-- ============================================================== -->
+    <import namespace="http://www.opengis.net/cis/1.1/gml" schemaLocation="http://schemas.opengis.net/cis/1.1/gml/cisAll.xsd"/>
+    <import namespace="http://www.opengis.net/gmlcov/1.0"  schemaLocation="http://schemas.opengis.net/gmlcov/1.0/gmlcovAll.xsd"/>
+    <import namespace="http://www.opengis.net/wcs/2.0"     schemaLocation="http://schemas.opengis.net/wcs/2.0/wcsAll.xsd"/>
+
+    <!-- ============================================================== -->
+    <!-- elements and types                                             -->
+    <!-- ============================================================== -->
+    <element name="CoverageOfferings" type="wcs21:CoverageOfferingsType">
+        <annotation>
+            <documentation>CoverageOfferings is the virtual document that a WCS offers. It consists of service metadata and a set of offered coverages. The CoverageOfferings element is never delivered to the client, however, responses of WCS requests are composed of constituents of the CoverageOfferings tree. Hence, CoverageOfferings serves to define responses. </documentation>
+        </annotation>
+    </element>
+    <complexType name="CoverageOfferingsType">
+        <sequence>
+            <element ref="wcs20:ServiceMetadata"/>
+            <element ref="wcs21:OfferedCoverage" minOccurs="0" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+    <!-- =========================================================== -->
+    <element name="OfferedCoverage" type="wcs21:OfferedCoverageType">
+        <annotation>
+            <documentation>An OfferedCoverage is the information set about a specific coverage offered by the WCS service on hand. It consists of a coverage, as defined in the Coverage Implementation Schema 1.x for Coverages [OGC 09-146rX] plus coverage specific service parameters. Like CoverageOfferings, an OfferedCoverage element is never delivered as such to the client, but defines the information model based on which responses are established. </documentation>
+        </annotation>
+    </element>
+    <complexType name="OfferedCoverageType">
+        <sequence>
+            <choice>
+                <element ref="cis10:AbstractCoverage"/>
+                <element ref="cis11:AbstractCoverage"/>
+            </choice>
+            <element ref="wcs21:ServiceParameters"/>
+        </sequence>
+    </complexType>
+    <!-- =========================================================== -->
+    <element name="ServiceParameters" type="wcs21:ServiceParametersType">
+        <annotation>
+            <documentation>ServiceParameters further define how the corresponding coverage is accessible. CoverageSubtype helps identifying the type of coverage on hand, in particular with respect to the potential size of its domainSet and rangeSet components. Extension elements allow WCS extensions to plug in their particular coverage-specific service information. </documentation>
+        </annotation>
+    </element>
+    <complexType name="ServiceParametersType">
+        <complexContent>
+            <extension base="wcs20:ServiceParametersType">
+                <sequence>
+                    <element name="nativeFormat" type="anyURI"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <!-- =========================================================== -->
+    <!-- ============================================================== -->
+    <!--  Changed by PJT May 21st 2019               -->
+    <!--  The RequestBase type was changed to allow for a version      -->
+    <!--  to allow for version 2.0 or 2.1                               -->
+    <!-- ============================================================== -->
+    <complexType name="RequestBaseType" abstract="true">
+        <annotation>
+            <documentation>XML encoded WCS operation request base, for all operations except GetCapabilities. In this XML encoding, no "request" parameter is included, since the element name specifies the specific operation. 'Extension' elements allow WCS extension standards to define their individual extra request parameters. </documentation>
+        </annotation>
+        <sequence>
+            <element ref="wcs20:Extension" minOccurs="0"/>
+        </sequence>
+        <attribute name="service" type="string" use="required" fixed="WCS">
+            <annotation>
+                <documentation>Service type identifier, where the value is the OWS type abbreviation. For WCS operation requests, the value is "WCS". </documentation>
+            </annotation>
+        </attribute>
+        <attribute name="version" type="wcs21:VersionStringType" use="required">
+            <annotation>
+                <documentation>Specification version for WCS version and operation. See Version parameter Subclause 7.3.1 of OWS Common for more information. </documentation>
+            </annotation>
+        </attribute>
+    </complexType>
+    <simpleType name="VersionStringType">
+        <restriction base="string">
+            <pattern value="[2][.][\d+][.][\d+]"/>
+        </restriction>
+    </simpleType>
+</schema>

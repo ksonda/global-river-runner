@@ -1,0 +1,223 @@
+{
+	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dct": "http://purl.org/dc/terms/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+		"atom": "http://www.w3.org/2005/Atom/",
+		"skos": "http://www.w3.org/2004/02/skos/core#",
+		"iana": "http://www.iana.org/assignments/relation/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"eop": "http://www.opengis.net/ont/eo-geojson/1.0/",
+		"owc": "http://www.opengis.net/ont/owc/1.0/",
+		"gj": "https://purl.org/geojson/vocab#",
+		"gsp": "http://www.opengis.net/ont/geosparql#",
+		"os": "http://a9.com/-/spec/opensearch/1.1/",
+		"ical": "http://www.w3.org/2002/12/cal/ical#",
+		"media": "http://search.yahoo.com/mrss/",
+		"eo": "http://a9.com/-/opensearch/extensions/eo/1.0/",
+		"sru": "http://a9.com/-/opensearch/extensions/sru/2.0/",
+		"geo": "http://a9.com/-/opensearch/extensions/geo/1.0/",
+		"time": "http://a9.com/-/opensearch/extensions/time/1.0/"
+	},
+	"@id": "http://fedeo.esa.int/opensearch/request?startRecord=1&maximumRecords=10&query=ESA%20LDS&httpAccept=application/geo%2Bjson&platform=landsat",
+	"@type": "gj:FeatureCollection",
+	"os:itemsPerPage": {
+		"@type": "xsd:nonNegativeInteger",
+		"@value": 10
+	},
+	"os:queries": {
+		"os:request": {
+			"eo:platform": "landsat",
+			"sru:recordSchema": "server-choice",
+			"os:count": 10,
+			"os:searchTerms": "ESA LDS",
+			"os:startIndex": {
+				"@type": "xsd:nonNegativeInteger",
+				"@value": 1
+			},
+			"dc:type": "collection"
+		}
+	},
+	"os:startIndex": {
+		"@type": "xsd:nonNegativeInteger",
+		"@value": 1
+	},
+	"os:totalResults": {
+		"@type": "xsd:nonNegativeInteger",
+		"@value": 2
+	},
+	"dct:creator": [
+		{
+			"@type": "foaf:Agent",
+			"foaf:mbox": "eohelp@eo.esa.int",
+			"foaf:name": "FEDEO Clearinghouse"
+		},
+		"FEDEO Clearinghouse"
+	],
+	"dct:language": {
+		"@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+	},
+	"dct:modified": "2017-09-26T11:27:19Z",
+	"dct:rights": "Copyright 2016-2017, European Space Agency",
+	"dct:title": "FEDEO Clearinghouse - Search Response",
+	"owc:links": {
+		"iana:first": {
+			"@id": "http://fedeo.esa.int/opensearch/request?&maximumRecords=10&query=ESA%20LDS&httpAccept=application/geo%2Bjson&platform=landsat&startRecord=1&status=2,0",
+			"dct:title": "first results",
+			"atom:type": "application/geo+json"
+		},
+		"iana:last": {
+			"@id": "http://fedeo.esa.int/opensearch/request?&maximumRecords=10&query=ESA%20LDS&httpAccept=application/geo%2Bjson&platform=landsat&startRecord=1&status=2,0",
+			"dct:title": "last results",
+			"atom:type": "application/geo+json"
+		},
+		"iana:profile": [
+			{
+				"@id": "http://www.opengis.net/spec/owc-geojson/1.0/req/core"
+			},
+			{
+				"@id": "http://www.opengis.net/spec/os-geojson/1.0/req/core"
+			}
+		],
+		"iana:search": {
+			"@id": "http://fedeo.esa.int/opensearch/description.xml",
+			"dct:title": "search",
+			"atom:type": "application/opensearchdescription+xml"
+		}
+	},
+	"gj:features": [
+		{
+			"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/geo%2Bjson&parentIdentifier=EOP%3AESA%3AFEDEO%3ACOLLECTIONS&uid=LANDSAT.ETM.GTC",
+			"@type": "gj:Feature",
+			"dct:date": "1999-07-01T00:00:00Z/2003-12-31T00:00:00Z",
+			"dct:description": "This dataset contains all the Landsat 7 Enhanced Thematic Mapper high-quality ortho-rectified L1T dataset over Kiruna, Maspalomas and Matera visibility masks. The Landsat 7 ETM+ scenes typically covers 185 x 170 km. A standard full scene is nominally centred on the intersection between a Path and Row (the actual image centre can vary by up to 100m). Each band requires 50MB (uncompressed), and Band 8 requires 200MB (panchromatic band with resolution of 15m opposed to 30m).",
+			"dct:identifier": "LANDSAT.ETM.GTC",
+			"dct:modified": "1999-07-01T00:00:00Z",
+			"dct:title": "LANDSAT 7 ETM+ (Enhanced Thematic Mapper Plus) Geolocated Terrain Corrected Systematic processing (LANDSAT.ETM.GTC)",
+			"owc:links": {
+				"iana:alternate": [
+					{
+						"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&parentIdentifier=EOP%3AESA%3AFEDEO%3ACOLLECTIONS&uid=LANDSAT.ETM.GTC&recordSchema=server-choice",
+						"dct:title": "Atom format",
+						"atom:type": "application/atom+xml"
+					},
+					{
+						"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/vnd.iso.19139-2%2Bxml&parentIdentifier=EOP%3AESA%3AFEDEO%3ACOLLECTIONS&uid=LANDSAT.ETM.GTC&recordSchema=iso19139-2",
+						"dct:title": "ISO 19139-2 metadata",
+						"atom:type": "application/vnd.iso.19139-2+xml"
+					}
+				],
+				"iana:describedby": {
+					"@id": "https://earth.esa.int/web/guest/data-access/browse-data-products/-/asset_publisher/y8Qb/content/landsat-7-etm-enhanced-thematic-mapper-plus-geolocated-terrain-corrected-systematic-processing-over-kiruna-and-masplomas",
+					"dct:title": "Described by",
+					"atom:type": "text/html"
+				},
+				"iana:icon": {
+					"@id": "http://fedeo.esa.int/opensearch/images/esa.png",
+					"dct:title": "Quicklook",
+					"atom:type": "image/png"
+				},
+				"iana:search": {
+					"@id": "http://fedeo.esa.int/opensearch/description.xml?parentIdentifier=LANDSAT.ETM.GTC&sensorType=OPTICAL&startDate=1999-07-01T00:00:00Z&endDate=2003-12-31T00:00:00Z",
+					"atom:type": "application/opensearchdescription+xml"
+				}
+			},
+			"dcat:theme": [
+				{
+					"@id": "http://www.eionet.europa.eu/gemet/concept/3650",
+					"skos:prefLabel": "Geology"
+				},
+				{
+					"@id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/03f0c0a3-04a7-4ef8-8ec0-3c2266510815",
+					"skos:prefLabel": "Science Keywords > Earth Science > Spectral/Engineering > Visible Wavelengths > Visible Imagery"
+				},
+				{
+					"@id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/c7a09e9f-3c99-4b31-a521-313c379ba2b4",
+					"skos:prefLabel": "LANDSAT-7"
+				}
+			],
+			"gj:geometry": {
+				"@type": "gj:Polygon",
+				"gj:coordinates": [
+					-180,
+					-90,
+					180,
+					-90,
+					180,
+					90,
+					-180,
+					90,
+					-180,
+					-90
+				]
+			}
+		},
+		{
+			"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/geo%2Bjson&parentIdentifier=EOP%3AESA%3AFEDEO%3ACOLLECTIONS&uid=LANDSAT.TM.GTC",
+			"@type": "gj:Feature",
+			"dct:date": "1985-01-01T00:00:00Z/2003-08-31T00:00:00Z",
+			"dct:description": "The Thematic Mapper (TM) is one of the instruments aboard the Landsat-4, Landsat-5 satellites. Landsat's Global Survey Mission is to establish and execute a data acquisition strategy that ensures repetitive acquisition of observations over the Earth's land mass, coastal boundaries, and coral reefs. From this collection you may order products of the following types: - LANDSAT 4/5 TM Raw Products (LANDSAT.TM.RAW) - LANDSAT 4/5 Thematic Mapper (TM) System Corrected Pre-Flight Radiometric Correction and Cubic Convolution resampling Product (LANDSAT.TM.SCPRCC) - LANDSAT 4/5 Thematic Mapper System Corrected Pre-Flight Radiometric Correction and Nearest neighbour resampling product (LANDSAT.TM.SCPRNN).",
+			"dct:identifier": "LANDSAT.TM.GTC",
+			"dct:modified": "1985-01-01T00:00:00Z",
+			"dct:title": "LANDSAT 5 Thematic Mapper Geolocated Terrain Corrected Systematic processing (LANDSAT.TM.GTC)",
+			"owc:links": {
+				"iana:alternate": [
+					{
+						"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/atom%2Bxml&parentIdentifier=EOP%3AESA%3AFEDEO%3ACOLLECTIONS&uid=LANDSAT.TM.GTC&recordSchema=server-choice",
+						"dct:title": "Atom format",
+						"atom:type": "application/atom+xml"
+					},
+					{
+						"@id": "http://fedeo.esa.int/opensearch/request/?httpAccept=application/vnd.iso.19139-2%2Bxml&parentIdentifier=EOP%3AESA%3AFEDEO%3ACOLLECTIONS&uid=LANDSAT.TM.GTC&recordSchema=iso19139-2",
+						"dct:title": "ISO 19139-2 metadata",
+						"atom:type": "application/vnd.iso.19139-2+xml"
+					}
+				],
+				"iana:describedby": {
+					"@id": "https://earth.esa.int/web/guest/data-access/browse-data-products/-/asset_publisher/y8Qb/content/landsat-5-thematic-mapper-geolocated-terrain-corrected-systematic-processing-over-kiruna",
+					"dct:title": "Described by",
+					"atom:type": "text/html"
+				},
+				"iana:icon": {
+					"@id": "http://fedeo.esa.int/opensearch/images/esa.png",
+					"dct:title": "Quicklook",
+					"atom:type": "image/png"
+				},
+				"iana:search": {
+					"@id": "http://fedeo.esa.int/opensearch/description.xml?parentIdentifier=LANDSAT.TM.GTC&sensorType=OPTICAL&startDate=1985-01-01T00:00:00Z&endDate=2003-08-31T00:00:00Z",
+					"atom:type": "application/opensearchdescription+xml"
+				}
+			},
+			"dcat:theme": [
+				{
+					"@id": "http://www.eionet.europa.eu/gemet/concept/3650",
+					"skos:prefLabel": "Geology"
+				},
+				{
+					"@id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/03f0c0a3-04a7-4ef8-8ec0-3c2266510815",
+					"skos:prefLabel": "Science Keywords > Earth Science > Spectral/Engineering > Visible Wavelengths > Visible Imagery"
+				},
+				{
+					"@id": "http://gcmdservices.gsfc.nasa.gov/kms/concept/fe920fff-7852-42cf-b1dc-b2223b24cf2e",
+					"skos:prefLabel": "LANDSAT-5"
+				}
+			],
+			"gj:geometry": {
+				"@type": "gj:Polygon",
+				"gj:coordinates": [
+					-180,
+					-90,
+					180,
+					-90,
+					180,
+					90,
+					-180,
+					90,
+					-180,
+					-90
+				]
+			}
+		}
+	]
+}

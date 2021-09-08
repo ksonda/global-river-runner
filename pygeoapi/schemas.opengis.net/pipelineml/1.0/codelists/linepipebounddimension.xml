@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Codelist Metadata
+_________________________________________________________________________________________
+	Name: Linepipe Bound Dimension
+	Description: This is a reference code list (controlled vocabulary) used by PipelineML to constrain values used in data fields to industry vetted and accepted standards. This list defines the acceptable values pertaining to a set of bound values that collectively define the dimensions of a linepipe component.
+	Reference Code List Standard Version: 1.0
+	Language: 
+	Nationality: 
+	Original Creation Date: Feb 13 2017  3:18PM
+	Last Modification Date: Jun 13 2018  1:57PM
+	Author: John Tisdale
+	Version: 1.0.0
+	Copyright: PipelineML is an OGC standard. Copyright (c) 2019 Open Geospatial Consortium. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+ 
+-->
+<gml:Dictionary
+	xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.2.1/dictionary.xsd"
+	gml:id="linepipeBoundDimension">
+	<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists">linepipeBoundDimension</gml:identifier>
+ 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id0">
+			<gml:description>No Data</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">0</gml:identifier>
+			<gml:name>No Data</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5902">
+			<gml:description>.75&quot; NPS; 1.05&quot; OD; .113&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5902</gml:identifier>
+			<gml:name>.75&quot; NPS; 1.05&quot; OD; .113&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5903">
+			<gml:description>.75&quot; NPS; 1.05&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5903</gml:identifier>
+			<gml:name>.75&quot; NPS; 1.05&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5904">
+			<gml:description>.75&quot; NPS; 1.05&quot; OD; .308&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5904</gml:identifier>
+			<gml:name>.75&quot; NPS; 1.05&quot; OD; .308&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5905">
+			<gml:description>1&quot; NPS; 1.315&quot; OD; .133&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5905</gml:identifier>
+			<gml:name>1&quot; NPS; 1.315&quot; OD; .133&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5906">
+			<gml:description>1&quot; NPS; 1.315&quot; OD; .179&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5906</gml:identifier>
+			<gml:name>1&quot; NPS; 1.315&quot; OD; .179&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5907">
+			<gml:description>1&quot; NPS; 1.315&quot; OD; .358&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5907</gml:identifier>
+			<gml:name>1&quot; NPS; 1.315&quot; OD; .358&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5908">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .14&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5908</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .14&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5909">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .191&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5909</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .191&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5910">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .193&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5910</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .193&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5911">
+			<gml:description>1.25&quot; NPS; 1.66&quot; OD; .382&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5911</gml:identifier>
+			<gml:name>1.25&quot; NPS; 1.66&quot; OD; .382&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5912">
+			<gml:description>1.5&quot; NPS; 1.9&quot; OD; .145&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5912</gml:identifier>
+			<gml:name>1.5&quot; NPS; 1.9&quot; OD; .145&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5913">
+			<gml:description>1.5&quot; NPS; 1.9&quot; OD; .2&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5913</gml:identifier>
+			<gml:name>1.5&quot; NPS; 1.9&quot; OD; .2&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5914">
+			<gml:description>1.5&quot; NPS; 1.9&quot; OD; .4&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5914</gml:identifier>
+			<gml:name>1.5&quot; NPS; 1.9&quot; OD; .4&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5915">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .083&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5915</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .083&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5916">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .109&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5916</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .109&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5917">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5917</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5918">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .141&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5918</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .141&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5919">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5919</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5920">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .172&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5920</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .172&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5921">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5921</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5922">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5922</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5923">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .218&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5923</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .218&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5924">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5924</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5925">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5925</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5926">
+			<gml:description>2&quot; NPS; 2.375&quot; OD; .436&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5926</gml:identifier>
+			<gml:name>2&quot; NPS; 2.375&quot; OD; .436&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5927">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .083&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5927</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .083&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5928">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .109&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5928</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .109&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5929">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5929</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5930">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .141&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5930</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .141&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5931">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5931</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5932">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5932</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5933">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .172&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5933</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .172&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5934">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5934</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5935">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5935</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5936">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5936</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5937">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5937</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5938">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .276&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5938</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .276&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5939">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5939</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5940">
+			<gml:description>2.5&quot; NPS; 2.875&quot; OD; .552&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5940</gml:identifier>
+			<gml:name>2.5&quot; NPS; 2.875&quot; OD; .552&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5941">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .109&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5941</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .109&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5942">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .12&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5942</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .12&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5943">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5943</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5944">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5944</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5945">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5945</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5946">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .179&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5946</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .179&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5947">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5947</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5948">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5948</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5949">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5949</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5950">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .218&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5950</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .218&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5951">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5951</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5952">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5952</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5953">
+			<gml:description>3&quot; NPS; 3.5&quot; OD; .3&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5953</gml:identifier>
+			<gml:name>3&quot; NPS; 3.5&quot; OD; .3&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5954">
+			<gml:description>3.5&quot; NPS; 4&quot; OD; .12&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5954</gml:identifier>
+			<gml:name>3.5&quot; NPS; 4&quot; OD; .12&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5955">
+			<gml:description>3.5&quot; NPS; 4&quot; OD; .226&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5955</gml:identifier>
+			<gml:name>3.5&quot; NPS; 4&quot; OD; .226&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5956">
+			<gml:description>3.5&quot; NPS; 4&quot; OD; .318&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5956</gml:identifier>
+			<gml:name>3.5&quot; NPS; 4&quot; OD; .318&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5957">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5957</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5958">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .141&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5958</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .141&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5959">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5959</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5960">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5960</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5961">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .165&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5961</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .165&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5962">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .172&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5962</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .172&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5963">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .179&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5963</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .179&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5964">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5964</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5965">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5965</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5966">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5966</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5967">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5967</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5968">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5968</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5969">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5969</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5970">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .258&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5970</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .258&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5971">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5971</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5972">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5972</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5973">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .337&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5973</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .337&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5974">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5974</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5975">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5975</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5976">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5976</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5977">
+			<gml:description>4&quot; NPS; 4.5&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5977</gml:identifier>
+			<gml:name>4&quot; NPS; 4.5&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5978">
+			<gml:description>4.5&quot; NPS; 5&quot; OD; .134&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5978</gml:identifier>
+			<gml:name>4.5&quot; NPS; 5&quot; OD; .134&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5979">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5979</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5980">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .258&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5980</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .258&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5981">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5981</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5982">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5982</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5983">
+			<gml:description>5&quot; NPS; 5.563&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5983</gml:identifier>
+			<gml:name>5&quot; NPS; 5.563&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5984">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .12&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5984</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .12&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5985">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5985</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5986">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .141&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5986</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .141&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5987">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .144&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5987</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .144&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5988">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .154&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5988</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .154&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5989">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5989</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5990">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .172&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5990</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .172&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5991">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .187&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5991</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .187&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5992">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5992</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5993">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5993</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5994">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .209&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5994</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .209&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5995">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .216&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5995</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .216&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5996">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5996</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5997">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5997</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5998">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5998</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5999">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .277&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">5999</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .277&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6000">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6000</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6001">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6001</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6002">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6002</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6003">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6003</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6004">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .37&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6004</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .37&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6005">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6005</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6006">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .432&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6006</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .432&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6007">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .434&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6007</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .434&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6008">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6008</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6009">
+			<gml:description>6&quot; NPS; 6.625&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6009</gml:identifier>
+			<gml:name>6&quot; NPS; 6.625&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6010">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6010</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6011">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6011</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6012">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .187&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6012</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .187&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6013">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6013</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6014">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6014</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6015">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6015</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6016">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6016</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6017">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6017</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6018">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .277&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6018</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .277&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6019">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6019</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6020">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6020</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6021">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6021</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6022">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .325&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6022</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .325&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6023">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6023</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6024">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .365&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6024</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .365&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6025">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6025</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6026">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6026</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6027">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6027</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6028">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6028</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6029">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6029</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6030">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .719&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6030</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .719&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6031">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .812&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6031</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .812&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6032">
+			<gml:description>8&quot; NPS; 8.625&quot; OD; .906&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6032</gml:identifier>
+			<gml:name>8&quot; NPS; 8.625&quot; OD; .906&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6033">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6033</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6034">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6034</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6035">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6035</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6036">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .237&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6036</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .237&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6037">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6037</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6038">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .277&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6038</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .277&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6039">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .279&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6039</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .279&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6040">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .28&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6040</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .28&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6041">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .307&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6041</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .307&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6042">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6042</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6043">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6043</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6044">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .365&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6044</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .365&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6045">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6045</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6046">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6046</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6047">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6047</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6048">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6048</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6049">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .719&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6049</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .719&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6050">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; .843&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6050</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; .843&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6051">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; 1&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6051</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; 1&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6052">
+			<gml:description>10&quot; NPS; 10.75&quot; OD; 1.125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6052</gml:identifier>
+			<gml:name>10&quot; NPS; 10.75&quot; OD; 1.125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6053">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .1&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6053</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .1&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6054">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .188&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6054</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .188&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6055">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .203&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6055</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .203&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6056">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6056</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6057">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6057</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6058">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6058</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6059">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6059</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6060">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6060</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6061">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .33&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6061</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .33&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6062">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6062</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6063">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6063</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6064">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .376&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6064</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .376&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6065">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6065</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6066">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6066</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6067">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6067</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6068">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6068</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6069">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .687&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6069</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .687&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6070">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; .843&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6070</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; .843&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6071">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; 1.125&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6071</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; 1.125&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6072">
+			<gml:description>12&quot; NPS; 12.75&quot; OD; 1.312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6072</gml:identifier>
+			<gml:name>12&quot; NPS; 12.75&quot; OD; 1.312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6073">
+			<gml:description>14&quot; NPS; 14&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6073</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6074">
+			<gml:description>14&quot; NPS; 14&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6074</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6075">
+			<gml:description>14&quot; NPS; 14&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6075</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6076">
+			<gml:description>14&quot; NPS; 14&quot; OD; .322&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6076</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .322&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6077">
+			<gml:description>14&quot; NPS; 14&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6077</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6078">
+			<gml:description>14&quot; NPS; 14&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6078</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6079">
+			<gml:description>14&quot; NPS; 14&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6079</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6080">
+			<gml:description>14&quot; NPS; 14&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6080</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6081">
+			<gml:description>14&quot; NPS; 14&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6081</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6082">
+			<gml:description>14&quot; NPS; 14&quot; OD; .593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6082</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6083">
+			<gml:description>14&quot; NPS; 14&quot; OD; .75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6083</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6084">
+			<gml:description>14&quot; NPS; 14&quot; OD; .937&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6084</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; .937&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6085">
+			<gml:description>14&quot; NPS; 14&quot; OD; 1.093&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6085</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; 1.093&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6086">
+			<gml:description>14&quot; NPS; 14&quot; OD; 1.25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6086</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; 1.25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6087">
+			<gml:description>14&quot; NPS; 14&quot; OD; 1.406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6087</gml:identifier>
+			<gml:name>14&quot; NPS; 14&quot; OD; 1.406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6088">
+			<gml:description>16&quot; NPS; 16&quot; OD; .219&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6088</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .219&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6089">
+			<gml:description>16&quot; NPS; 16&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6089</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6090">
+			<gml:description>16&quot; NPS; 16&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6090</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6091">
+			<gml:description>16&quot; NPS; 16&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6091</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6092">
+			<gml:description>16&quot; NPS; 16&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6092</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6093">
+			<gml:description>16&quot; NPS; 16&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6093</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6094">
+			<gml:description>16&quot; NPS; 16&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6094</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6095">
+			<gml:description>16&quot; NPS; 16&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6095</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6096">
+			<gml:description>16&quot; NPS; 16&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6096</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6097">
+			<gml:description>16&quot; NPS; 16&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6097</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6098">
+			<gml:description>16&quot; NPS; 16&quot; OD; .656&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6098</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .656&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6099">
+			<gml:description>16&quot; NPS; 16&quot; OD; .75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6099</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6100">
+			<gml:description>16&quot; NPS; 16&quot; OD; .843&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6100</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; .843&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6101">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6101</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6102">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1.031&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6102</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1.031&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6103">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1.218&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6103</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1.218&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6104">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1.438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6104</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1.438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6105">
+			<gml:description>16&quot; NPS; 16&quot; OD; 1.593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6105</gml:identifier>
+			<gml:name>16&quot; NPS; 16&quot; OD; 1.593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6106">
+			<gml:description>18&quot; NPS; 18&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6106</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6107">
+			<gml:description>18&quot; NPS; 18&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6107</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6108">
+			<gml:description>18&quot; NPS; 18&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6108</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6109">
+			<gml:description>18&quot; NPS; 18&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6109</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6110">
+			<gml:description>18&quot; NPS; 18&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6110</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6111">
+			<gml:description>18&quot; NPS; 18&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6111</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6112">
+			<gml:description>18&quot; NPS; 18&quot; OD; .75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6112</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6113">
+			<gml:description>18&quot; NPS; 18&quot; OD; .937&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6113</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; .937&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6114">
+			<gml:description>18&quot; NPS; 18&quot; OD; 1.156&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6114</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; 1.156&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6115">
+			<gml:description>18&quot; NPS; 18&quot; OD; 1.375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6115</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; 1.375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6116">
+			<gml:description>18&quot; NPS; 18&quot; OD; 1.562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6116</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; 1.562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6117">
+			<gml:description>18&quot; NPS; 18&quot; OD; 1.781&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6117</gml:identifier>
+			<gml:name>18&quot; NPS; 18&quot; OD; 1.781&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6118">
+			<gml:description>20&quot; NPS; 20&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6118</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6119">
+			<gml:description>20&quot; NPS; 20&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6119</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6120">
+			<gml:description>20&quot; NPS; 20&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6120</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6121">
+			<gml:description>20&quot; NPS; 20&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6121</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6122">
+			<gml:description>20&quot; NPS; 20&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6122</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6123">
+			<gml:description>20&quot; NPS; 20&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6123</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6124">
+			<gml:description>20&quot; NPS; 20&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6124</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6125">
+			<gml:description>20&quot; NPS; 20&quot; OD; .593&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6125</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .593&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6126">
+			<gml:description>20&quot; NPS; 20&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6126</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6127">
+			<gml:description>20&quot; NPS; 20&quot; OD; .812&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6127</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .812&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6128">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.031&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6128</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.031&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6129">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6129</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6130">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6130</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6131">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6131</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6132">
+			<gml:description>20&quot; NPS; 20&quot; OD; 1.968&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6132</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; 1.968&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6133">
+			<gml:description>22&quot; NPS; 22&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6133</gml:identifier>
+			<gml:name>22&quot; NPS; 22&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6134">
+			<gml:description>22&quot; NPS; 22&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6134</gml:identifier>
+			<gml:name>22&quot; NPS; 22&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6135">
+			<gml:description>22&quot; NPS; 22&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6135</gml:identifier>
+			<gml:name>22&quot; NPS; 22&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6136">
+			<gml:description>24&quot; NPS; 24&quot; OD; .25&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6136</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .25&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6137">
+			<gml:description>24&quot; NPS; 24&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6137</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6138">
+			<gml:description>24&quot; NPS; 24&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6138</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6139">
+			<gml:description>24&quot; NPS; 24&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6139</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6140">
+			<gml:description>24&quot; NPS; 24&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6140</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6141">
+			<gml:description>24&quot; NPS; 24&quot; OD; .406&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6141</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .406&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6142">
+			<gml:description>24&quot; NPS; 24&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6142</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6143">
+			<gml:description>24&quot; NPS; 24&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6143</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6144">
+			<gml:description>24&quot; NPS; 24&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6144</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6145">
+			<gml:description>24&quot; NPS; 24&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6145</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6146">
+			<gml:description>24&quot; NPS; 24&quot; OD; .688&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6146</gml:identifier>
+			<gml:name>24&quot; NPS; 24&quot; OD; .688&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6147">
+			<gml:description>26&quot; NPS; 26&quot; OD; .469&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6147</gml:identifier>
+			<gml:name>26&quot; NPS; 26&quot; OD; .469&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6148">
+			<gml:description>30&quot; NPS; 30&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6148</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6149">
+			<gml:description>30&quot; NPS; 30&quot; OD; .312&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6149</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .312&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6150">
+			<gml:description>30&quot; NPS; 30&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6150</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6151">
+			<gml:description>30&quot; NPS; 30&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6151</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6152">
+			<gml:description>30&quot; NPS; 30&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6152</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6153">
+			<gml:description>30&quot; NPS; 30&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6153</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6154">
+			<gml:description>30&quot; NPS; 30&quot; OD; .562&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6154</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .562&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6155">
+			<gml:description>30&quot; NPS; 30&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6155</gml:identifier>
+			<gml:name>30&quot; NPS; 30&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6156">
+			<gml:description>36&quot; NPS; 36&quot; OD; .344&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6156</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .344&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6157">
+			<gml:description>36&quot; NPS; 36&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6157</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6158">
+			<gml:description>36&quot; NPS; 36&quot; OD; .5&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6158</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .5&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6159">
+			<gml:description>36&quot; NPS; 36&quot; OD; .625&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6159</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .625&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6160">
+			<gml:description>36&quot; NPS; 36&quot; OD; .75&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6160</gml:identifier>
+			<gml:name>36&quot; NPS; 36&quot; OD; .75&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6161">
+			<gml:description>42&quot; NPS; 42&quot; OD; .375&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6161</gml:identifier>
+			<gml:name>42&quot; NPS; 42&quot; OD; .375&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6162">
+			<gml:description>42&quot; NPS; 42&quot; OD; .438&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6162</gml:identifier>
+			<gml:name>42&quot; NPS; 42&quot; OD; .438&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6163">
+			<gml:description>20&quot; NPS; 20&quot; OD; .281&quot; NWT</gml:description>
+			<gml:identifier codeSpace="https://www.opengis.net/def/pipelineml/1.0/codelists/linepipebounddimension">6163</gml:identifier>
+			<gml:name>20&quot; NPS; 20&quot; OD; .281&quot; NWT</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	 
+</gml:Dictionary>
+
