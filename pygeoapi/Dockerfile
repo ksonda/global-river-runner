@@ -1,4 +1,4 @@
-FROM geopython/pygeoapi:latest
+FROM webbben/pygeoapi-river-runner
 
 #Add data directory
 RUN mkdir /data

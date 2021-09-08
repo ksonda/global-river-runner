@@ -36,13 +36,17 @@ server:
     url: https://merit.internetofwater.dev #change to host URL  if running your own instance
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
-    language: en-US
+    languages: en-US
     cors: true
     pretty_print: true
     limit: 100
     map:
         url: https://tile.openstreetmap.org/{z}/{x}/{y}.png
         attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>'
+    # manager:
+    #    name: TinyDB
+    #    connection: /tmp/pygeoapi-process-manager.db
+    #    output_dir: /tmp/
     ogc_schemas_location: /opt/schemas.opengis.net
 #    templates:
 #      path: /skin-dashboard/templates
@@ -54,14 +58,17 @@ logging:
 
 metadata:
     identification:
-        title: MERIT-based vector features
-        description: Provides flowpath/ mainstem features based on MERIT
+        title: 
+            en: MERIT-based vector features
+        description: 
+            en: Provides flowpath/ mainstem features based on MERIT
         keywords:
-            - geospatial
-            - data
-            - api
-            - rivers
-            - mainstems
+            en:
+                - geospatial
+                - data
+                - api
+                - rivers
+                - mainstems
         keywords_type: theme
         terms_of_service: https://creativecommons.org/licenses/by/4.0/
         url: https://github.com/ksonda/global-river-runner
@@ -84,11 +91,13 @@ metadata:
 resources:
     merit:
         type: collection
-        title: merit
-        geojsonld: false
-        description: merit features
+        title: 
+            en: merit
+        description: 
+            en: merit features
         keywords:
-            - rivers
+            en:
+                - rivers
         context:
             - schema: https://schema.org/
               nameID: schema:name
@@ -111,4 +120,9 @@ resources:
               data: /data/merit_plus_simplify.gpkg
               id_field: comid
               table: merit_plus
-    
+              
+    river-runner:
+        type: process
+        processor:
+            name: RiverRunner
+
