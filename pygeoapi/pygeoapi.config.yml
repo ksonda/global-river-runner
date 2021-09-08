@@ -64,13 +64,13 @@ metadata:
             - mainstems
         keywords_type: theme
         terms_of_service: https://creativecommons.org/licenses/by/4.0/
-        url: https://github.com/internetofwater/geoconnex.us
+        url: https://github.com/ksonda/gloabl-river-runner
     license:
         name: CC-BY 4.0 license
         url: https://creativecommons.org/licenses/by/4.0/
     provider:
-        name: Team geoconnex
-        url: https://github.com/internetofwater/geoconnex.us
+        name: Kyle Onda
+        url: https://github.com/ksonda
     contact:
         address: 2111 Campus Dr
         city: Durham
