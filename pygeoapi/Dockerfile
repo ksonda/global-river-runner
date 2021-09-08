@@ -3,7 +3,7 @@ FROM geopython/pygeoapi:latest
 #Add data directory
 RUN mkdir /data
 
-#last updated 2021-09-08 00:07:36 UTC-5 
+#last updated 2021-09-08 00:07:55 UTC-5 
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/merit_plus_simplify.gpkg /data/
 
 #add requirements and mods
