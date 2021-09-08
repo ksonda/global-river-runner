@@ -33,7 +33,7 @@ jobs:
         with:
           push: true
           tags: internetofwater/pygeoapi-merit:latest
-          context: /pygeoapi
+          context: ./pygeoapi
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
