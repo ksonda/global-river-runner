@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
     paths:
-      - '/pygeoapi/Dockerfile'
+      - 'pygeoapi/Dockerfile'
 
 jobs:
   docker:
