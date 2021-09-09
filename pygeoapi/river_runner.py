@@ -51,9 +51,8 @@ PROCESS_METADATA = {
         'en': 'River Runner'
     },
     'description': {
-        'en': 'A simple process that takes a lat/long as input, and returns '
-              'it back as output. Intended to demonstrate a simple '
-              'process with a single literal input.'
+        'en': 'A simple process that takes a lat/lng or bbox as input, '
+              'and returns the largest flowpath.'
     },
     'keywords': ['river runner', 'rivers'],
     'links': [{
@@ -86,7 +85,7 @@ PROCESS_METADATA = {
             'metadata': None,  # TODO how to use?
             'keywords': ['coordinates', 'longitude']
         },
-        'long': {
+        'lng': {
             'title': 'Longitude',
             'description': 'Longitude of a point',
             'schema': {
@@ -134,13 +133,13 @@ class RiverRunnerProcessor(BaseProcessor):
         mimetype = 'application/json'
         if len(data.get('bbox', [])) != 4 and \
            not data.get('lat', '') and \
-           not data.get('long', ''):
+           not data.get('lng', ''):
             raise ProcessorExecuteError(f'Invalid input: { {{data.items()}} }')
 
         if data.get('bbox', []):
             bbox = data['bbox']
         else:
-            bbox = self._expand_bbox((data['long'], data['lat'])*2)
+            bbox = self._expand_bbox((data['lng'], data['lat'])*2)
 
         value = self.p.query(bbox=bbox)
         i = 1

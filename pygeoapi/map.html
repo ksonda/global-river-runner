@@ -1,0 +1,77 @@
+{% extends "_base.html" %}
+{% block title %}{{ super() }} {{ data['title'] }} {% endblock %}
+
+{% block extrahead %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #river-runner-map { height: 600px; width: 100%; }
+    </style>
+{% endblock %}
+
+{% block body %}
+  <section id="items">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="river-runner-map"></div>
+        <div id="items-map"></div>
+      </div>
+    </div>
+   </section>
+{% endblock %}
+
+{% block extrafoot %}
+<script>
+var loading = false;
+var map = L.map('river-runner-map').setView([0, -90], 1);
+map.addLayer(new L.TileLayer(
+    '{{ config['server']['map']['url'] }}', {
+        maxZoom: 18,
+        attribution: '{{ config['server']['map']['attribution'] }}'
+    }
+));
+var d = {
+    "inputs": {
+        "bbox": [77.73, 27.033, 78.27, 27.49],
+    }
+}
+function onMapClick(e) {
+    if (loading){ alert('Still loading flowpath.'); return } else { loading = true; }
+    d.inputs = e.latlng;
+    map.setView(e.latlng);
+    var popup = L.popup(keepInView=true)
+        .setLatLng(e.latlng)
+        .setContent('Finding flowpath from this point')
+        .openOn(map);
+
+    $.ajax({
+        type:"POST",
+        url: "{{ config['server']['url'] }}/processes/river-runner/execution",
+        data: JSON.stringify(d),
+        contentType: 'application/json; charset=UTF-8',
+        processData: false,
+        success: function(response) {
+            popup.remove();
+            var geojson_data = response.value;
+            var items = new L.GeoJSON(geojson_data, {
+                onEachFeature: function (feature, layer) {
+                    var url = "{{ config['server']['url'] }}/collections/merit/items/" + feature.id + '?f=html';
+                    var html = '<span><a href="' + url + '">' + feature.properties.nameID + '</a></span>';
+                    layer.bindPopup(html);
+                }
+            });
+            map.addLayer(items);
+            map.fitBounds(items.getBounds());
+            loading = false;
+        },
+        error: function(error) {
+            console.log(error)
+        },
+    });
+}
+map.on('click', onMapClick);
+
+</script>
+
+{% endblock %}
