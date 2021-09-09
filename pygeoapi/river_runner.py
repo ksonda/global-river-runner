@@ -143,7 +143,7 @@ class RiverRunnerProcessor(BaseProcessor):
 
         value = self.p.query(bbox=bbox)
         i = 1
-        while len(value['features']) < 1:
+        while len(value['features']) < 1 and i < 10:
             LOGGER.debug(f'No features in bbox {bbox}, expanding')
             bbox = self._expand_bbox(bbox, e=0.125*i)
             value = self.p.query(bbox=bbox)
