@@ -48,9 +48,9 @@ server:
     #    connection: /tmp/pygeoapi-process-manager.db
     #    output_dir: /tmp/
     ogc_schemas_location: /opt/schemas.opengis.net
-    templates:
-      path: /skin-dashboard/templates
-      static: /skin-dashboard/static
+#   templates:
+#     path: /skin-dashboard/templates
+#     static: /skin-dashboard/static
 
 logging:
     level: ERROR
