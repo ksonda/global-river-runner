@@ -42,7 +42,7 @@ function onMapClick(e) {
     map.setView(e.latlng);
     var popup = L.popup(keepInView=true)
         .setLatLng(e.latlng)
-        .setContent('Finding flowpath from this point')
+        .setContent('Finding flowpath from this point.')
         .openOn(map);
 
     $.ajax({
@@ -53,17 +53,21 @@ function onMapClick(e) {
         processData: false,
         success: function(response) {
             popup.remove();
-            var geojson_data = response.value;
-            var items = new L.GeoJSON(geojson_data, {
-                onEachFeature: function (feature, layer) {
-                    var url = "{{ config['server']['url'] }}/collections/merit/items/" + feature.id + '?f=html';
-                    var html = '<span><a href="' + url + '">' + feature.properties.nameID + '</a></span>';
-                    layer.bindPopup(html);
-                }
-            });
-            map.addLayer(items);
-            map.fitBounds(items.getBounds());
             loading = false;
+            var geojson_data = response.value;
+            if (geojson_data.features.length === 0){
+                alert('No flowpath found. :(')
+            } else {
+                var items = new L.GeoJSON(geojson_data, {
+                    onEachFeature: function (feature, layer) {
+                        var url = "{{ config['server']['url'] }}/collections/merit/items/" + feature.id + '?f=html';
+                        var html = '<span><a href="' + url + '">' + feature.properties.nameID + '</a></span>';
+                        layer.bindPopup(html);
+                    }
+                });
+                map.addLayer(items);
+                map.fitBounds(items.getBounds());
+            }
         },
         error: function(error) {
             console.log(error)

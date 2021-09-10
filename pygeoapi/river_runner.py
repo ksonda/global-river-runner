@@ -131,6 +131,13 @@ class RiverRunnerProcessor(BaseProcessor):
 
     def execute(self, data):
         mimetype = 'application/json'
+        outputs = {
+                'id': 'echo',
+                'value': {
+                    'type': 'FeatureCollection',
+                    'features': []
+                }
+            }
         if len(data.get('bbox', [])) != 4 and \
            not data.get('lat', '') and \
            not data.get('lng', ''):
@@ -143,11 +150,15 @@ class RiverRunnerProcessor(BaseProcessor):
 
         value = self.p.query(bbox=bbox)
         i = 1
-        while len(value['features']) < 1 and i < 10:
+        while len(value['features']) < 1 and i < 3:
             LOGGER.debug(f'No features in bbox {bbox}, expanding')
-            bbox = self._expand_bbox(bbox, e=0.125*i)
+            bbox = self._expand_bbox(bbox, e=0.5*i)
             value = self.p.query(bbox=bbox)
             i = i + 1
+
+        if len(value['features']) < 1:
+            LOGGER.debug('No features found')
+            return mimetype, outputs
 
         LOGGER.debug('fetching downstream features')
         mh = self._compare(value, 'hydroseq', min)
