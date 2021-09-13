@@ -137,10 +137,10 @@ class RiverRunnerProcessor(BaseProcessor):
 
         :returns: pygeoapi.process.river_runner.RiverRunnerProcessor
         """
-        self.p = load_plugin('provider', PROVIDER_DEF)
         super().__init__(processor_def, PROCESS_METADATA)
 
     def execute(self, data):
+        p = load_plugin('provider', PROVIDER_DEF)
         mimetype = 'application/json'
         outputs = {
                 'id': 'echo',
@@ -168,12 +168,12 @@ class RiverRunnerProcessor(BaseProcessor):
         bbox = bbox * 2 if len(bbox) == 2 else bbox
         bbox = self._expand_bbox(bbox)
 
-        value = self.p.query(bbox=bbox)
+        value = p.query(bbox=bbox)
         i = 1
         while len(value['features']) < 1 and i < 3:
             LOGGER.debug(f'No features in bbox {bbox}, expanding')
             bbox = self._expand_bbox(bbox, e=0.5*i)
-            value = self.p.query(bbox=bbox)
+            value = p.query(bbox=bbox)
             i = i + 1
 
         if len(value['features']) < 1:
@@ -191,7 +191,7 @@ class RiverRunnerProcessor(BaseProcessor):
                 LOGGER.error(f'No Downstem Rivers found {i}')
                 continue
 
-            down = self.p.query(
+            down = p.query(
                 properties=[('levelpathi', i), ], limit=1000
                 )
 
