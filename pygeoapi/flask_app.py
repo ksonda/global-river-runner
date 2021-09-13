@@ -331,7 +331,7 @@ def get_process_jobs(process_id=None, job_id=None):
                 request, process_id, job_id))
 
 
-@BLUEPRINT.route('/processes/<process_id>/execution', methods=['POST'])
+@BLUEPRINT.route('/processes/<process_id>/execution', methods=['GET', 'POST'])
 def execute_process_jobs(process_id):
     """
     OGC API - Processes execution endpoint
@@ -340,6 +340,9 @@ def execute_process_jobs(process_id):
 
     :returns: HTTP response
     """
+    if request.method == 'GET':
+        from json import dumps
+        request.data = dumps({'inputs': request.args}).encode('UTF-8')
 
     return get_response(api_.execute_process(request, process_id))
 
