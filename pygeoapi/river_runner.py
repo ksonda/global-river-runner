@@ -156,14 +156,16 @@ class RiverRunnerProcessor(BaseProcessor):
 
         for k, v in data.items():
             if isinstance(v, str):
-                data[k] = ','.join(v.split(',')).strip('()[]').split(',')
+                data[k] = ','.join(v.split(',')).strip('()[]')
+                if k == 'latlng' or k == 'bbox':
+                    data[k] = data[k].split(',')
 
         if data.get('bbox', []):
             bbox = data.get('bbox')
         elif data.get('latlng', ''):
             bbox = data.get('latlng')
         else:
-            bbox = (*data.get('lng'), *data.get('lat'))
+            bbox = [data.get('lng'), data.get('lat')]
 
         bbox = bbox * 2 if len(bbox) == 2 else bbox
         bbox = self._expand_bbox(bbox)
