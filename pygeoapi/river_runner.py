@@ -74,6 +74,17 @@ PROCESS_METADATA = {
             'metadata': None,  # TODO how to use?
             'keywords': ['coordinates', 'geography']
         },
+        'latlng': {
+            'title': 'Latitude & Longitude',
+            'description': 'A set of two coordinates',
+            'schema': {
+                'type': 'object',
+            },
+            'minOccurs': 0,
+            'maxOccurs': 1,
+            'metadata': None,  # TODO how to use?
+            'keywords': ['coordinates', 'geography']
+        },
         'lat': {
             'title': 'Latitude',
             'description': 'Latitude of a point',
@@ -138,15 +149,24 @@ class RiverRunnerProcessor(BaseProcessor):
                     'features': []
                 }
             }
-        if len(data.get('bbox', [])) != 4 and \
-           not data.get('lat', '') and \
-           not data.get('lng', ''):
+
+        if not data.get('bbox') and not data.get('latlng') and \
+           (not data.get('lat') and not data.get('lng')):
             raise ProcessorExecuteError(f'Invalid input: { {{data.items()}} }')
 
+        for k, v in data.items():
+            if isinstance(v, str):
+                data[k] = ','.join(v.split(',')).strip('()[]').split(',')
+
         if data.get('bbox', []):
-            bbox = data['bbox']
+            bbox = data.get('bbox')
+        elif data.get('latlng', ''):
+            bbox = data.get('latlng')
         else:
-            bbox = self._expand_bbox((data['lng'], data['lat'])*2)
+            bbox = (*data.get('lng'), *data.get('lat'))
+
+        bbox = bbox * 2 if len(bbox) == 2 else bbox
+        bbox = self._expand_bbox(bbox)
 
         value = self.p.query(bbox=bbox)
         i = 1
@@ -172,7 +192,7 @@ class RiverRunnerProcessor(BaseProcessor):
                 continue
 
             down = self.p.query(
-                properties=[('levelpathi', i), ], limit=2000
+                properties=[('levelpathi', i), ], limit=1000
                 )
 
             out.extend(down['features'])
@@ -203,7 +223,7 @@ class RiverRunnerProcessor(BaseProcessor):
         return val
 
     def _expand_bbox(self, bbox, e=0.125):
-        return [b + e if i < 2 else b - e
+        return [float(b) + e if i < 2 else float(b) - e
                 for (i, b) in enumerate(bbox)]
 
     def __repr__(self):
