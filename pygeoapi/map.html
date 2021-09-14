@@ -47,7 +47,7 @@ function onMapClick(e) {
 
     $.ajax({
         type:"POST",
-        url: "{{ config['server']['url'] }}/processes/river-runner/execution",
+        url: "/processes/river-runner/execution",
         data: JSON.stringify(d),
         contentType: 'application/json; charset=UTF-8',
         processData: false,
@@ -55,12 +55,14 @@ function onMapClick(e) {
             popup.remove();
             loading = false;
             var geojson_data = response.value;
-            if (geojson_data.features.length === 0){
+            if (response.code !== 'success'){
+                alert('Server Error: ' + response.description);
+            } else if (geojson_data.features.length === 0){
                 alert('No flowpath found. :(')
             } else {
                 var items = new L.GeoJSON(geojson_data, {
                     onEachFeature: function (feature, layer) {
-                        var url = "{{ config['server']['url'] }}/collections/merit/items/" + feature.id + '?f=html';
+                        var url = "/collections/merit/items/" + feature.id + '?f=html';
                         var html = '<span><a href="' + url + '">' + feature.properties.nameID + '</a></span>';
                         layer.bindPopup(html);
                     }

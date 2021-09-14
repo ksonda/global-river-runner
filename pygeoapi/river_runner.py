@@ -143,6 +143,7 @@ class RiverRunnerProcessor(BaseProcessor):
         mimetype = 'application/json'
         outputs = {
                 'id': 'echo',
+                'code': 'success',
                 'value': {
                     'type': 'FeatureCollection',
                     'features': []
@@ -211,10 +212,7 @@ class RiverRunnerProcessor(BaseProcessor):
                     outm.append(seg)
 
         value['features'] = outm
-        outputs = {
-            'id': 'echo',
-            'value': value
-        }
+        outputs.update({ 'value': value })
         return mimetype, outputs
 
     def _compare(self, fc, prop, dir):
@@ -224,7 +222,7 @@ class RiverRunnerProcessor(BaseProcessor):
                 val = f
         return val
 
-    def _expand_bbox(self, bbox, e=0.125):
+    def _expand_bbox(self, bbox, e=0.25):
         return [float(b) + e if i < 2 else float(b) - e
                 for (i, b) in enumerate(bbox)]
 
