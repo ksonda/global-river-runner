@@ -83,7 +83,7 @@ PROCESS_METADATA = {
             'minOccurs': 0,
             'maxOccurs': 1,
             'metadata': None,  # TODO how to use?
-            'keywords': ['coordinates', 'geography']
+            'keywords': ['coordinates', 'latitude', 'longitude']
         },
         'lat': {
             'title': 'Latitude',
@@ -94,7 +94,7 @@ PROCESS_METADATA = {
             'minOccurs': 0,
             'maxOccurs': 1,
             'metadata': None,  # TODO how to use?
-            'keywords': ['coordinates', 'longitude']
+            'keywords': ['coordinates', 'latitude']
         },
         'lng': {
             'title': 'Longitude',
@@ -105,7 +105,7 @@ PROCESS_METADATA = {
             'minOccurs': 0,
             'maxOccurs': 1,
             'metadata': None,  # TODO how to use?
-            'keywords': ['coordinates', 'latitude']
+            'keywords': ['coordinates', 'longitude']
         }
     },
     'outputs': {
@@ -140,7 +140,6 @@ class RiverRunnerProcessor(BaseProcessor):
         super().__init__(processor_def, PROCESS_METADATA)
 
     def execute(self, data):
-        p = load_plugin('provider', PROVIDER_DEF)
         mimetype = 'application/json'
         outputs = {
                 'id': 'echo',
@@ -156,18 +155,21 @@ class RiverRunnerProcessor(BaseProcessor):
 
         for k, v in data.items():
             if isinstance(v, str):
-                data[k] = ','.join(v.split(',')).strip('()[]').split(',')
+                data[k] = ','.join(v.split(',')).strip('()[]')
+                if k in ['latlng', 'bbox']:
+                    data[k] = data[k].split(',')
 
         if data.get('bbox', []):
             bbox = data.get('bbox')
         elif data.get('latlng', ''):
             bbox = data.get('latlng')
         else:
-            bbox = (*data.get('lng'), *data.get('lat'))
+            bbox = (data.get('lng'), data.get('lat'))
 
         bbox = bbox * 2 if len(bbox) == 2 else bbox
         bbox = self._expand_bbox(bbox)
 
+        p = load_plugin('provider', PROVIDER_DEF)   
         value = p.query(bbox=bbox)
         i = 1
         while len(value['features']) < 1 and i < 3:
