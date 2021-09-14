@@ -151,7 +151,7 @@ resources:
               name: SQLiteGPKG
               data: /data/e_merit_cats.gpkg
               id_field: COMID
-              table: e_merit_cats
+              table: merit_cats
 
     westcatchments:
         type: collection
@@ -183,7 +183,7 @@ resources:
               name: SQLiteGPKG
               data: /data/w_merit_cats.gpkg
               id_field: COMID
-              table: w_merit_cats      
+              table: merit_cats      
 
     river-runner:
         type: process
