@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.gpkg
+pygeoapi/w_merit_cats.gpkg-shm
+pygeoapi/w_merit_cats.gpkg-wal
