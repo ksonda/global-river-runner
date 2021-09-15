@@ -143,6 +143,7 @@ class RiverRunnerProcessor(BaseProcessor):
         mimetype = 'application/json'
         outputs = {
                 'id': 'echo',
+                'code': 'success',
                 'value': {
                     'type': 'FeatureCollection',
                     'features': []
@@ -159,62 +160,64 @@ class RiverRunnerProcessor(BaseProcessor):
                 if k in ['latlng', 'bbox']:
                     data[k] = data[k].split(',')
 
-        if data.get('bbox', []):
-            bbox = data.get('bbox')
-        elif data.get('latlng', ''):
-            bbox = data.get('latlng')
+        if data.get('bbox', data.get('latlng')):
+            bbox = data.get('bbox', data.get('latlng'))
         else:
             bbox = (data.get('lng'), data.get('lat'))
 
         bbox = bbox * 2 if len(bbox) == 2 else bbox
         bbox = self._expand_bbox(bbox)
 
-        p = load_plugin('provider', PROVIDER_DEF)   
+        p = load_plugin('provider', PROVIDER_DEF)
         value = p.query(bbox=bbox)
-        i = 1
-        while len(value['features']) < 1 and i < 3:
-            LOGGER.debug(f'No features in bbox {bbox}, expanding')
-            bbox = self._expand_bbox(bbox, e=0.5*i)
-            value = p.query(bbox=bbox)
-            i = i + 1
-
         if len(value['features']) < 1:
-            LOGGER.debug('No features found')
-            return mimetype, outputs
+            LOGGER.debug(f'No features in bbox {bbox}, expanding')
+            bbox = self._expand_bbox(bbox, e=0.5)
+            value = p.query(bbox=bbox)
+
+            if len(value['features']) < 1:
+                LOGGER.debug('No features found')
+                return mimetype, outputs
 
         LOGGER.debug('fetching downstream features')
         mh = self._compare(value, 'hydroseq', min)
-        out, trim = [], []
+        levelpaths = []
         for i in (mh[P]['levelpathi'],
                   *mh[P]['down_levelpaths'].split(',')):
             try:
                 i = int(float(i))
+                levelpaths.append(str(i))
             except ValueError:
-                LOGGER.error(f'No Downstem Rivers found {i}')
-                continue
+                LOGGER.debug(f'No Downstem Rivers found {i}')
 
-            down = p.query(
-                properties=[('levelpathi', i), ], limit=1000
+        d = p.query(
+                properties=[('levelpathi', i) for i in levelpaths],
+                limit=100000, comp='OR'
                 )
 
-            out.extend(down['features'])
-            m = self._compare(down, 'hydroseq', min)
-            trim.append((m[P]['dnlevelpat'], m[P]['dnhydroseq']))
+        mins = {level: {} for level in levelpaths}
+        for f in d['features']:
+            key = str(f[P]['levelpathi'])
+            prev = mins[key].get(P, {}).get('hydroseq', None)
+
+            if prev is None or \
+               min(prev, f[P]['hydroseq']) != prev:
+                mins[key] = f
+
+        trim = [(mh[P]['levelpathi'], mh[P]['hydroseq'])]
+        for k, v in mins.items():
+            trim.append((v[P]['dnlevelpat'], v[P]['dnhydroseq']))
 
         LOGGER.debug('keeping only mainstem flowpath')
-        trim.append((mh[P]['levelpathi'], mh[P]['hydroseq']))
         outm = []
-        for seg in out:
-            for i in trim:
-                if seg[P]['levelpathi'] == i[0] and \
-                   seg[P]['hydroseq'] <= i[1]:
-                    outm.append(seg)
+        for f in d['features']:
+            for t in trim:
+                if f[P]['levelpathi'] == t[0] and \
+                   f[P]['hydroseq'] <= t[1]:
+                    outm.append(f)
 
-        value['features'] = outm
-        outputs = {
-            'id': 'echo',
-            'value': value
-        }
+        value.update({'features': outm})
+        outputs.update({'value': value})
         return mimetype, outputs
 
     def _compare(self, fc, prop, dir):
@@ -224,7 +227,7 @@ class RiverRunnerProcessor(BaseProcessor):
                 val = f
         return val
 
-    def _expand_bbox(self, bbox, e=0.125):
+    def _expand_bbox(self, bbox, e=0.25):
         return [float(b) + e if i < 2 else float(b) - e
                 for (i, b) in enumerate(bbox)]
 

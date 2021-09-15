@@ -21,4 +21,5 @@ COPY ./pygeoapi-skin-dashboard /skin-dashboard
 COPY ./plugin.py /pygeoapi/pygeoapi/plugin.py
 COPY ./flask_app.py /pygeoapi/pygeoapi/flask_app.py
 COPY ./river_runner.py /pygeoapi/pygeoapi/process/river_runner.py
+COPY ./sqlite.py /pygeoapi/pygeoapi/provider/sqlite.py
 COPY ./map.html /pygeoapi/pygeoapi/templates/processes/map.html

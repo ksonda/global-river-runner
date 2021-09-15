@@ -43,4 +43,6 @@ services:
       - ./plugin.py:/pygeoapi/pygeoapi/plugin.py
       - ./flask_app.py:/pygeoapi/pygeoapi/flask_app.py
       - ./river_runner.py:/pygeoapi/pygeoapi/process/river_runner.py
+      - ./sqlite.py:/pygeoapi/pygeoapi/provider/sqlite.py
+      - ./map.html:/pygeoapi/pygeoapi/templates/processes/map.html
       - ./schemas.opengis.net:/opt/schemas.opengis.net
