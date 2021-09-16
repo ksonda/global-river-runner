@@ -32,7 +32,7 @@ version: "3"
 services:
 
   pygeoapi:
-    image: geopython/pygeoapi:latest
+    image: webbben/pygeoapi-river-runner:latest
     ports:
       - 5050:80
     volumes:
@@ -40,9 +40,4 @@ services:
       - ./merit_plus_simplify.gpkg:/data/merit_plus_simplify.gpkg
       - ./e_merit_cats.gpkg:/data/e_merit_cats.gpkg
       - ./w_merit_cats.gpkg:/data/w_merit_cats.gpkg
-      - ./plugin.py:/pygeoapi/pygeoapi/plugin.py
-      - ./flask_app.py:/pygeoapi/pygeoapi/flask_app.py
-      - ./river_runner.py:/pygeoapi/pygeoapi/process/river_runner.py
-      - ./sqlite.py:/pygeoapi/pygeoapi/provider/sqlite.py
-      - ./map.html:/pygeoapi/pygeoapi/templates/processes/map.html
       - ./schemas.opengis.net:/opt/schemas.opengis.net

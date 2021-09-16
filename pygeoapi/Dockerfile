@@ -1,4 +1,4 @@
-FROM geopython/pygeoapi:latest
+FROM webbben/pygeoapi-river-runner:latest
 
 #Add data directory
 RUN mkdir /data
@@ -16,10 +16,3 @@ ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/co
 COPY ./pygeoapi.config.yml /pygeoapi/local.config.yml
 COPY ./schemas.opengis.net /opt/schemas.opengis.net
 COPY ./pygeoapi-skin-dashboard /skin-dashboard
-
-#Add river runner plugin
-COPY ./plugin.py /pygeoapi/pygeoapi/plugin.py
-COPY ./flask_app.py /pygeoapi/pygeoapi/flask_app.py
-COPY ./river_runner.py /pygeoapi/pygeoapi/process/river_runner.py
-COPY ./sqlite.py /pygeoapi/pygeoapi/provider/sqlite.py
-COPY ./map.html /pygeoapi/pygeoapi/templates/processes/map.html
