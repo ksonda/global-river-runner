@@ -33,7 +33,7 @@ server:
     bind:
         host: localhost #change to your hostname if running your own instance
         port: 5050
-    url: https://global-nldi.internetofwater.app #change to host URL  if running your own instance
+    url: https://merit-nldi.internetofwater.app #change to host URL  if running your own instance
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
     languages: en-US
