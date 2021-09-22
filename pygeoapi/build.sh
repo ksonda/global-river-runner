@@ -1,3 +1,4 @@
+#!/bin/bash
 # =================================================================
 #
 # Authors: Benjamin Webb <benjamin.miller.webb@gmail.com>
@@ -27,45 +28,32 @@
 #
 # =================================================================
 
-version: "3"
+# python3 /scripts/ogr2ogr.py \
+#     -f PGDump -lco LAUNDER=NO -lco DROP_TABLE=OFF | gzip > /data/merit_.sql.gz \
+#     /data/merit_plus_simplify.gpkg
 
-services:
+ogr2ogr \
+	-f PostgreSQL \
+	PG:"host='localhost' \
+	    user='${POSTGRES_USER}' \
+		password='${POSTGRES_PASSWORD}' \
+		dbname='${POSTGRES_DB}'" \
+	/data/merit_plus_simplify.gpkg
 
-  pygeoapi:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    restart: always
-    ports: 
-      - 5000:80
-    depends_on: 
-      - db
-    environment:
-      POSTGRES_HOST: db
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: merit
-    volumes:
-      - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
-      - ./schemas.opengis.net:/opt/schemas.opengis.net
+# ogr2ogr \
+# 	-f PostgreSQL \
+# 	PG:"host='localhost' \
+# 	    user='${POSTGRES_USER}' \
+# 		password='${POSTGRES_PASSWORD}' \
+# 		dbname='${POSTGRES_DB}'" \
+# 	/data/e_merit_cats.gpkg 
 
-  db:
-    build:
-      context: .
-      dockerfile: Dockerfile_db
-    restart: always
-    ports: 
-      - 5432:5432
-    environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: merit
-    volumes:
-      - ./merit_plus_simplify.gpkg:/data/merit_plus_simplify.gpkg
-      - ./build.sh:/docker-entrypoint-initdb.d/build.sh
+# ogr2ogr \
+# 	-f PostgreSQL \
+# 	PG:"host='localhost' \
+# 	    user='${POSTGRES_USER}' \
+# 		password='${POSTGRES_PASSWORD}' \
+# 		dbname='${POSTGRES_DB}'" \
+# 	/data/w_merit_cats.gpkg 
 
-  adminer:
-    image: adminer
-    restart: always
-    ports: 
-      - 8080:8080
+# rm -rf /data/
