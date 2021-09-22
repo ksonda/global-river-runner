@@ -1,2 +1,2 @@
 # global-river-runner
-Let's make a global reiver runner
+Let's make a global river runner
