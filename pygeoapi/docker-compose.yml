@@ -38,13 +38,6 @@ services:
     restart: always
     ports: 
       - 5050:80
-    depends_on: 
-      - db
-    environment:
-      POSTGRES_HOST: db
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: merit
     volumes:
       - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
       - ./schemas.opengis.net:/opt/schemas.opengis.net
