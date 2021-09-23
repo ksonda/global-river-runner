@@ -96,7 +96,7 @@ resources:
             en: merit features
         keywords:
             en:
-                - rivers
+                - rivers, mainstems
         context:
             - schema: https://schema.org/
               nameid: schema:name
