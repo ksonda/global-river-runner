@@ -1,25 +1,6 @@
-FROM geopython/pygeoapi:latest
-
-#Add data directory
-RUN mkdir /data
-
-#last updated 2021-09-14 00:09:28 UTC-5 
-ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/merit_plus_simplify.gpkg /data/
-
-#last updated 2021-09-14 00:019:50 UTC-5 
-ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/e_merit_cats.gpkg /data/
-
-#last updated 2021-09-14 00:019:50 UTC-5 
-ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/w_merit_cats.gpkg /data/
+FROM webbben/pygeoapi-river-runner:latest
 
 #add requirements and mods
 COPY ./pygeoapi.config.gcp.yml /pygeoapi/local.config.yml
 COPY ./schemas.opengis.net /opt/schemas.opengis.net
 COPY ./pygeoapi-skin-dashboard /skin-dashboard
-
-#Add river runner plugin
-COPY ./plugin.py /pygeoapi/pygeoapi/plugin.py
-COPY ./flask_app.py /pygeoapi/pygeoapi/flask_app.py
-COPY ./river_runner.py /pygeoapi/pygeoapi/process/river_runner.py
-COPY ./sqlite.py /pygeoapi/pygeoapi/provider/sqlite.py
-COPY ./map.html /pygeoapi/pygeoapi/templates/processes/map.html
