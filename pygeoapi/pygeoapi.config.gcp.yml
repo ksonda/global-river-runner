@@ -123,7 +123,7 @@ resources:
               name: PostgreSQL
               data:
                 host: /cloudsql/global-river-runner:us-central1:global-river-runner-db
-                dbname: merit_plus
+                dbname: merit
                 user: postgres
                 password: geoconnex
                 search_path: [public]
