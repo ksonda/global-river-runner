@@ -87,7 +87,6 @@ metadata:
         email: kyle.onda@duke.edu
         url: https://internetofwater.org
         role: pointOfContact
-
 resources:
     merit:
         type: collection
@@ -115,77 +114,27 @@ resources:
                 begin: null
                 end: null
         providers:
+    #         - type: feature
+    #           name: SQLiteGPKG
+    #           data: /data/merit_plus_simplify.gpkg
+    #           id_field: comid
+    #           table: merit_plus
             - type: feature
-              name: SQLiteGPKG
-              data: /data/merit_plus_simplify.gpkg
+              name: PostgreSQL
+              data:
+                host: /cloudsql/global-river-runner:us-central1:global-river-runner-db
+                dbname: merit_plus
+                user: postgres
+                password: geoconnex
+                search_path: [public]
+              geom_field: wkb_geometry
               id_field: comid
               table: merit_plus
 
-    eastcatchments:
-        type: collection
-        title: 
-            en: Eastern Hemisphere Merit Catchments
-        description: 
-            en: Simplified Eastern Hemisphere Merit Catchments
-        keywords:
-            en:
-                - catchments
-        context:
-            - schema: https://schema.org/
-              COMID: schema:identifier
-        links:
-            - type: application/html
-              rel: canonical
-              title: data source
-              href: https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/e_merit_cats.gpkg
-              hreflang: en-US
-        extents:
-            spatial:
-                bbox: [-180,-90,180,90]
-                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
-            temporal:
-                begin: null
-                end: null
-        providers:
-            - type: feature
-              name: SQLiteGPKG
-              data: /data/e_merit_cats.gpkg
-              id_field: COMID
-              table: merit_cats
-
-    westcatchments:
-        type: collection
-        title: 
-            en: Western Hemisphere Merit Catchments
-        description: 
-            en: Simplified Western Hemisphere Merit Catchments
-        keywords:
-            en:
-                - catchments
-        context:
-            - schema: https://schema.org/
-              COMID: schema:identifier
-        links:
-            - type: application/html
-              rel: canonical
-              title: data source
-              href: https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/w_merit_cats.gpkg
-              hreflang: en-US
-        extents:
-            spatial:
-                bbox: [-180,-90,180,90]
-                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
-            temporal:
-                begin: null
-                end: null
-        providers:
-            - type: feature
-              name: SQLiteGPKG
-              data: /data/w_merit_cats.gpkg
-              id_field: COMID
-              table: merit_cats      
 
     river-runner:
         type: process
         processor:
             name: RiverRunner
+
+
