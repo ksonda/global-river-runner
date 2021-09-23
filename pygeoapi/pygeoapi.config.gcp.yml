@@ -135,7 +135,7 @@ resources:
                 host: /cloudsql/global-river-runner:us-central1:global-river-runner-db
                 dbname: merit
                 user: postgres
-                password: $DBPASSWORD
+                password: ${DBPASSWORD}
                 search_path: [public]
               geom_field: wkb_geometry
               id_field: comid
