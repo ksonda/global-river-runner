@@ -1,5 +1,5 @@
 FROM webbben/pygeoapi-river-runner:latest
-#change to pygeoapi master if river runner gets a core status in pygeoapi
+#last update 2021-09-23T13:00
 
 ENV DBPASSWORD=password
 
