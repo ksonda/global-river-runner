@@ -87,7 +87,6 @@ metadata:
         email: kyle.onda@duke.edu
         url: https://internetofwater.org
         role: pointOfContact
-
 resources:
     merit:
         type: collection
@@ -125,13 +124,18 @@ resources:
                 begin: null
                 end: null
         providers:
+    #         - type: feature
+    #           name: SQLiteGPKG
+    #           data: /data/merit_plus_simplify.gpkg
+    #           id_field: comid
+    #           table: merit_plus
             - type: feature
               name: PostgreSQL
               data:
-                host: ${POSTGRES_HOST}
-                dbname: ${POSTGRES_DB}
-                user: ${POSTGRES_USER}
-                password: ${POSTGRES_PASSWORD}
+                host: /cloudsql/global-river-runner:us-central1:global-river-runner-db
+                dbname: merit
+                user: postgres
+                password: geoconnex
                 search_path: [public]
               geom_field: wkb_geometry
               id_field: comid
@@ -259,3 +263,4 @@ resources:
             inputs:
                 bbox: [-86.2, 39.7, -86.15, 39.75]
                 sorted: downstream
+
