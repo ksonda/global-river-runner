@@ -104,7 +104,7 @@ resources:
             - type: application/html
               rel: canonical
               title: data source
-              href: https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/merit_plus_simplify.gpkg
+              href: https://www.sciencebase.gov/catalog/item/614a8864d34e0df5fb97572d
               hreflang: en-US
         extents:
             spatial:
