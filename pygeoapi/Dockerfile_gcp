@@ -1,8 +1,6 @@
 FROM webbben/pygeoapi-river-runner:latest
 #last update 2021-09-23T13:00
 
-ENV DBPASSWORD=password
-
 #add requirements and mods
 COPY ./pygeoapi.config.gcp.yml /pygeoapi/local.config.yml
 COPY ./schemas.opengis.net /opt/schemas.opengis.net
