@@ -1,4 +1,5 @@
 FROM webbben/pygeoapi-river-runner:latest
+#change to pygeoapi master if river runner gets a core status in pygeoapi
 
 #add requirements and mods
 COPY ./pygeoapi.config.gcp.yml /pygeoapi/local.config.yml
