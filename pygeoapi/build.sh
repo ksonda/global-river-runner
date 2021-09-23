@@ -1,8 +1,9 @@
+#!/bin/bash
 # =================================================================
 #
-# Authors: Benjamin Webb <benjamin.miller.webb@gmail.com>
+# Authors: Just van den Broecke <justb4@gmail.com>
 #
-# Copyright (c) 2021 Benjamin Webb
+# Copyright (c) 2019 Just van den Broecke
 #
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation
@@ -26,39 +27,37 @@
 # OTHER DEALINGS IN THE SOFTWARE.
 #
 # =================================================================
+echo "START /build.sh"
 
-version: "3"
+set +e
+echo "Begining build"
+# python3 /scripts/ogr2ogr.py \
+#     -f PGDump -lco LAUNDER=NO -lco DROP_TABLE=OFF | gzip > /data/merit_.sql.gz \
+#     /data/merit_plus_simplify.gpkg
+while [ ! -f /data/merit_plus_simplify.gpkg ]; do echo 1; sleep 1; done
+ogr2ogr \
+	-f PostgreSQL \
+	PG:"host='localhost' \
+	    user='${POSTGRES_USER}' \
+		password='${POSTGRES_PASSWORD}' \
+		dbname='${POSTGRES_DB}'" \
+	/data/merit_plus_simplify.gpkg
 
-services:
+echo "Done"
+# ogr2ogr \
+# 	-f PostgreSQL \
+# 	PG:"host='localhost' \
+# 	    user='${POSTGRES_USER}' \
+# 		password='${POSTGRES_PASSWORD}' \
+# 		dbname='${POSTGRES_DB}'" \
+# 	/data/e_merit_cats.gpkg 
 
-  pygeoapi:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    restart: always
-    ports: 
-      - 5050:80
-    volumes:
-      - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
-      - ./schemas.opengis.net:/opt/schemas.opengis.net
+# ogr2ogr \
+# 	-f PostgreSQL \
+# 	PG:"host='localhost' \
+# 	    user='${POSTGRES_USER}' \
+# 		password='${POSTGRES_PASSWORD}' \
+# 		dbname='${POSTGRES_DB}'" \
+# 	/data/w_merit_cats.gpkg 
 
-  db:
-    build:
-      context: .
-      dockerfile: Dockerfile_db
-    restart: always
-    ports: 
-      - 5432:5432
-    environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: merit
-    volumes:
-      - ./merit_plus_simplify.gpkg:/data/merit_plus_simplify.gpkg
-      - ./build.sh:/docker-entrypoint-initdb.d/build.sh
-
-  adminer:
-    image: adminer
-    restart: always
-    ports: 
-      - 8080:8080
+# rm -rf /data/
