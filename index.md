@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Global River Runner
 
-You can use the [editor on GitHub](https://github.com/ksonda/global-river-runner/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The Global River Runner is a vizualization simulating the path a raindrop would take, assuming it runs off into a stream and from then on to a terminating location, likely an inland water body or the ocean. The front end visualization was developed by [Sam Learner](https://samlearner.com). The back end is developed by [Dave Blodgett](https://www.usgs.gov/staff-profiles/david-l-blodgett?qt-staff_profile_science_products=3#qt-staff_profile_science_products), [Kyle Onda](https://kyleonda.com) and [Ben Webb](https://github.com/webb-ben)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+
+It is inspired by the [River Runner](https://river-runner.samlearner.com), which offers the same visualization for the contiguous United States. The original River Runner relies on the U.S. Geological Survey's [Network-Linked Data Index]https://waterdata.usgs.gov/blog/nldi-intro/) API, which allows upstream and downstream traces of the US National Hydrography as represented by [NHDPlus Version 2](https://www.epa.gov/waterdata/nhdplus-national-hydrography-dataset-plus).
 
 ### Markdown
 
