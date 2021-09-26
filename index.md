@@ -5,7 +5,7 @@ The [back end](https://merit.internetofwater.app) is developed by [Dave Blodgett
 
 ### Open Data
 
-The underlying data product on which back end is based is [MERIT-Basins](https://www.reachhydro.org/home/params/merit-basins), a global vector hydrography dataset derived from the [MERIT-Hydro raster data product](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/). 
+The underlying data product on which back end is based is [MERIT-Basins](https://www.reachhydro.org/home/params/merit-basins), a global vector hydrography dataset derived from the [MERIT-Hydro raster data product](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/), which itself is derived from the [MERIT Digitel Elevation Model](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/index.html). All of these data are published with an open [Creative Commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) License, which allows them to be used for free for science as well as for noncommercial creative works such as this one. 
 
 ### Open Source Software
 
