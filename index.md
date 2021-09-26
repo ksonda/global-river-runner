@@ -13,36 +13,10 @@ The underlying data product on which back end is based is [MERIT-Basins](https:/
 
 ### Prior work
 
-This application is a derivative of the original [River Runner](https://river-runner.samlearner.com), which offers the same visualization for the contiguous United States. The original River Runner relies on the U.S. Geological Survey's [Network-Linked Data Index (NLDI)]https://waterdata.usgs.gov/blog/nldi-intro/) API, which allows upstream and downstream traces of the US National Hydrography as represented by [NHDPlus Version 2](https://www.epa.gov/waterdata/nhdplus-national-hydrography-dataset-plus). The NLDI itself was inspired by the [Upstream/Downstream discovery functions](https://watersgeo.epa.gov/openapi/waters/#/Discovery) of the U.S. Environmental Protection Agency [WATERS](https://www.epa.gov/waterdata/waters-watershed-assessment-tracking-environmental-results-system) data system, which indexes many EPA data products to NHDPlus Version 2. The NLDI is developed as an [open source project](https://github.com/ACWI-SSWD).
+#### U.S. River Runner
+This application is a derivative of the original [River Runner](https://river-runner.samlearner.com), which offers the same visualization for the contiguous United States and was also developed by Sam Learner. 
 
-### Markdown
+#### Network-Linked Data Index
+The original River Runner relies on the U.S. Geological Survey's [Network-Linked Data Index (NLDI)]https://waterdata.usgs.gov/blog/nldi-intro/) API, which allows upstream and downstream traces of the US National Hydrography as represented by [NHDPlus Version 2](https://www.epa.gov/waterdata/nhdplus-national-hydrography-dataset-plus). The NLDI is an open system that allows external datasets (such as water quality monitoring stations) to be indexed to the national hydrography. The NLDI itself is derived from the [Upstream/Downstream discovery tools](https://watersgeo.epa.gov/openapi/waters/#/Discovery) of the U.S. Environmental Protection Agency [WATERS](https://www.epa.gov/waterdata/waters-watershed-assessment-tracking-environmental-results-system) data system, which indexes many EPA data products to NHDPlus Version 2. The NLDI is developed as an [open source project](https://github.com/ACWI-SSWD).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ksonda/global-river-runner/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Future Work
