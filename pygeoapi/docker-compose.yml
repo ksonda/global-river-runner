@@ -32,12 +32,15 @@ version: "3"
 services:
 
   pygeoapi:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: webbben/pygeoapi-river-runner
     restart: always
     ports: 
       - 5050:80
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: merit
     volumes:
       - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
       - ./schemas.opengis.net:/opt/schemas.opengis.net
