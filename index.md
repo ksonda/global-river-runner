@@ -14,7 +14,33 @@ The back end API is served by [pygeoapi](https://pygeoapi.io), an open-source py
 
 Our API for tracing downstream river flowpaths is documented in the OpenAPI standard [here](https://merit.internetofwater.app/openapi?f=html#/river-runner/executeRiver-runnerJob). The code underlying the API is available [here](https://github.com/webb-ben/pygeoapi/blob/river-runner/pygeoapi/process/river_runner.py).
 
-The entire API and database stack can be deployed on your own, see the [github repository](https://github.com/ksonda/global-river-runner) for more details.
+The basic use of the API is to provide the latitude and longitude of a start point, and you will be returned a geojson file of line segments representing the flowpath downstream on the start point. The format is as below:
+
+```
+https://merit.internetofwater.app/processes/river-runner/execution?lat=<latitude>&lng=<longitude>
+```
+
+For example, trace the path from [Humayun's Tomb ](https://www.google.com/maps/place/Humayun’s+Tomb/@28.5827539,77.1890893,12.24z/data=!4m13!1m7!3m6!1s0x390cfd5b347eb62d:0x52c2b7494e204dce!2sNew+Delhi,+Delhi,+India!3b1!8m2!3d28.6139391!4d77.2090212!3m4!1s0x390ce31ce8460ba7:0xb9f1ba2d3bdfa80d!8m2!3d28.5932848!4d77.2507492) in New Delhi, India to the mouth of the Ganges:
+
+```
+https://merit.internetofwater.app/processes/river-runner/execution?lat=28.5827539&lng=77.1890893
+```
+
+
+
+
+The entire API and database stack can be deployed on your own, see the [github repository](https://github.com/ksonda/global-river-runner) for more details. If you have docker and git installed, it's as easy as:
+
+```
+git clone https://github.com/ksonda/global-river-runner.git
+cd pygeoapi
+wget https://prod-is-usgs-sb-prod-publish.s3.amazonaws.com/614a8864d34e0df5fb97572d/merit_plus.sql.gz
+docker-compose up -d
+```
+
+Point your browser to http://localhost:5050 to explore the pygeoapi server
+
+
 
 ### Open Standards
 
