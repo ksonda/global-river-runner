@@ -11,6 +11,7 @@ The [back end](https://merit.internetofwater.app) is developed by [Dave Blodgett
 
 The "rivers run" by the application are available as a database for download [here](https://www.sciencebase.gov/catalog/item/614a8864d34e0df5fb97572d). This database is a simplification of [MERIT-Basins](https://www.reachhydro.org/home/params/merit-basins) optimized for web viewing, and augmented with river names from the [Natural Earth Rivers + lakes centerlines dataset](https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/). MERIT-Basins is a global vector hydrography dataset derived from the [MERIT-Hydro raster data product](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/), which itself is derived from the [MERIT Digital Elevation Model](http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/index.html). All of these data are published with an open [Creative Commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) License, which allows them to be used for free for science as well as for noncommercial creative works such as this one. 
 
+For the river runner application, MERIT and Natural Earth data are combined and processed to include value-added-attributes that enable network navigation. For background, see the [`add_plus_network_attributes()`](https://cran.r-project.org/web/packages/nhdplusTools/nhdplusTools.pdf) function from the [nhdplusTools R package](https://cran.r-project.org/package=nhdplusTools). For background on the data model that enables this functionality, see: [Mainstems: A logical data model implementing mainstem and drainage basin feature types based on WaterML2 Part 3: HY Features concepts](https://doi.org/10.1016/j.envsoft.2020.104927)
 
 ### Open Source Software
 
@@ -42,7 +43,9 @@ docker-compose up -d
 
 Wait some time for the database to load, then point your browser to http://localhost:5050 to explore the pygeoapi server.
 
+### Reproducible Workflows
 
+The two source datasets used, MERIT-Basins and Naturalearth Rivers and Lake Centerlines, required integration and processing to make them suitable to the river runner application. The workflow code for this is implemented in the R programming language leveraging a variety of open-source R packages. The workflow is orchestrated by [this](https://code.usgs.gov/wma/nhgf/mainstems/-/blob/master/merit_runner.R) top-level runner. The workflow automates every aspect of data preparation, from source data downloads to writing input data for the river runner services. 
 
 ### Open Standards
 
