@@ -61,6 +61,7 @@ metadata:
         email: kyle.onda@duke.edu
         url: https://internetofwater.org
         role: pointOfContact
+
 resources:
     merit:
         type: collection
@@ -98,11 +99,6 @@ resources:
                 begin: null
                 end: null
         providers:
-    #         - type: feature
-    #           name: SQLiteGPKG
-    #           data: /data/merit_plus_simplify.gpkg
-    #           id_field: comid
-    #           table: merit_plus
             - type: feature
               name: PostgreSQL
               data:
@@ -117,8 +113,8 @@ resources:
 
     river-runner:
         type: process
-        version: 0.1.0
-        id: river-runner
+        processor:
+            name: RiverRunner
         title:
             en: River Runner
         description:
@@ -141,100 +137,10 @@ resources:
             - type: application/html
               rel: cannonical
               title: application
-              href: https://river-runner.samlearner.com/
+              href: https://river-runner-global.vercel.app/
               hreflang: en-US
-        processor:
-            name: RiverRunner
-        inputs:
-            bbox:
-                title:
-                    en: Bounding Box
-                description:
-                    en: Boundary box to begin a river runner query from
-                keywords:
-                    en: [box, coordinates]
-                schema:
-                    type: object
-                    default: []
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            lat:
-                title: 
-                    en: Latitude
-                description: 
-                    en: Latitude of a point
-                keywords:
-                    en: [latitude, coordinate, eastwest]
-                schema:
-                    type: number
-                    default: null
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            lng:
-                title: 
-                    en: Longitude
-                description: 
-                    en: Longitude of a point
-                keywords:
-                    en: [longitude, coordinate, northsouth]
-                schema:
-                    type: number
-                    default: null
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            latlng:
-                title:
-                    en: Latitude and Longitude
-                description:
-                    en: Coordinates in order [Long, Lat]
-                keywords:
-                    en: [coordinates, world, point]
-                schema:
-                    type: object
-                    default: []
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            sorted:
-                title: 
-                    en: Sorted
-                description: 
-                    en: 'Sort features by flow direction'
-                keywords:
-                    en: [downstream, upstream, unset]
-                schema:
-                    type: string
-                    default: downstream
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            sortby:
-                title:
-                    en: Sort By
-                description:
-                    en: 'Property to sort featurs with'
-                keywords:
-                    en: [sort, hydroseq, nameid, comid]
-                schema:
-                    type: string
-                    default: hydroseq
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-        outputs:
-            echo:
-                title:
-                    en: Feature Collection
-                description:
-                    en: A geoJSON Feature Collection of the River Runner process
-                schema:
-                    type: object
-                    contentMediaType: application/json
-        example:
-            inputs:
-                bbox: [-86.2, 39.7, -86.15, 39.75]
-                sorted: downstream
-
+            - type: application/html
+              rel: canonical
+              title: information
+              href: https://www.usgs.gov/core-science-systems/ngp/national-hydrography/value-added-attributes-vaas
+              hreflang: en-US
