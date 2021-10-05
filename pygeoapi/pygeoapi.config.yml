@@ -54,7 +54,7 @@ server:
 
 logging:
     level: ERROR
-    logfile: /tmp/pygeoapi.log
+    # logfile: /tmp/pygeoapi.log
 
 metadata:
     identification:
@@ -108,9 +108,14 @@ resources:
               href: https://www.sciencebase.gov/catalog/item/614a8864d34e0df5fb97572d
               hreflang: en-US
             - type: application/html
-              rel: canonical
-              title: download
-              href: https://prod-is-usgs-sb-prod-publish.s3.amazonaws.com/614a8864d34e0df5fb97572d/merit_plus_simplify.zip
+              rel: cannonical
+              title: github
+              href: https://github.com/ksonda/global-river-runner
+              hreflang: en-US
+            - type: application/html
+              rel: cannonical
+              title: application
+              href: https://river-runner-global.vercel.app/
               hreflang: en-US
             - type: application/html
               rel: canonical
@@ -139,12 +144,12 @@ resources:
 
     river-runner:
         type: process
-        version: 0.1.0
-        id: river-runner
+        processor:
+            name: RiverRunner
         title:
             en: River Runner
         description:
-            en: A process that takes a set of coordinates in the world, and returns the largest flowpath from it to its terminal flowpoint.
+            en: A process that takes a set of coordinates in the world, and returns the largest flowpath to its terminal flowpoint.
         keywords:
             en:
                 - rivers
@@ -165,97 +170,3 @@ resources:
               title: application
               href: https://river-runner.samlearner.com/
               hreflang: en-US
-        processor:
-            name: RiverRunner
-        inputs:
-            bbox:
-                title:
-                    en: Bounding Box
-                description:
-                    en: Boundary box to begin a river runner query from
-                keywords:
-                    en: [box, coordinates]
-                schema:
-                    type: object
-                    default: []
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            lat:
-                title: 
-                    en: Latitude
-                description: 
-                    en: Latitude of a point
-                keywords:
-                    en: [latitude, coordinate, eastwest]
-                schema:
-                    type: number
-                    default: null
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            lng:
-                title: 
-                    en: Longitude
-                description: 
-                    en: Longitude of a point
-                keywords:
-                    en: [longitude, coordinate, northsouth]
-                schema:
-                    type: number
-                    default: null
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            latlng:
-                title:
-                    en: Latitude and Longitude
-                description:
-                    en: Coordinates in order [Long, Lat]
-                keywords:
-                    en: [coordinates, world, point]
-                schema:
-                    type: object
-                    default: []
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            sorted:
-                title: 
-                    en: Sorted
-                description: 
-                    en: 'Sort features by flow direction'
-                keywords:
-                    en: [downstream, upstream, unset]
-                schema:
-                    type: string
-                    default: downstream
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-            sortby:
-                title:
-                    en: Sort By
-                description:
-                    en: 'Property to sort featurs with'
-                keywords:
-                    en: [sort, hydroseq, nameid, comid]
-                schema:
-                    type: string
-                    default: hydroseq
-                minOccurs: 0
-                maxOccurs: 1
-                metadata: null
-        outputs:
-            echo:
-                title:
-                    en: Feature Collection
-                description:
-                    en: A geoJSON Feature Collection of the River Runner process
-                schema:
-                    type: object
-                    contentMediaType: application/json
-        example:
-            inputs:
-                bbox: [-86.2, 39.7, -86.15, 39.75]
-                sorted: downstream
