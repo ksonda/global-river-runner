@@ -28,7 +28,8 @@ server:
 
 logging:
     level: ERROR
-    # logfile: /tmp/pygeoapi.log
+    logfile: /tmp/pygeoapi.log
+    fresh: true
 
 metadata:
     identification:
@@ -71,7 +72,8 @@ resources:
             en: merit features
         keywords:
             en:
-                - rivers, mainstems
+                - rivers
+                - mainstems
         context:
             - schema: https://schema.org/
               nameid: schema:name
@@ -80,11 +82,6 @@ resources:
               rel: canonical
               title: source
               href: https://www.sciencebase.gov/catalog/item/614a8864d34e0df5fb97572d
-              hreflang: en-US
-            - type: application/html
-              rel: canonical
-              title: download
-              href: https://prod-is-usgs-sb-prod-publish.s3.amazonaws.com/614a8864d34e0df5fb97572d/merit_plus_simplify.zip
               hreflang: en-US
             - type: application/html
               rel: canonical
