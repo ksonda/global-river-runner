@@ -1,5 +1,5 @@
 FROM webbben/pygeoapi-river-runner:latest
-#last update 2021-10-06T09:49
+#last update 2021-10-07T09:40
 
 #add requirements and mods
 COPY ./pygeoapi.config.gcp.yml /pygeoapi/local.config.yml
