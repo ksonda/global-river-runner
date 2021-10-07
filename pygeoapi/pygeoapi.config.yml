@@ -54,7 +54,7 @@ server:
 
 logging:
     level: ERROR
-    logfile: /tmp/pygeoapi.log
+    # logfile: /tmp/pygeoapi.log
 
 metadata:
     identification:
@@ -139,7 +139,7 @@ resources:
                 password: ${POSTGRES_PASSWORD}
                 search_path: [public]
               geom_field: wkb_geometry
-              id_field: comid
+              id_field: ogc_fid
               table: merit_plus
 
     river-runner:
