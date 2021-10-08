@@ -7,7 +7,7 @@ server:
     bind:
         host: localhost #change to your hostname if running your own instance
         port: 5050
-    url: https://merit.internetofwater.app #change to host URL  if running your own instance
+    url: ${URL} #change to host URL  if running your own instance
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
     languages: en-US
@@ -21,7 +21,7 @@ server:
     #    name: TinyDB
     #    connection: /tmp/pygeoapi-process-manager.db
     #    output_dir: /tmp/
-    ogc_schemas_location: /opt/schemas.opengis.net
+    ogc_schemas_location: /schemas.opengis.net
 #    templates:
 #      path: /skin-dashboard/templates
 #      static: /skin-dashboard/static
@@ -98,7 +98,7 @@ resources:
             - type: feature
               name: PostgreSQL
               data:
-                host: /cloudsql/global-river-runner:us-central1:global-river-runner-db
+                host: ${DBHOST}
                 dbname: ${DBNAME}
                 user: ${DBUSER}
                 password: ${DBPASSWORD}
