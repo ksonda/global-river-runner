@@ -131,3 +131,4 @@ dmypy.json
 pygeoapi/w_merit_cats.gpkg-shm
 pygeoapi/w_merit_cats.gpkg-wal
 .Rproj.user
+pygeoapi/merit_plus.sql.gz
