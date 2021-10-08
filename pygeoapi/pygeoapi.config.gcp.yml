@@ -1,5 +1,5 @@
 # 
-# LAST UPDATE: 2021-09-29 15:25:00-5
+# LAST UPDATE: 2021-10-8 12:00:00-5
 #=================================================================
 #
 
@@ -29,7 +29,6 @@ server:
 logging:
     level: ERROR
     logfile: /tmp/pygeoapi.log
-    fresh: true
 
 metadata:
     identification:
