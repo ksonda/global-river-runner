@@ -10,7 +10,7 @@ c <- read_csv("comid.zip")
 
 # make API call URLs
 api <- "https://merit.internetofwater.app/processes/river-runner/execution"
-urls <- paste0(api,"?comid=",c$x)
+urls <- paste0(api,"?id=",c(1:2938143))
 
 
 ## API summarize results function
@@ -27,7 +27,7 @@ get_path <- function(url){
 cores <- future::availableCores() - 1 
 plan(multisession,workers=cores)
 
-log <- furrr::future_map_dfr(urls[251:350],get_path,.progress=TRUE)
+log <- furrr::future_map_dfr(urls[1:10],get_path,.progress=TRUE)
 
 
 # with_progress({
