@@ -21,7 +21,7 @@ We have prepared [docker images](https://hub.docker.com/r/webbben/pygeoapi-river
 A copy of the hydrography database used is documented and available for download [here](https://www.sciencebase.gov/catalog/item/614a8864d34e0df5fb97572d).
 
 ## Cloud 
-See the [deploy/cloud](deploy/cloud) directory for Dockerfiles and pygeoapi configurations necessary to deploy an appropriately configured pygeoapi container to the cloud service of your choice. Note the need to use environmental variables to connect to your database and specify your hosting URL. The pygeoapi river-runner is designed to be a stateless application, so your database must be deployed separately. 
+See the [deploy/cloud](deploy/cloud) directory for Dockerfiles and pygeoapi configurations necessary to deploy an appropriately configured pygeoapi container to the cloud service of your choice. Note the need to use environmental variables `URL` (your desired service URL for the pygeoapi base path), and `DBHOST`, `DBUSER`,`DBNAME`, `DBPASSWORD` (to connect to your database). The pygeoapi river-runner is designed to be a stateless application, so your database must be deployed separately. 
 
 ## Local
 See the [deploy/local](deploy/local) directory for a docker-compose and pygeoapi configuration for a pygeoapi and postgis stack.
