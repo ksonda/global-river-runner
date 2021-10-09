@@ -1,9 +1,0 @@
-{
-     "@context": {
-		"RangeSetType": "cis:RangeSetType",
-		"RangeSetRefType": "cis:RangeSetRefType",
-		"dataBlock": "cis:dataBlock",
-		"VDataBlockType": "cis:VDataBlockType",
-		"fileReference": {"@id":"cis:fileReference", "@type": "@id"}
-	}
-}
