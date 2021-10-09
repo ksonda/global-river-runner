@@ -33,7 +33,7 @@ server:
     bind:
         host: localhost #change to your hostname if running your own instance
         port: 5050
-    url: ${URL} #change to host URL  if running your own instance
+    url: http://localhost:5050 #change to host URL  if running your own instance
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
     languages: en-US
