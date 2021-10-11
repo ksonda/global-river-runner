@@ -1,8 +1,0 @@
-{
-	"@context":
-	{
-		"VariableMatrixWidthType": "tms:VariableMatrixWidthType",
-		"coalesce": "tms:coalesce",
-		"minTileRow": "tms:minTileRow"
-	}
-}
