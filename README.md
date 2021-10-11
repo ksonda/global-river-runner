@@ -17,7 +17,7 @@ Some domain to keep in mind:
 |---|---|---|
 |https://merit.internetofwater.app   | stable  | Yes  |
 |https://merit-nldi.internetofwater.app   | stable  | No  |
-|http://d1za2aav0xp6il.cloudfront.net  | latest  | No  |
+|http://d1za2aav0xp6il.cloudfront.net  | latest  | Yes  |
 |https://merit-dev-z3iqgg3uaa-uc.a.run.app  | latest  | No  |
 
 # Back-end Deployment
