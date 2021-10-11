@@ -11,6 +11,15 @@ https://your-river-runner-domain.com/processes/river-runner/execution?lat=<y>&ln
 
 Performance is best if your request header includes `Accept-Encoding: gzip`  and `Accept: application/json`.
 
+Some domain to keep in mind:
+
+|Domain   | Version  | Behind Cloudfront?  |
+|---|---|---|
+|https://merit.internetofwater.app   | stable  | Yes  |
+|https://merit-nldi.internetofwater.app   | stable  | No  |
+|http://d1za2aav0xp6il.cloudfront.net  | latest  | No  |
+|https://merit-dev-z3iqgg3uaa-uc.a.run.app  | latest  | No  |
+
 # Back-end Deployment
 Deployment requires an instance of [pygeoapi](https://pygeoapi.io) and postgres with PostGIS installed. 
 
