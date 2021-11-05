@@ -1,4 +1,4 @@
-FROM webbben/pygeoapi-river-runner:stable
+FROM internetofwater/pygeoapi:river-runner
 #last update 2021-10-9T14:21:00-5
 
 #add requirements and mods
