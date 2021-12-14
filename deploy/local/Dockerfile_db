@@ -1,0 +1,23 @@
+FROM ubuntu:20.04 AS ZIP
+
+#last updated 2021-09-22 00:09:28 UTC-5
+ADD https://prod-is-usgs-sb-prod-publish.s3.amazonaws.com/614a8864d34e0df5fb97572d/merit_plus_simplify.zip /
+
+#last updated 2021-09-14 00:019:50 UTC-5 
+# ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/e_merit_cats.gpkg /data/
+
+#last updated 2021-09-14 00:019:50 UTC-5 
+# ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/w_merit_cats.gpkg /data/
+
+RUN apt-get update \
+    && apt-get install unzip \
+    && unzip '/*.zip'
+
+FROM kartoza/postgis:latest
+
+# Add data directory
+RUN mkdir /data/
+
+COPY --from=ZIP /merit_plus_simplify.gpkg /data/merit_plus_simplify.gpkg
+
+COPY ./build.sh /docker-entrypoint-initdb.d/build.sh
