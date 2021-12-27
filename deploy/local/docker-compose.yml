@@ -55,7 +55,7 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: merit
     volumes:
-  #    - ./merit_plus.sql.gz:/docker-entrypoint-initdb.d/merit_plus.sql.gz
+      - ./merit_plus.sql.gz:/docker-entrypoint-initdb.d/merit_plus.sql.gz
       - pgdata:/var/lib/postgresql/data
 
   adminer:
