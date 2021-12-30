@@ -4,8 +4,9 @@
 [![](https://internetofwater.org/wp-content/uploads/2019/12/iow_logo_horizontal_rgb_TM_header.png)](https://internetofwater.org/)[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/USGS_logo_green.svg/320px-USGS_logo_green.svg.png)](https://www.usgs.gov/mission-areas/water-resources)
 
 
-The [Global River Runner](https://river-runner-global.vercel.app/) is a vizualization simulating the path a raindrop would take, assuming it runs off into a stream and from then on to a terminating location, likely an inland water body or the ocean. The front end visualization was developed by [Sam Learner](https://samlearner.com). 
-The [back end](https://merit.internetofwater.app) is developed by [Dave Blodgett](https://www.usgs.gov/staff-profiles/david-l-blodgett?qt-staff_profile_science_products=3#qt-staff_profile_science_products), [Kyle Onda](https://internetofwater.org/about/people/kyle-onda/) and [Ben Webb](https://github.com/webb-ben) as a demonstrator of several key aspects of the [Internet of Water](https://internetofwater.org) project, including leveraging open data, open source software, and open standards to create innovative water information products and applications.
+The [Global River Runner](https://river-runner-global.vercel.app/) is a vizualization simulating the path a raindrop would take, assuming it runs off into a stream and from then on to a terminating location, likely an inland water body or the ocean. A running list of interesting flow paths can be found [here](https://docs.google.com/document/d/e/2PACX-1vStOmDkwxkUdHVOWfJlWXKilzGfiaoRFBXIOYixTpsfXxE9p5zuvoTXNxxOSNuv2nsHQallGvRwVhTU/pub). 
+
+The front end visualization was developed by [Sam Learner](https://samlearner.com). The [back end](https://merit.internetofwater.app) is developed by [Dave Blodgett](https://www.usgs.gov/staff-profiles/david-l-blodgett?qt-staff_profile_science_products=3#qt-staff_profile_science_products), [Kyle Onda](https://internetofwater.org/about/people/kyle-onda/) and [Ben Webb](https://github.com/webb-ben) as a demonstrator of several key aspects of the [Internet of Water](https://internetofwater.org) project, including leveraging open data, open source software, and open standards to create innovative water information products and applications.
 
 ### Open Data
 
