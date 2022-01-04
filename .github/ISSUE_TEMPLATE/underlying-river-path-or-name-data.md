@@ -1,7 +1,7 @@
 ---
 name: Underlying River path or name data
 about: The application functions correctly but the river name or path or shape is
-  anaccurate
+  inaccurate
 title: "[DATA ISSUE]"
 labels: data-problem
 assignees: dblodgett-usgs
