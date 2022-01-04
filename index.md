@@ -6,7 +6,15 @@
 
 The [Global River Runner](https://river-runner-global.vercel.app/) is a vizualization simulating the path a raindrop would take, assuming it runs off into a stream and from then on to a terminating location, likely an inland water body or the ocean. A running list of interesting flow paths can be found [here](https://docs.google.com/document/d/e/2PACX-1vStOmDkwxkUdHVOWfJlWXKilzGfiaoRFBXIOYixTpsfXxE9p5zuvoTXNxxOSNuv2nsHQallGvRwVhTU/pub). 
 
+#### DISCLAIMER
+
+The Global River Runner is an open source Work In Progress, based on open data and open source software components, some of which themselves are in early or alpha development stages (all described in detail below). The vast majority of river paths calculated are based on topographic data collected and processed automatically, and may not reflect true river paths that may be affected by engineered features such as dams, canals, and conduits. Many names of rivers and inland water features such as lakes may be inaccurate as they are based on only on easily available datasets with global coverage.  At times, there may be slow or otherwise poor performance. If you find issues regarding any of the above, feel free to [submit an issue](https://github.com/ksonda/global-river-runner/issues).
+
+### Development
+
 The front end visualization was developed by [Sam Learner](https://samlearner.com). The [back end](https://merit.internetofwater.app) is developed by [Dave Blodgett](https://www.usgs.gov/staff-profiles/david-l-blodgett?qt-staff_profile_science_products=3#qt-staff_profile_science_products), [Kyle Onda](https://internetofwater.org/about/people/kyle-onda/) and [Ben Webb](https://github.com/webb-ben) as a demonstrator of several key aspects of the [Internet of Water](https://internetofwater.org) project, including leveraging open data, open source software, and open standards to create innovative water information products and applications.
+
+
 
 ### Open Data
 
@@ -46,7 +54,7 @@ Wait some time for the database to load, then point your browser to http://local
 
 ### Reproducible Workflows
 
-The two source datasets used, MERIT-Basins and Naturalearth Rivers and Lake Centerlines, required integration and processing to make them suitable to the river runner application. The workflow code for this is implemented in the R programming language leveraging a variety of open-source R packages. The workflow is orchestrated by [this](https://code.usgs.gov/wma/nhgf/mainstems/-/blob/master/merit_runner.R) top-level runner. The workflow automates every aspect of data preparation, from source data downloads to writing input data for the river runner services. 
+The two source datasets used, MERIT-Basins and Natural Earth Rivers and Lake Centerlines, required integration and processing to make them suitable to the river runner application. The workflow code for this is implemented in the R programming language leveraging a variety of open-source R packages. The workflow is orchestrated by [this](https://code.usgs.gov/wma/nhgf/mainstems/-/blob/master/merit_runner.R) top-level runner. The workflow automates every aspect of data preparation, from source data downloads to writing input data for the river runner services. 
 
 ### Open Standards
 
@@ -54,7 +62,7 @@ The River Runner API is implemented as a combination of two API standards publis
 
 The River Runner API is compliant with the [OGC-API Processes (OAProc)](https://ogcapi.ogc.org/processes/) standard. Development of this standard is [ongoing](https://github.com/opengeospatial/ogcapi-processes), but it promises to provide a simple, useful framework for URL patterns that allow for the retrieval of metadata describing a given geoprocessing API and executing jobs.
 
-The River Runner API interacts with the underlying database via another API compliant with the [OGC-API Features (OAF)](https://ogcapi.ogc.org/features/) standard. This standard specifies simplie URL patterns to discover metadata about, and retrieve subsets of geospatial vector datasets. It is the successor to the well-known Web Feature Service.
+The River Runner API interacts with the underlying database via another API compliant with the [OGC-API Features (OAF)](https://ogcapi.ogc.org/features/) standard. This standard specifies simple URL patterns to discover metadata about, and retrieve subsets of geospatial vector datasets. It is the successor to the well-known Web Feature Service.
 
 
 
