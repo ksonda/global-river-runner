@@ -1,8 +1,8 @@
 # =================================================================
 #
-# Authors: Benjamin Webb <benjamin.miller.webb@gmail.com>
+# Authors: Ben Webb <benjamin.miller.webb@gmail.com>
 #
-# Copyright (c) 2021 Benjamin Webb
+# Copyright (c) 2022 Ben Webb
 #
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation
@@ -27,42 +27,37 @@
 #
 # =================================================================
 
-version: "3"
+import grequests
+import time
+import sys
 
-services:
+def main(argv):
+    start = int(argv.pop(0))
+    stop = 2938143 if argv[0] == "-1" else int(argv.pop(0))
+    step = 50 if len(argv) == 0 else int(argv.pop())
+    print(start, stop, step)
+    start_time = time.time()
+    send_request(start, stop, step)
+    print(f"End Time: {time.time() - start_time}")
 
-  pygeoapi:
-    image: internetofwater/pygeoapi:river-runner
-    restart: always
-    ports: 
-      - 5050:80
-    environment:
-      POSTGRES_HOST: db
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: merit
-    volumes:
-      - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
-      - ./schemas.opengis.net:/opt/schemas.opengis.net
+def send_request(startindex, endindex, step):
+    step = min(endindex-startindex, step)
+    urls = make_urls(startindex, step)
+    rs = (grequests.get(u) for u in urls)
+    start_time = time.time()
+    print(grequests.map(rs))
+    print("%.3f |" % (time.time() - start_time))
 
-  db:
-    image: kartoza/postgis:latest
-    restart: always
-    ports: 
-      - 5432:5432
-    environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: merit
-    volumes:
-      - ./merit_plus.sql.gz:/docker-entrypoint-initdb.d/merit_plus.sql.gz
-      - pgdata:/var/lib/postgresql/data
+    if (startindex < endindex):
+        send_request(startindex+step, endindex, step)
+    
+def make_urls(start, step):
+    base_url = "https://merit.internetofwater.app/processes/river-runner/execution?id={}"
+    return [base_url.format(i) for i in range(start, start+step)]
 
-  adminer:
-    image: adminer
-    restart: always
-    ports: 
-      - 8080:8080
-
-volumes: 
-  pgdata:
+if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        print('Usage: {} <start_ogc_fid> <end_ogc_fid> <group_size>'.format(sys.argv[0]))
+        sys.exit(1)
+    
+    main(sys.argv[1:])
