@@ -1,8 +1,8 @@
 # Global River Runner
 
-This repo is home to the API-backend of the Global River Runner Project. The resources here are enough to deploy a [pygeoapi](https://pygeoapi.io) server with the river-runner process. More information can be found [here](https://ksonda.github.io/global-river-runner/)
+This repo is home to the API-backend of the Global River Runner project. The resources here are enough to deploy a [pygeoapi](https://pygeoapi.io) server with the river-runner process. More information can be found [here](https://ksonda.github.io/global-river-runner/)
 
-The [Global River Runner](https://river-runner-global.vercel.app/) is a vizualization simulating the path a raindrop would take, assuming it runs off into a stream and from then on to a terminating location, likely an inland water body or the ocean. A running list of interesting flow paths can be found [here](https://docs.google.com/document/d/e/2PACX-1vStOmDkwxkUdHVOWfJlWXKilzGfiaoRFBXIOYixTpsfXxE9p5zuvoTXNxxOSNuv2nsHQallGvRwVhTU/pub).
+The [Global River Runner](https://river-runner-global.vercel.app/) is a visualization simulating the path a raindrop would take, assuming it runs off into a stream and from then on to a terminating location, likely an inland water body or the ocean. A running list of interesting flow paths can be found [here](https://docs.google.com/document/d/e/2PACX-1vStOmDkwxkUdHVOWfJlWXKilzGfiaoRFBXIOYixTpsfXxE9p5zuvoTXNxxOSNuv2nsHQallGvRwVhTU/pub).
 
 
 ## Usage
