@@ -46,9 +46,7 @@ services:
       - ./schemas.opengis.net:/opt/schemas.opengis.net
 
   db:
-    build:
-      context: .
-      dockerfile: Dockerfile_db
+    image: kartoza/postgis:latest
     restart: always
     ports: 
       - 5432:5432
