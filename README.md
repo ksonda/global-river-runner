@@ -1,7 +1,11 @@
-# global-river-runner
-Let's make a global river runner
+# Global River Runner
 
-# Use
+This repo is home to the API-backend of the Global River Runner Project. The resources here are enough to deploy a [pygeoapi](https://pygeoapi.io) server with the river-runner process. More information can be found [here](https://ksonda.github.io/global-river-runner/)
+
+The [Global River Runner](https://river-runner-global.vercel.app/) is a vizualization simulating the path a raindrop would take, assuming it runs off into a stream and from then on to a terminating location, likely an inland water body or the ocean. A running list of interesting flow paths can be found [here](https://docs.google.com/document/d/e/2PACX-1vStOmDkwxkUdHVOWfJlWXKilzGfiaoRFBXIOYixTpsfXxE9p5zuvoTXNxxOSNuv2nsHQallGvRwVhTU/pub).
+
+
+## Usage
 
 The basic operation is to issue a GET request of the form:
 
@@ -20,12 +24,12 @@ Some domain to keep in mind:
 |http://d1za2aav0xp6il.cloudfront.net  | latest  | Yes  |
 |https://merit-dev-z3iqgg3uaa-uc.a.run.app  | latest  | No  |
 
-# Back-end Deployment
+## Deployment
 Deployment requires an instance of [pygeoapi](https://pygeoapi.io) and postgres with PostGIS installed. 
 
-The pygeoapi instance must include the [river-runner](https://github.com/webb-ben/pygeoapi/blob/river-runner/pygeoapi/process/river_runner.py) process as well as [several other modifications](https://github.com/geopython/pygeoapi/compare/master...webb-ben:river-runner).
+The pygeoapi instance must include the [river-runner](https://github.com/internetofwater/pygeoapi/blob/river-runner/pygeoapi/process/river_runner.py) process as well as [several other modifications](https://github.com/geopython/pygeoapi/compare/master...internetofwater:river-runner).
 
-We have prepared [docker images](https://hub.docker.com/r/webbben/pygeoapi-river-runner/tags) for both the latest and current stable versions of pygeoapi with the necessary modifications.
+We have prepared [docker images](https://hub.docker.com/r/internetofwater/pygeoapi/tags?page=1&name=river) for both the latest versions of pygeoapi with the necessary modifications.
 
 A copy of the hydrography database used is documented and available for download [here](https://www.sciencebase.gov/catalog/item/614a8864d34e0df5fb97572d).
 
