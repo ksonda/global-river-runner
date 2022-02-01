@@ -133,3 +133,9 @@ pygeoapi/w_merit_cats.gpkg-wal
 .Rproj.user
 pygeoapi/merit_plus.sql.gz
 deploy/local/merit_plus.sql.gz
+precache/.DS_Store
+deploy/.DS_Store
+deploy/local/.DS_Store
+deploy/local/.Rhistory
+deploy/.DS_Store
+.DS_Store
