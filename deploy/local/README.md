@@ -3,7 +3,7 @@
 ```
 git clone https://github.com/ksonda/global-river-runner.git
 cd deploy/local
-curl "https://www.sciencebase.gov/catalog/file/get/614a8864d34e0df5fb97572d?name=merit_plus.sql.gz" --outfile "merit_plus.sql.gz"
+curl "https://www.sciencebase.gov/catalog/file/get/614a8864d34e0df5fb97572d?name=merit_plus.sql.gz" -o "merit_plus.sql.gz"
 docker-compose up -d
 ```
 
