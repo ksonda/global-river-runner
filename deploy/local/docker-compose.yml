@@ -34,7 +34,7 @@ services:
   pygeoapi:
     image: internetofwater/pygeoapi:river-runner
     restart: always
-    ports: 
+    ports:
       - 5050:80
     environment:
       POSTGRES_HOST: db
@@ -46,9 +46,9 @@ services:
       - ./schemas.opengis.net:/opt/schemas.opengis.net
 
   db:
-    image: kartoza/postgis:latest
+    image: kartoza/postgis:14-3.1
     restart: always
-    ports: 
+    ports:
       - 5432:5432
     environment:
       POSTGRES_USER: root
@@ -61,8 +61,8 @@ services:
   adminer:
     image: adminer
     restart: always
-    ports: 
+    ports:
       - 8080:8080
 
-volumes: 
+volumes:
   pgdata:

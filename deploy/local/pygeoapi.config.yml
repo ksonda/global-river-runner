@@ -1,4 +1,4 @@
-# 
+#
 # LAST UPDATE: 2021-06-04 15:25:00-5
 #=================================================================
 #
@@ -33,7 +33,7 @@ server:
     bind:
         host: localhost #change to your hostname if running your own instance
         port: 5050
-    url: http://host.docker.internal:5050 # http://host.docker.internal:5050 is required for the river-runer process to run
+    url: http://localhost:5050 # http://host.docker.internal:5050 is required for the river-runer process to run
     # url: http://localhost:5050 # http://localhost:5050 is required for other links to work
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
@@ -59,9 +59,9 @@ logging:
 
 metadata:
     identification:
-        title: 
+        title:
             en: MERIT-based vector features
-        description: 
+        description:
             en: Provides flowpath/ mainstem features based on MERIT
         keywords:
             en:
@@ -92,9 +92,9 @@ metadata:
 resources:
     merit:
         type: collection
-        title: 
+        title:
             en: merit
-        description: 
+        description:
             en: merit features
         keywords:
             en:
